@@ -1,16 +1,30 @@
 class Solution {
 public:
     typedef long long LL;
-    void DFS(int u, unordered_set<int> & visited, unordered_map<int, vector<int>> &adj) {
-        
+    int BFS(int u, unordered_map<int, vector<int>> &adj) {
+        unordered_set<int> visited;
+        queue<int> que;
+        que.push(u);
         visited.insert(u);
-        
-        for(int &v : adj[u]) {
-            if(visited.find(v) == visited.end()) { 
-                DFS(v, visited, adj);
-            }
-        }
 
+        while(!que.empty()) {
+            
+            int temp = que.front();
+            que.pop();
+            
+            for(int &v : adj[temp]) {
+                
+                if(visited.find(v) == visited.end()) {
+                    que.push(v);
+                    visited.insert(v);
+                }
+                
+            }
+            
+            
+        }
+        
+        return visited.size();
     }
     
     int maximumDetonation(vector<vector<int>>& bombs) {
@@ -45,13 +59,10 @@ public:
         
         
         int result = 0;
-        unordered_set<int> visited;
         
         for(int i = 0; i<n; i++) {
-            DFS(i, visited, adj);
-            int count = visited.size();
+            int count = BFS(i, adj);
             result = max(result, count);
-            visited.clear();
         }
         
         return result;
