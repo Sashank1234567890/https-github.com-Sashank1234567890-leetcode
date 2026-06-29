@@ -1,63 +1,80 @@
 class Solution {
 public:
-    
-    void dfs(unordered_map<string, vector<pair<string, double>>> &adj, string src, string dst, unordered_set<string>& visited, double product, double &ans) {
-        if(visited.find(src) != visited.end())
-            return;
-        
-        visited.insert(src);
-        if(src == dst) {
-            ans = product;
-            return;
-        }
-        
-        for(auto p : adj[src]) {
-            
-            string v   = p.first;
-            double val = p.second;
-            
-            dfs(adj, v, dst, visited, product*val, ans);
-                
-        }
+    unordered_map<string, string> parent;
+    unordered_map<string, double> weight;
+
+    string find(string x) {
+
+        if (parent[x] == x)
+            return x;
+
+        string origParent = parent[x];
+
+        parent[x] = find(parent[x]);
+
+        weight[x] *= weight[origParent];
+
+        return parent[x];
     }
-    
-    vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
-        int n = equations.size();
-        
-        unordered_map<string, vector<pair<string, double>>> adj;
-        
-        for(int i = 0; i<n; i++) {
-            
-            string u   = equations[i][0];
-            string v   = equations[i][1];
-            double val = values[i];
-            
-            adj[u].push_back({v, val});        
-            adj[v].push_back({u, 1.0/val});    
+
+    void Union(string x, string y, double value) {
+
+        if (!parent.count(x)) {
+            parent[x] = x;
+            weight[x] = 1.0;
         }
-        
-        vector<double> result;
-        
-        for(auto &query : queries) {
-            
-            string src = query[0];
-            string dst = query[1];
-            
-            double ans     = -1.0;
-            double product = 1.0;
-            
-            
-            if(adj.find(src) != adj.end()) {
-                unordered_set<string> visited;
-                
-                dfs(adj, src, dst, visited, product, ans);
-                
+
+        if (!parent.count(y)) {
+            parent[y] = y;
+            weight[y] = 1.0;
+        }
+
+        string px = find(x);
+        string py = find(y);
+
+        if (px == py)
+            return;
+
+        parent[px] = py;
+
+        // weight[px] = px / py
+        weight[px] = value * weight[y] / weight[x];
+    }
+
+    vector<double> calcEquation(vector<vector<string>>& equations,
+                                vector<double>& values,
+                                vector<vector<string>>& queries) {
+
+        for (int i = 0; i < equations.size(); i++) {
+
+            string a = equations[i][0];
+            string b = equations[i][1];
+
+            Union(a, b, values[i]);
+        }
+
+        vector<double> ans;
+
+        for (auto &q : queries) {
+
+            string a = q[0];
+            string b = q[1];
+
+            if (!parent.count(a) || !parent.count(b)) {
+                ans.push_back(-1.0);
+                continue;
             }
-            
-            result.push_back(ans);
-            
+
+            string pa = find(a);
+            string pb = find(b);
+
+            if (pa != pb) {
+                ans.push_back(-1.0);
+            } else {
+                ans.push_back(weight[a] / weight[b]);
+            }
         }
-        
-        return result;
+
+        return ans;
     }
 };
