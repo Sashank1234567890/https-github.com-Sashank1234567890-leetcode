@@ -1,42 +1,54 @@
 class Solution {
 public:
-    int t[101][101][601];
-    int solve(vector<pair<int, int>>& count, int m, int n, int index) {
-        if(index >= count.size() || (m == 0 && n == 0))
-            return 0;
-        if(t[m][n][index] != -1)
-            return t[m][n][index];
-        
-        int include = 0;
-        if(count[index].first <= m && count[index].second <= n) {
-            include = 1 + solve(count, m-count[index].first, n-count[index].second, index+1);
-        }
-        
-        int exclude = solve(count, m, n, index+1);
-        
-        return t[m][n][index] = max(include, exclude);
-    }
     int findMaxForm(vector<string>& strs, int m, int n) {
-        int N = strs.size();
-        vector<pair<int, int>> count(N);
-        int i = 0;
-        for(string str:strs) {
-            int countOnes  = 0;
-            int countZeros = 0;
-            
-            for(char ch:str) {
-                if(ch == '1')
-                    countOnes++;
+
+        int sz = strs.size();
+
+        vector<pair<int,int>> count(sz);
+
+        for(int i = 0; i < sz; i++) {
+
+            int zero = 0, one = 0;
+
+            for(char ch : strs[i]) {
+                if(ch == '0')
+                    zero++;
                 else
-                    countZeros++;
+                    one++;
             }
-            
-            count[i++] = {countZeros, countOnes};
+
+            count[i] = {zero, one};
         }
-        
-        memset(t, -1, sizeof(t));
-        return solve(count, m, n, 0);
+
+        vector<vector<vector<int>>> dp(
+            m + 1,
+            vector<vector<int>>(n + 1,
+            vector<int>(sz + 1, 0))
+        );
+
+        for(int index = sz - 1; index >= 0; index--) {
+
+            for(int i = 0; i <= m; i++) {
+
+                for(int j = 0; j <= n; j++) {
+
+                    int include = 0;
+
+                    if(count[index].first <= i &&
+                       count[index].second <= j) {
+
+                        include = 1 + dp[i - count[index].first]
+                                        [j - count[index].second]
+                                        [index + 1];
+                    }
+
+                    int exclude = dp[i][j][index + 1];
+
+                    dp[i][j][index] = max(include, exclude);
+                }
+            }
+        }
+
+        return dp[m][n][0];
     }
 };
-
-
