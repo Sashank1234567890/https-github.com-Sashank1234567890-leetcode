@@ -1,14 +1,18 @@
 class Solution {
 public:
     int maximalNetworkRank(int n, vector<vector<int>>& roads) {
-        unordered_map<int, unordered_set<int>> adj;
+        vector<int> degree(n);
+        vector<vector<bool>> connected(n, vector<bool>(n, false));
         
         for(auto &road : roads) {
             int u = road[0];
             int v = road[1];
             
-            adj[u].insert(v);
-            adj[v].insert(u);
+            degree[u]++;
+            degree[v]++;
+            
+            connected[u][v] = true;
+            connected[v][u] = true;
         }
         
         int maxRank = 0;
@@ -16,12 +20,12 @@ public:
         for(int i = 0; i < n; i++) {
             for(int j = i+1; j < n; j++) {
                 
-                int i_rank = adj[i].size();
-                int j_rank = adj[j].size();
+                int i_rank = degree[i];
+                int j_rank = degree[j];
                 
                 int rank   = i_rank + j_rank;
                 
-                if(adj[i].find(j) != adj[i].end()) {
+                if(connected[i][j] || connected[j][i]) {
                     rank -= 1;
                 }
                 
