@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0839-similar-string-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0839-similar-string-groups) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1514-path-with-maximum-probability](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1514-path-with-maximum-probability) |
+| [1539-kth-missing-positive-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1539-kth-missing-positive-number) |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
 | [1743-restore-the-array-from-adjacent-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1743-restore-the-array-from-adjacent-pairs) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -187,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0540-single-element-in-a-sorted-array) |
+| [1539-kth-missing-positive-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1539-kth-missing-positive-number) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Matrix
 |  |
