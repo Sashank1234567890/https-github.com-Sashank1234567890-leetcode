@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0133-clone-graph) |
+| [0815-bus-routes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0815-bus-routes) |
 | [0839-similar-string-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0839-similar-string-groups) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1743-restore-the-array-from-adjacent-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1743-restore-the-array-from-adjacent-pairs) |
@@ -28,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0133-clone-graph) |
 | [0399-evaluate-division](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0399-evaluate-division) |
 | [0802-find-eventual-safe-states](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0802-find-eventual-safe-states) |
+| [0815-bus-routes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0815-bus-routes) |
 | [0839-similar-string-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0839-similar-string-groups) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [1361-validate-binary-tree-nodes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1361-validate-binary-tree-nodes) |
@@ -58,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0332-reconstruct-itinerary](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0399-evaluate-division](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0399-evaluate-division) |
 | [0474-ones-and-zeroes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0474-ones-and-zeroes) |
+| [0815-bus-routes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0815-bus-routes) |
 | [0839-similar-string-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0839-similar-string-groups) |
 | [1514-path-with-maximum-probability](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1514-path-with-maximum-probability) |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
