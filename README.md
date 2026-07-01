@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0332-reconstruct-itinerary](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0399-evaluate-division](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0399-evaluate-division) |
@@ -181,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
