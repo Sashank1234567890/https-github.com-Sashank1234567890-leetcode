@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3539-find-sum-of-array-product-of-magical-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3539-find-sum-of-array-product-of-magical-sequences) |
+| [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## String
 |  |
 | ------- |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2439-minimize-maximum-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2439-minimize-maximum-of-array) |
 | [3539-find-sum-of-array-product-of-magical-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3539-find-sum-of-array-product-of-magical-sequences) |
+| [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Topological Sort
 |  |
 | ------- |
@@ -169,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -235,4 +238,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2439-minimize-maximum-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2439-minimize-maximum-of-array) |
+| [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
+## Queue
+|  |
+| ------- |
+| [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
+## Monotonic Queue
+|  |
+| ------- |
+| [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 <!---LeetCode Topics End-->
