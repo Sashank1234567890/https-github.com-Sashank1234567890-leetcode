@@ -5,7 +5,7 @@ public:
 
         //O(2^n * (n^3))
         for(int set = 0; set < (1 << n); set++) {
-
+            //0=000. //1=001 only ek liya wo bhi zero
             vector<vector<int>> grid(n, vector<int>(n, 1e9)); 
 
            
