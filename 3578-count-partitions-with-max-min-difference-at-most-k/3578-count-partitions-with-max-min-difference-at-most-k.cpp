@@ -23,7 +23,7 @@ public:
                 minQ.pop_back();
             minQ.push_back(j);
 
-            while (nums[maxQ.front()] - nums[minQ.front()] > k) {
+            while (i<=j&&nums[maxQ.front()] - nums[minQ.front()] > k) {
                 i++;
                 if (!maxQ.empty() && maxQ.front() < i) maxQ.pop_front();//window se bhar ke
                 if (!minQ.empty() && minQ.front() < i) minQ.pop_front();
