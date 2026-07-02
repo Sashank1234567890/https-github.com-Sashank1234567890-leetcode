@@ -2,62 +2,45 @@ class Solution {
 public:
     typedef pair<int, int> P;
     vector<int> findAllPeople(int n, vector<vector<int>>& meetings, int firstPerson) {
-
-        map<int, vector<P>> timeMeetings;
+        unordered_map<int, vector<P>> adj;
         
         for(vector<int>& meeting : meetings) {
             int person1 = meeting[0];
             int person2 = meeting[1];
             int time    = meeting[2];
             
-            timeMeetings[time].push_back({person1, person2});
+            adj[person1].push_back({person2, time});
+            adj[person2].push_back({person1, time});
         }
         
-        vector<bool> knowsSecret(n, false);
-        knowsSecret[0]           = true;
-        knowsSecret[firstPerson] = true;
+        priority_queue<P, vector<P>, greater<P>> pq;
+        pq.push({0, 0});
+        pq.push({0, firstPerson});
         
-      
-        for(auto &it : timeMeetings) {
+        vector<bool> visited(n, false);
+        
+        while(!pq.empty()) {
+            auto [time, person] = pq.top();
+            pq.pop();
             
-            int t           = it.first;
-            vector<P> meets = it.second;
-            
-            unordered_map<int, vector<int>> adj;
-            queue<int> que;
-            unordered_set<int> alreadyAdded;
-
-            for(auto& [person1, person2] : meets) {
-                adj[person1].push_back(person2);
-                adj[person2].push_back(person1);
-                
-                if(knowsSecret[person1] && alreadyAdded.find(person1) == alreadyAdded.end()) {
-                    que.push(person1);
-                    alreadyAdded.insert(person1);
-                }
-                if(knowsSecret[person2] && alreadyAdded.find(person2) == alreadyAdded.end()) {
-                    que.push(person2);
-                    alreadyAdded.insert(person2);
-                }
+            if(visited[person] == true) {
+                continue;
             }
+            visited[person] = true;
+            
+            for(auto& ngbr : adj[person]) {
+                int nextPerson = ngbr.first;
+                int t          = ngbr.second;
                 
-         
-            while(!que.empty()) {
-                int person = que.front();
-                que.pop();
-                
-                for(auto &nextPerson : adj[person]) {
-                    if(!knowsSecret[nextPerson]) {
-                        knowsSecret[nextPerson] = true;
-                        que.push(nextPerson);
-                    }
+                if(t >= time && !visited[nextPerson]) {
+                    pq.push({t, nextPerson});
                 }
             }
         }
         
         vector<int> result;
         for(int i = 0; i < n; i++) {
-            if(knowsSecret[i] == true) {
+            if(visited[i] == true) {
                 result.push_back(i);
             }
         }
