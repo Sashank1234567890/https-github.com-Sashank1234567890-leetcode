@@ -32,7 +32,7 @@ public:
                 int nextPerson = ngbr.first;
                 int t          = ngbr.second;
                 
-                if(t >= time && !visited[nextPerson]) {
+                if(t >= time && !visited[nextPerson]) {//start time of meeting should be greater than secret knowimg person
                     pq.push({t, nextPerson});
                 }
             }
