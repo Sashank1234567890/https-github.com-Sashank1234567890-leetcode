@@ -1,49 +1,39 @@
 class Solution {
+    vector<vector<int>> directions = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+
 public:
-    typedef tuple<int, int, int> t;
-
-    vector<vector<int>> dirs = {{1,0},{-1,0},{0,1},{0,-1}};
-
     bool findSafeWalk(vector<vector<int>>& grid, int health) {
-        int n = grid.size();
-        int m = grid[0].size();
+        int m = grid.size(), n = grid[0].size();
 
-        health -= grid[0][0];
-        if (health <= 0)
-            return false;
+        vector<vector<int>> result(m, vector<int>(n, INT_MAX));
+        deque<pair<int,int>> dq;
 
-        queue<t> q;
-        vector<vector<int>> best(n, vector<int>(m, -1));
+        result[0][0] = grid[0][0];
+        dq.push_front({0, 0});
 
-        q.push({0, 0, health});
-        best[0][0] = health;
+        while (!dq.empty()) {
+            auto [r, c] = dq.front();
+            dq.pop_front();
 
-        while (!q.empty()) {
-            auto [i, j, h] = q.front();
-            q.pop();
+            for (auto &dir : directions) {
+                int nr = r + dir[0];
+                int nc = c + dir[1];
 
-            if (i == n - 1 && j == m - 1)
-                return true;
+                if (nr < 0 || nr >= m || nc < 0 || nc >= n) continue;
 
-            for (auto &d : dirs) {
-                int x = i + d[0];
-                int y = j + d[1];
+                if (result[r][c] + grid[nr][nc] < result[nr][nc]) {
 
-                if (x < 0 || y < 0 || x >= n || y >= m)
-                    continue;
+                    result[nr][nc] = result[r][c] + grid[nr][nc];
 
-                int nh = h - grid[x][y];
-
-                if (nh <= 0)
-                    continue;
-
-                if (nh > best[x][y]) {
-                    best[x][y] = nh;
-                    q.push({x, y, nh});
+                    if (grid[nr][nc] == 0) 
+                        dq.push_front({nr, nc});
+                    else
+                        dq.push_back({nr, nc});
                 }
             }
         }
 
-        return false;
+        return health - result[m-1][n-1] >= 1;
     }
 };
+
