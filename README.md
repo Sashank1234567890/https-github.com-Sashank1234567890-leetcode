@@ -173,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1015-smallest-integer-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1015-smallest-integer-divisible-by-k) |
+| [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2101-detonate-the-maximum-bombs) |
 | [3539-find-sum-of-array-product-of-magical-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3539-find-sum-of-array-product-of-magical-sequences) |
 ## Geometry
@@ -225,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [1539-kth-missing-positive-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1539-kth-missing-positive-number) |
+| [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [2187-minimum-time-to-complete-trips](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2187-minimum-time-to-complete-trips) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2439-minimize-maximum-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2439-minimize-maximum-of-array) |
@@ -256,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [2439-minimize-maximum-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2439-minimize-maximum-of-array) |
 ## Prefix Sum
 |  |
