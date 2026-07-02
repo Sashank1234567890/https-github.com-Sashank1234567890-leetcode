@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2050-parallel-courses-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2050-parallel-courses-iii) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2101-detonate-the-maximum-bombs) |
 | [2642-design-graph-with-shortest-path-calculator](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2642-design-graph-with-shortest-path-calculator) |
+| [2959-number-of-possible-sets-of-closing-branches](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2959-number-of-possible-sets-of-closing-branches) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Array
 |  |
@@ -155,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0399-evaluate-division) |
 | [1514-path-with-maximum-probability](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1514-path-with-maximum-probability) |
 | [2642-design-graph-with-shortest-path-calculator](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2642-design-graph-with-shortest-path-calculator) |
+| [2959-number-of-possible-sets-of-closing-branches](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2959-number-of-possible-sets-of-closing-branches) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Math
 |  |
@@ -173,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1514-path-with-maximum-probability](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1514-path-with-maximum-probability) |
 | [2642-design-graph-with-shortest-path-calculator](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2642-design-graph-with-shortest-path-calculator) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [2959-number-of-possible-sets-of-closing-branches](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2959-number-of-possible-sets-of-closing-branches) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Sliding Window
 |  |
@@ -184,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1018-binary-prefix-divisible-by-5) |
+| [2959-number-of-possible-sets-of-closing-branches](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2959-number-of-possible-sets-of-closing-branches) |
 | [3539-find-sum-of-array-product-of-magical-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3539-find-sum-of-array-product-of-magical-sequences) |
 ## Combinatorics
 |  |
@@ -255,4 +259,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
+## Enumeration
+|  |
+| ------- |
+| [2959-number-of-possible-sets-of-closing-branches](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2959-number-of-possible-sets-of-closing-branches) |
 <!---LeetCode Topics End-->
