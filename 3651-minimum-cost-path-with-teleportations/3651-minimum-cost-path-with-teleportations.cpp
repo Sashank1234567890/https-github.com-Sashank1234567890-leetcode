@@ -32,7 +32,7 @@ public:
                     }
                 }
             }
-
+           //same val se same val pe zaake min answwr nikal lo
             for(int i = 0; i < m; i++) {
                 for(int j = 0; j < n; j++) {
                     teleportCost[grid[i][j]] = min(teleportCost[grid[i][j]], dp[i][j]);
