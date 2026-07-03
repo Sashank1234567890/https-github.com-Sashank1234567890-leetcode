@@ -1,101 +1,81 @@
-class Solution
-{
-    public:
-        typedef long long ll;
+class Solution {
+public:
+    typedef pair<long long, int> P;
+    typedef long long ll;
 
-    int n;
-    ll K;
+	bool check(int mid, int n, ll k, unordered_map<int, vector<vector<int>>>& adj) {
+        vector<ll> result(n, LLONG_MAX);
 
-    vector<vector<pair<int, int>>> adj;
-    vector<ll> dp;
-    vector<int> vis;
+        priority_queue<P, vector<P>, greater<P>> pq;
 
-    ll solve(int u, int mid)
-    {
+        result[0] = 0;
 
-        if (u == n - 1)
-            return 0;
+        pq.push({0, 0});
 
-        if (dp[u]!=-1)
-            return dp[u];
+        while(!pq.empty()) {
+            ll d     = pq.top().first;
+            int node = pq.top().second;
+            pq.pop();
 
-      
+            if(d > k) 
+                return false;
 
-        ll ans = 1e18;
+            if(node == n - 1) 
+                return true;
 
-        for (auto &[v, wt]: adj[u])
-        {
-
-            if (wt < mid)
+            if(d > result[node]) 
                 continue;
 
-            ll child = solve(v, mid);
+            for(auto &vec : adj[node]) {
+                int adjNode  = vec[0];
+                int edgeCost = vec[1];
 
-            if (child != 1e18)
-                ans = min(ans, child + wt);
-        }
+                if(edgeCost < mid)  //because I want the score to be mid
+                    continue;
 
-        return dp[u] = ans;
-    }
-
-    bool check(int mid)
-    {
-
-        dp.assign(n, -1);
-     
-        return solve(0, mid) <= K;
-    }
-
-    int findMaxPathScore(vector<vector < int>> &edges,
-        vector<bool> &online,
-        long long k)
-    {
-
-        K = k;
-        n = online.size();
-
-        adj.assign(n, {});
-
-        int mx = 0;
-
-        for (auto &e: edges)
-        {
-
-            int u = e[0];
-            int v = e[1];
-            int w = e[2];
-
-            if (online[u] && online[v])
-            {
-                adj[u].push_back({ v,
-                    w });
-                mx = max(mx, w);
+                if(d + edgeCost < result[adjNode]) {
+                    result[adjNode] = d + edgeCost;
+                    pq.push({d + edgeCost, adjNode});
+                }
             }
         }
 
-        int l = 0;
-        int r = mx;
+        return false;
+	}
 
-        int ans = -1;
+	int findMaxPathScore(vector<vector<int>>& edges, vector<bool>& online, ll k) {
+		int n = online.size();
+        unordered_map<int, vector<vector<int>>> adj;
 
-        while (l <= r)
-        {
+		int l = INT_MAX, r = 0;
 
-            int mid = l + (r - l) / 2;
+		for(auto &edge : edges) {
+		    int u = edge[0];
+		    int v = edge[1];
+		    int w = edge[2];
 
-            if (check(mid))
-            {
+		    if(!online[u] || !online[v]) 
+                continue;
+                
+		    adj[u].push_back({v, w});
+		    l = min(l, w);
+		    r = max(r, w);
+		}
 
-                ans = mid;
+        int answer = -1;
+
+		while(l <= r) {
+		    int mid = l + (r - l) / 2;
+
+		    if(check(mid, n, k, adj)) {
+                answer = mid;
                 l = mid + 1;
-            }
-            else
-            {
-
+            } else {
                 r = mid - 1;
             }
-        }
+		}
 
-        return ans;
-    }
+		return answer;
+	}
 };
+
