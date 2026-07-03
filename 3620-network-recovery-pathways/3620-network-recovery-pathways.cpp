@@ -16,10 +16,10 @@ class Solution
         if (u == n - 1)
             return 0;
 
-        if (vis[u])
+        if (dp[u]!=-1)
             return dp[u];
 
-        vis[u] = 1;
+      
 
         ll ans = 1e18;
 
@@ -41,9 +41,8 @@ class Solution
     bool check(int mid)
     {
 
-        dp.assign(n, 1e18);
-        vis.assign(n, 0);
-
+        dp.assign(n, -1);
+     
         return solve(0, mid) <= K;
     }
 
