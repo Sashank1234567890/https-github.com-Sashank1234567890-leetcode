@@ -20,7 +20,7 @@ public:
             
             if(dfs(grid, new_i, new_j))
                 return true;
-        }
+        }// why grid[i][j]=0 not because agr i,j se nhi phauch pye to har baar same mid se nhi phauch sakte 
         
         
         return false;
