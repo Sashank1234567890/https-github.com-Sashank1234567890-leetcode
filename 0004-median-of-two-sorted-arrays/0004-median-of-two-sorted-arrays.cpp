@@ -1,49 +1,64 @@
 class Solution {
 public:
-
-    int kth(vector<int>& a, int i,
-            vector<int>& b, int j,
-            int k) {
-
-        // One array finished
-        if(i >= a.size())
-            return b[j + k - 1];
-
-        if(j >= b.size())
-            return a[i + k - 1];
-
-        // Smallest element
-        if(k == 1)
-            return min(a[i], b[j]);
-
-        int half = k / 2;
-
-        int mid1 = INT_MAX;
-        int mid2 = INT_MAX;
-
-        if(i + half - 1 < a.size())
-            mid1 = a[i + half - 1];
-
-        if(j + half - 1 < b.size())
-            mid2 = b[j + half - 1];
-
-        if(mid1 < mid2)
-            return kth(a, i + half, b, j, k - half);
-
-        return kth(a, i, b, j + half, k - half);
-    }
-
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
+        int m = nums1.size();
+        int n = nums2.size();
+        int size = m+n;
+        
+        int idx1 = (size/2)-1;
+        int element1 = -1;
+        int idx2 = size/2;
+        int element2 = -1;
+        
+        int i = 0, j = 0, k = 0;
+        
+        while(i < m && j < n) {
+            if(nums1[i] < nums2[j]) {
+                if(k == idx1) {
+                    element1 = nums1[i];
+                }
+                if(k == idx2) {
+                    element2 = nums1[i];
+                }
+                i++;
+            } else {
+                if(k == idx1) {
+                    element1 = nums2[j];
+                }
+                if(k == idx2) {
+                    element2 = nums2[j];
+                }
+                j++;
+            }
+            k++;
+        }
+        
+        while(i < m) {
+            if(k == idx1) {
+                element1 = nums1[i];
+            }
+            if(k == idx2) {
+                element2 = nums1[i];
+            }
+            i++;
+            k++;
+        }
+        
+        while(j < n) {
+            if(k == idx1) {
+                element1 = nums2[j];
+            }
+            if(k == idx2) {
+                element2 = nums2[j];
+            }
+            j++;
+            k++;
+        }
 
-        int total = nums1.size() + nums2.size();
-
-        if(total % 2)
-            return kth(nums1, 0, nums2, 0, total / 2 + 1);
-
-        int left = kth(nums1, 0, nums2, 0, total / 2);
-
-        int right = kth(nums1, 0, nums2, 0, total / 2 + 1);
-
-        return (left + right) / 2.0;
+        if(size%2 == 1)
+            return element2;
+        
+        return (element1 + element2)/2.0;
+        
     }
 };
