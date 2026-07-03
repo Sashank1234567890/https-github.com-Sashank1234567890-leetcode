@@ -10,13 +10,12 @@ public:
         
         for(int i = 0; i<batteries.size(); i++) {
             
-            target -= min((ll)batteries[i], mid_time);
-            
-            if(target <= 0)
+            sum += min((ll)batteries[i], mid_time);
+            if(sum>=target){
                 return true;
-            
+            }
         }
-        return target <= 0;
+        return sum >= target;
     }
     
     long long maxRunTime(int n, vector<int>& batteries) {
