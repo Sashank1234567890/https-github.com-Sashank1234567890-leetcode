@@ -40,7 +40,7 @@ public:
             }
 
             for(int i = 1; i < teleportCost.size(); i++) {
-                teleportCost[i] = min(teleportCost[i], teleportCost[i-1]);
+                teleportCost[i] = min(teleportCost[i], teleportCost[i-1]);//val se kam pe bhi
             }
         }
 
