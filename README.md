@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2976-minimum-cost-to-convert-string-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3015-count-the-number-of-houses-at-a-certain-distance-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3015-count-the-number-of-houses-at-a-certain-distance-i) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3620-network-recovery-pathways](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3620-network-recovery-pathways) |
 ## Array
 |  |
 | ------- |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
+| [3620-network-recovery-pathways](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3620-network-recovery-pathways) |
 ## String
 |  |
 | ------- |
@@ -123,12 +125,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
+| [3620-network-recovery-pathways](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3620-network-recovery-pathways) |
 ## Topological Sort
 |  |
 | ------- |
 | [0802-find-eventual-safe-states](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0802-find-eventual-safe-states) |
 | [1857-largest-color-value-in-a-directed-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1857-largest-color-value-in-a-directed-graph) |
 | [2050-parallel-courses-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2050-parallel-courses-iii) |
+| [3620-network-recovery-pathways](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3620-network-recovery-pathways) |
 ## Memoization
 |  |
 | ------- |
@@ -171,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2959-number-of-possible-sets-of-closing-branches](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2959-number-of-possible-sets-of-closing-branches) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3620-network-recovery-pathways](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3620-network-recovery-pathways) |
 ## Math
 |  |
 | ------- |
@@ -191,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2959-number-of-possible-sets-of-closing-branches](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2959-number-of-possible-sets-of-closing-branches) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3620-network-recovery-pathways](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3620-network-recovery-pathways) |
 ## Sliding Window
 |  |
 | ------- |
@@ -234,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2439-minimize-maximum-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2439-minimize-maximum-of-array) |
 | [2448-minimum-cost-to-make-array-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2448-minimum-cost-to-make-array-equal) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3620-network-recovery-pathways](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3620-network-recovery-pathways) |
 ## Matrix
 |  |
 | ------- |
