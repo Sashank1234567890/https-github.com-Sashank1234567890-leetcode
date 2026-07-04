@@ -3,19 +3,19 @@ public:
     int M = 1e9 + 7;
     int t[201][201][2];
 
-    int solve(int onesLeft, int zerosLeft, bool lastWasOne, int limit) {
+    int solve(int onesLeft, int zerosLeft, bool startzero, int limit) {
         if(onesLeft == 0 && zerosLeft == 0) {
             return 1;
         }
 
-        if(t[onesLeft][zerosLeft][lastWasOne] != -1) {
-            return t[onesLeft][zerosLeft][lastWasOne];
+        if(t[onesLeft][zerosLeft][startzero] != -1) {
+            return t[onesLeft][zerosLeft][startzero];
         }
 
 
         int result = 0;
 
-        if(lastWasOne == true) { //explore 0s
+        if(startzero == true) { //explore 0s
             for(int len = 1; len <= min(zerosLeft, limit); len++) {
                 result = (result + solve(onesLeft, zerosLeft - len, false, limit)) % M;
             }
@@ -25,7 +25,7 @@ public:
             }
         }
 
-        return t[onesLeft][zerosLeft][lastWasOne] = result;
+        return t[onesLeft][zerosLeft][startzero] = result;
 
     }
 
