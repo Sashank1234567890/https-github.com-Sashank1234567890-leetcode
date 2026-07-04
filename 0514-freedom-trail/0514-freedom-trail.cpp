@@ -1,45 +1,59 @@
 class Solution
 {
-    public: int countSteps(int ringIndex, int i, int n)
-    {
-        int dist = abs(i - ringIndex);
-        int wrapAround = n - dist;
+    public:
+        int countSteps(int ringIndex, int i, int n)
+        {
+            int dist = abs(i - ringIndex);
+            int wrapAround = n - dist;
 
-        return min(dist, wrapAround);
-    }
+            return min(dist, wrapAround);
+        }
 
     int findRotateSteps(string ring, string key)
     {
         int n = ring.length();
         int m = key.length();
 
-        vector<vector < int>> t(n + 1, vector<int> (m + 1, INT_MAX));
-       	//t[ringIndex][keyIndex] = minimum number of steps to get key[keyIndex] when the ring[ringIndex] is aligned with the "12:00" position.
-
-       	//If 
-        for (int ringIndex = 0; ringIndex < n; ringIndex++)
+        unordered_map<char, vector < int>> adj;	// char --> {indices in ring where char is present}
+        for (int i = 0; i < n; i++)
         {
-            t[ringIndex][m] = 0;	//base case when all key chars are done (we reached index n)
+            char ch = ring[i];
+            adj[ch].push_back(i);
         }
 
-        for (int keyIndex = m - 1; keyIndex >= 0; keyIndex--)
-        {
-            for (int ringIndex = 0; ringIndex < n; ringIndex++)
-            {
+        priority_queue<vector < int>, vector< vector< int >>, greater<vector< int>>> pq;
+        pq.push({ 0,0,0 });
 
-                int result = INT_MAX;
-                for (int i = 0; i < ring.length(); i++)
-                {
-                    if (ring[i] == key[keyIndex])
-                    {
-                        int totalSteps = countSteps(ringIndex, i, ring.length()) + 1 +
-                            t[i][keyIndex + 1];
-                        result = min(result, totalSteps);
-                    }
-                }
-                t[ringIndex][keyIndex] = result;
+        set<pair<int, int>> visited;
+
+        int totalSteps = 0;
+        while (!pq.empty())
+        {
+            vector<int> vec = pq.top();
+            pq.pop();
+
+            totalSteps = vec[0];
+            int ringIndex = vec[1];
+            int keyIndex = vec[2];
+
+            if (keyIndex == m)
+            {
+                break;
+            }
+
+            if (visited.count({ ringIndex,keyIndex }))
+            {
+                continue;
+            }
+
+            visited.insert({ ringIndex,keyIndex });
+
+            for (int nextIndex: adj[key[keyIndex]])
+            {
+                pq.push({ totalSteps + countSteps(ringIndex, nextIndex, n),nextIndex,keyIndex + 1 });
             }
         }
-        return t[0][0];
+
+        return totalSteps + m;	//print  m char 
     }
 };
