@@ -149,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2439-minimize-maximum-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2439-minimize-maximum-of-array) |
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
+| [3129-find-all-possible-stable-binary-arrays-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3129-find-all-possible-stable-binary-arrays-i) |
 | [3539-find-sum-of-array-product-of-magical-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3539-find-sum-of-array-product-of-magical-sequences) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
@@ -325,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2439-minimize-maximum-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2439-minimize-maximum-of-array) |
 | [2448-minimum-cost-to-make-array-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2448-minimum-cost-to-make-array-equal) |
 | [3015-count-the-number-of-houses-at-a-certain-distance-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3015-count-the-number-of-houses-at-a-certain-distance-i) |
+| [3129-find-all-possible-stable-binary-arrays-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3129-find-all-possible-stable-binary-arrays-i) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 ## Queue
 |  |
