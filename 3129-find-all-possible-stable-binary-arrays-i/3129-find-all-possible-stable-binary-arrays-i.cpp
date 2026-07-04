@@ -1,45 +1,49 @@
 class Solution {
 public:
     int M = 1e9 + 7;
-    int t[201][201][2];
+    vector<vector<vector<int>>> t;
+
+    int solve(int zero, int one, int last, int limit) {
+
+        if(t[zero][one][last] != -1)
+            return t[zero][one][last];
+
+        // Base cases
+        if(one == 0) {
+            if(last == 0 && zero <= limit)
+                return t[zero][one][last] = 1;
+            return t[zero][one][last] = 0;
+        }
+
+        if(zero == 0) {
+            if(last == 1 && one <= limit)
+                return t[zero][one][last] = 1;
+            return t[zero][one][last] = 0;
+        }
+
+        if(last == 1) { // array ends with 1
+
+            int ans = (solve(zero, one-1, 0, limit) +solve(zero, one-1, 1, limit)) % M;
+
+            if(one-1 >= limit)
+                ans = (ans - solve(zero, one-1-limit, 0, limit) + M) % M;
+
+            return t[zero][one][1] = ans;
+        }
+
+        // array ends with 0
+        int ans = (solve(zero-1, one, 0, limit) +solve(zero-1, one, 1, limit)) % M;
+
+        if(zero-1 >= limit)
+            ans = (ans - solve(zero-1-limit, one, 1, limit) + M) % M;
+
+        return t[zero][one][0] = ans;
+    }
 
     int numberOfStableArrays(int zero, int one, int limit) {
 
-        memset(t, 0, sizeof(t));
+        t.assign(zero+1,vector<vector<int>>(one+1,vector<int>(2, -1)));
 
-
-        t[0][0][0] = 1;
-        t[0][0][1] = 1;
-
-
-        for(int onesLeft = 0; onesLeft <= one; onesLeft++) {
-            for(int zerosLeft = 0; zerosLeft <= zero; zerosLeft++) {
-
-                if(onesLeft == 0 && zerosLeft == 0) continue;
-
-                int result = 0;
-
-                // if(startzero == true) { explore 0s }
-                result = 0;
-                for(int len = 1; len <= min(zerosLeft, limit); len++) {
-                    result = (result + t[onesLeft][zerosLeft - len][0]) % M;
-                }
-                t[onesLeft][zerosLeft][1] = result;
-
-                // else { explore 1s }
-                result = 0;
-                for(int len = 1; len <= min(onesLeft, limit); len++) {
-                    result = (result + t[onesLeft - len][zerosLeft][1]) % M;
-                }
-                t[onesLeft][zerosLeft][0] = result;
-            }
-        }
-
-        int startWithOne  = t[one][zero][false]; //solve(one, zero, false, limit);
-        int startWithZero = t[one][zero][true]; //solve(one, zero, true, limit);
-
-        return (startWithOne + startWithZero) % M;
+        return (solve(zero, one, 0, limit) +solve(zero, one, 1, limit)) % M;
     }
 };
-
-
