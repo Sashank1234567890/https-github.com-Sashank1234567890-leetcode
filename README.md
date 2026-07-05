@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1970-last-day-where-you-can-still-cross](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2092-find-all-people-with-secret](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2101-detonate-the-maximum-bombs) |
+| [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3123-find-edges-in-shortest-paths](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3123-find-edges-in-shortest-paths) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1970-last-day-where-you-can-still-cross](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2092-find-all-people-with-secret](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2101-detonate-the-maximum-bombs) |
+| [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3015-count-the-number-of-houses-at-a-certain-distance-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3015-count-the-number-of-houses-at-a-certain-distance-i) |
@@ -74,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2050-parallel-courses-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2050-parallel-courses-iii) |
 | [2092-find-all-people-with-secret](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2101-detonate-the-maximum-bombs) |
+| [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2285-maximum-total-importance-of-roads](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2285-maximum-total-importance-of-roads) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2642-design-graph-with-shortest-path-calculator](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2642-design-graph-with-shortest-path-calculator) |
@@ -183,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0802-find-eventual-safe-states](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0802-find-eventual-safe-states) |
 | [1857-largest-color-value-in-a-directed-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1857-largest-color-value-in-a-directed-graph) |
 | [2050-parallel-courses-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2050-parallel-courses-iii) |
+| [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [3620-network-recovery-pathways](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3620-network-recovery-pathways) |
 ## Memoization
 |  |
