@@ -1,55 +1,130 @@
-class Solution {
-public:
+class Solution
+{
+    int n;
     int MOD = 1e9 + 7;
-    int dirs[3][2] = {{1,0},{0,1},{1,1}};
+    vector<vector<pair<int, int>>> t;
 
-    vector<int> pathsWithMaxScore(vector<string>& board) {
+    int getIntFromChar(char ch)
+    {
+        return ch != 'S' ? ch - '0' : 0;
+    }
+    bool isValid(int i, int j, vector<string> &board)
+    {
+        return i >= 0 && i < n && j >= 0 && j < n && board[i][j] != 'X';
+    }
 
-        int n = board.size();
+    public:
+        vector<int> pathsWithMaxScore(vector<string> &board)
+        {
+            n = board.size();
 
-        vector<vector<int>> score(n, vector<int>(n, -1));
-        vector<vector<int>> ways(n, vector<int>(n, 0));
+            t.assign(n, vector<pair<int, int>> (n,
+            {
+                0,
+                0 }));
+           	// t[i][j] = {best score, count of paths} to reach E from (i,j)
 
-        score[n-1][n-1] = 0;
-        ways[n-1][n-1] = 1;
+           	// Base case
+            t[0][0] = { 0,
+                1
+            };
 
-        for(int i = n-1; i >= 0; i--) {
+           	// Predecessors are up/left/up-left, so fill i,j INCREASING.
+            for (int i = 0; i < n; ++i)
+            {
+                for (int j = 0; j < n; ++j)
+                {
 
-            for(int j = n-1; j >= 0; j--) {
-
-                if(board[i][j] == 'X')
-                    continue;
-
-                for(int k = 0; k < 3; k++) {
-
-                    int x = i + dirs[k][0];
-                    int y = j + dirs[k][1];
-
-                    if(x >= n || y >= n)
+                    if (board[i][j] == 'E')
+                        continue;
+                    if (board[i][j] == 'X')
                         continue;
 
-                    if(score[x][y] == -1)
-                        continue;
+                    int upScore = 0, upPaths = 0;
+                    int leftScore = 0, leftPaths = 0;
+                    int diagScore = 0, diagPaths = 0;
+                    char ch = board[i][j];
 
-                    int val = score[x][y];
-
-                    if(board[i][j] >= '0' && board[i][j] <= '9')
-                        val += board[i][j] - '0';
-
-                    if(val > score[i][j]) {
-                        score[i][j] = val;
-                        ways[i][j] = ways[x][y];
+                    if (isValid(i - 1, j, board))
+                    {
+                    	// move up
+                        auto[score, paths] = t[i - 1][j];	//solve(i-1, j)
+                        upScore = score;
+                        upPaths = paths;
+                        if (upPaths > 0)
+                            upScore += getIntFromChar(ch);
                     }
-                    else if(val == score[i][j]) {
-                        ways[i][j] = (ways[i][j] + ways[x][y]) % MOD;
+                    if (isValid(i, j - 1, board))
+                    {
+                    	// move left
+                        auto[score, paths] = t[i][j - 1];	//solve(i, j-1)
+                        leftScore = score;
+                        leftPaths = paths;
+                        if (leftPaths > 0)
+                            leftScore += getIntFromChar(ch);
                     }
+                    if (isValid(i - 1, j - 1, board))
+                    {
+                    	// move up-left
+                        auto[score, paths] = t[i - 1][j - 1];	//solve(i-1, j-1)
+                        diagScore = score;
+                        diagPaths = paths;
+                        if (diagPaths > 0)
+                            diagScore += getIntFromChar(ch);
+                    }
+
+                    int bestScore, bestPaths;
+                    if (upScore == leftScore && leftScore == diagScore)
+                    {
+                        bestScore = upScore;
+                        bestPaths = upPaths + leftPaths + diagPaths;
+                    }
+                    else if (upScore == leftScore)
+                    {
+                        bestScore = upScore;
+                        bestPaths = upPaths + leftPaths;
+                        if (diagScore > bestScore || (diagScore == bestScore && diagPaths > bestPaths))
+                        {
+                            bestScore = diagScore;
+                            bestPaths = diagPaths;
+                        }
+                    }
+                    else if (leftScore == diagScore)
+                    {
+                        bestScore = leftScore;
+                        bestPaths = leftPaths + diagPaths;
+                        if (upScore > bestScore || (upScore == bestScore && upPaths > bestPaths))
+                        {
+                            bestScore = upScore;
+                            bestPaths = upPaths;
+                        }
+                    }
+                    else
+                    {
+                        bestScore = upScore;
+                        bestPaths = upPaths;
+                        if (leftScore > bestScore || (leftScore == bestScore && leftPaths > bestPaths))
+                        {
+                            bestScore = leftScore;
+                            bestPaths = leftPaths;
+                        }
+                        if (diagScore > bestScore || (diagScore == bestScore && diagPaths > bestPaths))
+                        {
+                            bestScore = diagScore;
+                            bestPaths = diagPaths;
+                        }
+                    }
+
+                    t[i][j] = { bestScore,
+                        bestPaths % MOD
+                    };
                 }
             }
+
+            auto result = t[n - 1][n - 1];	//solve(n-1, n-1)
+            return {
+                result.first,
+                result.second
+            };
         }
-
-        if(ways[0][0] == 0)
-            return {0,0};
-
-        return {score[0][0], ways[0][0]};
-    }
 };
