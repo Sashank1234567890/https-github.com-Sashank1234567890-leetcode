@@ -1,45 +1,55 @@
 class Solution {
 public:
-
-    void DFS(int u, unordered_map<int, vector<int>>& adj, vector<bool>& visited) {
-        visited[u] = true;
-
-        for(int &v : adj[u]) {
-            if(visited[v] != true) {
-                DFS(v, adj, visited);
-            }
-        }
-    }
-
     vector<vector<int>> getAncestors(int n, vector<vector<int>>& edges) {
-        vector<vector<int>> result;
-        unordered_map<int, vector<int>> adj;
+        vector<vector<int>> result(n);
+        unordered_map<int, vector<int>> adj; 
+        
+        vector<int> indegree(n, 0);
 
         for(vector<int>& vec : edges) { 
             int u = vec[0];
             int v = vec[1];
 
-            adj[v].push_back(u); //v --> u
+            adj[u].push_back(v); 
+            indegree[v]++;
         }
 
 
-        for(int u = 0; u < n; u++) {
-            vector<int> ancestors;
-            vector<bool> visited(n, false);
-            DFS(u, adj, visited);
+        queue<int> que;
+        for(int i = 0; i < n; i++) {
+            if(indegree[i] == 0) {
+                que.push(i);
+            }
+        }
 
-            for(int i = 0; i < n; i++) {
-                if(i == u) continue;
-                
-                if(visited[i] == true) {
-                    ancestors.push_back(i);
+        vector<int> topoOrder;
+        while(!que.empty()) {
+            int curr = que.front();
+            que.pop();
+            topoOrder.push_back(curr);
+
+            for(int &v : adj[curr]) {
+                indegree[v]--;
+                if(indegree[v] == 0) {
+                    que.push(v);
                 }
             }
-
-            result.push_back(ancestors);
         }
 
+        vector<unordered_set<int>> vec(n);
 
+        for(int &node : topoOrder) {
+            for(int &v : adj[node]) {
+                vec[v].insert(node); 
+                vec[v].insert(vec[node].begin(), vec[node].end()); 
+            }
+        }
+
+        for(int i = 0; i < n; i++) {
+            result[i] = vector<int>(vec[i].begin(), vec[i].end());
+
+            sort(result[i].begin(), result[i].end());
+        }
 
         
         return result;
