@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2101-detonate-the-maximum-bombs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2101-detonate-the-maximum-bombs) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2285-maximum-total-importance-of-roads](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2285-maximum-total-importance-of-roads) |
+| [2392-build-a-matrix-with-conditions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2392-build-a-matrix-with-conditions) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2642-design-graph-with-shortest-path-calculator](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2642-design-graph-with-shortest-path-calculator) |
 | [2959-number-of-possible-sets-of-closing-branches](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2959-number-of-possible-sets-of-closing-branches) |
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2141-maximum-running-time-of-n-computers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2187-minimum-time-to-complete-trips](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2187-minimum-time-to-complete-trips) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
+| [2392-build-a-matrix-with-conditions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2392-build-a-matrix-with-conditions) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2439-minimize-maximum-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2439-minimize-maximum-of-array) |
 | [2448-minimum-cost-to-make-array-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2448-minimum-cost-to-make-array-equal) |
@@ -187,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1857-largest-color-value-in-a-directed-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1857-largest-color-value-in-a-directed-graph) |
 | [2050-parallel-courses-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2050-parallel-courses-iii) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [2392-build-a-matrix-with-conditions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2392-build-a-matrix-with-conditions) |
 | [3620-network-recovery-pathways](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3620-network-recovery-pathways) |
 ## Memoization
 |  |
@@ -319,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0074-search-a-2d-matrix) |
 | [1301-number-of-paths-with-max-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
+| [2392-build-a-matrix-with-conditions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2392-build-a-matrix-with-conditions) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2573-find-the-string-with-lcp](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2573-find-the-string-with-lcp) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
