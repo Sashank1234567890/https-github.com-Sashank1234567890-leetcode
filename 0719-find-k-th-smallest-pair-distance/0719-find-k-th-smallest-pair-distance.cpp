@@ -1,26 +1,41 @@
 class Solution {
 public:
-    int smallestDistancePair(vector<int>& nums, int k) {
+    
+    // Find count of pairs having distance <= D
+    int slidingWindowCount(vector<int>& nums, int D) {
+        int count = 0;
         int n = nums.size();
+        int i = 0;
+        int j = 1;
 
-        int mn = *min_element(nums.begin(), nums.end());
-        int mx = *max_element(nums.begin(), nums.end());
+        while (j < n) {
+            while (nums[j] - nums[i] > D) {
+                ++i;
+            }
+            count += j - i;
+            j++;
+        }
+        return count;
+    }
 
-        vector<int> vec(mx - mn + 1, 0);
+    int smallestDistancePair(vector<int>& nums, int k) {
+        sort(begin(nums), end(nums));
+        int n = nums.size();
+        int l = 0;
+        int r = nums[n - 1] - nums[0];
+        int result = 0;
 
-        for(int i = 0; i < n; i++) {
-            for(int j = i + 1; j < n; j++) {
-                int d = abs(nums[i] - nums[j]);
-                vec[d]++;
+        while (l <= r) {
+            int mid = (l + r) / 2;
+            int count = slidingWindowCount(nums, mid);
+
+            if (count < k) {
+                l = mid + 1;
+            } else {
+                result = mid;  // Store the mid as a potential result
+                r = mid - 1;
             }
         }
-
-        for(int d = 0; d <= mx - mn; d++) {
-            k -= vec[d];
-            if(k <= 0)
-                return d;
-        }
-
-        return -1;
+        return result;
     }
 };
