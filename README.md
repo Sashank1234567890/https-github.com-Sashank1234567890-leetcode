@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0399-evaluate-division) |
 | [0474-ones-and-zeroes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0474-ones-and-zeroes) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0540-single-element-in-a-sorted-array) |
+| [0587-erect-the-fence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0587-erect-the-fence) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0752-open-the-lock](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0752-open-the-lock) |
 | [0815-bus-routes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0815-bus-routes) |
@@ -283,6 +284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0202-happy-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0202-happy-number) |
 | [0263-ugly-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0263-ugly-number) |
+| [0587-erect-the-fence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0587-erect-the-fence) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2101-detonate-the-maximum-bombs) |
@@ -290,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Geometry
 |  |
 | ------- |
+| [0587-erect-the-fence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0587-erect-the-fence) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2101-detonate-the-maximum-bombs) |
 ## Heap (Priority Queue)
 |  |
