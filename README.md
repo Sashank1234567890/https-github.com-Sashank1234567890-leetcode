@@ -282,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0202-happy-number) |
+| [0263-ugly-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0263-ugly-number) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2101-detonate-the-maximum-bombs) |
