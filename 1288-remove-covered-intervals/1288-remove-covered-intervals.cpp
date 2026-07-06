@@ -12,7 +12,7 @@ public:
         vector<vector<int>>result;
         result.push_back(time[0]);
         for(int i=1;i<n;i++){
-            if(time[i][0]>=result.back()[0]&&result.back()[1]>=time[i][1]){
+            if(result.back()[1]>=time[i][1]){
                 continue;
             }
             result.push_back(time[i]);
