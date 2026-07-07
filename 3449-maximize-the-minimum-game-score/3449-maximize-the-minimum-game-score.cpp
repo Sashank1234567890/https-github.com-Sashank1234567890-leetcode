@@ -40,7 +40,7 @@ public:
         int n = points.size();
 
         ll l = 1;
-        ll r = 1e15;
+        ll r = m*(1ll**max_element(points.begin(),points.end()));
         
 
         ll result = 0;
