@@ -27,7 +27,7 @@ public:
 
                 advanceGamesToNext = max(games-1, 0LL);
 
-                moves += normalMove;
+                moves += normalMove;//extra move -1 se 0 index waise hi 0 se 1
 
                 normalMove = 0;
             }
