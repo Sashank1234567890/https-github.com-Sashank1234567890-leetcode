@@ -1,45 +1,46 @@
 class Solution {
 public:
+    #define P pair<int, pair<int, int>>
+    vector<vector<int>> directions = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+    
     int minimumObstacles(vector<vector<int>>& grid) {
         int m = grid.size();
         int n = grid[0].size();
 
-        vector<vector<int>> dist(m, vector<int>(n, INT_MAX));
-        deque<pair<int,int>> dq;
+        vector<vector<int>> result(m, vector<int>(n, INT_MAX));
+        
+        result[0][0] = 0;
 
-        dist[0][0] = 0;
-        dq.push_front({0, 0});
+        priority_queue<P, vector<P>, greater<P>> pq;
+        pq.push({0, {0, 0}}); 
+       
+        while(!pq.empty()) {
+            auto curr = pq.top();
+            pq.pop();
 
-        int dr[] = {-1, 1, 0, 0};
-        int dc[] = {0, 0, -1, 1};
+            int d = curr.first;
+            int i = curr.second.first;
+            int j = curr.second.second;
 
-        while(!dq.empty()) {
-            auto [r, c] = dq.front();
-            dq.pop_front();
+            for(auto &dir : directions) {
+                int x = i + dir[0];
+                int y = j + dir[1];
 
-            if(r == m - 1 && c == n - 1)
-                return dist[r][c];
-
-            for(int k = 0; k < 4; k++) {
-                int nr = r + dr[k];
-                int nc = c + dc[k];
-
-                if(nr < 0 || nr >= m || nc < 0 || nc >= n)
+                if(x < 0 || x >= m || y < 0 || y >= n) {
                     continue;
+                }
 
-                int newCost = dist[r][c] + grid[nr][nc];
+                int wt = (grid[x][y] == 1) ? 1 : 0;
 
-                if(newCost < dist[nr][nc]) {
-                    dist[nr][nc] = newCost;
-
-                    if(grid[nr][nc] == 0)
-                        dq.push_front({nr, nc});
-                    else
-                        dq.push_back({nr, nc});
+                if(d + wt < result[x][y]) {
+                    result[x][y] = d + wt;
+                    pq.push({d+wt, {x, y}});
                 }
             }
         }
 
-        return -1;
+        return result[m-1][n-1];
+
     }
 };
+
