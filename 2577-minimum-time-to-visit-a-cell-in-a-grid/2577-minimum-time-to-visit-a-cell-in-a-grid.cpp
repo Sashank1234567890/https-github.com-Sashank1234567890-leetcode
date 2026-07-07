@@ -10,7 +10,7 @@ public:
         if (grid[0][1] > 1 && grid[1][0] > 1)
             return -1;
         
-        vector<vector<bool>> visited(m, vector<bool>(n, false));
+      
         priority_queue<P, vector<P>, greater<P>> pq;
         
         pq.push({grid[0][0], {0, 0}}); 
@@ -26,14 +26,14 @@ public:
                 return time;
             
            
-            if (visited[row][col]) continue;
-            visited[row][col] = true;
+            if (grid[row][col]==-1) continue;
+               grid[row][col] = -1;
             
            
             for (auto dir: direction) {
                 int r = row + dir[0];
                 int c = col + dir[1];
-                if (r < 0 || r >= m || c < 0 || c >= n || visited[r][c])
+                if (r < 0 || r >= m || c < 0 || c >= n || (grid[r][c]==-1))
                     continue;
                 
                 if (grid[r][c] <= time+1)
@@ -42,6 +42,7 @@ public:
                     pq.push({grid[r][c]+1, {r, c}});
                 else
                     pq.push({grid[r][c], {r, c}});
+                 
             }
         }
         return -1;
