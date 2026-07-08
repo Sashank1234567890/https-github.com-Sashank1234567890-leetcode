@@ -3,9 +3,9 @@ public:
     static const int MOD = 1e9 + 7;
 
     struct Node {
-        long long val;   // number formed by non-zero digits
-        long long sum;   // sum of non-zero digits
-        int cnt;         // number of non-zero digits
+        long long val;   
+        long long sum;  
+        int cnt;        
 
         Node(long long v = 0, long long s = 0, int c = 0) {
             val = v;
