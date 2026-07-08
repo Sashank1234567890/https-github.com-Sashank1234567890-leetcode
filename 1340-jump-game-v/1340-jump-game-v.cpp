@@ -37,7 +37,7 @@ public:
         int ans = 1;
         vector<int>dp(n,INT_MIN);
         for(int i = 0; i < n; i++) {
-            ans = max(ans, jump(i, arr, d,dp));
+            ans = max(ans, jump(i, arr, d,dp));//dp ko bhar hi rkhna nhi to n^2*d hoga n*d ki zagah
         }
 
         return ans;
