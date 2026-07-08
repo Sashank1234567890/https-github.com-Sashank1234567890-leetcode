@@ -157,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2563-count-the-number-of-fair-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2563-count-the-number-of-fair-pairs) |
 | [2573-find-the-string-with-lcp](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2573-find-the-string-with-lcp) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
+| [2594-minimum-time-to-repair-cars](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2594-minimum-time-to-repair-cars) |
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -407,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2439-minimize-maximum-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2439-minimize-maximum-of-array) |
 | [2448-minimum-cost-to-make-array-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2448-minimum-cost-to-make-array-equal) |
 | [2563-count-the-number-of-fair-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2563-count-the-number-of-fair-pairs) |
+| [2594-minimum-time-to-repair-cars](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2594-minimum-time-to-repair-cars) |
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2968-apply-operations-to-maximize-frequency-score) |
