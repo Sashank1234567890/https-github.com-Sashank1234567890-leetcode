@@ -22,7 +22,7 @@ class Solution
                     if (i == n - 1 && j == m - 1)
                         continue;
 
-                    for (int cost = 0; cost <= k; cost++)
+                    for (int cost = k; cost >= 0; cost--)
                     {
                         int newCost = cost + (grid[i][j] > 0);
 
