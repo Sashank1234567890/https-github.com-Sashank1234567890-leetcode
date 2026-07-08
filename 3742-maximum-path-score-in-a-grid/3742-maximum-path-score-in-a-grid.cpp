@@ -1,45 +1,45 @@
 class Solution {
 public:
-    int m, n;
+    vector<int> mp = {0,1,1};
 
-    int solve(vector<vector<int>>& grid, int k, int i, int j, int cost, vector<vector<vector<int>>>& t) {
-        if(i >= m || j >= n)
+    int dp[201][201][201];
+
+    int solve(int i,int j,int cost,int k,vector<vector<int>>& grid){
+
+        int n = grid.size();
+        int m = grid[0].size();
+
+        if(i>=n || j>=m)
             return INT_MIN;
-        
-        int newCost = cost + (grid[i][j] > 0);
 
-        if(newCost > k)
+        cost += mp[grid[i][j]];
+
+        if(cost > k)
             return INT_MIN;
-        
-        if(i == m-1 && j == n-1)
-            return grid[i][j]; 
-        
-        if(t[i][j][cost] != -1) {
-            return t[i][j][cost];
-        }
-        
-       
-        int down  = solve(grid, k, i+1, j, newCost, t);
-        int right = solve(grid, k, i, j+1, newCost, t);
 
-        int bestNext = max(down, right);
+        if(i==n-1 && j==m-1)
+            return grid[i][j];
 
-        if(bestNext == INT_MIN) {
-            return t[i][j][cost] = INT_MIN;
-        }
+        if(dp[i][j][cost]!=-1)
+            return dp[i][j][cost];
 
-        return t[i][j][cost] = grid[i][j] + bestNext;
+        int down = solve(i+1,j,cost,k,grid);
+        int right = solve(i,j+1,cost,k,grid);
+
+        int ans = max(down,right);
+
+        if(ans==INT_MIN)
+            return dp[i][j][cost]=INT_MIN;
+
+        return dp[i][j][cost]=grid[i][j]+ans;
     }
 
     int maxPathScore(vector<vector<int>>& grid, int k) {
-        m = grid.size();
-        n = grid[0].size();
 
-        vector<vector<vector<int>>> t(m+1, vector<vector<int>>(n+1, vector<int>(k + 1, -1)));
+        memset(dp,-1,sizeof(dp));
 
-        int result = solve(grid, k, 0, 0, 0, t);
+        int ans = solve(0,0,0,k,grid);
 
-        return result == INT_MIN ? -1 : result;
+        return ans==INT_MIN ? -1 : ans;
     }
 };
-
