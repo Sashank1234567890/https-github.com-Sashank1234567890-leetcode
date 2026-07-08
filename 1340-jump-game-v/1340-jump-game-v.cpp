@@ -1,45 +1,35 @@
 class Solution {
 public:
-
-    int jump(int idx, vector<int>& arr, int d,vector<int>&dp) {
-
-        int n = arr.size();
-
-        int ans = 1;
-
-        if(dp[idx]!=INT_MIN)
-           return dp[idx];
-        // right
-        for(int j = idx + 1; j <= min(n - 1, idx + d); j++) {
-
-            if(arr[j] >= arr[idx])
-                break;
-
-            ans = max(ans, 1 + jump(j, arr, d,dp));
-        }
-
-        // left
-        for(int j = idx - 1; j >= max(0, idx - d); j--) {
-
-            if(arr[j] >= arr[idx])
-                break;
-
-            ans = max(ans, 1 + jump(j, arr, d,dp));
-        }
-
-        return dp[idx]= ans;
-    }
-
     int maxJumps(vector<int>& arr, int d) {
-
         int n = arr.size();
+        // t[i] = maximum jumps starting from index i
+        vector<int> t(n, 1);
+        vector<pair<int, int>> vec;
+        for (int i = 0; i < n; i++) {
+            vec.push_back({arr[i], i});
+        }
+        sort(begin(vec), end(vec));
 
-        int ans = 1;
-        vector<int>dp(n,INT_MIN);
-        for(int i = 0; i < n; i++) {
-            ans = max(ans, jump(i, arr, d,dp));//dp ko bhar hi rkhna nhi to n^2*d hoga n*d ki zagah
+        for (auto& it : vec) {
+            int val = it.first;
+            int i   = it.second;
+
+            for (int j = i - 1; j >= max(0, i - d); j--) {
+        
+                if (arr[j] >= arr[i])
+                    break;
+                t[i] = max(t[i], 1 + t[j]);
+            }
+
+           
+            for (int j = i + 1; j <= min(n - 1, i + d); j++) {
+               
+                if (arr[j] >= arr[i])
+                    break;
+                t[i] = max(t[i], 1 + t[j]);
+            }
         }
 
-        return ans;
+        return *max_element(begin(t), end(t));
     }
 };
