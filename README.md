@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1970-last-day-where-you-can-still-cross](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2092-find-all-people-with-secret](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2101-detonate-the-maximum-bombs) |
+| [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2658-maximum-number-of-fish-in-a-grid) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2050-parallel-courses-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2050-parallel-courses-iii) |
 | [2092-find-all-people-with-secret](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2092-find-all-people-with-secret) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2101-detonate-the-maximum-bombs) |
+| [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2285-maximum-total-importance-of-roads](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2285-maximum-total-importance-of-roads) |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
@@ -158,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2071-maximum-number-of-tasks-you-can-assign) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2101-detonate-the-maximum-bombs) |
 | [2106-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2106-maximum-fruits-harvested-after-at-most-k-steps) |
+| [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2187-minimum-time-to-complete-trips](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2187-minimum-time-to-complete-trips) |
 | [2226-maximum-candies-allocated-to-k-children](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2226-maximum-candies-allocated-to-k-children) |
@@ -231,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1857-largest-color-value-in-a-directed-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1857-largest-color-value-in-a-directed-graph) |
 | [1871-jump-game-vii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1871-jump-game-vii) |
 | [2050-parallel-courses-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2050-parallel-courses-iii) |
+| [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2439-minimize-maximum-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2439-minimize-maximum-of-array) |
 | [2573-find-the-string-with-lcp](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2573-find-the-string-with-lcp) |
@@ -257,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1462-course-schedule-iv](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1462-course-schedule-iv) |
 | [1857-largest-color-value-in-a-directed-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1857-largest-color-value-in-a-directed-graph) |
 | [2050-parallel-courses-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2050-parallel-courses-iii) |
+| [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2392-build-a-matrix-with-conditions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2392-build-a-matrix-with-conditions) |
 | [3620-network-recovery-pathways](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3620-network-recovery-pathways) |
