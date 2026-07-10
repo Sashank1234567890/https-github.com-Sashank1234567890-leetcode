@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3419-minimize-the-maximum-edge-weight-of-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3419-minimize-the-maximum-edge-weight-of-graph) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3620-network-recovery-pathways) |
 ## Array
 |  |
@@ -196,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3449-maximize-the-minimum-game-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3449-maximize-the-minimum-game-score) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3539-find-sum-of-array-product-of-magical-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3539-find-sum-of-array-product-of-magical-sequences) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
@@ -250,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
 | [3225-maximum-score-from-grid-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3225-maximum-score-from-grid-operations) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3539-find-sum-of-array-product-of-magical-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3539-find-sum-of-array-product-of-magical-sequences) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
@@ -308,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2071-maximum-number-of-tasks-you-can-assign) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2563-count-the-number-of-fair-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2563-count-the-number-of-fair-pairs) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Sorting
 |  |
 | ------- |
@@ -330,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2563-count-the-number-of-fair-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2563-count-the-number-of-fair-pairs) |
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2968-apply-operations-to-maximize-frequency-score) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Shortest Path
 |  |
@@ -400,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1018-binary-prefix-divisible-by-5](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1018-binary-prefix-divisible-by-5) |
 | [2959-number-of-possible-sets-of-closing-branches](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2959-number-of-possible-sets-of-closing-branches) |
 | [3108-minimum-cost-walk-in-weighted-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3108-minimum-cost-walk-in-weighted-graph) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3539-find-sum-of-array-product-of-magical-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3539-find-sum-of-array-product-of-magical-sequences) |
 ## Combinatorics
 |  |
@@ -458,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3419-minimize-the-maximum-edge-weight-of-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3419-minimize-the-maximum-edge-weight-of-graph) |
 | [3449-maximize-the-minimum-game-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3449-maximize-the-minimum-game-score) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3620-network-recovery-pathways) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Matrix
@@ -512,6 +519,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
 | [3357-minimize-the-maximum-adjacent-element-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3357-minimize-the-maximum-adjacent-element-difference) |
 | [3449-maximize-the-minimum-game-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3449-maximize-the-minimum-game-score) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Prefix Sum
 |  |
 | ------- |
