@@ -2,50 +2,91 @@ class Solution
 {
     public:
 
-        int BFS(int start, unordered_map<int, vector < int>> &adj, vector< bool > &visited)
+        int longestCycle = 0;
+
+    void dfs(int node,vector<int> &favorite,vector<bool> &visited,vector<int> &depth,int d,int &happyCouple,unordered_map<int, vector < int>> &adj)
+    {
+        visited[node] = true;
+        depth[node] = d;
+
+        int next = favorite[node];
+
+        if (!visited[next])
         {
-            queue<pair<int, int>> que;
-            que.push({ start,
-                0 });
-            int maxDistance = 0;
 
-            while (!que.empty())
+            dfs(next, favorite, visited, depth, d + 1,happyCouple, adj);
+        }
+        else if (depth[next] != -1)
+        {
+
+            int cycleLength = d - depth[next] + 1;
+
+            longestCycle = max(longestCycle, cycleLength);
+
+            if (cycleLength == 2)
             {
-                auto[currNode, dist] = que.front();
-                que.pop();
 
-                for (auto &ngbr: adj[currNode])
+                vector<bool> vis(favorite.size(), false);
+
+                vis[node] = true;
+                vis[next] = true;
+
+                happyCouple += 2 +BFS(node, adj, vis) +BFS(next, adj, vis);
+            }
+        }
+
+        depth[node] = -1;	
+    }
+
+    int BFS(int start,
+        unordered_map<int, vector < int>> &adj,
+        vector<bool> &visited)
+    {
+        queue<pair<int, int>> q;
+
+        q.push({ start,
+            0 });
+
+        int mx = 0;
+
+        while (!q.empty())
+        {
+
+            auto[node, dist] = q.front();
+            q.pop();
+
+            for (auto child: adj[node])
+            {
+
+                if (!visited[child])
                 {
-                    if (!visited[ngbr])
-                    {
-                        visited[ngbr] = true;
-                        que.push({ ngbr,
-                            dist + 1 });
-                        maxDistance = max(maxDistance, dist + 1);
-                    }
+
+                    visited[child] = true;
+
+                    q.push({ child, dist + 1 });
+
+                    mx = max(mx, dist + 1);
                 }
             }
-
-            return maxDistance;
         }
+
+        return mx;
+    }
 
     int maximumInvitations(vector<int> &favorite)
     {
+
         int n = favorite.size();
+
         unordered_map<int, vector < int>> adj;
 
         for (int i = 0; i < n; i++)
-        {
-            int u = i;
-            int v = favorite[i];
-           	// u --> v
-            adj[v].push_back(u);	//reversed graph to transverse
-        }
-
-        int longestCycleEmplCount = 0;
-        int happyCoupleEmplCount = 0;	//cycle len ==2
+            adj[favorite[i]].push_back(i);
 
         vector<bool> visited(n, false);
+        vector<int> depth(n, -1);
+
+        int happyCouple = 0;
 
         for (int i = 0; i < n; i++)
         {
@@ -53,39 +94,10 @@ class Solution
             if (!visited[i])
             {
 
-                unordered_map<int, int> mp;
-
-                int currNode = i;
-                int currNodeCount = 0;
-
-                while (!visited[currNode])
-                {
-                    visited[currNode] = true;
-                    mp[currNode] = currNodeCount;
-
-                    int nextNode = favorite[currNode];
-                    currNodeCount += 1;
-
-                    if (mp.count(nextNode))
-                    {
-                        int cycleLength = currNodeCount - mp[nextNode];
-                        longestCycleEmplCount = max(longestCycleEmplCount, cycleLength);
-
-                        if (cycleLength == 2)
-                        {
-
-                            vector<bool> visitedNodes(n, false);
-                            visitedNodes[currNode] = true;
-                            visitedNodes[nextNode] = true;
-                            happyCoupleEmplCount += 2 + BFS(currNode, adj, visitedNodes) + BFS(nextNode, adj,visitedNodes);
-                        }
-                        break;
-                    }
-                    currNode = nextNode;
-                }
+                dfs(i, favorite, visited, depth, 0, happyCouple, adj);
             }
         }
 
-        return max(happyCoupleEmplCount, longestCycleEmplCount);
+        return max(longestCycle, happyCouple);
     }
 };
