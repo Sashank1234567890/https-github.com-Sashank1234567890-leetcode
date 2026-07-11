@@ -1,99 +1,119 @@
 class Solution
 {
     public:
-        vector<int> pathExistenceQueries(int n, vector<int> &nums, int maxDiff,
-            vector<vector < int>> &queries)
+        int rows;
+    int cols;
+    vector<vector < int>> ancestorTable;
+
+    int UpperBound(vector<pair<int, int>> &arr, int target)
+    {
+        int n = arr.size();
+        int l = 0;
+        int r = n - 1;
+        int result = 0;
+
+        while (l <= r)
         {
+            int mid = l + (r - l) / 2;
 
-            vector<pair<int, int>> arr;
-            for (int i = 0; i < n; i++)
-                arr.push_back({ nums[i],
-                    i });
-
-            sort(arr.begin(), arr.end());
-
-            vector<int> pos(n);
-
-            for (int i = 0; i < n; i++)
-                pos[arr[i].second] = i;
-
-           	// component ids
-            vector<int> comp(n);
-            int id = 0;
-            comp[0] = 0;
-
-            for (int i = 1; i < n; i++)
+            if (arr[mid].first <= target)
             {
-                if (arr[i].first - arr[i - 1].first > maxDiff)
-                    id++;
-                comp[i] = id;
+                result = mid;
+                l = mid + 1;
             }
-
-           	// next reachable index in one edge
-            vector<int> nxt(n);
-
-            int r = 0;
-            for (int l = 0; l < n; l++)
+            else
             {
-                while (r + 1 < n &&
-                    arr[r + 1].first - arr[l].first <= maxDiff)
-                    r++;
-
-                nxt[l] = r;
+                r = mid - 1;
             }
-
-            int LOG = 20;
-            while ((1 << LOG) <= n) LOG++;
-
-            vector<vector < int>> up(LOG, vector<int> (n));
-
-            for (int i = 0; i < n; i++)
-                up[0][i] = nxt[i];
-
-            for (int k = 1; k < LOG; k++)
-            {
-                for (int i = 0; i < n; i++)
-                    up[k][i] = up[k - 1][up[k - 1][i]];
-            }
-
-            vector<int> ans;
-
-            for (auto &q: queries)
-            {
-
-                int u = pos[q[0]];
-                int v = pos[q[1]];
-
-                if (comp[u] != comp[v])
-                {
-                    ans.push_back(-1);
-                    continue;
-                }
-
-                if (u == v)
-                {
-                    ans.push_back(0);
-                    continue;
-                }
-
-                if (u > v)
-                    swap(u, v);
-
-                int cur = u;
-                int steps = 0;
-
-                for (int k = LOG - 1; k >= 0; k--)
-                {
-                    if (up[k][cur] < v)
-                    {
-                        cur = up[k][cur];
-                        steps += (1 << k);
-                    }
-                }
-
-                ans.push_back(steps + 1);
-            }
-
-            return ans;
         }
+
+        return result;
+    }
+
+    vector<int> pathExistenceQueries(int n, vector<int> &nums, int maxDiff, vector<vector< int>> &queries)
+    {
+       
+        vector<pair<int, int>> arr(n);
+        for (int i = 0; i < n; i++)
+        {
+            arr[i] = { nums[i],
+                i
+            };
+        }
+
+        sort(begin(arr), end(arr));
+        vector<int> nodeToIdx(n);
+        for (int i = 0; i < n; i++)
+        {
+            int node = arr[i].second;
+            nodeToIdx[node] = i;
+        }
+
+        rows = n;
+        cols = log2(n) + 1;
+        ancestorTable.resize(rows, vector<int> (cols, 0));
+
+       	//0 column
+        for (int node = 0; node < n; node++)
+        {
+            int farthestIdxOneHop = UpperBound(arr, arr[node].first + maxDiff);
+            ancestorTable[node][0] = farthestIdxOneHop;
+        }
+
+       	
+        for (int j = 1; j < cols; j++)
+        {
+        
+            for (int node = 0; node < n; node++)
+            {
+            	
+                ancestorTable[node][j] = ancestorTable[ancestorTable[node][j - 1]][j - 1];
+            }
+        }
+
+        vector<int> result;
+        for (auto &query: queries)
+        {
+        	//O(q)
+            int u = query[0];
+            int v = query[1];
+
+            int a = nodeToIdx[u];
+            int b = nodeToIdx[v];
+            if (a == b)
+            {
+                result.push_back(0);
+                continue;
+            }
+
+            if (a > b)
+            {
+                swap(a, b);
+            }
+
+            int curr = a;
+            int jumps = 0;
+
+            for (int j = cols - 1; j >= 0; j--)
+            {
+            	//log(n)
+                if (ancestorTable[curr][j] < b)
+                {
+                    curr = ancestorTable[curr][j];
+                    jumps += (1 << j);	//pow(2, j)
+                }
+            }
+
+            if (ancestorTable[curr][0] >= b)
+            {
+                result.push_back(jumps + 1);
+            }
+            else
+            {
+                result.push_back(-1);
+            }
+        }
+
+        return result;
+    }
 };
