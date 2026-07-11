@@ -2,59 +2,65 @@ class Solution
 {
     public:
 
-        int countCompleteComponents(int n, vector<vector < int>> &edges)
+        void dfs(int u, vector<vector < int>> &adj,
+            vector<int> &vis,
+            vector<int> &comp)
         {
 
-            vector<vector < int>> adj(n);
+            vis[u] = 1;
 
-            for (auto &e: edges)
+            comp.push_back(u);
+
+            for (int v: adj[u])
             {
-                adj[e[0]].push_back(e[1]);
-                adj[e[1]].push_back(e[0]);
+                if (!vis[v])
+                    dfs(v, adj, vis, comp);
             }
+        }
 
-            vector<int> vis(n, 0);
+    int countCompleteComponents(int n, vector<vector < int>> &edges)
+    {
 
-            int ans = 0;
+        vector<vector < int>> adj(n);
 
-            for (int i = 0; i < n; i++)
+        for (auto &e: edges)
+        {
+            adj[e[0]].push_back(e[1]);
+            adj[e[1]].push_back(e[0]);
+        }
+
+        vector<int> vis(n, 0);
+
+        int ans = 0;
+
+        for (int i = 0; i < n; i++)
+        {
+
+            if (vis[i]) continue;
+
+            vector<int> comp;
+
+            dfs(i, adj, vis, comp);
+
+            bool ok = true;
+
+            int sz = comp.size();
+
+            for (int node: comp)
             {
 
-                if (vis[i]) continue;
-
-                queue<int> q;
-                q.push(i);
-
-                vis[i] = 1;
-
-                int nodes = 0;
-                int edgeCnt = 0;
-
-                while (!q.empty())
+                if (adj[node].size() != sz - 1)
                 {
 
-                    int u = q.front();
-                    q.pop();
-
-                    nodes++;
-                    edgeCnt += adj[u].size();
-
-                    for (int v: adj[u])
-                    {
-                        if (!vis[v])
-                        {
-                            vis[v] = 1;
-                            q.push(v);
-                        }
-                    }
+                    ok = false;
+                    break;
                 }
-
-                edgeCnt /= 2;
-
-                if (edgeCnt == nodes *(nodes - 1) / 2)
-                    ans++;
             }
 
-            return ans;
+            if (ok)
+                ans++;
         }
+
+        return ans;
+    }
 };
