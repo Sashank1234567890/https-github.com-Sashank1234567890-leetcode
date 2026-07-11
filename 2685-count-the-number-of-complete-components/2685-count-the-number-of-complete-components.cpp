@@ -1,95 +1,46 @@
-class UnionFind
-{
-    public:
-        vector<int> parent, rank;
+class Solution {
+public:
+    void dfs(int u, vector<vector<int>>& adj, vector<int>& vis,
+             int &nodes, int &edges) {
 
-    UnionFind(int n)
-    {
-        parent.resize(n);
-        rank.assign(n, 0);
+        vis[u] = 1;
+        nodes++;
+        edges += adj[u].size();
 
-        for (int i = 0; i < n; i++)
-            parent[i] = i;
-    }
-
-    int find(int x)
-    {
-        if (parent[x] == x)
-            return x;
-
-        return parent[x] = find(parent[x]);
-    }
-
-    void Union(int x, int y)
-    {
-        int px = find(x);
-        int py = find(y);
-
-        if (px == py)
-            return;
-
-        if (rank[px] > rank[py])
-            parent[py] = px;
-        else if (rank[px] < rank[py])
-            parent[px] = py;
-        else
-        {
-            parent[py] = px;
-            rank[px]++;
+        for(int v : adj[u]) {
+            if(!vis[v])
+                dfs(v, adj, vis, nodes, edges);
         }
     }
-};
 
-class Solution
-{
-    public:
-        int countCompleteComponents(int n, vector<vector < int>> &edges)
-        {
-            vector<vector < int>> components(n);
-            vector<int> degree(n, 0);
+    int countCompleteComponents(int n, vector<vector<int>>& edges) {
 
-            UnionFind uf(n);
+        vector<vector<int>> adj(n);
 
-            for (auto &edge: edges)
-            {
-                int u = edge[0];
-                int v = edge[1];
-
-                degree[u]++;
-                degree[v]++;
-
-                uf.Union(u, v);
-            }
-
-            for (int i = 0; i < n; i++)
-            {
-                uf.find(i);
-                components[uf.parent[i]].push_back(i);
-            }
-
-            int cnt = 0;
-
-            for (int i = 0; i < n; i++)
-            {
-                if (components[i].empty())
-                    continue;
-
-                int sz = components[i].size();
-                bool complete = true;
-
-                for (int node: components[i])
-                {
-                    if (degree[node] != sz - 1)
-                    {
-                        complete = false;
-                        break;
-                    }
-                }
-
-                if (complete)
-                    cnt++;
-            }
-
-            return cnt;
+        for(auto &e : edges) {
+            adj[e[0]].push_back(e[1]);
+            adj[e[1]].push_back(e[0]);
         }
+
+        vector<int> vis(n,0);
+
+        int ans=0;
+
+        for(int i=0;i<n;i++) {
+
+            if(vis[i]) continue;
+
+            int nodes=0;
+            int edgeCnt=0;
+
+            dfs(i,adj,vis,nodes,edgeCnt);
+
+            edgeCnt/=2;
+
+            if(edgeCnt==nodes*(nodes-1)/2)
+                ans++;
+        }
+
+        return ans;
+    }
 };
