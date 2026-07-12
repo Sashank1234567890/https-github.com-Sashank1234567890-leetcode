@@ -408,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2101-detonate-the-maximum-bombs) |
+| [2849-determine-if-a-cell-is-reachable-at-a-given-time](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2849-determine-if-a-cell-is-reachable-at-a-given-time) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3539-find-sum-of-array-product-of-magical-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3539-find-sum-of-array-product-of-magical-sequences) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
