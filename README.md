@@ -423,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1266-minimum-time-visiting-all-points](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1266-minimum-time-visiting-all-points) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1716-calculate-money-in-leetcode-bank](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1716-calculate-money-in-leetcode-bank) |
+| [1780-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1780-check-if-number-is-a-sum-of-powers-of-three) |
 | [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2101-detonate-the-maximum-bombs) |
 | [2485-find-the-pivot-integer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2485-find-the-pivot-integer) |
