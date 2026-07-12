@@ -397,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0258-add-digits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0258-add-digits) |
 | [0263-ugly-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0263-ugly-number) |
 | [0319-bulb-switcher](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0319-bulb-switcher) |
+| [0342-power-of-four](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0342-power-of-four) |
 | [0587-erect-the-fence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0587-erect-the-fence) |
 | [0788-rotated-digits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0788-rotated-digits) |
 | [0837-new-21-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0837-new-21-game) |
@@ -446,6 +447,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0342-power-of-four](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0342-power-of-four) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1018-binary-prefix-divisible-by-5) |
 | [2959-number-of-possible-sets-of-closing-branches](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2959-number-of-possible-sets-of-closing-branches) |
@@ -642,4 +644,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+## Recursion
+|  |
+| ------- |
+| [0342-power-of-four](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0342-power-of-four) |
 <!---LeetCode Topics End-->
