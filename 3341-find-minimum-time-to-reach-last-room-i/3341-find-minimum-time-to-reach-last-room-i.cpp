@@ -1,47 +1,46 @@
 class Solution {
 public:
-    int n, m;
-    vector<vector<int>> dist;
-    int ans = INT_MAX;
-
-    int dx[4] = {-1, 1, 0, 0};
-    int dy[4] = {0, 0, -1, 1};
-
-    void dfs(int i, int j, int time, vector<vector<int>>& moveTime) {
-
-        if (time >= dist[i][j])
-            return;
-
-        dist[i][j] = time;
-
-        if (i == n - 1 && j == m - 1) {
-            ans = min(ans, time);
-            return;
-        }
-
-        for (int k = 0; k < 4; k++) {
-
-            int x = i + dx[k];
-            int y = j + dy[k];
-
-            if (x < 0 || x >= n || y < 0 || y >= m)
-                continue;
-
-            int newTime = max(time, moveTime[x][y]) + 1;
-
-            dfs(x, y, newTime, moveTime);
-        }
-    }
-
+    vector<vector<int>> directions{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+    typedef pair<int, pair<int, int>> P;
     int minTimeToReach(vector<vector<int>>& moveTime) {
+        int m = moveTime.size();
+        int n = moveTime[0].size();
 
-        n = moveTime.size();
-        m = moveTime[0].size();
+        vector<vector<int>> result(m, vector<int>(n, INT_MAX));
+        priority_queue<P, vector<P>, greater<P>> pq;
 
-        dist.assign(n, vector<int>(m, INT_MAX));
+        result[0][0] = 0;
+        pq.push({0, {0, 0}});
+   
+        while(!pq.empty()) { 
+            int currTime = pq.top().first;
+            auto cell     = pq.top().second;
+            int i = cell.first;
+            int j = cell.second;
 
-        dfs(0, 0, 0, moveTime);
+            pq.pop();
+            if(i == m-1 && j == n-1) {
+                return currTime;
+            }
 
-        return ans;
+            for(auto &dir : directions) {
+                int i_ = i + dir[0];
+                int j_ = j + dir[1];
+
+                if(i_ >= 0 && i_ < m && j_ >= 0 && j_ < n) {
+                    int wait    = max(moveTime[i_][j_] - currTime, 0);
+                    int arrTime = currTime + wait + 1;
+
+                    if(result[i_][j_] > arrTime) {
+                        result[i_][j_] = arrTime;
+                        pq.push({arrTime, {i_, j_}});
+                    }
+                    
+                }
+            }
+        }
+
+        return -1;
+
     }
 };
