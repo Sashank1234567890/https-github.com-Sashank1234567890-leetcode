@@ -228,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3449-maximize-the-minimum-game-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3449-maximize-the-minimum-game-score) |
 | [3453-separate-squares-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3453-separate-squares-i) |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3539-find-sum-of-array-product-of-magical-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3539-find-sum-of-array-product-of-magical-sequences) |
@@ -382,6 +383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2563-count-the-number-of-fair-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2563-count-the-number-of-fair-pairs) |
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2968-apply-operations-to-maximize-frequency-score) |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Shortest Path
@@ -429,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2485-find-the-pivot-integer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2485-find-the-pivot-integer) |
 | [2849-determine-if-a-cell-is-reachable-at-a-given-time](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2849-determine-if-a-cell-is-reachable-at-a-given-time) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3539-find-sum-of-array-product-of-magical-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3539-find-sum-of-array-product-of-magical-sequences) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
@@ -440,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1232-check-if-it-is-a-straight-line](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1232-check-if-it-is-a-straight-line) |
 | [1266-minimum-time-visiting-all-points](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1266-minimum-time-visiting-all-points) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2101-detonate-the-maximum-bombs) |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -540,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3419-minimize-the-maximum-edge-weight-of-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3419-minimize-the-maximum-edge-weight-of-graph) |
 | [3449-maximize-the-minimum-game-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3449-maximize-the-minimum-game-score) |
 | [3453-separate-squares-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3453-separate-squares-i) |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3620-network-recovery-pathways) |
