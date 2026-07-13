@@ -2,84 +2,78 @@ class Solution
 {
     public:
 
-        vector<int> parent, sz;
-    vector<set < int>> comp;
-
-    int Find(int x)
-    {
-        if (parent[x] == x)
-            return x;
-        return parent[x] = Find(parent[x]);
-    }
-
-    void Union(int x, int y)
-    {
-
-        int px = Find(x);
-        int py = Find(y);
-
-        if (px == py)
-            return;
-
-        if (sz[px] < sz[py])
-            swap(px, py);
-
-        parent[py] = px;
-        sz[px] += sz[py];
-
-        if (comp[px].size() < comp[py].size())
-            swap(comp[px], comp[py]);
-
-        for (int node: comp[py])
-            comp[px].insert(node);
-
-        comp[py].clear();
-    }
-
-    vector<int> processQueries(int c, vector<vector < int>> &connections,
-        vector<vector < int>> &queries)
-    {
-
-        parent.resize(c + 1);
-        sz.assign(c + 1, 1);
-        comp.resize(c + 1);
-
-        for (int i = 1; i <= c; i++)
+        void dfs(int node, unordered_map<int, vector < int>> &adj, int id, vector< int > &nodeId,
+            unordered_map<int, set < int>> &mp, vector< bool > &visited)
         {
-            parent[i] = i;
-            comp[i].insert(i);
+            visited[node] = true;
+            mp[id].insert(node);
+            nodeId[node] = id;
+
+            for (int &ngbr: adj[node])
+            {
+                if (!visited[ngbr])
+                {
+                    dfs(ngbr, adj, id, nodeId, mp, visited);
+                }
+            }
         }
 
+    vector<int> processQueries(int c, vector<vector < int>> &connections, vector< vector< int>> &queries)
+    {
+        unordered_map<int, vector < int>> adj;
+
         for (auto &edge: connections)
-            Union(edge[0], edge[1]);
-
-        vector<int> ans;
-
-        for (auto &q: queries)
         {
+            int u = edge[0];
+            int v = edge[1];
 
-            int type = q[0];
-            int node = q[1];
+            adj[u].push_back(v);
+            adj[v].push_back(u);
+        }
 
-            int par = Find(node);
+        vector<bool> visited(c + 1, false);
+        vector<int> nodeId(c + 1);
+
+        unordered_map<int, set < int>> mp;
+
+        for (int node = 1; node <= c; node++)
+        {
+            if (!visited[node])
+            {
+                int id = node;
+                dfs(node, adj, id, nodeId, mp, visited);
+            }
+        }
+
+        vector<int> result;
+       	//O(q* log(c))
+        for (auto &query: queries)
+        {
+            int type = query[0];	//1, 2
+            int node = query[1];	
 
             if (type == 1)
             {
-
-                if (comp[par].count(node))
-                    ans.push_back(node);
-                else if (!comp[par].empty())
-                    ans.push_back(*comp[par].begin());
+                int id = nodeId[node];
+                if (mp[id].count(node))
+                {
+                    result.push_back(node);
+                }
+                else if (!mp[id].empty())
+                {
+                    result.push_back(*mp[id].begin());
+                }
                 else
-                    ans.push_back(-1);
+                {
+                    result.push_back(-1);
+                }
             }
             else
             {
-
-                comp[par].erase(node);
+                int id = nodeId[node];
+                mp[id].erase(node);
             }
         }
-
-        return ans;
+        return result;
     }
 };
