@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0076-minimum-window-substring) |
 | [0133-clone-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0133-clone-graph) |
 | [0149-max-points-on-a-line](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0149-max-points-on-a-line) |
 | [0202-happy-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0202-happy-number) |
@@ -269,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0076-minimum-window-substring) |
 | [0168-excel-sheet-column-title](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0168-excel-sheet-column-title) |
 | [0332-reconstruct-itinerary](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0399-evaluate-division](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0399-evaluate-division) |
@@ -506,6 +508,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0076-minimum-window-substring) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0480-sliding-window-median](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0480-sliding-window-median) |
 | [0837-new-21-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0837-new-21-game) |
