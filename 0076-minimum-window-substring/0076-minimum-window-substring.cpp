@@ -19,7 +19,7 @@ public:
             
             mp[ch_j]--;
             
-            while(requiredCount == 0) { 
+            while(requiredCount == 0) { //if same  size t.size use
                 if(minWindow > j-i+1) {
                     minWindow = j-i+1;
                     minStart  = i;
