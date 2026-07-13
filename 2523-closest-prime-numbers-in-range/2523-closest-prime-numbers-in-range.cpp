@@ -8,8 +8,8 @@ public:
 
         for(int i = 2; i*i <= right; i++) {
             if(isPrime[i] == true) {
-                for(int j = 2; i*j <= right; j++) {
-                    isPrime[i*j] = false;
+                for(int j = i*i; j <= right; j+=i) {
+                    isPrime[j] = false;
                 }
             }
         }
