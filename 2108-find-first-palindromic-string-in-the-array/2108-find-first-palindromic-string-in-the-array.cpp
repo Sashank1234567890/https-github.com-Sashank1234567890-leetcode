@@ -4,7 +4,7 @@ public:
         
         
         for(string &word : words) {
-            if(word == string(rbegin(word), rend(word))) {
+            if(equal(word.begin(), word.begin() + word.size() / 2, word.rbegin())) {
                 return word;
             }
         }
