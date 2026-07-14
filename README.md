@@ -200,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1488-avoid-flood-in-the-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1488-avoid-flood-in-the-city) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1502-can-make-arithmetic-progression-from-sequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1502-can-make-arithmetic-progression-from-sequence) |
 | [1514-path-with-maximum-probability](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1514-path-with-maximum-probability) |
 | [1539-kth-missing-positive-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1539-kth-missing-positive-number) |
@@ -317,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1340-jump-game-v](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1340-jump-game-v) |
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1857-largest-color-value-in-a-directed-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1857-largest-color-value-in-a-directed-graph) |
 | [1871-jump-game-vii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1871-jump-game-vii) |
@@ -535,6 +537,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0837-new-21-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0837-new-21-game) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1871-jump-game-vii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1871-jump-game-vii) |
 | [2090-k-radius-subarray-averages](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2090-k-radius-subarray-averages) |
 | [2106-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2106-maximum-fruits-harvested-after-at-most-k-steps) |
