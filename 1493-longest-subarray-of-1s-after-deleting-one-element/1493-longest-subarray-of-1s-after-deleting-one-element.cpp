@@ -1,27 +1,24 @@
-class Solution
-{
-    public:
-        int longestSubarray(vector<int> &nums)
-        {
-            int i = 0, j = 0;
+class Solution {
+public:
+    int longestSubarray(vector<int>& nums) {
 
-            int last_zero_idx = -1;
+        int zeroCount = 0;
+        int longestWindow = 0;
 
-            int result = 0;
-
-            while (j < nums.size())
-            {
-
-                if (nums[j] == 0)
-                {
-                    i = last_zero_idx + 1;
-                    last_zero_idx = j;
-                }
-
-                result = max(result, j - i);
-                j++;
+        int i = 0;
+        
+        for (int j = 0; j < nums.size(); j++) {
+            zeroCount += (nums[j] == 0);
+                          
+            
+            while (zeroCount > 1) {
+                zeroCount -= (nums[i] == 0);
+                i++;
             }
-
-            return result;
+              
+            longestWindow = max(longestWindow, j - i);
         }
+
+        return longestWindow;
+    }
 };
