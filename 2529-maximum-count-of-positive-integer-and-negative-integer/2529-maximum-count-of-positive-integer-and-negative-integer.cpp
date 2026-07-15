@@ -1,17 +1,10 @@
 class Solution {
 public:
     int maximumCount(vector<int>& nums) {
+        int n=nums.size();
 
-        auto lambdaP = [](int num) {
-            return num > 0;
-        };
-
-        auto lambdaN = [](int num) {
-            return num < 0;
-        };
-
-        int countPositive = count_if(begin(nums), end(nums), lambdaP);
-        int countNegative = count_if(begin(nums), end(nums), lambdaN);
+        int countPositive = n-(upper_bound(begin(nums), end(nums),0)-begin(nums));
+        int countNegative = lower_bound(begin(nums), end(nums),0)-begin(nums);
 
         return max(countPositive, countNegative);
     }
