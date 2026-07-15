@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3419-minimize-the-maximum-edge-weight-of-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3419-minimize-the-maximum-edge-weight-of-graph) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
+| [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 | [3607-power-grid-maintenance](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3607-power-grid-maintenance) |
 | [3620-network-recovery-pathways](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3620-network-recovery-pathways) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3650-minimum-cost-path-with-edge-reversals) |
@@ -410,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3108-minimum-cost-walk-in-weighted-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3108-minimum-cost-walk-in-weighted-graph) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 | [3607-power-grid-maintenance](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3607-power-grid-maintenance) |
 | [3666-minimum-operations-to-equalize-binary-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 ## Two Pointers
@@ -602,6 +604,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
+| [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 ## Strongly Connected Component
 |  |
 | ------- |
@@ -657,6 +660,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
+| [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 | [3620-network-recovery-pathways](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3620-network-recovery-pathways) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Matrix
@@ -729,6 +733,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3357-minimize-the-maximum-adjacent-element-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3357-minimize-the-maximum-adjacent-element-difference) |
 | [3449-maximize-the-minimum-game-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3449-maximize-the-minimum-game-score) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
+| [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 ## Prefix Sum
 |  |
 | ------- |
