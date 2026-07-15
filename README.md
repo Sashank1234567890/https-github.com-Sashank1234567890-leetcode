@@ -193,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-find-smallest-letter-greater-than-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0752-open-the-lock](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0752-open-the-lock) |
 | [0778-swim-in-rising-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0778-swim-in-rising-water) |
+| [0798-smallest-rotation-with-highest-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0798-smallest-rotation-with-highest-score) |
 | [0815-bus-routes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0815-bus-routes) |
 | [0826-most-profit-assigning-work](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0826-most-profit-assigning-work) |
 | [0827-making-a-large-island](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0827-making-a-large-island) |
@@ -747,6 +748,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0798-smallest-rotation-with-highest-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0798-smallest-rotation-with-highest-score) |
 | [0930-binary-subarrays-with-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0930-binary-subarrays-with-sum) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1871-jump-game-vii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1871-jump-game-vii) |
