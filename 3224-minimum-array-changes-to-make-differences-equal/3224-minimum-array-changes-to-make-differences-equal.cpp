@@ -22,12 +22,12 @@ public:
             diff[k + 1] -= 2;
 
             // 1 move interval [minDiff ... maxDiff]
-            diff[minDiff]--;
-            diff[maxDiff + 1]++;
+            diff[minDiff]-=1;
+            diff[maxDiff + 1]+=1;
 
             // 0 move at currDiff
-            diff[currDiff]--;
-            diff[currDiff + 1]++;
+            diff[currDiff]-=1;
+            diff[currDiff + 1]+=1;
         }
 
         int ans = INT_MAX;
