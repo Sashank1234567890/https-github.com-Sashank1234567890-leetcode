@@ -6,7 +6,7 @@ class Solution
 
             int n = nums.size();
 
-            vector<int> diff(n + 1, 0);
+            vector<int> diff(n, 0);
 
             for (int i = 0; i < n; i++)
             {
@@ -32,7 +32,7 @@ class Solution
 
                     diff[l]++;
 
-                    diff[n]--;
+                    // diff[n]--;//uneccsary with and without padding
                 }
             }
 
@@ -40,7 +40,7 @@ class Solution
             int score = 0;
             int mx = -1;
 
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < n; i++)//only n-1 tak hi matlab hai array n bhi ho to
             {
 
                 score += diff[i];
