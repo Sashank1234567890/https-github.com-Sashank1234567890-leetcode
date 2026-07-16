@@ -1,15 +1,21 @@
-class Solution {
-public:
-    int brokenCalc(int startValue, int target) {
-        if(startValue >= target)
-            return startValue-target;
-        
-       
-        if(target%2 == 0) {
-            return 1 + brokenCalc(startValue, target/2);
+class Solution
+{
+    public:
+        int brokenCalc(int startValue, int target)
+        {
+            int ans = 0;
+            while (target > startValue)
+            {
+
+                if (target % 2)
+                    target++;
+                else
+                    target /= 2;
+
+                ans++;
+            }
+
+            ans += startValue - target;
+            return ans;
         }
-        
-        
-        return 1 + brokenCalc(startValue, target+1);
-    }
 };
