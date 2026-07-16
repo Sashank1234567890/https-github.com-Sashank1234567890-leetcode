@@ -4,27 +4,24 @@ public:
         int maxE = *max_element(begin(nums), end(nums));
         
         int n = nums.size();
-        int i = 0, j = 0;
         
         long long result = 0;
-        int countMax = 0;
+
+        vector<int> maxIndices;
         
-        while(j < n) {
-            if(nums[j] == maxE) {
-                countMax++;
+        for(int i = 0; i < n; i++) {
+            if(nums[i] == maxE) {
+                maxIndices.push_back(i);
             }
             
-            while(countMax >= k) {
-                result += n-j;
-                
-                if(nums[i] == maxE) {
-                    countMax--;
-                }
-                i++;
+            int size = maxIndices.size();
+            if(size >= k) {
+                int last_i = maxIndices[size-k];
+                result += last_i+1;
             }
-            j++;
         }
         
         return result;
     }
 };
+
