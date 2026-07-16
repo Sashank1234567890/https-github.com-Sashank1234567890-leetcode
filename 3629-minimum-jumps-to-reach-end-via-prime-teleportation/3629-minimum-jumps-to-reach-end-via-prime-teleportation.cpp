@@ -1,97 +1,90 @@
 class Solution {
 public:
+    vector<bool> isPrime;
+    
+    void buildSieve(int maxEl) {
+      
+        isPrime.resize(maxEl+1, true);
 
-    int minJumps(vector<int>& nums) {
+        isPrime[0] = false;
+        isPrime[1] = false;
 
-        int n = nums.size();
+        for(int num = 2; num*num <= maxEl; num++) {
+            if(isPrime[num]) {
 
-        int maxi = *max_element(nums.begin(), nums.end());
-
-        // Smallest Prime Factor
-        vector<int> spf(maxi + 1);
-
-        for (int i = 0; i <= maxi; i++)
-            spf[i] = i;
-
-        for (int i = 2; i * i <= maxi; i++) {
-
-            if (spf[i] == i) {
-
-                for (int j = i * i; j <= maxi; j += i) {
-
-                    if (spf[j] == j)
-                        spf[j] = i;
+                for(int multiple = num*num; multiple <= maxEl; multiple += num) {
+                    isPrime[multiple] = false;
                 }
             }
+        }
+    }
+
+    int minJumps(vector<int>& nums) {
+        int n = nums.size();
+
+        unordered_map<int, vector<int>> mp; 
+        int maxEl = 0;
+        for(int i = 0; i < n; i++) {
+            mp[nums[i]].push_back(i);
+            maxEl = max(maxEl, nums[i]);
         }
 
        
-        unordered_map<int, vector<int>> mp;
+        buildSieve(maxEl);
 
-        for (int i = 0; i < n; i++) {
+        queue<int> que;
+        vector<bool> visited(n, false);
+        que.push(0);
+        visited[0] = true;
 
-            int x = nums[i];
+        unordered_set<int> seen;
 
-            while (x > 1) {
-
-                int p = spf[x];
-
-                mp[p].push_back(i);
-
-                while (x % p == 0)
-                    x /= p;
-            }
-        }
-
-        queue<pair<int,int>> q;
-
-        vector<int> vis(n, 0);
-
-        q.push({0, 0});
-
-        vis[0] = 1;
-
-        while (!q.empty()) {
-
-            auto [idx, steps] = q.front();
-            q.pop();
-
-            if (idx == n - 1)
-                return steps;
-
+        int steps = 0;
+      
+        while(!que.empty()) {
+            int size = que.size();
             
-            if (idx - 1 >= 0 && !vis[idx - 1]) {
+            while(size--) {
+                int i = que.front();
+                que.pop();
 
-                vis[idx - 1] = 1;
-                q.push({idx - 1, steps + 1});
-            }
+                if(i == n-1) {
+                    return steps;
+                }
 
-           
-            if (idx + 1 < n && !vis[idx + 1]) {
+                if(i-1 >= 0 && !visited[i-1]) {
+                    que.push(i-1);
+                    visited[i-1] = true;
+                }
 
-                vis[idx + 1] = 1;
-                q.push({idx + 1, steps + 1});
-            }
+                if(i+1 <= n-1 && !visited[i+1]) {
+                    que.push(i+1);
+                    visited[i+1] = true;
+                }
 
-            int val = nums[idx];
+                if(!isPrime[nums[i]] || seen.count(nums[i])) {
+                    continue;
+                }
 
-           
-            if (val > 1 && spf[val] == val) {
+                for(int multiple = nums[i]; multiple <= maxEl; multiple += nums[i]) {
+                    if(!mp.contains(multiple)) {
+                        continue;
+                    }
 
-                for (int nxt : mp[val]) {
-
-                    if (!vis[nxt]) {
-
-                        vis[nxt] = 1;
-                        q.push({nxt, steps + 1});
+                    for(int &j : mp[multiple]) {
+                        if(!visited[j]) {
+                            que.push(j);
+                            visited[j] = true;
+                        }
                     }
                 }
 
-                // process each prime only once
-                mp[val].clear();
+                seen.insert(nums[i]);
             }
+
+            steps++;
         }
 
-        return -1;
+        return steps;
     }
 };
