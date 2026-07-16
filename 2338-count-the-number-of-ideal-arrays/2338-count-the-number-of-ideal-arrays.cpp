@@ -8,7 +8,7 @@ class Solution
         {
             return;
         }
-
+        //dp[i][j]mean i pe khatam hone wala len j ka count
         dp[m][1] = 1;
         count[1]++;
 
@@ -22,7 +22,7 @@ class Solution
                 {
                     if (dp[m / div][len] != 0)
                     {
-                        dp[m][len + 1] += dp[m / div][len];
+                        dp[m][len + 1] += dp[m / div][len];//me ke pech mutiple 
                         count[len + 1] += dp[m / div][len];
                     }
                 }
