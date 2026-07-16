@@ -22,7 +22,7 @@ class Solution
                 {
                     if (dp[m / div][len] != 0)
                     {
-                        dp[m][len + 1] += dp[m / div][len];//me ke pech mutiple 
+                        dp[m][len + 1] += dp[m / div][len];//me ke pech mutiple  Extend every chain ending at (m/div) by appending m.
                         count[len + 1] += dp[m / div][len];
                     }
                 }
