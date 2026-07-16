@@ -1,22 +1,19 @@
-class Solution {
-public:
-    long long distributeCandies(int n, int limit) {
-        long long ways = 0;
-
-        //child1
-        int minCh1 = max(0, n - 2*limit);
-        int maxCh1 = min(n, limit);
-
-        for(int i = minCh1; i <= maxCh1; i++) {
-
-            int N = n-i; 
-
-            int minCh2 = max(0, N - limit);
-            int maxCh2 = min(N, limit);
-
-            ways += maxCh2 - minCh2 + 1;
+class Solution
+{
+    public:
+        long long C2(long long x)
+        {
+            if (x < 2) return 0;
+            return x *(x - 1) / 2;
         }
 
-        return ways;
+    long long distributeCandies(int n, int limit)
+    {
+        long long L = limit + 1;
+
+        return C2(n + 2) -
+            3* C2(n - L + 2) +
+            3* C2(n - 2 *L + 2) -
+            C2(n - 3 *L + 2);
     }
 };
