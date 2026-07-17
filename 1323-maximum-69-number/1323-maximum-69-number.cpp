@@ -3,15 +3,21 @@ class Solution
     public:
         int maximum69Number(int num)
         {
-            string s = to_string(num);
-            auto it = find_if(s.begin(), s.end(), [](char c)
+            int place = 0;
+            int index = -1;
+            int temp = num;
+            while (temp)
             {
-                return c == '6';
-	});
+                int remain = temp % 10;
+                if (remain == 6)
+                    index = place;
 
-            if (it != s.end())
-                *it = '9';
+                temp = temp / 10;
+                place++;
+            }
 
-            return stoi(s);
+            if (index == -1) return num;
+
+            return num + 3* pow(10, index);
         }
 };
