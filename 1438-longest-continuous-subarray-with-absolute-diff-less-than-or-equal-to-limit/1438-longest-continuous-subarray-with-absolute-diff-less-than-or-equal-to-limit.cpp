@@ -1,35 +1,54 @@
-class Solution {
-public:
-    typedef pair<int, int> P;
+class Solution
+{
+    public:
+        int longestSubarray(vector<int> &nums, int limit)
+        {
+            int n = nums.size();
 
-    int longestSubarray(vector<int>& nums, int limit) {
-        int n = nums.size();
-        priority_queue<P> maxPq;
-        priority_queue<P, vector<P>, greater<P>> minPq;
+            deque<int> mndq, mxdq;
 
-        int i = 0;
-        int j = 0;
-        int maxLength = 0;
+            int i = 0;
+            int j = 0;
+            int maxLength = 0;
 
-        while (j < n) {
-            maxPq.push({nums[j], j});
-            minPq.push({nums[j], j});
+            while (j < n)
+            {
+                int val = nums[j];
 
-            while (maxPq.top().first - minPq.top().first > limit) {
-                i = min(maxPq.top().second, minPq.top().second) + 1;
-
-                while (maxPq.top().second < i) {
-                    maxPq.pop();
+                while (!mndq.empty() && nums[mndq.back()] > val)
+                {
+                    mndq.pop_back();
                 }
-                while (minPq.top().second < i) {
-                    minPq.pop();
+
+                while (!mxdq.empty() && nums[mxdq.back()] < val)
+                {
+                    mxdq.pop_back();
                 }
+
+                mndq.push_back(j);
+                mxdq.push_back(j);
+
+                while (!mndq.empty() && !mxdq.empty() &&
+                    nums[mxdq.front()] - nums[mndq.front()] > limit)
+                {
+                    i = min(mndq.front(), mxdq.front()) + 1;
+
+                    while (!mndq.empty() && mndq.front() < i)
+                    {
+                        mndq.pop_front();
+                    }
+
+                    while (!mxdq.empty() && mxdq.front() < i)
+                    {
+                        mxdq.pop_front();
+                    }
+                }
+
+                maxLength = max(maxLength, j - i + 1);
+
+                j++;
             }
 
-            maxLength = max(maxLength, j - i + 1);
-            j++;
+            return maxLength;
         }
-
-        return maxLength;
-    }
 };
