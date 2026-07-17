@@ -1,55 +1,54 @@
-class Solution
-{
-    public:
-        void updateFreq(int operation, int n, vector<int> &freq)
-        {
-            for (int i = 0; i < 32; i++)
-            {
-                if (n &(1 << i))
-                    freq[i] += operation;
+class Solution {
+public:
+
+    void updateFreq(int op, int val, vector<int>& freqBits) {
+        int i = 0;
+        while(val > 0) {
+            if((val & 1)) {
+                freqBits[i] += op; 
             }
+
+            val /= 2;
+            i++;
         }
-
-    int getOrSum(vector<int> &freq)
-    {
-        int num = 0;
-
-        for (int i = 0; i < 32; i++)
-        {
-            if (freq[i])
-                num |= (1 << i);
-        }
-
-        return num;
     }
 
-    int minimumDifference(vector<int> &nums, int k)
-    {
+    int minimumDifference(vector<int>& nums, int k) {
+        vector<int> freqBits(32, 0);
+
         int n = nums.size();
 
         int i = 0;
-        int or_sum = 0;
-        int min_or_sum = INT_MAX;
+        int j = 0;
+        int windowOr = nums[0];
+        int result = INT_MAX;
 
-        vector<int> freq(32, 0);
-        for (int j = 0; j < n; j++)
-        {
-            updateFreq(1, nums[j], freq);
-            or_sum = getOrSum(freq);
+        while(j < n) {
+            windowOr = windowOr | nums[j];
+            updateFreq(1, nums[j], freqBits);
 
-            min_or_sum = min(min_or_sum, abs(k - or_sum));
+            result = min(result, abs(k - windowOr));
 
-            if (min_or_sum == 0) return 0;	
-
-            while (i < j && or_sum > k)
-            {
-                updateFreq(-1, nums[i], freq);
-                i++;
-                or_sum = getOrSum(freq);
-                min_or_sum = min(min_or_sum, abs(k - or_sum));
+            if(windowOr < k) {
+                j++;
+            } else if (windowOr == k) { 
+                return 0;
+            } else {
+                while(i < j && windowOr > k) {
+                    updateFreq(-1, nums[i], freqBits);
+                    i++;
+                    windowOr = 0;
+                    for(int b = 0; b < 32; b++){
+                        if( freqBits[b]>0) { 
+                            windowOr = windowOr | (1<<b);
+                        }
+                    }
+                    result = min(result, abs(k-windowOr));
+                }
+                j++;
             }
         }
 
-        return min_or_sum;
+        return result;
     }
 };
