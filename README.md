@@ -267,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 | [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2131-longest-palindrome-by-concatenating-two-letter-words) |
+| [2134-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2134-minimum-swaps-to-group-all-1s-together-ii) |
 | [2136-earliest-possible-day-of-full-bloom](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2136-earliest-possible-day-of-full-bloom) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2145-count-the-hidden-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2145-count-the-hidden-sequences) |
@@ -664,6 +665,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2024-maximize-the-confusion-of-an-exam](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2024-maximize-the-confusion-of-an-exam) |
 | [2090-k-radius-subarray-averages](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2090-k-radius-subarray-averages) |
 | [2106-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2106-maximum-fruits-harvested-after-at-most-k-steps) |
+| [2134-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2134-minimum-swaps-to-group-all-1s-together-ii) |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2444-count-subarrays-with-fixed-bounds) |
 | [2528-maximize-the-minimum-powered-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2528-maximize-the-minimum-powered-city) |
 | [2953-count-complete-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2953-count-complete-substrings) |
