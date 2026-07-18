@@ -347,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0474-ones-and-zeroes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0474-ones-and-zeroes) |
 | [0514-freedom-trail](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0514-freedom-trail) |
+| [0649-dota2-senate](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0649-dota2-senate) |
 | [0752-open-the-lock](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0752-open-the-lock) |
 | [0839-similar-string-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0839-similar-string-groups) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0960-delete-columns-to-make-sorted-iii) |
@@ -818,6 +819,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0649-dota2-senate](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0649-dota2-senate) |
 | [0826-most-profit-assigning-work](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0826-most-profit-assigning-work) |
 | [0881-boats-to-save-people](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0881-boats-to-save-people) |
 | [0991-broken-calculator](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0991-broken-calculator) |
@@ -883,6 +885,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0239-sliding-window-maximum) |
+| [0649-dota2-senate](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0649-dota2-senate) |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2071-maximum-number-of-tasks-you-can-assign) |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2444-count-subarrays-with-fixed-bounds) |
