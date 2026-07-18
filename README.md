@@ -311,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3224-minimum-array-changes-to-make-differences-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3224-minimum-array-changes-to-make-differences-equal) |
 | [3225-maximum-score-from-grid-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3225-maximum-score-from-grid-operations) |
 | [3243-shortest-distance-after-road-addition-queries-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3243-shortest-distance-after-road-addition-queries-i) |
+| [3254-find-the-power-of-k-size-subarrays-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3254-find-the-power-of-k-size-subarrays-i) |
 | [3261-count-substrings-that-satisfy-k-constraint-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3261-count-substrings-that-satisfy-k-constraint-ii) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
@@ -679,6 +680,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2962-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2962-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2968-apply-operations-to-maximize-frequency-score) |
+| [3254-find-the-power-of-k-size-subarrays-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3254-find-the-power-of-k-size-subarrays-i) |
 | [3258-count-substrings-that-satisfy-k-constraint-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3258-count-substrings-that-satisfy-k-constraint-i) |
 | [3261-count-substrings-that-satisfy-k-constraint-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3261-count-substrings-that-satisfy-k-constraint-ii) |
 | [3346-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3346-maximum-frequency-of-an-element-after-performing-operations-i) |
