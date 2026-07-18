@@ -1,44 +1,75 @@
-class Solution {
-public:
-    vector<int> gcdValues(vector<int>& nums, vector<long long>& queries) {
-        int maxVal = *max_element(nums.begin(), nums.end());
+class Solution
+{
+    public:
+        vector<int> gcdValues(vector<int> &nums, vector < long long > &queries)
+        {
+            int n = nums.size();
+            int maxVal = *max_element(begin(nums), end(nums));
 
-        // frequency of x
-        vector<long long> freq(maxVal + 1, 0);
-        for (int x : nums)
-            freq[x]++;
+            vector<int> divisorFreq(maxVal + 1, 0);
+            for (int i = 0; i < n; i++)
+            {
+               	
+                int num = nums[i];	
 
-        // divCnt[g] stores the freq of numbers divisible by g
-        vector<long long> divCnt(maxVal + 1, 0);
+                for (int j = 1; j * j <= num; j++)
+                {
+                    if (num % j == 0)
+                    {
+                        divisorFreq[j]++;
+                        if (num / j != j)
+                        {
+                            divisorFreq[num / j]++;
+                        }
+                    }
+                }
+            }
 
-        for (int g = 1; g <= maxVal; g++) {
-            for (int x = g; x <= maxVal; x += g)
-                divCnt[g] += freq[x];
+            vector < long long > pairsWithGcd(maxVal + 1, 0);
+            for (int g = maxVal; g >= 1; g--)
+            {
+                long long count = divisorFreq[g];
+             
+                pairsWithGcd[g] = count *(count - 1) / 2;
+
+               	
+                for (int mult = 2 * g; mult <= maxVal; mult += g)
+                {
+                    pairsWithGcd[g] -= pairsWithGcd[mult];
+                }
+            }
+
+            vector < long long > prefixCountGcd(maxVal + 1, 0);
+            for (int g = 1; g <= maxVal; g++)//not neeeded the exact gcd array just count gcd pair cummulative
+            {
+                prefixCountGcd[g] = prefixCountGcd[g - 1] + pairsWithGcd[g];
+            }
+
+            vector<int> result;
+
+            for (long long idx: queries)
+            {
+               	
+                int l = 1;
+                int r = maxVal;
+                int temp = 1;
+                while (l <= r)
+                {
+                    int mid_gcd = l + (r - l) / 2;
+
+                    if (prefixCountGcd[mid_gcd] > idx)
+                    {
+                        temp = mid_gcd;
+                        r = mid_gcd - 1;
+                    }
+                    else
+                    {
+                        l = mid_gcd + 1;
+                    }
+                }
+
+                result.push_back(temp);
+            }
+            return result;
         }
-
-        // exact[g] is the number of pairs whose gcd is exactly g
-        vector<long long> exact(maxVal + 1, 0);
-
-        for (int g = maxVal; g >= 1; g--) {
-            exact[g] = divCnt[g] * (divCnt[g] - 1) / 2; //pairing of all numbers divisible by g
-        // it may be possible that two numbers are divisble by x but their gcd is not exactly x, it can be k*x so we have to remove those pairs
-            for (int m = 2 * g; m <= maxVal; m += g)
-                exact[g] -= exact[m];
-        }
-
-        // prefix[g] => pairs with gcd <= g
-        vector<long long> prefix(maxVal + 1, 0);
-        for (int g = 1; g <= maxVal; g++)
-            prefix[g] = prefix[g - 1] + exact[g];
-
-        vector<int> ans;
-
-        for (long long q : queries) {
-            // first gcd whose prefix > q
-            int g = lower_bound(prefix.begin() + 1, prefix.end(), q + 1) - prefix.begin();
-            ans.push_back(g);
-        }
-
-        return ans;
-    }
 };
