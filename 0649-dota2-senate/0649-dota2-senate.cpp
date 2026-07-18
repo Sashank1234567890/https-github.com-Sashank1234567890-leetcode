@@ -1,50 +1,35 @@
 class Solution {
 public:
-    int n;
-    void removeSenator(string &senate, vector<bool>& removed, char ch, int idx) {
-        
-        while(true) {
-            
-            if(senate[idx] == ch && removed[idx] == false) {
-                removed[idx] = true;
-                break;
-            }
-            idx = (idx+1)%n;
-        }
-
-    }
-    
     string predictPartyVictory(string senate) {
         
-        n = senate.length();
+        int n = senate.length();
         
-        int R_Count = count(begin(senate), end(senate), 'R');
-        int D_Count = n - R_Count;
+        queue<int> queR;
+        queue<int> queD;
         
-        int idx = 0;
+        for(int i = 0; i<n; i++) {
+            if(senate[i] == 'R')
+                queR.push(i);
+            else
+                queD.push(i);
+        }
         
-        
-        vector<bool> removed(n, false);
-        
-        while(R_Count > 0 && D_Count > 0) {
+        while(!queR.empty() && !queD.empty()) {
             
-            if(!removed[idx]) {
+            int R_idx = queR.front(); queR.pop();
+            int D_idx = queD.front(); queD.pop();
             
-                if(senate[idx] == 'R') {
-                    removeSenator(senate, removed, 'D', (idx+1)%n);
-                    D_Count--;
-                    
-                } else {
-                    removeSenator(senate, removed, 'R', (idx+1)%n);
-                    R_Count--;
-
-                }
+            if(R_idx < D_idx) {
+                queR.push(R_idx+n);
+              
+            } else {
+                queD.push(D_idx+n);
+                
             }
-            idx = (idx+1)%n;
             
         }
         
-        return R_Count == 0 ? "Dire" : "Radiant";
+        return queR.empty() ? "Dire" : "Radiant";
         
     }
 };
