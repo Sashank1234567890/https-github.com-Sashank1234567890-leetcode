@@ -3,29 +3,46 @@ public:
     int numberOfAlternatingGroups(vector<int>& colors, int k) {
         int n = colors.size();
 
-        int N = n + (k-1);
-        for(int i = 0; i < k-1; i++) {
-            colors.push_back(colors[i]); 
-        }
-
         int result = 0;
-        int i = 0;
-        int j = 1; 
-        while(j < N) {
-            if(colors[j] == colors[j-1]) {
-                i = j;
-                j++;
+
+        int length = 1; 
+        int last   = colors[0];
+      
+        for(int i = 1; i < n; i++) {
+            if(colors[i] == last) {
+                length = 1;
+                last = colors[i];
                 continue;
             }
 
-            if(j - i + 1 == k) {
+            length++;
+
+            if(length >= k) {
                 result++;
-                i++;
             }
 
-            j++;
+            last = colors[i];
+        }
+
+       
+        for(int i = 0; i < k-1; i++) { 
+            if(colors[i] == last) {
+                length = 1;
+                last = colors[i];
+                break;
+            }
+
+            length++;
+
+            if(length >= k) {
+                result++;
+            }
+
+            last = colors[i];
         }
 
         return result;
+
+
     }
 };
