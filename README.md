@@ -392,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1871-jump-game-vii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1871-jump-game-vii) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2024-maximize-the-confusion-of-an-exam](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2024-maximize-the-confusion-of-an-exam) |
+| [2038-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2038-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2108-find-first-palindromic-string-in-the-array) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2131-longest-palindrome-by-concatenating-two-letter-words) |
@@ -620,6 +621,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
+| [2038-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2038-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2081-sum-of-k-mirror-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2081-sum-of-k-mirror-numbers) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2101-detonate-the-maximum-bombs) |
 | [2338-count-the-number-of-ideal-arrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2338-count-the-number-of-ideal-arrays) |
@@ -901,6 +903,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [2038-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2038-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2071-maximum-number-of-tasks-you-can-assign) |
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2131-longest-palindrome-by-concatenating-two-letter-words) |
@@ -1067,6 +1070,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Game Theory
 |  |
 | ------- |
+| [2038-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2038-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [3227-vowels-game-in-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3227-vowels-game-in-a-string) |
 ## Segment Tree
 |  |
