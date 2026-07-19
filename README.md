@@ -381,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1328-break-a-palindrome](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1328-break-a-palindrome) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1544-make-the-string-great](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1544-make-the-string-great) |
 | [1578-minimum-time-to-make-rope-colorful](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1578-minimum-time-to-make-rope-colorful) |
 | [1625-lexicographically-smallest-string-after-applying-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1625-lexicographically-smallest-string-after-applying-operations) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
@@ -1044,6 +1045,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1544-make-the-string-great](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1544-make-the-string-great) |
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 ## Monotonic Stack
 |  |
