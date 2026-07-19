@@ -1,29 +1,38 @@
 class Solution {
 public:
-    int sumFourDivisors(vector<int>& nums) {
+    int sumIfFourDivisors(int num) {
+        int divisors = 0;
+        int sum = 0;
 
-        int MAX = *max_element(nums.begin(), nums.end());
+        for (int div = 1; div * div <= num; div++) {
+            if (num % div == 0) {
+                int other = num / div;
 
-        vector<int> cnt(MAX + 1, 0);
-        vector<int> sum(MAX + 1, 0);
-
-        for(int i = 1; i <= MAX; i++) {
-            for(int j = i; j <= MAX; j += i) {
-                
-                if(cnt[j]<5){
-                cnt[j]++;
-                sum[j] += i;
+                if (div == other) {
+                    divisors++;
+                    sum += div;
+                } else {
+                    divisors += 2;
+                    sum += (div + other);
                 }
+            }
+
+            if (divisors > 4) {
+                return 0;
             }
         }
 
-        int ans = 0;
+        return divisors == 4 ? sum : 0;
+    }
 
-        for(int x : nums) {
-            if(cnt[x] == 4)
-                ans += sum[x];
+    int sumFourDivisors(vector<int>& nums) {
+        int result = 0;
+
+        for (int &num : nums) {
+            result += sumIfFourDivisors(num);
         }
 
-        return ans;
+        return result;
     }
 };
+
