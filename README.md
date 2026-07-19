@@ -374,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0649-dota2-senate](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0649-dota2-senate) |
 | [0752-open-the-lock](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0752-open-the-lock) |
 | [0839-similar-string-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0839-similar-string-groups) |
+| [0899-orderly-queue](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0899-orderly-queue) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1208-get-equal-substrings-within-budget](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1208-get-equal-substrings-within-budget) |
@@ -530,6 +531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0826-most-profit-assigning-work](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0826-most-profit-assigning-work) |
 | [0881-boats-to-save-people](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0881-boats-to-save-people) |
+| [0899-orderly-queue](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0899-orderly-queue) |
 | [1288-remove-covered-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1340-jump-game-v](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1340-jump-game-v) |
@@ -598,6 +600,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0587-erect-the-fence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0587-erect-the-fence) |
 | [0788-rotated-digits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0788-rotated-digits) |
 | [0837-new-21-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0837-new-21-game) |
+| [0899-orderly-queue](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0899-orderly-queue) |
 | [0991-broken-calculator](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0991-broken-calculator) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1232-check-if-it-is-a-straight-line](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1232-check-if-it-is-a-straight-line) |
