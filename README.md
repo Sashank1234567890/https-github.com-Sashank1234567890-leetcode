@@ -358,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0038-count-and-say](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0038-count-and-say) |
 | [0058-length-of-last-word](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0058-length-of-last-word) |
 | [0076-minimum-window-substring](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0076-minimum-window-substring) |
 | [0166-fraction-to-recurring-decimal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0166-fraction-to-recurring-decimal) |
