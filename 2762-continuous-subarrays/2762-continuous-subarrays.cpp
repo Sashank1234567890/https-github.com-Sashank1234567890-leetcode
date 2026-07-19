@@ -1,39 +1,35 @@
 class Solution {
 public:
-    #define P pair<int, int>
-
     long long continuousSubarrays(vector<int>& nums) {
-        int n = nums.size();
 
-        priority_queue<P, vector<P>, greater<P>> minHeap;
-        priority_queue<P> maxHeap;
+        deque<int> maxDeque, minDeque;
+        int left = 0;
+        long long ans = 0;
 
+        for (int right = 0; right < nums.size(); right++) {
 
-        int i = 0;
-        int j = 0;
-        long long count = 0;
+            while (!maxDeque.empty() && nums[maxDeque.back()] < nums[right])
+                maxDeque.pop_back();
+            maxDeque.push_back(right);
 
-        while(j < n) { 
-            minHeap.push({nums[j], j}); 
-            maxHeap.push({nums[j], j}); 
+            while (!minDeque.empty() && nums[minDeque.back()] > nums[right])
+                minDeque.pop_back();
+            minDeque.push_back(right);
 
-            while(abs(maxHeap.top().first - minHeap.top().first) > 2) {
-                i++;
+            while (nums[maxDeque.front()] - nums[minDeque.front()] > 2) {
 
-                while(!maxHeap.empty() && maxHeap.top().second < i) {
-                    maxHeap.pop();
-                }
-
-                while(!minHeap.empty() && minHeap.top().second < i) {
-                    minHeap.pop();
+                if (maxDeque.front() < minDeque.front()) {
+                    left = maxDeque.front() + 1;
+                    maxDeque.pop_front();
+                } else {
+                    left = minDeque.front() + 1;
+                    minDeque.pop_front();
                 }
             }
 
-            count += j-i+1;
-            j++;
+            ans += right - left + 1;
         }
-     
-        return count;
+
+        return ans;
     }
 };
-
