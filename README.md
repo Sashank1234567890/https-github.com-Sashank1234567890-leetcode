@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2244-minimum-rounds-to-complete-all-tasks](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2244-minimum-rounds-to-complete-all-tasks) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2251-number-of-flowers-in-full-bloom) |
 | [2405-optimal-partition-of-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2405-optimal-partition-of-string) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2953-count-complete-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2953-count-complete-substrings) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
@@ -289,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2440-create-components-with-same-value](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2440-create-components-with-same-value) |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2444-count-subarrays-with-fixed-bounds) |
 | [2448-minimum-cost-to-make-array-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2448-minimum-cost-to-make-array-equal) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2528-maximize-the-minimum-powered-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2528-maximize-the-minimum-powered-city) |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
 | [2536-increment-submatrices-by-one](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2536-increment-submatrices-by-one) |
@@ -679,6 +681,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2106-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2106-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2134-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2134-minimum-swaps-to-group-all-1s-together-ii) |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2444-count-subarrays-with-fixed-bounds) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2528-maximize-the-minimum-powered-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2528-maximize-the-minimum-powered-city) |
 | [2953-count-complete-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2953-count-complete-substrings) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
