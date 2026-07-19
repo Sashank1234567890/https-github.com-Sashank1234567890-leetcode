@@ -257,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1743-restore-the-array-from-adjacent-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1743-restore-the-array-from-adjacent-pairs) |
+| [1755-closest-subsequence-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1755-closest-subsequence-sum) |
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1760-minimum-limit-of-balls-in-a-bag) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1870-minimum-speed-to-arrive-on-time) |
@@ -424,6 +425,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1578-minimum-time-to-make-rope-colorful](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1578-minimum-time-to-make-rope-colorful) |
+| [1755-closest-subsequence-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1755-closest-subsequence-sum) |
 | [1857-largest-color-value-in-a-directed-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1857-largest-color-value-in-a-directed-graph) |
 | [1871-jump-game-vii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1871-jump-game-vii) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
@@ -521,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0826-most-profit-assigning-work](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0826-most-profit-assigning-work) |
 | [0881-boats-to-save-people](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0881-boats-to-save-people) |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
+| [1755-closest-subsequence-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1755-closest-subsequence-sum) |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2071-maximum-number-of-tasks-you-can-assign) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2108-find-first-palindromic-string-in-the-array) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
@@ -544,6 +547,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1630-arithmetic-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1630-arithmetic-subarrays) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
+| [1755-closest-subsequence-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1755-closest-subsequence-sum) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2070-most-beautiful-item-for-each-query](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2070-most-beautiful-item-for-each-query) |
@@ -733,6 +737,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0342-power-of-four) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1018-binary-prefix-divisible-by-5) |
+| [1755-closest-subsequence-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1755-closest-subsequence-sum) |
 | [2322-minimum-score-after-removals-on-a-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2322-minimum-score-after-removals-on-a-tree) |
 | [2749-minimum-operations-to-make-the-integer-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2749-minimum-operations-to-make-the-integer-zero) |
 | [2959-number-of-possible-sets-of-closing-branches](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2959-number-of-possible-sets-of-closing-branches) |
@@ -756,6 +761,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
+| [1755-closest-subsequence-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1755-closest-subsequence-sum) |
 | [3539-find-sum-of-array-product-of-magical-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3539-find-sum-of-array-product-of-magical-sequences) |
 ## Minimum Spanning Tree
 |  |
