@@ -1,30 +1,50 @@
-class Solution
-{
-    public:
-        int longestNiceSubarray(vector<int> &nums)
-        {
-            int n = nums.size();
+class Solution {
+public:
+    bool conflict(int cnt[], int x) {
 
-            int i = 0;
-            int j = 0;
+        for(int b = 0; b < 32; b++) {
+            if((x & (1 << b)) && cnt[b] > 0)
+                return true;
+        }
 
-            int result = 1;
-            int mask = 0;
+        return false;
+    }
 
-            while (j < n)
-            {
+    void add(int cnt[], int x) {
 
-                while ((mask &nums[j]) != 0)
-                {
-                    mask = (mask ^ nums[i]);
-                    i++;
-                }
+        for(int b = 0; b < 32; b++) {
+            if(x & (1 << b))
+                cnt[b]++;
+        }
+    }
 
-                result = max(result, j - i + 1);
-                mask = (mask | nums[j]);
-                j++;
+    void remove(int cnt[], int x) {
+
+        for(int b = 0; b < 32; b++) {
+            if(x & (1 << b))
+                cnt[b]--;
+        }
+    }
+
+    int longestNiceSubarray(vector<int>& nums) {
+
+        int cnt[32] = {0};
+
+        int i = 0;
+        int ans = 0;
+
+        for(int j = 0; j < nums.size(); j++) {
+
+            while(conflict(cnt, nums[j])) {
+                remove(cnt, nums[i]);
+                i++;
             }
 
-            return result;
+            add(cnt, nums[j]);
+
+            ans = max(ans, j - i + 1);
         }
+
+        return ans;
+    }
 };
