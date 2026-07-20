@@ -202,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0042-trapping-rain-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0042-trapping-rain-water) |
 | [0074-search-a-2d-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0128-longest-consecutive-sequence) |
@@ -427,6 +428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0042-trapping-rain-water) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0458-poor-pigs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0458-poor-pigs) |
 | [0474-ones-and-zeroes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0474-ones-and-zeroes) |
@@ -534,6 +536,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0042-trapping-rain-water) |
 | [0189-rotate-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0202-happy-number) |
 | [0443-string-compression](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0443-string-compression) |
@@ -1097,6 +1100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0042-trapping-rain-water) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1544-make-the-string-great](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1544-make-the-string-great) |
 | [1793-maximum-score-of-a-good-subarray](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1793-maximum-score-of-a-good-subarray) |
@@ -1104,6 +1108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0042-trapping-rain-water) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1793-maximum-score-of-a-good-subarray](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1793-maximum-score-of-a-good-subarray) |
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
