@@ -324,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2962-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2962-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2968-apply-operations-to-maximize-frequency-score) |
+| [2971-find-polygon-with-the-largest-perimeter](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2971-find-polygon-with-the-largest-perimeter) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
@@ -581,6 +582,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2968-apply-operations-to-maximize-frequency-score) |
+| [2971-find-polygon-with-the-largest-perimeter](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2971-find-polygon-with-the-largest-perimeter) |
 | [3346-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3346-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3347-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3347-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
@@ -948,6 +950,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2870-minimum-number-of-operations-to-make-array-empty](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2870-minimum-number-of-operations-to-make-array-empty) |
+| [2971-find-polygon-with-the-largest-perimeter](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2971-find-polygon-with-the-largest-perimeter) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3357-minimize-the-maximum-adjacent-element-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3357-minimize-the-maximum-adjacent-element-difference) |
 | [3449-maximize-the-minimum-game-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3449-maximize-the-minimum-game-score) |
@@ -974,6 +977,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2528-maximize-the-minimum-powered-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2528-maximize-the-minimum-powered-city) |
 | [2536-increment-submatrices-by-one](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2536-increment-submatrices-by-one) |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2968-apply-operations-to-maximize-frequency-score) |
+| [2971-find-polygon-with-the-largest-perimeter](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2971-find-polygon-with-the-largest-perimeter) |
 | [3015-count-the-number-of-houses-at-a-certain-distance-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3015-count-the-number-of-houses-at-a-certain-distance-i) |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3129-find-all-possible-stable-binary-arrays-i) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
