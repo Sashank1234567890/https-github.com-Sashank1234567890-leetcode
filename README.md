@@ -266,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1793-maximum-score-of-a-good-subarray](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1793-maximum-score-of-a-good-subarray) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1870-minimum-speed-to-arrive-on-time) |
+| [1921-eliminate-maximum-number-of-monsters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1921-eliminate-maximum-number-of-monsters) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -562,6 +563,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
 | [1755-closest-subsequence-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1755-closest-subsequence-sum) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [1921-eliminate-maximum-number-of-monsters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1921-eliminate-maximum-number-of-monsters) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2070-most-beautiful-item-for-each-query](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2070-most-beautiful-item-for-each-query) |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2071-maximum-number-of-tasks-you-can-assign) |
@@ -922,6 +924,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [1921-eliminate-maximum-number-of-monsters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1921-eliminate-maximum-number-of-monsters) |
 | [2038-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2038-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2071-maximum-number-of-tasks-you-can-assign) |
