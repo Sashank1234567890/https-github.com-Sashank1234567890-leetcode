@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2516-take-k-of-each-character-from-left-and-right](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2516-take-k-of-each-character-from-left-and-right) |
 | [2537-count-the-number-of-good-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2537-count-the-number-of-good-subarrays) |
+| [2799-count-complete-subarrays-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [2953-count-complete-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2953-count-complete-substrings) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
@@ -313,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2658-maximum-number-of-fish-in-a-grid) |
 | [2762-continuous-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2762-continuous-subarrays) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
+| [2799-count-complete-subarrays-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -730,6 +732,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2528-maximize-the-minimum-powered-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2528-maximize-the-minimum-powered-city) |
 | [2537-count-the-number-of-good-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2537-count-the-number-of-good-subarrays) |
 | [2762-continuous-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2762-continuous-subarrays) |
+| [2799-count-complete-subarrays-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [2953-count-complete-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2953-count-complete-substrings) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2962-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2962-count-subarrays-where-max-element-appears-at-least-k-times) |
