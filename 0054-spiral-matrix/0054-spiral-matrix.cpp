@@ -1,61 +1,47 @@
 class Solution
 {
-    public:
-        vector<int> spiralOrder(vector<vector < int>> &matrix)
+public:
+    vector<int> spiralOrder(vector<vector<int>> &matrix)
+    {
+        int n = matrix.size();
+        int m = matrix[0].size();
+
+        int top = 0;
+        int bottom = n - 1;
+        int left = 0;
+        int right = m - 1;
+
+        vector<int> ans;
+
+        while(top <= bottom && left <= right)
         {
-            if (matrix.size() == 0)
-                return {};
-            int m = matrix.size();
-            int n = matrix[0].size();
-            vector<int> result;
-            int top = 0;
-            int down = m - 1;
-            int left = 0;
-            int right = n - 1;
+            // Top row
+            for(int i = left; i <= right; i++)
+                ans.push_back(matrix[top][i]);
+            top++;
 
-            int id = 0;
+            // Right column
+            for(int i = top; i <= bottom; i++)
+                ans.push_back(matrix[i][right]);
+            right--;
 
-            while (top <= down && left <= right)
+            // Bottom row
+            if(top <= bottom)
             {
-
-                if (id == 0)
-                {
-                    for (int i = left; i <= right; i++)
-                    {
-                        result.push_back(matrix[top][i]);
-                    }
-                    top++;
-                }
-
-                if (id == 1)
-                {
-                    for (int i = top; i <= down; i++)
-                    {
-                        result.push_back(matrix[i][right]);
-                    }
-                    right--;
-                }
-
-                if (id == 2)
-                {
-                    for (int i = right; i >= left; i--)
-                    {
-                        result.push_back(matrix[down][i]);
-                    }
-                    down--;
-                }
-
-                if (id == 3)
-                {
-                    for (int i = down; i >= top; i--)
-                    {
-                        result.push_back(matrix[i][left]);
-                    }
-                    left++;
-                }
-
-                id = (id + 1) % 4;
+                for(int i = right; i >= left; i--)
+                    ans.push_back(matrix[bottom][i]);
+                bottom--;
             }
-            return result;
+
+            // Left column
+            if(left <= right)
+            {
+                for(int i = bottom; i >= top; i--)
+                    ans.push_back(matrix[i][left]);
+                left++;
+            }
         }
+
+        return ans;
+    }
 };
