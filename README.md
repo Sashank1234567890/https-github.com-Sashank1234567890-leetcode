@@ -243,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0815-bus-routes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0815-bus-routes) |
 | [0826-most-profit-assigning-work](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0826-most-profit-assigning-work) |
 | [0827-making-a-large-island](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0827-making-a-large-island) |
+| [0835-image-overlap](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0835-image-overlap) |
 | [0839-similar-string-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0839-similar-string-groups) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
@@ -920,6 +921,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0498-diagonal-traverse) |
 | [0778-swim-in-rising-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0778-swim-in-rising-water) |
 | [0827-making-a-large-island](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0827-making-a-large-island) |
+| [0835-image-overlap](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0835-image-overlap) |
 | [1260-shift-2d-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1260-shift-2d-grid) |
 | [1301-number-of-paths-with-max-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [1329-sort-the-matrix-diagonally](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1329-sort-the-matrix-diagonally) |
