@@ -1,76 +1,116 @@
 class Solution {
 public:
-    long long sum = 0; //maintains sum of top x elements from main set
-    set<pair<int, int>> main; //contains top-x freq, elements
-    set<pair<int, int>> sec; //contains remaining freq, leements
 
-    void insertInSet(const pair<int, int>& p, int x) {
-        if(main.size() < x || p > *main.begin()) {
-            sum += 1LL * p.first * p.second;
-            main.insert(p);
+    multiset<pair<int,int>> left, right;
+    unordered_map<int,int> freq;
+    long long sum = 0;
 
-            if(main.size() > x) {
-                auto smallest = *main.begin();
-                sum -= 1LL * smallest.first * smallest.second;
-                main.erase(smallest);
-                sec.insert(smallest);
-            }
-        } else {
-            sec.insert(p);
+    void balance(int x){
+
+        while(left.size() > x){
+
+            auto it = left.begin();
+
+            sum -= 1LL * it->first * it->second;
+            right.insert(*it);
+            left.erase(it);
+        }
+
+        while(left.size() < x && !right.empty()){
+
+            auto it = prev(right.end());
+
+            sum += 1LL * it->first * it->second;
+            left.insert(*it);
+            right.erase(it);
+        }
+
+        while(!left.empty() && !right.empty() &&
+              *prev(right.end()) > *left.begin()){
+
+            auto a = *left.begin();
+            auto b = *prev(right.end());
+
+            sum -= 1LL * a.first * a.second;
+            sum += 1LL * b.first * b.second;
+
+            left.erase(left.begin());
+            right.erase(prev(right.end()));
+
+            left.insert(b);
+            right.insert(a);
         }
     }
 
-    void removeFromSet(const pair<int, int>& p, int x) {
-        if(main.find(p) != main.end()) {
-            sum -= 1LL * p.first * p.second;
-            main.erase(p);
+    void add(pair<int,int> p,int x){
 
-            if(!sec.empty()) {
-                auto largest = *sec.rbegin();
-                sec.erase(largest);
-                main.insert(largest);
-                sum += 1LL * largest.first * largest.second;
-            }
-        } else {
-            sec.erase(p);
+        if(left.empty() || p >= *left.begin()){
+            left.insert(p);
+            sum += 1LL * p.first * p.second;
         }
+        else{
+            right.insert(p);
+        }
+
+        balance(x);
+    }
+
+    void remove(pair<int,int> p,int x){
+
+        auto it = left.find(p);
+
+        if(it != left.end()){
+
+            sum -= 1LL * it->first * it->second;
+            left.erase(it);
+        }
+        else{
+
+            it = right.find(p);
+            if(it != right.end())
+                right.erase(it);
+        }
+
+        balance(x);
     }
 
     vector<long long> findXSum(vector<int>& nums, int k, int x) {
-        int n = nums.size();
+
+        left.clear();
+        right.clear();
+        freq.clear();
         sum = 0;
 
-        vector<long long> result;
-        
-        unordered_map<int, int> mp; //element -> freq
+        vector<long long> ans;
 
         int i = 0;
-        int j = 0;
-        while(j < n) {
-            if(mp[nums[j]] > 0) {
-                removeFromSet({mp[nums[j]], nums[j]}, x);
-            }
 
-            mp[nums[j]]++; //new freq
-            insertInSet({mp[nums[j]], nums[j]}, x);
+        for(int j = 0; j < nums.size(); j++){
 
-            if(j - i + 1 == k) {
-                result.push_back(sum);
+            if(freq.count(nums[j]))
+                remove({freq[nums[j]], nums[j]}, x);
 
-                removeFromSet({mp[nums[i]], nums[i]}, x);
-                mp[nums[i]]--;
-                if(mp[nums[i]] == 0) {
-                    mp.erase(nums[i]);
-                } else {
-                    insertInSet({mp[nums[i]], nums[i]}, x);
-                }
+            freq[nums[j]]++;
+
+            add({freq[nums[j]], nums[j]}, x);
+
+            if(j - i + 1 == k){
+
+                ans.push_back(sum);
+
+                remove({freq[nums[i]], nums[i]}, x);
+
+                freq[nums[i]]--;
+
+                if(freq[nums[i]] == 0)
+                    freq.erase(nums[i]);
+                else
+                    add({freq[nums[i]], nums[i]}, x);
+
                 i++;
             }
-
-            j++;
         }
 
-        return result;
+        return ans;
     }
 };
-
