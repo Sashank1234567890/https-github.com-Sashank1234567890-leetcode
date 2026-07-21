@@ -8,14 +8,12 @@ class Solution
             int n = grid[0].size();
 
             queue<vector < int>> q;
-            vector<vector<vector< int>>> vis(                m,
-                vector<vector < int>> (n, vector<int> (k + 1, 0))
-           );
+            vector<vector < int>> best(m, vector<int> (n, INT_MAX));
 
             q.push({ 0,
                 0,
-                k });
-            vis[0][0][k] = 1;
+                0 });	// row, col, obstacles used
+            best[0][0] = 0;
 
             int steps = 0;
 
@@ -43,7 +41,7 @@ class Solution
 
                     int r = cur[0];
                     int c = cur[1];
-                    int rem = cur[2];
+                    int used = cur[2];
 
                     if (r == m - 1 && c == n - 1)
                         return steps;
@@ -57,28 +55,18 @@ class Solution
                         if (nr < 0 || nr >= m || nc < 0 || nc >= n)
                             continue;
 
-                        if (grid[nr][nc] == 0)
-                        {
+                        int nused = used + grid[nr][nc];
 
-                            if (!vis[nr][nc][rem])
-                            {
-                                vis[nr][nc][rem] = 1;
-                                q.push({ nr,
-                                    nc,
-                                    rem });
-                            }
-                        }
-                        else
-                        {
+                        if (nused > k)
+                            continue;
 
-                            if (rem > 0 && !vis[nr][nc][rem - 1])
-                            {
-                                vis[nr][nc][rem - 1] = 1;
-                                q.push({ nr,
-                                    nc,
-                                    rem - 1 });
-                            }
-                        }
+                        if (nused >= best[nr][nc])
+                            continue;
+
+                        best[nr][nc] = nused;
+                        q.push({ nr,
+                            nc,
+                            nused });
                     }
                 }
 
