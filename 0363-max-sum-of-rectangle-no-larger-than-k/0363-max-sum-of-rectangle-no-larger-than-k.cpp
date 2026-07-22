@@ -7,6 +7,18 @@ class Solution
             int m = matrix.size();
             int n = matrix[0].size();
 
+            if (m < n)
+            {
+                vector<vector < int>> trans(n, vector<int> (m));
+
+                for (int i = 0; i < m; i++)
+                    for (int j = 0; j < n; j++)
+                        trans[j][i] = matrix[i][j];
+
+                matrix = trans;
+                swap(m, n);
+            }
+
             int ans = INT_MIN;
 
             for (int left = 0; left < n; left++)
