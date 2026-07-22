@@ -70,14 +70,14 @@ public:
         }
 
         //Pairsum : blockSize[i] = blockSize[i] + blockSize[i+1]
-        int N = blockSize.size()-1; //this many pairs will be there in pairSum
-        //{2, 3, 4, 5, 2}
+        int N = blockSize.size()-1; //pair sum size
+     
         vector<int> pairSum(N);
         for(int i = 0; i < N; i++) {
             pairSum[i] = blockSize[i] + blockSize[i+1];
         }
 
-        int *st = constructST(pairSum.data(), N);
+        int *st = constructST(pairSum.data(), N);//pairsum.data==pairsum[]array
 
         vector<int> result;
         for(auto &q : queries) { //O(q*log)
