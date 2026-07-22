@@ -289,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1695-maximum-erasure-value](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1695-maximum-erasure-value) |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1697-checking-existence-of-edge-length-limited-paths) |
+| [1706-where-will-the-ball-fall](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1706-where-will-the-ball-fall) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1743-restore-the-array-from-adjacent-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1743-restore-the-array-from-adjacent-pairs) |
 | [1755-closest-subsequence-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1755-closest-subsequence-sum) |
@@ -934,6 +935,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1572-matrix-diagonal-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1572-matrix-diagonal-sum) |
+| [1706-where-will-the-ball-fall](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1706-where-will-the-ball-fall) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
@@ -1127,6 +1129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0498-diagonal-traverse) |
 | [0985-sum-of-even-numbers-after-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0985-sum-of-even-numbers-after-queries) |
 | [1260-shift-2d-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1260-shift-2d-grid) |
+| [1706-where-will-the-ball-fall](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1706-where-will-the-ball-fall) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Number Theory
 |  |
