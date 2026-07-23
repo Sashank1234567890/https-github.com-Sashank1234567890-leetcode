@@ -1,19 +1,25 @@
-class Solution {
-public:
-    long long zeroFilledSubarray(vector<int>& nums) {
+class Solution
+{
+    public:
+        long long zeroFilledSubarray(vector<int> &nums)
+        {
+            long long result = 0;
 
-        long long ans = 0;
-        int i = 0;
+            int n = nums.size();
 
-        for (int j = 0; j < nums.size(); j++) {
+            int countSubArray = 0;
 
-            if (nums[j] != 0) {
-                i = j + 1;
-            } else {
-                ans += j - i + 1;
+            for (int i = 0; i < n; i++)
+            {
+
+                if (nums[i] == 0)
+                    countSubArray += 1;
+                else
+                    countSubArray = 0;
+
+                result += countSubArray;
             }
-        }
 
-        return ans;
-    }
+            return result;
+        }
 };
