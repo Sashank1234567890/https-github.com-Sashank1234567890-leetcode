@@ -435,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0399-evaluate-division) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0443-string-compression](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0443-string-compression) |
+| [0459-repeated-substring-pattern](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0459-repeated-substring-pattern) |
 | [0472-concatenated-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0472-concatenated-words) |
 | [0474-ones-and-zeroes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0474-ones-and-zeroes) |
 | [0514-freedom-trail](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0514-freedom-trail) |
@@ -1249,4 +1250,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1622-fancy-sequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1622-fancy-sequence) |
 | [3171-find-subarray-with-bitwise-or-closest-to-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3171-find-subarray-with-bitwise-or-closest-to-k) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
+## String Matching
+|  |
+| ------- |
+| [0459-repeated-substring-pattern](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0459-repeated-substring-pattern) |
 <!---LeetCode Topics End-->
