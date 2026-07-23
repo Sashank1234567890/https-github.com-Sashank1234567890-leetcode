@@ -10,28 +10,19 @@ public:
     }
     
     vector<vector<int>> getIntervals() {
-        vector<vector<int>>ans;
-        int start=-1;
-        int end=-1;
-        for(int x:st){
-         if(start==-1){
-            start=x;
-            end=x;
-         }else{
-            if(x==end+1)
-              end=x;
-            else{
-                ans.push_back({start,end});
-                start=x;
-                end=x;
-            }  
-         }
+        vector<vector<int>> ans;
 
-       
+        for (int x : st) {
+
+            if (ans.empty() || x > ans.back()[1] + 1) {
+                ans.push_back({x, x});
+            } else {
+                ans.back()[1] = x;
+            }
         }
-        if(start!=-1)
-         ans.push_back({start,end});
-   return ans;
+
+        return ans;
+
     }
 };
 
