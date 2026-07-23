@@ -344,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2322-minimum-score-after-removals-on-a-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2322-minimum-score-after-removals-on-a-tree) |
+| [2348-number-of-zero-filled-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2348-number-of-zero-filled-subarrays) |
 | [2366-minimum-replacements-to-sort-the-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2366-minimum-replacements-to-sort-the-array) |
 | [2389-longest-subsequence-with-limited-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2389-longest-subsequence-with-limited-sum) |
 | [2392-build-a-matrix-with-conditions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2392-build-a-matrix-with-conditions) |
@@ -738,6 +739,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2081-sum-of-k-mirror-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2081-sum-of-k-mirror-numbers) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2101-detonate-the-maximum-bombs) |
 | [2338-count-the-number-of-ideal-arrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2338-count-the-number-of-ideal-arrays) |
+| [2348-number-of-zero-filled-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2348-number-of-zero-filled-subarrays) |
 | [2366-minimum-replacements-to-sort-the-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2366-minimum-replacements-to-sort-the-array) |
 | [2440-create-components-with-same-value](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2440-create-components-with-same-value) |
 | [2485-find-the-pivot-integer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2485-find-the-pivot-integer) |
