@@ -1,56 +1,29 @@
 class Solution
 {
     public:
-
-        vector<int> buildLPS(string & s)
+        bool repeatedSubstringPattern(string s)
         {
+            int n = s.length();
 
-            int n = s.size();
-
-            vector<int> lps(n, 0);
-
-            int i = 1;
-            int len = 0;
-
-            while (i < n)
+            for (int l = 1; l <= n / 2; l++)
             {
 
-                if (s[i] == s[len])
+                if (n % l == 0)
                 {
+                    int times = n / l;
 
-                    len++;
-                    lps[i] = len;
-                    i++;
-                }
-                else
-                {
+                    string pattern = s.substr(0, l);
+                    string newStr = "";
+                    while (times--)
+                    {
+                        newStr += pattern;
+                    }
 
-                    if (len == 0)
-                    {
-                        lps[i] = 0;
-                        i++;
-                    }
-                    else
-                    {
-                        len = lps[len - 1];
-                    }
+                    if (newStr == s)
+                        return true;
                 }
             }
 
-            return lps;
+            return false;
         }
-
-    bool repeatedSubstringPattern(string s)
-    {
-
-        int n = s.size();
-
-        vector<int> lps = buildLPS(s);
-
-        int len = lps[n - 1];
-
-       	//n-len give th lonegest len repeating
-
-        return (len > 0 && n % (n - len) == 0);
-    }
 };
