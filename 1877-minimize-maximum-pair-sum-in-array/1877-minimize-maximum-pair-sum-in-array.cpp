@@ -1,16 +1,36 @@
 class Solution {
 public:
     int minPairSum(vector<int>& nums) {
-        int n=nums.size();
-        if(n==2)
-        return nums[1]+nums[0];
-        ranges::sort(nums);
-        int ans=0;
 
-        for(int i=0;i<n/2;i++)
-             ans=max(ans,nums[i]+nums[n-i-1]);
+        const int MAX = 100000;
 
-        return ans ;
-        
+        vector<int> freq(MAX + 1, 0);
+
+        for (int x : nums)
+            freq[x]++;
+
+        int i = 0;
+        int j = MAX;
+
+        int ans = 0;
+
+        while (i <= j) {
+
+            while (i <= j && freq[i] == 0)
+                i++;
+
+            while (i <= j && freq[j] == 0)
+                j--;
+
+            if (i > j)
+                break;
+
+            ans = max(ans, i + j);
+
+            freq[i]--;
+            freq[j]--;
+        }
+
+        return ans;
     }
 };
