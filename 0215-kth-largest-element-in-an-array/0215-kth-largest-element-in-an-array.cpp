@@ -2,50 +2,54 @@ class Solution
 {
     public:
 
-        int partition_algo(vector<int> &nums, int L, int R)
+        int partition(vector<int> &nums, int l, int h)
         {
 
-            int P = nums[L];
-            int i = L + 1;
-            int j = R;
+            int randomIndex = l + rand() % (h - l + 1);
+            swap(nums[l], nums[randomIndex]);
+
+            int pivot = nums[l];
+            int i = l + 1;
+            int j = h;
 
             while (i <= j)
             {
 
-                if (nums[i] < P && nums[j] > P)
-                {
+                while (i <= h && nums[i] >= pivot)
+                    i++;
+
+                while (j >= l + 1 && nums[j] < pivot)
+                    j--;
+
+                if (i < j)
                     swap(nums[i], nums[j]);
-                    i++;
-                    j--;
-                }
-
-                if (nums[i] >= P)
-                    i++;
-
-                if (nums[j] <= P)
-                    j--;
             }
 
-            swap(nums[L], nums[j]);
+            swap(nums[l], nums[j]);
             return j;
         }
 
-    int quickSelect(vector<int> &nums, int L, int R, int k)
+    int quickSelect(vector<int> &nums, int l, int h, int k)
     {
 
-        int pivot_idx = partition_algo(nums, L, R);
+        if (l == h)
+            return nums[l];
 
-        if (pivot_idx == k - 1)
-            return nums[pivot_idx];
+        int idx = partition(nums, l, h);
 
-        if (pivot_idx > k - 1)
-            return quickSelect(nums, L, pivot_idx - 1, k);
+        if (idx == k - 1)
+            return nums[idx];
 
-        return quickSelect(nums, pivot_idx + 1, R, k);
+        if (idx > k - 1)
+            return quickSelect(nums, l, idx - 1, k);
+
+        return quickSelect(nums, idx + 1, h, k);
     }
 
     int findKthLargest(vector<int> &nums, int k)
     {
+
+        srand(time(0));
 
         return quickSelect(nums, 0, nums.size() - 1, k);
     }
