@@ -371,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2439-minimize-maximum-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2439-minimize-maximum-of-array) |
 | [2440-create-components-with-same-value](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2440-create-components-with-same-value) |
 | [2444-count-subarrays-with-fixed-bounds](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2444-count-subarrays-with-fixed-bounds) |
+| [2446-determine-if-two-events-have-conflict](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2446-determine-if-two-events-have-conflict) |
 | [2448-minimum-cost-to-make-array-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2448-minimum-cost-to-make-array-equal) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2528-maximize-the-minimum-powered-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2528-maximize-the-minimum-powered-city) |
@@ -496,6 +497,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2131-longest-palindrome-by-concatenating-two-letter-words) |
 | [2405-optimal-partition-of-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2405-optimal-partition-of-string) |
+| [2446-determine-if-two-events-have-conflict](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2446-determine-if-two-events-have-conflict) |
 | [2516-take-k-of-each-character-from-left-and-right](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2516-take-k-of-each-character-from-left-and-right) |
 | [2573-find-the-string-with-lcp](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2573-find-the-string-with-lcp) |
 | [2953-count-complete-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2953-count-complete-substrings) |
