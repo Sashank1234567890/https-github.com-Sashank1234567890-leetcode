@@ -5,8 +5,8 @@ class Solution
         int partition(vector<int> &nums, int l, int h)
         {
 
-            int randomIndex = l + rand() % (h - l + 1);
-            swap(nums[l], nums[randomIndex]);
+            // int randomIndex = l + rand() % (h - l + 1);
+            // swap(nums[l], nums[randomIndex]);
 
             int pivot = nums[l];
             int i = l + 1;
