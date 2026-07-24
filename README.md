@@ -248,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0334-increasing-triplet-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
 | [0399-evaluate-division](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0399-evaluate-division) |
+| [0435-non-overlapping-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0472-concatenated-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0472-concatenated-words) |
 | [0474-ones-and-zeroes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0474-ones-and-zeroes) |
@@ -515,6 +516,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0042-trapping-rain-water) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0392-is-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0392-is-subsequence) |
+| [0435-non-overlapping-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0458-poor-pigs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0458-poor-pigs) |
 | [0472-concatenated-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0472-concatenated-words) |
 | [0474-ones-and-zeroes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0474-ones-and-zeroes) |
@@ -657,6 +659,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0075-sort-colors) |
 | [0332-reconstruct-itinerary](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0332-reconstruct-itinerary) |
+| [0435-non-overlapping-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0472-concatenated-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0472-concatenated-words) |
 | [0561-array-partition](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0561-array-partition) |
@@ -1081,6 +1084,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0011-container-with-most-water) |
 | [0135-candy](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0135-candy) |
 | [0334-increasing-triplet-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0334-increasing-triplet-subsequence) |
+| [0435-non-overlapping-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0561-array-partition](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0561-array-partition) |
 | [0649-dota2-senate](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0649-dota2-senate) |
