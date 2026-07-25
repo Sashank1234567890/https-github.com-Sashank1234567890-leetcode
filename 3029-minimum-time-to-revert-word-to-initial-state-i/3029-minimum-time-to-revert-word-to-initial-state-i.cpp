@@ -1,19 +1,8 @@
 class Solution {
 public:
     
-    bool check(string &word, int i) {
-        int j = 0;
-        
-        while(i < word.length()) {
-            if(word[i] == word[j]) {
-                i++;
-                j++;
-            } else {
-                break;
-            }
-        }
-        
-        return i == word.length();
+    bool check(string &word, int i, int n) {
+        return word.substr(i, n-i) == word.substr(0, n-i);
     }
     
     int minimumTimeToInitialState(string word, int k) {
@@ -24,7 +13,7 @@ public:
         
         while(i < n) {
             
-            if(check(word, i)) {
+            if(check(word, i, n)) {
                 break;
             }
             
@@ -37,3 +26,4 @@ public:
         
     }
 };
+
