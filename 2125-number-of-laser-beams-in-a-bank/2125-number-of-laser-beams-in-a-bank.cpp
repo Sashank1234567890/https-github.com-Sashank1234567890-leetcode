@@ -1,24 +1,26 @@
 class Solution {
 public:
     int numberOfBeams(vector<string>& bank) {
-    int  cnt=0;
-    int prev=-1; 
-    for(int i=0;i<bank.size();i++){
-        int one=0;
-        for(int j=0;j<bank[i].size();j++){
-          one+=(bank[i][j]=='1');
+        int n = bank.size();
+        
+        int prevDeviceCount = 0;
+        int result    = 0;
+        
+        for(int i = 0; i<n; i++) {
+            
+            int currDeviceCount = 0;
+            for(char &ch : bank[i]) {
+                if(ch == '1') {
+                    currDeviceCount++;
+                }
+            }
+            
+            result += (prevDeviceCount * currDeviceCount);
+            
+            prevDeviceCount = currDeviceCount == 0 ? prevDeviceCount : currDeviceCount;
+            
         }
-        // cout<<one<<endl;
-        if(prev==-1){
-          prev=one;
-          continue;
-        }
-        if(one==0)
-          continue;
-        cnt+=(one*prev);
-        prev=one;
-    }
-
-      return cnt;  
+        
+        return result;
     }
 };
