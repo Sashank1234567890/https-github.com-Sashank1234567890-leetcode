@@ -522,6 +522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3006-find-beautiful-indices-in-the-given-array-i) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
+| [3029-minimum-time-to-revert-word-to-initial-state-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3029-minimum-time-to-revert-word-to-initial-state-i) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3227-vowels-game-in-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3227-vowels-game-in-a-string) |
 | [3258-count-substrings-that-satisfy-k-constraint-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3258-count-substrings-that-satisfy-k-constraint-i) |
@@ -1369,6 +1370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0459-repeated-substring-pattern](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0459-repeated-substring-pattern) |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3006-find-beautiful-indices-in-the-given-array-i) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
+| [3029-minimum-time-to-revert-word-to-initial-state-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3029-minimum-time-to-revert-word-to-initial-state-i) |
 ## Data Stream
 |  |
 | ------- |
@@ -1390,9 +1392,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3006-find-beautiful-indices-in-the-given-array-i) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
+| [3029-minimum-time-to-revert-word-to-initial-state-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3029-minimum-time-to-revert-word-to-initial-state-i) |
 ## Hash Function
 |  |
 | ------- |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3006-find-beautiful-indices-in-the-given-array-i) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
+| [3029-minimum-time-to-revert-word-to-initial-state-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3029-minimum-time-to-revert-word-to-initial-state-i) |
 <!---LeetCode Topics End-->
