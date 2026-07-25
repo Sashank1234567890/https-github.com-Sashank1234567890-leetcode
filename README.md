@@ -354,6 +354,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2106-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2106-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2108-find-first-palindromic-string-in-the-array) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
+| [2125-number-of-laser-beams-in-a-bank](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2125-number-of-laser-beams-in-a-bank) |
 | [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2131-longest-palindrome-by-concatenating-two-letter-words) |
 | [2134-minimum-swaps-to-group-all-1s-together-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2134-minimum-swaps-to-group-all-1s-together-ii) |
@@ -506,6 +507,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2038-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2038-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2108-find-first-palindromic-string-in-the-array) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
+| [2125-number-of-laser-beams-in-a-bank](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2125-number-of-laser-beams-in-a-bank) |
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2131-longest-palindrome-by-concatenating-two-letter-words) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2405-optimal-partition-of-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2405-optimal-partition-of-string) |
@@ -791,6 +793,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2038-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2038-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2081-sum-of-k-mirror-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2081-sum-of-k-mirror-numbers) |
 | [2101-detonate-the-maximum-bombs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2101-detonate-the-maximum-bombs) |
+| [2125-number-of-laser-beams-in-a-bank](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2125-number-of-laser-beams-in-a-bank) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2338-count-the-number-of-ideal-arrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2338-count-the-number-of-ideal-arrays) |
 | [2348-number-of-zero-filled-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2348-number-of-zero-filled-subarrays) |
@@ -1067,6 +1070,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1706-where-will-the-ball-fall](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1706-where-will-the-ball-fall) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
+| [2125-number-of-laser-beams-in-a-bank](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2125-number-of-laser-beams-in-a-bank) |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
 | [2392-build-a-matrix-with-conditions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2392-build-a-matrix-with-conditions) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
