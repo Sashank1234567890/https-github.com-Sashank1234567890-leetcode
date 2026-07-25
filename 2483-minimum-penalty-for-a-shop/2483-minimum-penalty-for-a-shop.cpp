@@ -1,35 +1,34 @@
-class Solution {
-public:
-    int bestClosingTime(string customers) {
+class Solution
+{
+    public:
+        int bestClosingTime(string customers)
+        {
+            int n = customers.length();
 
-        int n = customers.size();
+            int minHour = 0;
+            int penalty = count(begin(customers), end(customers), 'Y');
 
-        vector<int> prefixN(n + 1, 0);
-        vector<int> prefixY(n + 1, 0);
+            int minPenalty = penalty;
 
-        for (int i = 0; i < n; i++) {
-            prefixN[i + 1] = prefixN[i];
-            prefixY[i + 1] = prefixY[i];
+            for (int i = 0; i < n; i++)
+            {
 
-            if (customers[i] == 'N')
-                prefixN[i + 1]++;
-            else
-                prefixY[i + 1]++;
-        }
+                if (customers[i] == 'Y')
+                {
+                    penalty--;
+                }
+                else
+                {
+                    penalty++;
+                }
 
-        int ans = 0;
-        int mn = INT_MAX;
-
-        for (int j = 0; j <= n; j++) {
-
-            int penalty = prefixN[j] + (prefixY[n] - prefixY[j]);
-
-            if (penalty < mn) {
-                mn = penalty;
-                ans = j;
+                if (penalty < minPenalty)
+                {
+                    minHour = i + 1;
+                    minPenalty = penalty;
+                }
             }
-        }
 
-        return ans;
-    }
+            return minHour;
+        }
 };
