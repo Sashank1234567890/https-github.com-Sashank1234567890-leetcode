@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
+| [3085-minimum-deletions-to-make-string-k-special](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3085-minimum-deletions-to-make-string-k-special) |
 | [3224-minimum-array-changes-to-make-differences-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3224-minimum-array-changes-to-make-differences-equal) |
 | [3272-find-the-count-of-good-integers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3272-find-the-count-of-good-integers) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3312-sorted-gcd-pair-queries) |
@@ -530,6 +531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 | [3029-minimum-time-to-revert-word-to-initial-state-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3029-minimum-time-to-revert-word-to-initial-state-i) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
+| [3085-minimum-deletions-to-make-string-k-special](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3085-minimum-deletions-to-make-string-k-special) |
 | [3227-vowels-game-in-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3227-vowels-game-in-a-string) |
 | [3258-count-substrings-that-satisfy-k-constraint-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3258-count-substrings-that-satisfy-k-constraint-i) |
 | [3261-count-substrings-that-satisfy-k-constraint-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3261-count-substrings-that-satisfy-k-constraint-ii) |
@@ -622,6 +624,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2244-minimum-rounds-to-complete-all-tasks](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2244-minimum-rounds-to-complete-all-tasks) |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
 | [2870-minimum-number-of-operations-to-make-array-empty](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2870-minimum-number-of-operations-to-make-array-empty) |
+| [3085-minimum-deletions-to-make-string-k-special](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3085-minimum-deletions-to-make-string-k-special) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 ## Union-Find
 |  |
@@ -740,6 +743,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2968-apply-operations-to-maximize-frequency-score) |
 | [2971-find-polygon-with-the-largest-perimeter](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2971-find-polygon-with-the-largest-perimeter) |
+| [3085-minimum-deletions-to-make-string-k-special](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3085-minimum-deletions-to-make-string-k-special) |
 | [3346-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3346-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3347-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3347-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
@@ -1180,6 +1184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2870-minimum-number-of-operations-to-make-array-empty](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2870-minimum-number-of-operations-to-make-array-empty) |
 | [2971-find-polygon-with-the-largest-perimeter](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2971-find-polygon-with-the-largest-perimeter) |
+| [3085-minimum-deletions-to-make-string-k-special](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3085-minimum-deletions-to-make-string-k-special) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3357-minimize-the-maximum-adjacent-element-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3357-minimize-the-maximum-adjacent-element-difference) |
 | [3439-reschedule-meetings-for-maximum-free-time-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3439-reschedule-meetings-for-maximum-free-time-i) |
