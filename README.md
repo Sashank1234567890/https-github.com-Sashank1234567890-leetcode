@@ -328,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1578-minimum-time-to-make-rope-colorful](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1578-minimum-time-to-make-rope-colorful) |
 | [1608-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1608-special-array-with-x-elements-greater-than-or-equal-x) |
 | [1630-arithmetic-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1630-arithmetic-subarrays) |
+| [1642-furthest-building-you-can-reach](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1642-furthest-building-you-can-reach) |
 | [1662-check-if-two-string-arrays-are-equivalent](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1695-maximum-erasure-value](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1695-maximum-erasure-value) |
@@ -867,6 +868,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1488-avoid-flood-in-the-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1488-avoid-flood-in-the-city) |
 | [1514-path-with-maximum-probability](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1514-path-with-maximum-probability) |
+| [1642-furthest-building-you-can-reach](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1642-furthest-building-you-can-reach) |
 | [2285-maximum-total-importance-of-roads](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2285-maximum-total-importance-of-roads) |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
 | [2551-put-marbles-in-bags](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2551-put-marbles-in-bags) |
@@ -1147,6 +1149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1488-avoid-flood-in-the-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1488-avoid-flood-in-the-city) |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1561-maximum-number-of-coins-you-can-get) |
 | [1578-minimum-time-to-make-rope-colorful](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1578-minimum-time-to-make-rope-colorful) |
+| [1642-furthest-building-you-can-reach](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1642-furthest-building-you-can-reach) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
