@@ -10,29 +10,29 @@ class Solution
                 freq[ch - 'a']++;
             }
 
-            int result = word.length();
+            sort(begin(freq), end(freq));
+
+            int result = INT_MAX;
+            int deleted_till_now = 0;
 
             for (int i = 0; i < 26; i++)
             {
 
-                int del = 0;
+                int minFreq = freq[i];
+                int temp = deleted_till_now;
 
-                for (int j = 0; j < 26; j++)
+                for (int j = 25; j > i; j--)
                 {
-                    if (i == j) continue;
+                    if (freq[j] - freq[i] <= k)
+                        break;
 
-                    if (freq[j] < freq[i])
-                    {
-                        del += freq[j];
-                    }
-                    else if (abs(freq[j] - freq[i]) > k)
-                    {
-                        del += abs(freq[j] - freq[i] - k);
-                    }
+                    temp += freq[j] - minFreq - k;
                 }
 
-                result = min(result, del);
+                result = min(result, temp);
+                deleted_till_now += minFreq;
             }
+
             return result;
         }
 };
