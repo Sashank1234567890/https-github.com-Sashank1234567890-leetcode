@@ -1,29 +1,39 @@
 class Solution {
 public:
     int findLeastNumOfUniqueInts(vector<int>& arr, int k) {
+        int n = arr.size();
         unordered_map<int, int> mp;
-        
+
         for(int &x : arr) {
             mp[x]++;
         }
 
-        vector<int> freq;
-        
-        for(auto &it : mp) {
-            freq.push_back(it.second);
-        }
-        
-        sort(begin(freq), end(freq));
+        vector<int> freqCount(n+1);
+        //freqCount[i] = number of elements (types) having frequency = i
 
-        for(int i = 0; i < freq.size(); i++) {
-            
-            k -= freq[i];
-            
-            if(k < 0) {
-                return freq.size() - i;
+        int uniqueTypes = mp.size();
+
+        for(auto &it : mp) {
+            int freq = it.second;
+            freqCount[freq]++;
+        }
+
+
+        for(int freq = 1; freq <= n; freq++) {
+
+            int typesICanDelete = min(k/freq, freqCount[freq]);
+
+            k -= (typesICanDelete * freq);
+
+            uniqueTypes -= typesICanDelete;
+
+            if(k <= freq) {
+                return uniqueTypes;
             }
         }
-        
-        return 0; 
+
+        return 0;
+
+
     }
 };
