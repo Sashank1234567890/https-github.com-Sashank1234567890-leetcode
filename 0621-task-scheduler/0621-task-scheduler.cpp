@@ -1,21 +1,32 @@
 class Solution
 {
     public:
-        int leastInterval(vector<char> &tasks, int n)
+        int leastInterval(vector<char> &tasks, int p)
         {
-            vector<int> freq(26, 0);
-            int cnt = 0;
-            for (char &x: tasks)
+            int n = tasks.size();
+
+            if (p == 0)
+                return n;
+
+            int counter[26] = { 0 };
+            for (char &ch: tasks)
             {
-                freq[x - 'A']++;
-                cnt = max(cnt, freq[x - 'A']);
+                counter[ch - 'A']++;
             }
-            int ans = (cnt - 1) *(n + 1);
-            for (int x: freq)
+
+            sort(begin(counter), end(counter));
+
+            int chunks = counter[25] - 1;
+            int idolSpots = chunks * p;
+
+            for (int i = 24; i >= 0; i--)
             {
-                if (cnt == x)
-                    ans++;
+                idolSpots -= min(chunks, counter[i]);
             }
-            return ans > tasks.size() ? ans : (int) tasks.size();
+
+            if (idolSpots > 0)
+                return n + idolSpots;
+
+            return n;
         }
 };
