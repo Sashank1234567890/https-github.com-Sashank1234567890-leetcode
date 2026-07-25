@@ -1,34 +1,30 @@
 class Solution
 {
     public:
-        string customSortString(string order, string s)
+        string customSortString(string order, string str)
         {
+            int count[26] = { 0 };
 
-            unordered_map<char, int> mp;
+            for (char &x: str)
+                count[x - 'a']++;
 
-            for (int i = 0; i < order.size(); i++)
-                mp[order[i]] = i;
-
-            auto cmp =[& ](char a, char b)
+            string result = "";
+            for (char &ch: order)
             {
+                while (count[ch - 'a']--)
+                {
+                    result.push_back(ch);
+                }
+            }
 
-                bool ina = mp.contains(a);
-                bool inb = mp.contains(b);
+            for (char &ch: str)
+            {
+                if (count[ch - 'a'] > 0)
+                {
+                    result.push_back(ch);
+                }
+            }
 
-                if (ina && inb)
-                    return mp[a] < mp[b];
-
-                if (ina)
-                    return true;
-
-                if (inb)
-                    return false;
-
-                return false;
-            };
-
-            sort(s.begin(), s.end(), cmp);
-
-            return s;
+            return result;
         }
 };
