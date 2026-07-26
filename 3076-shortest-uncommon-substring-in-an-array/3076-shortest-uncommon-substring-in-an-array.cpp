@@ -1,46 +1,56 @@
 class Solution {
 public:
     vector<string> shortestSubstrings(vector<string>& arr) {
-        vector<string> result;
-        unordered_map<string, int> unique_substr;
 
-        for (string& str : arr) {
+        unordered_map<string_view, int> freq;
 
-            unordered_set<string> seen; 
+        for (string &s : arr) {
 
-            for (int i = 0; i < str.length(); i++) {
-                for (int j = i + 1; j <= str.length(); j++) {
+            unordered_set<string_view> seen;
 
-                    string substring = str.substr(i, j - i);
-                    if (seen.find(substring) == seen.end()) {
-                        unique_substr[substring]++;
-                        seen.insert(substring);
+            int n = s.size();
+
+            for (int i = 0; i < n; i++) {
+                for (int len = 1; i + len <= n; len++) {
+
+                    string_view sub(s.data() + i, len);
+
+                    if (!seen.count(sub)) {
+                        seen.insert(sub);
+                        freq[sub]++;
                     }
-
                 }
             }
         }
-        for (const string& str : arr) {
-            string shortest = "";
 
-            for (int i = 0; i < str.length(); i++) {
-                for (int j = i + 1; j <= str.length(); j++) {
+        vector<string> ans;
 
-                    string substring = str.substr(i, j - i);
+        for (string &s : arr) {
 
-                    if (unique_substr[substring] == 1 &&
-                        (shortest == "" || substring.length() < shortest.length() 
-                        || (substring.length() == shortest.length() && substring < shortest))) {
+            string best = "";
 
-                        shortest = substring;
-                    
+            int n = s.size();
+
+            for (int i = 0; i < n; i++) {
+                for (int len = 1; i + len <= n; len++) {
+
+                    string_view sub(s.data() + i, len);
+
+                    if (freq[sub] == 1) {
+
+                        if (best.empty() ||
+                            len < best.size() ||
+                            (len == best.size() && sub < string_view(best))) {
+
+                            best = string(sub);
+                        }
                     }
-
                 }
             }
 
-            result.push_back(shortest);
+            ans.push_back(best);
         }
-        return result;
+
+        return ans;
     }
 };
