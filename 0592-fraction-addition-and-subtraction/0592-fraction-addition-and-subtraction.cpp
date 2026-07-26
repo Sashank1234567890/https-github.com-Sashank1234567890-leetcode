@@ -1,24 +1,51 @@
 class Solution {
 public:
-    string fractionAddition(string expression) {
+    string fractionAddition(string expr) {
+        int nume = 0;
+        int deno = 1;
 
-        stringstream ss(expression);
+        int i = 0;
+        int n = expr.length();
+        while(i < n) {
+            int currNume = 0;
+            int currDeno = 0;
 
-        long long num = 0, den = 1;
-        long long a, b;
-        char slash;
+            bool isNeg = (expr[i] == '-');
+            
+            if(expr[i] == '+' || expr[i] == '-') {
+                i++;
+            }
 
-        while (ss >> a >> slash >> b) {
+            //Build the currNume
+            while(i < n && isdigit(expr[i])) {
+                int val = expr[i] - '0';
+                currNume = (currNume*10) + val;
+                i++;
+            }
 
-            num = num * b + a * den;
-            den = den * b;
+            i++; //numerator / denominator //skipiing the divisrio character '/'
 
-            long long g = gcd(abs(num), den);
+            if(isNeg == true) {
+                currNume *= -1;
+            }
 
-            num /= g;
-            den /= g;
+            //Build the currDeno
+            while(i < n && isdigit(expr[i])) {
+                int val = expr[i] - '0';
+                currDeno = (currDeno * 10) + val;
+                i++;
+            }
+
+            nume = nume * currDeno + currNume * deno;
+            deno = deno * currDeno;
         }
 
-        return to_string(num) + "/" + to_string(den);
+       
+        int GCD = abs(__gcd(nume, deno)); 
+
+        nume /= GCD; 
+        deno /= GCD; 
+
+        return to_string(nume) + "/" + to_string(deno); 
     }
 };
