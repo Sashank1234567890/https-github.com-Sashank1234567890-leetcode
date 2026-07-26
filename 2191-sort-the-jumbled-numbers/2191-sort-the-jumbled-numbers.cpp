@@ -32,7 +32,7 @@ public:
             vec.push_back({mappedNum, i});
         }
 
-        sort(begin(vec), end(vec));
+        stable_sort(begin(vec), end(vec));
         vector<int> result;
 
         for(auto &p : vec) {
