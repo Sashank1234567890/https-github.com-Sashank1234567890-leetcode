@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1488-avoid-flood-in-the-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1488-avoid-flood-in-the-city) |
 | [1630-arithmetic-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1630-arithmetic-subarrays) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1695-maximum-erasure-value](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1695-maximum-erasure-value) |
 | [1743-restore-the-array-from-adjacent-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1743-restore-the-array-from-adjacent-pairs) |
@@ -337,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1608-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1608-special-array-with-x-elements-greater-than-or-equal-x) |
 | [1630-arithmetic-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1630-arithmetic-subarrays) |
 | [1642-furthest-building-you-can-reach](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1642-furthest-building-you-can-reach) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1662-check-if-two-string-arrays-are-equivalent](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1695-maximum-erasure-value](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1695-maximum-erasure-value) |
@@ -930,6 +932,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1695-maximum-erasure-value](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1695-maximum-erasure-value) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1871-jump-game-vii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1871-jump-game-vii) |
@@ -1035,6 +1038,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1488-avoid-flood-in-the-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1488-avoid-flood-in-the-city) |
 | [1539-kth-missing-positive-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1539-kth-missing-positive-number) |
 | [1608-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1608-special-array-with-x-elements-greater-than-or-equal-x) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1760-minimum-limit-of-balls-in-a-bag) |
 | [1793-maximum-score-of-a-good-subarray](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1793-maximum-score-of-a-good-subarray) |
 | [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
@@ -1227,6 +1231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0930-binary-subarrays-with-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0930-binary-subarrays-with-sum) |
 | [1208-get-equal-substrings-within-budget](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1208-get-equal-substrings-within-budget) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1871-jump-game-vii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1871-jump-game-vii) |
