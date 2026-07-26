@@ -291,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0864-shortest-path-to-get-all-keys](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0864-shortest-path-to-get-all-keys) |
 | [0881-boats-to-save-people](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0881-boats-to-save-people) |
+| [0896-monotonic-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0896-monotonic-array) |
 | [0904-fruit-into-baskets](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0904-fruit-into-baskets) |
 | [0905-sort-array-by-parity](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0905-sort-array-by-parity) |
 | [0909-snakes-and-ladders](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0909-snakes-and-ladders) |
