@@ -5,13 +5,7 @@ class Solution
         {
             auto lambda =[& ](int a, int b)
             {
-                bool x = (a % 2 == 0);
-                bool y = (b % 2 == 0);
-
-                if (x == y)
-                    return x < y;
-
-                return x > y;
+                return a%2 < b%2;
             };
             ranges::sort(nums, lambda);
             return nums;
