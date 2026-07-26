@@ -335,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1502-can-make-arithmetic-progression-from-sequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1502-can-make-arithmetic-progression-from-sequence) |
 | [1503-last-moment-before-all-ants-fall-out-of-a-plank](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1503-last-moment-before-all-ants-fall-out-of-a-plank) |
 | [1514-path-with-maximum-probability](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1514-path-with-maximum-probability) |
+| [1535-find-the-winner-of-an-array-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1535-find-the-winner-of-an-array-game) |
 | [1539-kth-missing-positive-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1539-kth-missing-positive-number) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1561-maximum-number-of-coins-you-can-get) |
@@ -1358,6 +1359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0985-sum-of-even-numbers-after-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0985-sum-of-even-numbers-after-queries) |
 | [1260-shift-2d-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1260-shift-2d-grid) |
 | [1503-last-moment-before-all-ants-fall-out-of-a-plank](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1503-last-moment-before-all-ants-fall-out-of-a-plank) |
+| [1535-find-the-winner-of-an-array-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1535-find-the-winner-of-an-array-game) |
 | [1706-where-will-the-ball-fall](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1706-where-will-the-ball-fall) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Number Theory
