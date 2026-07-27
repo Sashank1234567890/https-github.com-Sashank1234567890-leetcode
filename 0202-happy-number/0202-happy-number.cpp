@@ -14,17 +14,9 @@ public:
 
     bool isHappy(int n) {
 
-        int slow = n;
-        int fast = n;
+        while (n != 1 && n != 4)
+            n = nextNum(n);
 
-        while (true) {
-            slow = nextNum(slow);
-            fast = nextNum(nextNum(fast));
-
-            if (slow == fast)
-                break;
-        }
-
-        return slow == 1;
+        return n == 1;
     }
 };
