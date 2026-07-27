@@ -369,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2007-find-original-array-from-doubled-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2007-find-original-array-from-doubled-array) |
 | [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2009-minimum-number-of-operations-to-make-array-continuous) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2050-parallel-courses-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2050-parallel-courses-iii) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 | [2070-most-beautiful-item-for-each-query](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2070-most-beautiful-item-for-each-query) |
@@ -598,6 +599,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1871-jump-game-vii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1871-jump-game-vii) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2050-parallel-courses-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2050-parallel-courses-iii) |
 | [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
@@ -716,6 +718,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1755-closest-subsequence-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1755-closest-subsequence-sum) |
 | [1793-maximum-score-of-a-good-subarray](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1793-maximum-score-of-a-good-subarray) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2071-maximum-number-of-tasks-you-can-assign) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2108-find-first-palindromic-string-in-the-array) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
@@ -766,6 +769,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1921-eliminate-maximum-number-of-monsters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1921-eliminate-maximum-number-of-monsters) |
 | [2007-find-original-array-from-doubled-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2007-find-original-array-from-doubled-array) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2070-most-beautiful-item-for-each-query](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2070-most-beautiful-item-for-each-query) |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2071-maximum-number-of-tasks-you-can-assign) |
 | [2092-find-all-people-with-secret](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2092-find-all-people-with-secret) |
@@ -1007,6 +1011,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1018-binary-prefix-divisible-by-5](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1755-closest-subsequence-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1755-closest-subsequence-sum) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1930-unique-length-3-palindromic-subsequences) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2322-minimum-score-after-removals-on-a-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2322-minimum-score-after-removals-on-a-tree) |
 | [2401-longest-nice-subarray](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2401-longest-nice-subarray) |
 | [2749-minimum-operations-to-make-the-integer-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2749-minimum-operations-to-make-the-integer-zero) |
@@ -1034,6 +1039,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [1755-closest-subsequence-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1755-closest-subsequence-sum) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3539-find-sum-of-array-product-of-magical-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3539-find-sum-of-array-product-of-magical-sequences) |
 ## Minimum Spanning Tree
 |  |
@@ -1079,6 +1085,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1970-last-day-where-you-can-still-cross](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2009-minimum-number-of-operations-to-make-array-continuous) |
 | [2024-maximize-the-confusion-of-an-exam](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2024-maximize-the-confusion-of-an-exam) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 | [2070-most-beautiful-item-for-each-query](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2070-most-beautiful-item-for-each-query) |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2071-maximum-number-of-tasks-you-can-assign) |
@@ -1360,6 +1367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0352-data-stream-as-disjoint-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0352-data-stream-as-disjoint-intervals) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2251-number-of-flowers-in-full-bloom) |
 | [2762-continuous-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2762-continuous-subarrays) |
 | [3607-power-grid-maintenance](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3607-power-grid-maintenance) |
