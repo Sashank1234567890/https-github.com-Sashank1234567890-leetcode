@@ -853,6 +853,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0587-erect-the-fence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0587-erect-the-fence) |
 | [0592-fraction-addition-and-subtraction](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0670-maximum-swap](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0670-maximum-swap) |
 | [0788-rotated-digits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0788-rotated-digits) |
 | [0837-new-21-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0837-new-21-game) |
 | [0899-orderly-queue](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0899-orderly-queue) |
@@ -1227,6 +1228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0561-array-partition](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0621-task-scheduler) |
 | [0649-dota2-senate](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0649-dota2-senate) |
+| [0670-maximum-swap](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0670-maximum-swap) |
 | [0826-most-profit-assigning-work](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0826-most-profit-assigning-work) |
 | [0881-boats-to-save-people](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0881-boats-to-save-people) |
 | [0976-largest-perimeter-triangle](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0976-largest-perimeter-triangle) |
