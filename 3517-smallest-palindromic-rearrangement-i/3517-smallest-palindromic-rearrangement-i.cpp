@@ -1,23 +1,14 @@
 class Solution {
 public:
     string smallestPalindrome(string s) {
-        unordered_map<int, int> freq;
+        int n   = s.length();
+        int mid = n/2;
 
-        for (char x : s)
-            freq[x - 'a']++;
-
-        string left = "", right = "", mid = "";
-
-        for (int i = 0; i < 26; i++) {
-            int pairs = freq[i] / 2;
-
-            left += string(pairs, char(i + 'a'));
-            right = string(pairs, char(i + 'a')) + right;
-
-            if (freq[i] % 2)
-                mid = char(i + 'a');
+        sort(s.begin(), s.begin() + mid); 
+        for (int i = 0; i < mid; i++) {
+            s[n - 1 - i] = s[i];
         }
 
-        return left + mid + right;
+        return s;
     }
 };
