@@ -15,6 +15,8 @@ class Solution
         unordered_map<int, int> mp;
     TreeNode* build(vector<int> &pre, vector<int> &in, int &idx, int l, int r)
     {
+        if (l > r)
+            return NULL;
         int n = pre.size();
         if (idx == n)
             return NULL;
@@ -22,8 +24,8 @@ class Solution
         if (mp.find(val) == mp.end())
             return NULL;
 
-        if (mp[val] > r)
-            return NULL;
+       	// if (mp[val] > r)
+       	//     return NULL;
 
         idx++;
         TreeNode *root = new TreeNode(val);
