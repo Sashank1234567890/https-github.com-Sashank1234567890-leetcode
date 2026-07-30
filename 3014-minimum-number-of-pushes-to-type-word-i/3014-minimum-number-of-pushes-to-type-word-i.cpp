@@ -1,16 +1,11 @@
 class Solution {
 public:
     int minimumPushes(string word) {
-     unordered_map<int,int>mp;
-        int cost=0;
-        int i=2;
-        for(char x:word){
-            if(i>9)
-              i=2;
-            mp[i]++;
-            cost+=mp[i];
-            i++;
-        }
-            
-   return cost; }
+        int n = word.size();
+
+        return min(n, 8)
+             + 2 * min(max(n - 8, 0), 8)
+             + 3 * min(max(n - 16, 0), 8)
+             + 4 * max(n - 24, 0);
+    }
 };
