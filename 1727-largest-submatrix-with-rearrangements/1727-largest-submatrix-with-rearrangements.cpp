@@ -5,29 +5,39 @@ class Solution
         {
             int m = matrix.size();
             int n = matrix[0].size();
+            vector<pair<int, int>> prevHeights;
             int result = 0;
 
             for (int row = 0; row < m; row++)
             {
+                vector<pair<int, int>> heights;
+                vector<bool> seen = vector<bool> (n, false);
 
-                for (int col = 0; col < n; col++)
+                for (auto[height, col]: prevHeights)
                 {
-
-                    if (matrix[row][col] == 1 && row > 0)
+                    if (matrix[row][col] == 1)
                     {
-                        matrix[row][col] += matrix[row - 1][col];
+                        heights.push_back({ height + 1,col });
+                        seen[col] = true;
                     }
                 }
 
-                vector<int> currRow = matrix[row];
-                sort(begin(currRow), end(currRow), greater<int> ());
                 for (int col = 0; col < n; col++)
                 {
-                    int base = (col + 1);
-                    int height = currRow[col];
+                    if (seen[col] == false && matrix[row][col] == 1)
+                    {
+                        heights.push_back({ 1,col });
+                    }
+                }
 
+                for (int i = 0; i < heights.size(); i++)
+                {
+                    int base = (i + 1);
+                    int height = heights[i].first;
                     result = max(result, base *height);
                 }
+
+                prevHeights = heights;
             }
 
             return result;
