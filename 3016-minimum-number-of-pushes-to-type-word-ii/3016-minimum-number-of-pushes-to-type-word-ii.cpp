@@ -1,22 +1,35 @@
-class Solution {
-public:
-    int minimumPushes(string word) {
-        vector<int> freq(26, 0);
+class Solution
+{
+    public:
+        int minimumPushes(string word)
+        {
+            vector<int> freq(26, 0);
 
-        for (char c : word)
-            freq[c - 'a']++;
+            for (char c: word)
+                freq[c - 'a']++;
 
-        sort(freq.begin(), freq.end(), greater<int>());
+            int mx = 0;
+            for (int x: freq)
+                mx = max(mx, x);
 
-        int ans = 0;
+            vector<int> bucket(mx + 1, 0);
 
-        for (int i = 0; i < 26; i++) {
-            if (freq[i] == 0)
-                break;
+            for (int x: freq)
+                if (x)
+                    bucket[x]++;
 
-            ans += freq[i] * (i / 8 + 1);
+            int ans = 0;
+            int idx = 0;
+
+            for (int f = mx; f >= 1; f--)
+            {
+                while (bucket[f]--)
+                {
+                    ans += f *(idx / 8 + 1);
+                    idx++;
+                }
+            }
+
+            return ans;
         }
-
-        return ans;
-    }
 };
