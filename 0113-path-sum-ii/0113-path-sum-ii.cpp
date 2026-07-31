@@ -13,19 +13,24 @@ class Solution {
 public:
     vector<vector<int>> ans;
 
-    void dfs(TreeNode* root, int targetSum, vector<int>& path) {
+    void dfs(TreeNode* root, long long target, vector<int>& path) {
         if (!root)
             return;
 
         path.push_back(root->val);
-        targetSum -= root->val;
+        target -= root->val;
 
-        if (!root->left && !root->right && targetSum == 0) {
-            ans.push_back(path);
+       
+        if (!root->left && !root->right) {
+            if (target == 0)
+                ans.push_back(path);
+
+            path.pop_back();
+            return;
         }
 
-        dfs(root->left, targetSum, path);
-        dfs(root->right, targetSum, path);
+        dfs(root->left, target, path);
+        dfs(root->right, target, path);
 
         path.pop_back(); 
     }
