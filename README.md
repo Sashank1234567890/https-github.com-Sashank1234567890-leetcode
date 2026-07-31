@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0685-redundant-connection-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0685-redundant-connection-ii) |
 | [0778-swim-in-rising-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0778-swim-in-rising-water) |
 | [0802-find-eventual-safe-states](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0802-find-eventual-safe-states) |
+| [0814-binary-tree-pruning](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0814-binary-tree-pruning) |
 | [0827-making-a-large-island](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0827-making-a-large-island) |
 | [0839-similar-string-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0839-similar-string-groups) |
 | [0934-shortest-bridge](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0934-shortest-bridge) |
@@ -1220,6 +1221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0814-binary-tree-pruning](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0814-binary-tree-pruning) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [1110-delete-nodes-and-return-forest](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1110-delete-nodes-and-return-forest) |
 | [1361-validate-binary-tree-nodes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1361-validate-binary-tree-nodes) |
@@ -1235,6 +1237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0814-binary-tree-pruning](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0814-binary-tree-pruning) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [1110-delete-nodes-and-return-forest](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1110-delete-nodes-and-return-forest) |
 | [1361-validate-binary-tree-nodes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1361-validate-binary-tree-nodes) |
