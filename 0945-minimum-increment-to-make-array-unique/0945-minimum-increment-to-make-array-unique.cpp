@@ -3,22 +3,32 @@ class Solution
     public:
         int minIncrementForUnique(vector<int> &nums)
         {
+            int n = nums.size();
+            int maxElement = 0;
+            int moves = 0;
 
-            sort(nums.begin(), nums.end());
-
-            int ans = 0;
-
-            for (int i = 1; i < nums.size(); i++)
+            for (int val: nums)
             {
-
-                if (nums[i] <= nums[i - 1])
-                {
-
-                    ans += nums[i - 1] + 1 - nums[i];
-                    nums[i] = nums[i - 1] + 1;
-                }
+                maxElement = max(maxElement, val);
             }
 
-            return ans;
+            vector<int> count(n + maxElement, 0);
+
+            for (int val: nums)
+            {
+                count[val]++;
+            }
+
+            for (int i = 0; i < count.size(); i++)
+            {
+                if (count[i] <= 1) continue;
+
+                int extra = count[i] - 1;
+                count[i + 1] += extra;
+                count[i] = 1;
+                moves += extra;
+            }
+
+            return moves;
         }
 };
