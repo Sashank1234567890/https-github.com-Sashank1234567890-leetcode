@@ -1,56 +1,52 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
 class Solution {
 public:
 
-    int nextLeaf(stack<TreeNode*>& st) {
+    void morris(TreeNode* root, vector<int>& leaf) {
 
-        while (!st.empty()) {
+        TreeNode* curr = root;
 
-            TreeNode* curr = st.top();
-            st.pop();
+        while (curr) {
 
-            if (!curr->left && !curr->right)
-                return curr->val;
+            if (!curr->left) {
 
-            if (curr->right)
-                st.push(curr->right);
+                if (!curr->left && !curr->right)
+                    leaf.push_back(curr->val);
 
-            if (curr->left)
-                st.push(curr->left);
+                curr = curr->right;
+            }
+            else {
+
+                TreeNode* pred = curr->left;
+
+                while (pred->right && pred->right != curr)
+                    pred = pred->right;
+
+                if (!pred->right) {
+
+                    pred->right = curr;
+                    curr = curr->left;
+                }
+                else {
+
+                    pred->right = NULL;
+
+                  
+                    if (!pred->left)
+                        leaf.push_back(pred->val);
+
+                    curr = curr->right;
+                }
+            }
         }
-
-        return -1;
     }
 
     bool leafSimilar(TreeNode* root1, TreeNode* root2) {
 
-        stack<TreeNode*> st1, st2;
+        vector<int> leaf1, leaf2;
 
-        if (root1)
-            st1.push(root1);
+        morris(root1, leaf1);
+        morris(root2, leaf2);
 
-        if (root2)
-            st2.push(root2);
-
-        while (!st1.empty() && !st2.empty()) {
-
-            int leaf1 = nextLeaf(st1);
-            int leaf2 = nextLeaf(st2);
-
-            if (leaf1 != leaf2)
-                return false;
-        }
-
-        return st1.empty() && st2.empty();
+        return leaf1 == leaf2;
     }
 };
