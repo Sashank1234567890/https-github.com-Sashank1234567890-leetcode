@@ -1,42 +1,47 @@
 class Solution {
 public:
-    vector<vector<int>> directions
-    {
-        {-1, -1}, {-1, 0}, {-1, 1},
-        {0, -1}, {0, 0}, {0, 1},
-        {1, -1}, {1, 0}, {1, 1}
-    };
-    
     vector<vector<int>> imageSmoother(vector<vector<int>>& img) {
         int m = img.size();
         int n = img[0].size();
 
-        vector<vector<int>> result(m, vector<int>(n));
-        
+        vector<int> prevRow(n), currRow(n);
 
         for (int i = 0; i < m; i++) {
+
+            currRow = img[i];          // Save original current row
+
             for (int j = 0; j < n; j++) {
 
-                int sum = 0;
-                int count = 0;
+                int sum = 0, cnt = 0;
 
-               
-                for(auto &it : directions) {
-                
-                    int i_ = i + it[0];
-                    int j_ = j + it[1];
-                    
-                    if (0 <= i_ && i_ < m && 0 <= j_ && j_ < n) {
-                        sum += img[i_][j_];
-                        count += 1;
+                // Previous row
+                if (i > 0) {
+                    for (int c = max(0, j - 1); c <= min(n - 1, j + 1); c++) {
+                        sum += prevRow[c];
+                        cnt++;
                     }
                 }
 
-                result[i][j] = sum / count;
+                // Current row (original)
+                for (int c = max(0, j - 1); c <= min(n - 1, j + 1); c++) {
+                    sum += currRow[c];
+                    cnt++;
+                }
+
+                // Next row
+                if (i + 1 < m) {
+                    for (int c = max(0, j - 1); c <= min(n - 1, j + 1); c++) {
+                        sum += img[i + 1][c];
+                        cnt++;
+                    }
+                }
+
+                img[i][j] = sum / cnt;
             }
+
+            prevRow = currRow;
         }
-        
-        return result;
-        
+
+        return img;
     }
 };
