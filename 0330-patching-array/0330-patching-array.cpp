@@ -10,6 +10,7 @@ public:
                maxReach += nums[i];
                i++;
             } else {
+               cout<<maxReach+1<<" ";
                maxReach += (maxReach + 1);
                patch++;
             }
