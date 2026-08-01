@@ -12,27 +12,45 @@
 class Solution {
 public:
 
-    void preorder(TreeNode* root, vector<int>& leaf) {
+    int nextLeaf(stack<TreeNode*>& st) {
 
-        if (!root)
-            return;
+        while (!st.empty()) {
 
-        if (!root->left && !root->right) {
-            leaf.push_back(root->val);
-            return;
+            TreeNode* curr = st.top();
+            st.pop();
+
+            if (!curr->left && !curr->right)
+                return curr->val;
+
+            if (curr->right)
+                st.push(curr->right);
+
+            if (curr->left)
+                st.push(curr->left);
         }
 
-        preorder(root->left, leaf);
-        preorder(root->right, leaf);
+        return -1;
     }
 
     bool leafSimilar(TreeNode* root1, TreeNode* root2) {
 
-        vector<int> leaf1, leaf2;
+        stack<TreeNode*> st1, st2;
 
-        preorder(root1, leaf1);
-        preorder(root2, leaf2);
+        if (root1)
+            st1.push(root1);
 
-        return leaf1 == leaf2;
+        if (root2)
+            st2.push(root2);
+
+        while (!st1.empty() && !st2.empty()) {
+
+            int leaf1 = nextLeaf(st1);
+            int leaf2 = nextLeaf(st2);
+
+            if (leaf1 != leaf2)
+                return false;
+        }
+
+        return st1.empty() && st2.empty();
     }
 };
