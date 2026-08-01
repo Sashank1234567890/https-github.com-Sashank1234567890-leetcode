@@ -1,46 +1,41 @@
 class Solution {
 public:
+    vector<vector<int>> directions = {
+        {-1,-1},{-1,0},{-1,1},
+        {0,-1},{0,0},{0,1},
+        {1,-1},{1,0},{1,1}
+    };
+
     vector<vector<int>> imageSmoother(vector<vector<int>>& img) {
+
         int m = img.size();
         int n = img[0].size();
 
-        vector<int> prevRow(n), currRow(n);
-
         for (int i = 0; i < m; i++) {
-
-            currRow = img[i];          // Save original current row
-
             for (int j = 0; j < n; j++) {
 
-                int sum = 0, cnt = 0;
+                int sum = 0;
+                int cnt = 0;
 
-                // Previous row
-                if (i > 0) {
-                    for (int c = max(0, j - 1); c <= min(n - 1, j + 1); c++) {
-                        sum += prevRow[c];
+                for (auto &d : directions) {
+                    int r = i + d[0];
+                    int c = j + d[1];
+
+                    if (r >= 0 && r < m && c >= 0 && c < n) {
+                        sum += img[r][c] % 256;   // original value
                         cnt++;
                     }
                 }
 
-                // Current row (original)
-                for (int c = max(0, j - 1); c <= min(n - 1, j + 1); c++) {
-                    sum += currRow[c];
-                    cnt++;
-                }
+                int smooth = sum / cnt;
 
-                // Next row
-                if (i + 1 < m) {
-                    for (int c = max(0, j - 1); c <= min(n - 1, j + 1); c++) {
-                        sum += img[i + 1][c];
-                        cnt++;
-                    }
-                }
-
-                img[i][j] = sum / cnt;
+                img[i][j] = smooth * 256 + img[i][j];
             }
-
-            prevRow = currRow;
         }
+
+        for (int i = 0; i < m; i++)
+            for (int j = 0; j < n; j++)
+                img[i][j] /= 256;
 
         return img;
     }
