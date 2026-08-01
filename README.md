@@ -278,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0330-patching-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0330-patching-array) |
 | [0332-reconstruct-itinerary](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0334-increasing-triplet-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
@@ -1294,6 +1295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0011-container-with-most-water) |
 | [0135-candy](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0135-candy) |
+| [0330-patching-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0330-patching-array) |
 | [0334-increasing-triplet-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
