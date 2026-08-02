@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0872-leaf-similar-trees](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0872-leaf-similar-trees) |
 | [0934-shortest-bridge](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0934-shortest-bridge) |
 | [1020-number-of-enclaves](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1020-number-of-enclaves) |
+| [1026-maximum-difference-between-node-and-ancestor](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1110-delete-nodes-and-return-forest](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1110-delete-nodes-and-return-forest) |
 | [1192-critical-connections-in-a-network](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1192-critical-connections-in-a-network) |
 | [1233-remove-sub-folders-from-the-filesystem](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1233-remove-sub-folders-from-the-filesystem) |
@@ -1273,6 +1274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0814-binary-tree-pruning](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0814-binary-tree-pruning) |
 | [0872-leaf-similar-trees](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0872-leaf-similar-trees) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0958-check-completeness-of-a-binary-tree) |
+| [1026-maximum-difference-between-node-and-ancestor](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1110-delete-nodes-and-return-forest](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1110-delete-nodes-and-return-forest) |
 | [1361-validate-binary-tree-nodes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1361-validate-binary-tree-nodes) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
@@ -1295,6 +1297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0814-binary-tree-pruning](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0814-binary-tree-pruning) |
 | [0872-leaf-similar-trees](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0872-leaf-similar-trees) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0958-check-completeness-of-a-binary-tree) |
+| [1026-maximum-difference-between-node-and-ancestor](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1026-maximum-difference-between-node-and-ancestor) |
 | [1110-delete-nodes-and-return-forest](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1110-delete-nodes-and-return-forest) |
 | [1361-validate-binary-tree-nodes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1361-validate-binary-tree-nodes) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
