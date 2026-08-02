@@ -1,59 +1,38 @@
 /**
  *Definition for a binary tree node.
  *struct TreeNode {
- *    int val;
- *    TreeNode * left;
- *    TreeNode * right;
- *    TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *    TreeNode(int x, TreeNode *left, TreeNode *right)
- *        : val(x), left(left), right(right) {}
+ *   int val;
+ *   TreeNode * left;
+ *   TreeNode * right;
+ *   TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *   TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *   TreeNode(int x, TreeNode *left, TreeNode *right)
+ *       : val(x), left(left), right(right) {}
  *};
  */
-
 class Solution
 {
     public:
 
-        int ans;
+        int findMaxDiff(TreeNode *root, int minV, int maxV)
+        {
+            if (!root)
+                return abs(minV - maxV);
 
-    pair<int, int> find(TreeNode *root)
-    {
+            minV = min(root->val, minV);
+            maxV = max(root->val, maxV);
 
-        if (!root)
-            return {
-                INT_MAX,
-                INT_MIN
-            };
+            int l = findMaxDiff(root->left, minV, maxV);
+            int r = findMaxDiff(root->right, minV, maxV);
 
-        auto left = find(root->left);
-        auto right = find(root->right);
-
-        int subMin = min(left.first, right.first);
-        int subMax = max(left.second, right.second);
-
-        if (subMin != INT_MAX)
-            ans = max(ans, abs(root->val - subMin));
-
-        if (subMax != INT_MIN)
-            ans = max(ans, abs(root->val - subMax));
-
-        int curMin = min(root->val, subMin);
-        int curMax = max(root->val, subMax);
-
-        return {
-            curMin,
-            curMax
-        };
-    }
+            return max(l, r);
+        }
 
     int maxAncestorDiff(TreeNode *root)
     {
+        int minV = root->val;
+        int maxV = root->val;
 
-        ans = 0;
-
-        find(root);
-
-        return ans;
+        return findMaxDiff(root, minV, maxV);
     }
 };
