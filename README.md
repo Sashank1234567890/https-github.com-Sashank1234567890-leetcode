@@ -331,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0864-shortest-path-to-get-all-keys](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0864-shortest-path-to-get-all-keys) |
 | [0877-stone-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0877-stone-game) |
 | [0881-boats-to-save-people](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0881-boats-to-save-people) |
+| [0885-spiral-matrix-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0885-spiral-matrix-iii) |
 | [0896-monotonic-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0896-monotonic-array) |
 | [0904-fruit-into-baskets](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0904-fruit-into-baskets) |
 | [0905-sort-array-by-parity](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0905-sort-array-by-parity) |
@@ -1247,6 +1248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0827-making-a-large-island](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0827-making-a-large-island) |
 | [0835-image-overlap](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0835-image-overlap) |
 | [0864-shortest-path-to-get-all-keys](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0864-shortest-path-to-get-all-keys) |
+| [0885-spiral-matrix-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0885-spiral-matrix-iii) |
 | [0909-snakes-and-ladders](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0909-snakes-and-ladders) |
 | [0934-shortest-bridge](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0934-shortest-bridge) |
 | [1020-number-of-enclaves](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1020-number-of-enclaves) |
@@ -1553,6 +1555,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0498-diagonal-traverse) |
 | [0592-fraction-addition-and-subtraction](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0844-backspace-string-compare](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0844-backspace-string-compare) |
+| [0885-spiral-matrix-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0885-spiral-matrix-iii) |
 | [0985-sum-of-even-numbers-after-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0985-sum-of-even-numbers-after-queries) |
 | [1260-shift-2d-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1260-shift-2d-grid) |
 | [1503-last-moment-before-all-ants-fall-out-of-a-plank](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1503-last-moment-before-all-ants-fall-out-of-a-plank) |
