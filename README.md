@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0791-custom-sort-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0791-custom-sort-string) |
 | [0815-bus-routes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0815-bus-routes) |
 | [0839-similar-string-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0839-similar-string-groups) |
+| [0840-magic-squares-in-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0840-magic-squares-in-grid) |
 | [0859-buddy-strings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0859-buddy-strings) |
 | [0904-fruit-into-baskets](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0930-binary-subarrays-with-sum) |
@@ -326,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0827-making-a-large-island](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0827-making-a-large-island) |
 | [0835-image-overlap](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0835-image-overlap) |
 | [0839-similar-string-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0839-similar-string-groups) |
+| [0840-magic-squares-in-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0840-magic-squares-in-grid) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0864-shortest-path-to-get-all-keys](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0864-shortest-path-to-get-all-keys) |
@@ -937,6 +939,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0670-maximum-swap](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0670-maximum-swap) |
 | [0788-rotated-digits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0788-rotated-digits) |
 | [0837-new-21-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0837-new-21-game) |
+| [0840-magic-squares-in-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0840-magic-squares-in-grid) |
 | [0877-stone-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0877-stone-game) |
 | [0899-orderly-queue](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0899-orderly-queue) |
 | [0976-largest-perimeter-triangle](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0976-largest-perimeter-triangle) |
@@ -1247,6 +1250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-swim-in-rising-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0778-swim-in-rising-water) |
 | [0827-making-a-large-island](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0827-making-a-large-island) |
 | [0835-image-overlap](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0835-image-overlap) |
+| [0840-magic-squares-in-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0840-magic-squares-in-grid) |
 | [0864-shortest-path-to-get-all-keys](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0864-shortest-path-to-get-all-keys) |
 | [0885-spiral-matrix-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0885-spiral-matrix-iii) |
 | [0909-snakes-and-ladders](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0909-snakes-and-ladders) |
