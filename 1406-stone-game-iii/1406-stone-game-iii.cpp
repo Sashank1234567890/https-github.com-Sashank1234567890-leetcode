@@ -1,49 +1,44 @@
 class Solution
 {
     public:
-        int Alice = 1;
-    int Bob = 0;
-    int n;
-
-    int miniMax(vector<int> &stoneValue, int player, int i, vector<vector< int>> &t)
-    {
-        if (i >= n)
-            return 0;
-
-        if (t[player][i] != -1)
-            return t[player][i];
-
-        int result = player == Alice ? INT_MIN : INT_MAX;
-
-        int stones = 0;
-
-        for (int j = i; j < min(i + 3, n); j++)
+        string stoneGameIII(vector<int> &stoneValue)
         {
-            if (player == Alice)
+
+            int n = stoneValue.size();
+
+            vector<vector < int>> dp(2, vector<int> (n + 1, 0));
+
+            for (int i = n - 1; i >= 0; i--)
             {
-                stones += stoneValue[j];
-                result = max(result, stones + miniMax(stoneValue, Bob, j + 1, t));
+
+               	// Alice's turn
+                dp[1][i] = INT_MIN;
+                int stones = 0;
+
+                for (int j = i; j < min(i + 3, n); j++)
+                {
+                    stones += stoneValue[j];
+                    dp[1][i] = max(dp[1][i], stones + dp[0][j + 1]);
+                }
+
+               	// Bob's turn
+                dp[0][i] = INT_MAX;
+                stones = 0;
+
+                for (int j = i; j < min(i + 3, n); j++)
+                {
+                    stones -= stoneValue[j];
+                    dp[0][i] = min(dp[0][i], stones + dp[1][j + 1]);
+                }
             }
-            else
-            {
-                stones -= stoneValue[j];
-                result = min(result, stones + miniMax(stoneValue, Alice, j + 1, t));
-            }
+
+            int diff = dp[1][0];
+
+            if (diff > 0)
+                return "Alice";
+            if (diff < 0)
+                return "Bob";
+
+            return "Tie";
         }
-        return t[player][i] = result;
-    }
-
-    string stoneGameIII(vector<int> &stoneValue)
-    {
-        n = stoneValue.size();
-        vector<vector < int>> t(2, vector<int> (n + 1, -1));
-        int diff = miniMax(stoneValue, 1, 0, t);
-
-        if (diff > 0)
-            return "Alice";
-        else if (diff < 0)
-            return "Bob";
-
-        return "Tie";
-    }
 };
