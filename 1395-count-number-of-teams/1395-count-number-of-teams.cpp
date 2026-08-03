@@ -1,39 +1,30 @@
 class Solution {
 public:
     int numTeams(vector<int>& rating) {
+
         int n = rating.size();
 
-        int teams = 0;
+        vector<int> inc(n, 0);
+        vector<int> dec(n, 0);
 
-        for(int j = 1; j < n-1; j++) {
+        int ans = 0;
 
-            int countSmallerLeft = 0;
-            int countLargerLeft  = 0;
-            int countSmallerRight = 0;
-            int countLargerRight = 0;
+        for (int i = 0; i < n; i++) {
 
-            for(int i = 0; i < j; i++) {
-                if(rating[i] < rating[j]) {
-                    countSmallerLeft++;
-                } else if(rating[i] > rating[j]) {
-                    countLargerLeft++;
+            for (int j = 0; j < i; j++) {
+
+                if (rating[j] < rating[i]) {
+                    inc[i]++;
+                    ans += inc[j];
+                }
+
+                else if (rating[j] > rating[i]) {
+                    dec[i]++;
+                    ans += dec[j];
                 }
             }
-
-            for(int k = j+1; k < n; k++) {
-                if(rating[j] < rating[k]) {
-                    countLargerRight++;
-                } else if(rating[j] > rating[k]) {
-                    countSmallerRight++;
-                }
-            }
-
-            teams += (countLargerLeft * countSmallerRight) + (countSmallerLeft * countLargerRight);
-
-
         }
 
-        return teams;
+        return ans;
     }
 };
-
