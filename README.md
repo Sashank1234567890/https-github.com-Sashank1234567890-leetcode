@@ -501,6 +501,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3208-alternating-groups-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3208-alternating-groups-ii) |
 | [3224-minimum-array-changes-to-make-differences-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3224-minimum-array-changes-to-make-differences-equal) |
 | [3225-maximum-score-from-grid-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3225-maximum-score-from-grid-operations) |
+| [3229-minimum-operations-to-make-array-equal-to-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3229-minimum-operations-to-make-array-equal-to-target) |
 | [3243-shortest-distance-after-road-addition-queries-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3243-shortest-distance-after-road-addition-queries-i) |
 | [3254-find-the-power-of-k-size-subarrays-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3254-find-the-power-of-k-size-subarrays-i) |
 | [3261-count-substrings-that-satisfy-k-constraint-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3261-count-substrings-that-satisfy-k-constraint-ii) |
@@ -687,6 +688,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3129-find-all-possible-stable-binary-arrays-i) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
 | [3225-maximum-score-from-grid-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3225-maximum-score-from-grid-operations) |
+| [3229-minimum-operations-to-make-array-equal-to-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3229-minimum-operations-to-make-array-equal-to-target) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -1411,6 +1413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3068-find-the-maximum-sum-of-node-values](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3068-find-the-maximum-sum-of-node-values) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3085-minimum-deletions-to-make-string-k-special](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3085-minimum-deletions-to-make-string-k-special) |
+| [3229-minimum-operations-to-make-array-equal-to-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3229-minimum-operations-to-make-array-equal-to-target) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3357-minimize-the-maximum-adjacent-element-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3357-minimize-the-maximum-adjacent-element-difference) |
 | [3439-reschedule-meetings-for-maximum-free-time-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3439-reschedule-meetings-for-maximum-free-time-i) |
@@ -1603,6 +1606,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1544-make-the-string-great](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1544-make-the-string-great) |
 | [1793-maximum-score-of-a-good-subarray](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1793-maximum-score-of-a-good-subarray) |
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
+| [3229-minimum-operations-to-make-array-equal-to-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3229-minimum-operations-to-make-array-equal-to-target) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -1610,6 +1614,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1793-maximum-score-of-a-good-subarray](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1793-maximum-score-of-a-good-subarray) |
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
+| [3229-minimum-operations-to-make-array-equal-to-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3229-minimum-operations-to-make-array-equal-to-target) |
 ## Biconnected Component
 |  |
 | ------- |
