@@ -1,30 +1,20 @@
 class MyCalendar {
 public:
-    map<int,int> mp;
-
+    set<pair<int, int>> st;
     MyCalendar() {
-
+        
     }
-
-    bool book(int s, int e) {
-
-        auto it = mp.lower_bound(s);
-
-       
-        if(it != mp.end() && it->first < e)
-            return false;
-
     
-        if(it != mp.begin()) {
+    bool book(int start, int end) {
+        auto it = st.upper_bound({start, end});
 
-            it--;
+        if(it != st.end() && end > it->second) {
 
-            if(it->second > s)
-                return false;
+            return false;
+            
         }
-
-        mp[s] = e;
-
+        
+        st.insert({end, start});
         return true;
     }
 };
