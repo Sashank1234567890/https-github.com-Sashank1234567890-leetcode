@@ -478,6 +478,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2391-minimum-amount-of-time-to-collect-garbage](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2391-minimum-amount-of-time-to-collect-garbage) |
 | [2392-build-a-matrix-with-conditions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2392-build-a-matrix-with-conditions) |
 | [2401-longest-nice-subarray](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2401-longest-nice-subarray) |
+| [2419-longest-subarray-with-maximum-bitwise-and](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2419-longest-subarray-with-maximum-bitwise-and) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2439-minimize-maximum-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2439-minimize-maximum-of-array) |
 | [2440-create-components-with-same-value](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2440-create-components-with-same-value) |
@@ -1144,6 +1145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2322-minimum-score-after-removals-on-a-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2322-minimum-score-after-removals-on-a-tree) |
 | [2401-longest-nice-subarray](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2401-longest-nice-subarray) |
+| [2419-longest-subarray-with-maximum-bitwise-and](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2419-longest-subarray-with-maximum-bitwise-and) |
 | [2749-minimum-operations-to-make-the-integer-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2749-minimum-operations-to-make-the-integer-zero) |
 | [2959-number-of-possible-sets-of-closing-branches](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2959-number-of-possible-sets-of-closing-branches) |
 | [3068-find-the-maximum-sum-of-node-values](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3068-find-the-maximum-sum-of-node-values) |
@@ -1624,6 +1626,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0319-bulb-switcher](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0319-bulb-switcher) |
 | [1503-last-moment-before-all-ants-fall-out-of-a-plank](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1503-last-moment-before-all-ants-fall-out-of-a-plank) |
+| [2419-longest-subarray-with-maximum-bitwise-and](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2419-longest-subarray-with-maximum-bitwise-and) |
 | [2749-minimum-operations-to-make-the-integer-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2749-minimum-operations-to-make-the-integer-zero) |
 | [3227-vowels-game-in-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3227-vowels-game-in-a-string) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
