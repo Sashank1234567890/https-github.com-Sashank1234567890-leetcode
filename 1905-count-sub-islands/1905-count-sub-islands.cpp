@@ -1,55 +1,95 @@
 class Solution {
 public:
+    vector<int> parent;
+    vector<int> rank;
 
-    vector<vector<int>> directions{{1, 0}, {-1, 0}, {0, 1}, {0, -1}}; //down, up, right , left
+    int find(int node) {
+        if (parent[node] == node)
+            return node;
 
-    //BFS
-    bool checkSubIsland(vector<vector<int>>& grid1, vector<vector<int>>& grid2, int i, int j) {
-        int m = grid1.size();
-        int n = grid1[0].size();
+        return parent[node] = find(parent[node]);
+    }
 
-        bool result = true;
+    void Union(int u, int v) {
+        int pu = find(u);
+        int pv = find(v);
 
-        queue<pair<int, int>> que; //{i, j} //BFS me we use queue
-        que.push({i, j});
-        grid2[i][j] = -1; //mark visited
+        if (pu == pv)
+            return;
 
-        while(!que.empty()) {
-            auto [x, y] = que.front();
-            que.pop();
-
-            if(grid1[x][y] != 1) { //grid1 must have 1 at that same co-ordinate
-                result = false;
-            }
-
-            for(vector<int>& dir : directions) {
-                int newX = x + dir[0];
-                int newY = y + dir[1];
-
-                if(newX >= 0 && newX < m && newY >= 0 && newY < n && grid2[newX][newY] == 1) {
-                    grid2[newX][newY] = -1; //mark visited
-                    que.push({newX, newY});
-                }
-            }
+        if (rank[pu] < rank[pv])
+            parent[pu] = pv;
+        else if (rank[pu] > rank[pv])
+            parent[pv] = pu;
+        else {
+            parent[pv] = pu;
+            rank[pu]++;
         }
-
-        return result;
     }
 
     int countSubIslands(vector<vector<int>>& grid1, vector<vector<int>>& grid2) {
-        //DFS
-        int subIslands = 0;
-        int m = grid2.size(); //rows
-        int n = grid2[0].size(); //cols
 
-        for(int i = 0; i < m; i++) {
-            for(int j = 0; j < n; j++) {
-                if(grid2[i][j] == 1 && checkSubIsland(grid1, grid2, i, j)) { //Found an island
-                    subIslands++;
+        int m = grid1.size();
+        int n = grid1[0].size();
+
+        parent.resize(m * n);
+        rank.assign(m * n, 0);
+
+        for (int i = 0; i < m * n; i++)
+            parent[i] = i;
+
+        vector<vector<int>> dir{{1,0},{-1,0},{0,1},{0,-1}};
+
+        // Build components of grid2
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+
+                if (grid2[i][j] == 0)
+                    continue;
+
+                int id = i * n + j;
+
+                for (auto d : dir) {
+
+                    int ni = i + d[0];
+                    int nj = j + d[1];
+
+                    if (ni >= 0 && ni < m && nj >= 0 && nj < n &&
+                        grid2[ni][nj] == 1) {
+
+                        Union(id, ni * n + nj);
+                    }
                 }
             }
         }
 
-        return subIslands;
+        unordered_map<int, bool> ok;
+
+        // Assume every island is valid
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+
+                if (grid2[i][j] == 1)
+                    ok[find(i * n + j)] = true;
+            }
+        }
+
+        // Invalidate islands having any cell over water in grid1
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+
+                if (grid2[i][j] == 1 && grid1[i][j] == 0)
+                    ok[find(i * n + j)] = false;
+            }
+        }
+
+        int ans = 0;
+
+        for (auto it : ok) {
+            if (it.second)
+                ans++;
+        }
+
+        return ans;
     }
 };
