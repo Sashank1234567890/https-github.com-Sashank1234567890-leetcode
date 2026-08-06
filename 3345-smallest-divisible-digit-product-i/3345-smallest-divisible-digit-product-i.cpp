@@ -3,26 +3,33 @@ class Solution
     public:
         bool check(int x, int t)
         {
-            long long prod = 1;
+            int prod = 1 % t;
+
             while (x)
             {
-                if ((x % 10) % t == 0 || prod *(x % 10) % t == 0)
-                    return 1;
-                prod *= (x % 10);
+                prod = (prod *(x % 10)) % t;
+
+                if (prod == 0)
+                    return true;
+
                 x /= 10;
             }
-            return 0;
+
+            return false;
         }
+
     int smallestNumber(int n, int t)
     {
         if (n == 0)
             return 0;
+
         while (true)
         {
             if (check(n, t))
                 return n;
             n++;
         }
+
         return -1;
     }
 };
