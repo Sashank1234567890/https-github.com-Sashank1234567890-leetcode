@@ -660,6 +660,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3227-vowels-game-in-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3227-vowels-game-in-a-string) |
 | [3258-count-substrings-that-satisfy-k-constraint-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3258-count-substrings-that-satisfy-k-constraint-i) |
 | [3261-count-substrings-that-satisfy-k-constraint-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3261-count-substrings-that-satisfy-k-constraint-ii) |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3445-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3445-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
@@ -1019,6 +1020,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3312-sorted-gcd-pair-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3345-smallest-divisible-digit-product-i) |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3405-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3405-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3513-number-of-unique-xor-triplets-i) |
@@ -1466,6 +1468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3085-minimum-deletions-to-make-string-k-special](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3085-minimum-deletions-to-make-string-k-special) |
 | [3229-minimum-operations-to-make-array-equal-to-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3229-minimum-operations-to-make-array-equal-to-target) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3357-minimize-the-maximum-adjacent-element-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3357-minimize-the-maximum-adjacent-element-difference) |
 | [3439-reschedule-meetings-for-maximum-free-time-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3439-reschedule-meetings-for-maximum-free-time-i) |
 | [3449-maximize-the-minimum-game-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3449-maximize-the-minimum-game-score) |
@@ -1633,6 +1636,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2949-count-beautiful-substrings-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2949-count-beautiful-substrings-ii) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -1723,6 +1727,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0113-path-sum-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0113-path-sum-ii) |
 | [1980-find-unique-binary-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1980-find-unique-binary-string) |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Rolling Hash
 |  |
 | ------- |
