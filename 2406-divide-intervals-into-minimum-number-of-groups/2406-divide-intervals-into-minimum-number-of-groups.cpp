@@ -1,41 +1,24 @@
-class Solution {
-public:
-    int minGroups(vector<vector<int>>& intervals) {
+class Solution
+{
+    public:
+        int minGroups(vector<vector < int>> &intervals)
+        {
+            sort(begin(intervals), end(intervals));
 
-        sort(intervals.begin(), intervals.end());
+            priority_queue<int, vector < int>, greater < int>> pq;
 
-        vector<vector<vector<int>>> groups;
+            for (vector<int> &interval: intervals)
+            {
+                int start = interval[0];
+                int end = interval[1];
 
-        set<pair<int,int>> st;
-        // {lastEnd, groupId}
-
-        for (vector<int> &v : intervals) {
-
-            int l = v[0];
-            int r = v[1];
-
-            auto it = st.lower_bound({l, -1});
-
-            if (it == st.begin()) {
-
-                int id = groups.size();
-                groups.push_back({v});
-                st.insert({r, id});
+                if (!pq.empty() && pq.top() < start)
+                {
+                    pq.pop();
+                }
+                pq.push(end);
             }
-            else {
 
-                it--;
-
-                int id = it->second;
-
-                st.erase(it);
-
-                groups[id].push_back(v);
-
-                st.insert({r, id});
-            }
+            return pq.size();
         }
-
-        return groups.size();
-    }
 };
