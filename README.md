@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1488-avoid-flood-in-the-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1488-avoid-flood-in-the-city) |
+| [1590-make-sum-divisible-by-p](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1590-make-sum-divisible-by-p) |
 | [1630-arithmetic-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1630-arithmetic-subarrays) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
@@ -411,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1572-matrix-diagonal-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1572-matrix-diagonal-sum) |
 | [1578-minimum-time-to-make-rope-colorful](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1578-minimum-time-to-make-rope-colorful) |
+| [1590-make-sum-divisible-by-p](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1590-make-sum-divisible-by-p) |
 | [1605-find-valid-matrix-given-row-and-column-sums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1605-find-valid-matrix-given-row-and-column-sums) |
 | [1608-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1608-special-array-with-x-elements-greater-than-or-equal-x) |
 | [1630-arithmetic-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1630-arithmetic-subarrays) |
@@ -1487,6 +1489,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0930-binary-subarrays-with-sum) |
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1074-number-of-submatrices-that-sum-to-target) |
 | [1208-get-equal-substrings-within-budget](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1208-get-equal-substrings-within-budget) |
+| [1590-make-sum-divisible-by-p](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1590-make-sum-divisible-by-p) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
