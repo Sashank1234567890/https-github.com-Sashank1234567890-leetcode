@@ -676,6 +676,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3227-vowels-game-in-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3227-vowels-game-in-a-string) |
 | [3258-count-substrings-that-satisfy-k-constraint-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3258-count-substrings-that-satisfy-k-constraint-i) |
 | [3261-count-substrings-that-satisfy-k-constraint-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3261-count-substrings-that-satisfy-k-constraint-ii) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3445-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3445-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3499-maximize-active-section-with-trade-i) |
@@ -739,6 +740,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
 | [3225-maximum-score-from-grid-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3225-maximum-score-from-grid-operations) |
 | [3229-minimum-operations-to-make-array-equal-to-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3229-minimum-operations-to-make-array-equal-to-target) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -862,6 +864,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2938-separate-black-and-white-balls](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2938-separate-black-and-white-balls) |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3006-find-beautiful-indices-in-the-given-array-i) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Sorting
@@ -1507,6 +1510,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3085-minimum-deletions-to-make-string-k-special](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3085-minimum-deletions-to-make-string-k-special) |
 | [3229-minimum-operations-to-make-array-equal-to-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3229-minimum-operations-to-make-array-equal-to-target) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3357-minimize-the-maximum-adjacent-element-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3357-minimize-the-maximum-adjacent-element-difference) |
 | [3439-reschedule-meetings-for-maximum-free-time-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3439-reschedule-meetings-for-maximum-free-time-i) |
