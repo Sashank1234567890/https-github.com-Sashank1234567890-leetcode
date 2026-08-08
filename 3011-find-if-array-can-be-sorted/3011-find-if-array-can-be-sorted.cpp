@@ -1,36 +1,39 @@
 class Solution {
 public:
     bool canSortArray(vector<int>& nums) {
+      
+        int numOfSetBits = __builtin_popcount(nums[0]);
+        int maxOfSegment = nums[0];
+        int minOfSegment = nums[0];
 
-        int n = nums.size();
+        int maxOfPrevSegment = INT_MIN;
 
-        vector<int> bits(n);
-
-        for (int i = 0; i < n; i++)
-            bits[i] = __builtin_popcount(nums[i]);
-
-        for (int i = 0; i < n - 1; i++) {
-
-            bool ok = false;
-
-            for (int j = 0; j < n - i - 1; j++) {
-
-                if (nums[j] > nums[j + 1]) {
-
-                    if (bits[j] != bits[j + 1])
-                        return false;
-
-                    swap(nums[j], nums[j + 1]);
-                    swap(bits[j], bits[j + 1]);
-
-                    ok = true;
+        for (int i = 1; i < nums.size(); i++) {
+            if (__builtin_popcount(nums[i]) == numOfSetBits) {
+                maxOfSegment = max(maxOfSegment, nums[i]); 
+                minOfSegment = min(minOfSegment, nums[i]);
+            } else { 
+                
+                if (minOfSegment < maxOfPrevSegment) { 
+                    return false;
                 }
+
+               
+                maxOfPrevSegment = maxOfSegment;
+
+                maxOfSegment = nums[i];
+                minOfSegment = nums[i];
+                numOfSetBits = __builtin_popcount(nums[i]);
             }
-
-            if (!ok)
-                break;
         }
-
+      
+        if (minOfSegment < maxOfPrevSegment) {
+            return false;
+        }
         return true;
     }
 };
+
+
+
+
