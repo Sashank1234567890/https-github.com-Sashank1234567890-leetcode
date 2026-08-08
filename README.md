@@ -956,6 +956,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0007-reverse-integer) |
 | [0048-rotate-image](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0048-rotate-image) |
 | [0149-max-points-on-a-line](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0149-max-points-on-a-line) |
 | [0166-fraction-to-recurring-decimal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0166-fraction-to-recurring-decimal) |
