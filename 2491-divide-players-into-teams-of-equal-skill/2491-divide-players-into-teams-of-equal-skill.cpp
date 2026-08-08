@@ -1,40 +1,36 @@
 class Solution {
 public:
     long long dividePlayers(vector<int>& skill) {
-        int n = skill.size();
 
         vector<int> freq(1001, 0);
 
-        int sum = 0;
-        for (int x : skill) {
-            sum += x;
+        for (int x : skill)
             freq[x]++;
+
+        int idx = 0;
+
+        for (int i = 0; i <= 1000; i++) {
+            while (freq[i]--) {
+                skill[idx++] = i;
+            }
         }
 
-        int teams = n / 2;
-
-        if (sum % teams != 0)
-            return -1;
-
-        int target = sum / teams;
+        int n = skill.size();
+        int target = skill[0] + skill[n - 1];
 
         long long ans = 0;
 
-        for (int x : skill) {
+        int i = 0, j = n - 1;
 
-            if (freq[x] == 0)
-                continue;
+        while (i < j) {
 
-            freq[x]--;
-
-            int y = target - x;
-
-            if (y < 0 || y > 1000 || freq[y] == 0)
+            if (skill[i] + skill[j] != target)
                 return -1;
 
-            freq[y]--;
+            ans += 1LL * skill[i] * skill[j];
 
-            ans += 1LL * x * y;
+            i++;
+            j--;
         }
 
         return ans;
