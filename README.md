@@ -450,6 +450,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2009-minimum-number-of-operations-to-make-array-continuous) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 | [2050-parallel-courses-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2050-parallel-courses-iii) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 | [2070-most-beautiful-item-for-each-query](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2070-most-beautiful-item-for-each-query) |
@@ -1166,6 +1167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1755-closest-subsequence-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1755-closest-subsequence-sum) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 | [2322-minimum-score-after-removals-on-a-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2322-minimum-score-after-removals-on-a-tree) |
 | [2401-longest-nice-subarray](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2401-longest-nice-subarray) |
 | [2419-longest-subarray-with-maximum-bitwise-and](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2419-longest-subarray-with-maximum-bitwise-and) |
@@ -1571,6 +1573,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1291-sequential-digits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1291-sequential-digits) |
 | [1625-lexicographically-smallest-string-after-applying-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1625-lexicographically-smallest-string-after-applying-operations) |
+| [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 | [2081-sum-of-k-mirror-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2081-sum-of-k-mirror-numbers) |
 | [2440-create-components-with-same-value](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2440-create-components-with-same-value) |
 | [2749-minimum-operations-to-make-the-integer-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2749-minimum-operations-to-make-the-integer-zero) |
@@ -1744,6 +1747,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0113-path-sum-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0113-path-sum-ii) |
 | [1980-find-unique-binary-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1980-find-unique-binary-string) |
+| [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Rolling Hash
 |  |
