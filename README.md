@@ -1024,6 +1024,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1323-maximum-69-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1323-maximum-69-number) |
 | [1390-four-divisors](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1390-four-divisors) |
 | [1406-stone-game-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1406-stone-game-iii) |
+| [1432-max-difference-you-can-get-from-changing-an-integer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1432-max-difference-you-can-get-from-changing-an-integer) |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1561-maximum-number-of-coins-you-can-get) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1622-fancy-sequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1622-fancy-sequence) |
@@ -1478,6 +1479,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1323-maximum-69-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1323-maximum-69-number) |
 | [1328-break-a-palindrome](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1328-break-a-palindrome) |
+| [1432-max-difference-you-can-get-from-changing-an-integer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1432-max-difference-you-can-get-from-changing-an-integer) |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1488-avoid-flood-in-the-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1488-avoid-flood-in-the-city) |
 | [1509-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1509-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
