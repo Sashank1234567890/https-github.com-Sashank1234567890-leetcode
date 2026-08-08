@@ -331,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0561-array-partition](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0561-array-partition) |
 | [0587-erect-the-fence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0587-erect-the-fence) |
 | [0621-task-scheduler](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0621-task-scheduler) |
+| [0624-maximum-distance-in-arrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0661-image-smoother](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0661-image-smoother) |
 | [0713-subarray-product-less-than-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0713-subarray-product-less-than-k) |
@@ -1456,6 +1457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0561-array-partition](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0621-task-scheduler) |
+| [0624-maximum-distance-in-arrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0649-dota2-senate](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0649-dota2-senate) |
 | [0670-maximum-swap](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0670-maximum-swap) |
 | [0826-most-profit-assigning-work](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0826-most-profit-assigning-work) |
