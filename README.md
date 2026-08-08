@@ -486,6 +486,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2391-minimum-amount-of-time-to-collect-garbage](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2391-minimum-amount-of-time-to-collect-garbage) |
 | [2392-build-a-matrix-with-conditions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2392-build-a-matrix-with-conditions) |
 | [2401-longest-nice-subarray](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2401-longest-nice-subarray) |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2419-longest-subarray-with-maximum-bitwise-and](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2419-longest-subarray-with-maximum-bitwise-and) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2439-minimize-maximum-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2439-minimize-maximum-of-array) |
@@ -841,6 +842,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2108-find-first-palindromic-string-in-the-array) |
 | [2109-adding-spaces-to-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2109-adding-spaces-to-a-string) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2486-append-characters-to-string-to-make-subsequence) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 | [2563-count-the-number-of-fair-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2563-count-the-number-of-fair-pairs) |
@@ -910,6 +912,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2285-maximum-total-importance-of-roads](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2285-maximum-total-importance-of-roads) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2389-longest-subsequence-with-limited-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2389-longest-subsequence-with-limited-sum) |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2448-minimum-cost-to-make-array-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2448-minimum-cost-to-make-array-equal) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 | [2551-put-marbles-in-bags](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2551-put-marbles-in-bags) |
@@ -1079,6 +1082,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1942-the-number-of-the-smallest-unoccupied-chair](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1942-the-number-of-the-smallest-unoccupied-chair) |
 | [2285-maximum-total-importance-of-roads](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2285-maximum-total-importance-of-roads) |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2551-put-marbles-in-bags](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2551-put-marbles-in-bags) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2642-design-graph-with-shortest-path-calculator](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2642-design-graph-with-shortest-path-calculator) |
@@ -1459,6 +1463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2366-minimum-replacements-to-sort-the-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2366-minimum-replacements-to-sort-the-array) |
 | [2389-longest-subsequence-with-limited-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2389-longest-subsequence-with-limited-sum) |
 | [2405-optimal-partition-of-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2405-optimal-partition-of-string) |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2439-minimize-maximum-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2439-minimize-maximum-of-array) |
 | [2448-minimum-cost-to-make-array-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2448-minimum-cost-to-make-array-equal) |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2486-append-characters-to-string-to-make-subsequence) |
@@ -1512,6 +1517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2256-minimum-average-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2256-minimum-average-difference) |
 | [2389-longest-subsequence-with-limited-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2389-longest-subsequence-with-limited-sum) |
 | [2391-minimum-amount-of-time-to-collect-garbage](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2391-minimum-amount-of-time-to-collect-garbage) |
+| [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2439-minimize-maximum-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2439-minimize-maximum-of-array) |
 | [2448-minimum-cost-to-make-array-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2448-minimum-cost-to-make-array-equal) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2483-minimum-penalty-for-a-shop) |
