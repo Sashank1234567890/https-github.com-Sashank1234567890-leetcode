@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1743-restore-the-array-from-adjacent-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1743-restore-the-array-from-adjacent-pairs) |
 | [1857-largest-color-value-in-a-directed-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1857-largest-color-value-in-a-directed-graph) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1930-unique-length-3-palindromic-subsequences) |
+| [1942-the-number-of-the-smallest-unoccupied-chair](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1942-the-number-of-the-smallest-unoccupied-chair) |
 | [1980-find-unique-binary-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1980-find-unique-binary-string) |
 | [2007-find-original-array-from-doubled-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2007-find-original-array-from-doubled-array) |
 | [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2009-minimum-number-of-operations-to-make-array-continuous) |
@@ -440,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1894-find-the-student-that-will-replace-the-chalk](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1894-find-the-student-that-will-replace-the-chalk) |
 | [1905-count-sub-islands](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1905-count-sub-islands) |
 | [1921-eliminate-maximum-number-of-monsters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1921-eliminate-maximum-number-of-monsters) |
+| [1942-the-number-of-the-smallest-unoccupied-chair](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1942-the-number-of-the-smallest-unoccupied-chair) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -1074,6 +1076,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1488-avoid-flood-in-the-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1488-avoid-flood-in-the-city) |
 | [1514-path-with-maximum-probability](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1514-path-with-maximum-probability) |
 | [1642-furthest-building-you-can-reach](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1642-furthest-building-you-can-reach) |
+| [1942-the-number-of-the-smallest-unoccupied-chair](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1942-the-number-of-the-smallest-unoccupied-chair) |
 | [2285-maximum-total-importance-of-roads](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2285-maximum-total-importance-of-roads) |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
 | [2551-put-marbles-in-bags](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2551-put-marbles-in-bags) |
