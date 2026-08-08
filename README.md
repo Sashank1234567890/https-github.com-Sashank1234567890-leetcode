@@ -372,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0985-sum-of-even-numbers-after-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0985-sum-of-even-numbers-after-queries) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [0997-find-the-town-judge](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0997-find-the-town-judge) |
+| [1007-minimum-domino-rotations-for-equal-row](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1007-minimum-domino-rotations-for-equal-row) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1020-number-of-enclaves](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1020-number-of-enclaves) |
 | [1031-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1031-maximum-sum-of-two-non-overlapping-subarrays) |
@@ -1471,6 +1472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0945-minimum-increment-to-make-array-unique](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0945-minimum-increment-to-make-array-unique) |
 | [0976-largest-perimeter-triangle](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0976-largest-perimeter-triangle) |
 | [0991-broken-calculator](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0991-broken-calculator) |
+| [1007-minimum-domino-rotations-for-equal-row](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1007-minimum-domino-rotations-for-equal-row) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1323-maximum-69-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1323-maximum-69-number) |
