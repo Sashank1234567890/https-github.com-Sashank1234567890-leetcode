@@ -510,6 +510,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2573-find-the-string-with-lcp](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2573-find-the-string-with-lcp) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2594-minimum-time-to-repair-cars](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2594-minimum-time-to-repair-cars) |
+| [2601-prime-subtraction-operation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2601-prime-subtraction-operation) |
 | [2610-convert-an-array-into-a-2d-array-with-conditions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2610-convert-an-array-into-a-2d-array-with-conditions) |
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2658-maximum-number-of-fish-in-a-grid) |
@@ -1028,6 +1029,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2523-closest-prime-numbers-in-range](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2523-closest-prime-numbers-in-range) |
 | [2566-maximum-difference-by-remapping-a-digit](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2566-maximum-difference-by-remapping-a-digit) |
 | [2579-count-total-number-of-colored-cells](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2579-count-total-number-of-colored-cells) |
+| [2601-prime-subtraction-operation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2601-prime-subtraction-operation) |
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2849-determine-if-a-cell-is-reachable-at-a-given-time](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2849-determine-if-a-cell-is-reachable-at-a-given-time) |
 | [2929-distribute-candies-among-children-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2929-distribute-candies-among-children-ii) |
@@ -1279,6 +1281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
 | [2563-count-the-number-of-fair-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2563-count-the-number-of-fair-pairs) |
 | [2594-minimum-time-to-repair-cars](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2594-minimum-time-to-repair-cars) |
+| [2601-prime-subtraction-operation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2601-prime-subtraction-operation) |
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2968-apply-operations-to-maximize-frequency-score) |
@@ -1488,6 +1491,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2551-put-marbles-in-bags](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2551-put-marbles-in-bags) |
 | [2566-maximum-difference-by-remapping-a-digit](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2566-maximum-difference-by-remapping-a-digit) |
 | [2573-find-the-string-with-lcp](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2573-find-the-string-with-lcp) |
+| [2601-prime-subtraction-operation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2601-prime-subtraction-operation) |
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2870-minimum-number-of-operations-to-make-array-empty](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2870-minimum-number-of-operations-to-make-array-empty) |
@@ -1666,6 +1670,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2338-count-the-number-of-ideal-arrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2338-count-the-number-of-ideal-arrays) |
 | [2523-closest-prime-numbers-in-range](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2523-closest-prime-numbers-in-range) |
+| [2601-prime-subtraction-operation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2601-prime-subtraction-operation) |
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2947-count-beautiful-substrings-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2947-count-beautiful-substrings-i) |
 | [2949-count-beautiful-substrings-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2949-count-beautiful-substrings-ii) |
