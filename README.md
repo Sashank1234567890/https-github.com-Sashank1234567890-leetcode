@@ -657,6 +657,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2125-number-of-laser-beams-in-a-bank](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2125-number-of-laser-beams-in-a-bank) |
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2131-longest-palindrome-by-concatenating-two-letter-words) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
+| [2311-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2311-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2391-minimum-amount-of-time-to-collect-garbage](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2391-minimum-amount-of-time-to-collect-garbage) |
 | [2405-optimal-partition-of-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2405-optimal-partition-of-string) |
 | [2446-determine-if-two-events-have-conflict](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2446-determine-if-two-events-have-conflict) |
@@ -738,6 +739,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2050-parallel-courses-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2050-parallel-courses-iii) |
 | [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
+| [2311-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2311-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2338-count-the-number-of-ideal-arrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2338-count-the-number-of-ideal-arrays) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2439-minimize-maximum-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2439-minimize-maximum-of-array) |
@@ -785,6 +787,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1857-largest-color-value-in-a-directed-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1857-largest-color-value-in-a-directed-graph) |
+| [2311-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2311-longest-binary-subsequence-less-than-or-equal-to-k) |
 ## Counting
 |  |
 | ------- |
@@ -1513,6 +1516,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2244-minimum-rounds-to-complete-all-tasks](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2244-minimum-rounds-to-complete-all-tasks) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
 | [2285-maximum-total-importance-of-roads](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2285-maximum-total-importance-of-roads) |
+| [2311-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2311-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2366-minimum-replacements-to-sort-the-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2366-minimum-replacements-to-sort-the-array) |
 | [2389-longest-subsequence-with-limited-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2389-longest-subsequence-with-limited-sum) |
 | [2405-optimal-partition-of-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2405-optimal-partition-of-string) |
