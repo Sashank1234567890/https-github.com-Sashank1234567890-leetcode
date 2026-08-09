@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0399-evaluate-division) |
 | [0472-concatenated-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0472-concatenated-words) |
 | [0514-freedom-trail](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0514-freedom-trail) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0623-add-one-row-to-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0623-add-one-row-to-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0684-redundant-connection) |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0310-minimum-height-trees](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0310-minimum-height-trees) |
 | [0399-evaluate-division](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0399-evaluate-division) |
 | [0514-freedom-trail](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0514-freedom-trail) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0542-01-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0542-01-matrix) |
 | [0623-add-one-row-to-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0623-add-one-row-to-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0662-maximum-width-of-binary-tree) |
@@ -1425,6 +1427,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0129-sum-root-to-leaf-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0199-binary-tree-right-side-view](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0222-count-complete-tree-nodes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0623-add-one-row-to-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0623-add-one-row-to-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0814-binary-tree-pruning](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0814-binary-tree-pruning) |
@@ -1459,6 +1462,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0129-sum-root-to-leaf-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0199-binary-tree-right-side-view](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0222-count-complete-tree-nodes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0515-find-largest-value-in-each-tree-row](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0623-add-one-row-to-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0623-add-one-row-to-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0814-binary-tree-pruning](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0814-binary-tree-pruning) |
