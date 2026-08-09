@@ -1,70 +1,67 @@
 class Solution {
 public:
     bool validateBinaryTreeNodes(int n, vector<int>& leftChild, vector<int>& rightChild) {
-        unordered_map<int, vector<int>> parent_to_children;
-        unordered_map<int, int> child_to_parent;
+        unordered_map<int, vector<int>> children;
+        unordered_map<int, int> parent;
 
-        for(int i = 0; i<n; i++) {
+        for(int i = 0; i < n; i++) {
+            int left = leftChild[i];
+            int right = rightChild[i];
 
-            int node   = i;
-            int leftC  = leftChild[i];
-            int rightC = rightChild[i];
+            if(left != -1) {
+                children[i].push_back(left);
 
-            if(leftC != -1) {
-                parent_to_children[node].push_back(leftC);
-
-                if(child_to_parent.find(leftC) != child_to_parent.end()) {
+                if(parent.find(left) != parent.end())
                     return false;
-                } else {
-                    child_to_parent[leftC] = node;
-                }
+
+                parent[left] = i;
             }
 
-            if(rightC != -1) {
-                parent_to_children[node].push_back(rightC);
+            if(right != -1) {
+                children[i].push_back(right);
 
-                if(child_to_parent.find(rightC) != child_to_parent.end()) {
+                if(parent.find(right) != parent.end())
                     return false;
-                } else {
-                    child_to_parent[rightC] = node;
-                }
-            }
 
+                parent[right] = i;
+            }
         }
 
         int root = -1;
-        
-        for(int i = 0; i<n; i++) {
-            if(child_to_parent.find(i) == child_to_parent.end()) {
+
+        for(int i = 0; i < n; i++) {
+            if(parent.find(i) == parent.end()) {
                 if(root != -1)
                     return false;
-                else
-                    root = i;
+
+                root = i;
             }
         }
+
         if(root == -1)
             return false;
 
         vector<bool> visited(n, false);
-        queue<int> que;
-        int count = 1;
-        que.push(root);
-        visited[root] = true;
-        
-        while(!que.empty()) { 
-            int node = que.front();
-            que.pop();
+        queue<int> q;
 
-            for(int &child : parent_to_children[node]) {
+        q.push(root);
+        visited[root] = true;
+
+        int count = 1;
+
+        while(!q.empty()) {
+            int node = q.front();
+            q.pop();
+
+            for(int child : children[node]) {
                 if(!visited[child]) {
                     visited[child] = true;
                     count++;
-                    que.push(child);
+                    q.push(child);
                 }
             }
-
         }
 
-        return count == n; 
+        return count == n;
     }
 };
