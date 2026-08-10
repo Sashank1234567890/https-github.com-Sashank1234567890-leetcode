@@ -1,36 +1,35 @@
 class Solution {
 public:
-    void check(TreeNode* root, unordered_map<int, int>& mp,
-               int odd, int& cnt) {
+    int result = 0;
+    
+    void solve(TreeNode* root, vector<int>& temp) {
+        if(root != NULL) {
+            temp[root->val]++;
+            
+            if(root->left == NULL && root->right == NULL) {
+                int oddFreq = 0;
+                for(int i = 1; i <= 9; i++) {
+                    if(temp[i]%2 != 0) {
+                        oddFreq++;
+                    }
+                }
 
-        if(!root)
-            return;
+                result += oddFreq <= 1;
+            }
+            
+            
+            solve(root->left, temp);
+            solve(root->right, temp);
+            
+            temp[root->val]--;
 
-        mp[root->val]++;
-
-        if(mp[root->val] & 1)
-            odd++;
-        else
-            odd--;
-
-        if(!root->left && !root->right) {
-            if(odd <= 1)
-                cnt++;
         }
-        else {
-            check(root->left, mp, odd, cnt);
-            check(root->right, mp, odd, cnt);
-        }
-
-        mp[root->val]--;
     }
-
-    int pseudoPalindromicPaths(TreeNode* root) {
-        unordered_map<int, int> mp;
-        int cnt = 0;
-
-        check(root, mp, 0, cnt);
-
-        return cnt;
+    
+    int pseudoPalindromicPaths (TreeNode* root) {
+        vector<int> temp(10, 0);
+        
+        solve(root, temp);
+        return result;
     }
 };
