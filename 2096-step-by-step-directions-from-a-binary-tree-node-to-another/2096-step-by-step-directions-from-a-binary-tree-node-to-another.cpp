@@ -1,42 +1,28 @@
 class Solution {
 public:
-    TreeNode* LCA(TreeNode* root, int s, int t) {
-        if (!root)
-            return NULL;
 
-        if (root->val == s || root->val == t)
-            return root;
-
-        TreeNode* left = LCA(root->left, s, t);
-        TreeNode* right = LCA(root->right, s, t);
-
-        if (left && right)
-            return root;
-
-        if (left)
-            return left;
-
-        return right;
-    }
-
-    bool findPath(TreeNode* root, int target, string &path) {
-        if (!root)
+    bool findPath(TreeNode* root, int target, string& path) {
+        if(root == NULL) {
             return false;
+        }
 
-        if (root->val == target)
+        if(root->val == target) {
             return true;
+        }
 
+      
         path.push_back('L');
-
-        if (findPath(root->left, target, path))
+        if(findPath(root->left, target, path) == true) {
             return true;
+        }
 
         path.pop_back();
 
+  
         path.push_back('R');
-
-        if (findPath(root->right, target, path))
+        if(findPath(root->right, target, path) == true) {
             return true;
+        }
 
         path.pop_back();
 
@@ -44,17 +30,30 @@ public:
     }
 
     string getDirections(TreeNode* root, int startValue, int destValue) {
-        TreeNode* lca = LCA(root, startValue, destValue);
+        
+        string rootToSrc  = "";
+        string rootToDst = "";
 
-        string startPath = "";
-        string destPath = "";
+        findPath(root, startValue, rootToSrc); 
+        findPath(root, destValue,  rootToDst); 
 
-        findPath(lca, startValue, startPath);
-        findPath(lca, destValue, destPath);
 
-        string ans(startPath.size(), 'U');
-        ans += destPath;
+        int l = 0; 
+        while(l < rootToSrc.length() && l < rootToDst.length() && rootToSrc[l] == rootToDst[l]) {
+            l++;
+        }
 
-        return ans;
+        string result = "";
+        
+        for(int i = 0; i < rootToSrc.length() - l; i++) {
+            result.push_back('U');
+        }
+
+        for(int i = l; i < rootToDst.length(); i++) {
+            result.push_back(rootToDst[i]);
+        }
+
+        return result;
     }
 };
+
