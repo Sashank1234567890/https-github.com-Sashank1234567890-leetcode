@@ -19,30 +19,28 @@ public:
         return right;
     }
 
-    void findPath(TreeNode* root, int target, string &path, bool &found) {
-        if (!root || found)
-            return;
+    bool findPath(TreeNode* root, int target, string &path) {
+        if (!root)
+            return false;
 
-        if (root->val == target) {
-            found = true;
-            return;
-        }
+        if (root->val == target)
+            return true;
 
         path.push_back('L');
-        findPath(root->left, target, path, found);
 
-        if (found)
-            return;
+        if (findPath(root->left, target, path))
+            return true;
 
         path.pop_back();
 
         path.push_back('R');
-        findPath(root->right, target, path, found);
 
-        if (found)
-            return;
+        if (findPath(root->right, target, path))
+            return true;
 
         path.pop_back();
+
+        return false;
     }
 
     string getDirections(TreeNode* root, int startValue, int destValue) {
@@ -51,11 +49,8 @@ public:
         string startPath = "";
         string destPath = "";
 
-        bool found = false;
-        findPath(lca, startValue, startPath, found);
-
-        found = false;
-        findPath(lca, destValue, destPath, found);
+        findPath(lca, startValue, startPath);
+        findPath(lca, destValue, destPath);
 
         string ans(startPath.size(), 'U');
         ans += destPath;
