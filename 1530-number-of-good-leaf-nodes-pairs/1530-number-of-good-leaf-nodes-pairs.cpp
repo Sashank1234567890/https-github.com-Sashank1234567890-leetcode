@@ -1,74 +1,45 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
 class Solution {
 public:
+    int ans = 0;
 
-    void makeGraph(TreeNode* root, TreeNode* prev, unordered_map<TreeNode*, vector<TreeNode*>>& adj, 
-                    unordered_set<TreeNode*>& st) {
+    void solve(TreeNode* root, int distance, vector<int>& v) {
+        if (!root)
+            return;
 
-        if(root == NULL) {
+        if (!root->left && !root->right) {
+            v.push_back(0);
             return;
         }
 
-        if(root->left == NULL && root->right == NULL) { 
-            st.insert(root);
+        vector<int> left, right;
+
+        solve(root->left, distance, left);
+        solve(root->right, distance, right);
+
+        for (int x : left) {
+            for (int y : right) {
+                if (x + y + 2 <= distance)
+                    ans++;
+            }
         }
 
-        if(prev != NULL) {
-            adj[root].push_back(prev);
-            adj[prev].push_back(root);
+        for (int x : left) {
+            if (x + 1 < distance)
+                v.push_back(x + 1);
         }
 
-        makeGraph(root->left, root, adj, st);
-        makeGraph(root->right, root, adj, st);
-
+        for (int y : right) {
+            if (y + 1 < distance)
+                v.push_back(y + 1);
+        }
     }
 
     int countPairs(TreeNode* root, int distance) {
-        unordered_map<TreeNode*, vector<TreeNode*>> adj;
-        unordered_set<TreeNode*>st; 
+        ans = 0;
 
-        makeGraph(root, NULL, adj, st);
+        vector<int> v;
+        solve(root, distance, v);
 
-        int count = 0; 
-
-        for(auto &leaf : st) {
-
-          
-            queue<TreeNode*> que;
-            unordered_set<TreeNode*> visited;
-            que.push(leaf);
-            visited.insert(leaf);
-
-
-            for(int level = 0; level <= distance; level++) { 
-                int size = que.size();
-                while(size--) { 
-                    TreeNode* curr = que.front();
-                    que.pop();
-
-                    if(curr != leaf && st.count(curr)) { 
-                        count++;
-                    }
-
-                    for(auto &ngbr : adj[curr]) {
-                        if(!visited.count(ngbr)) {
-                            que.push(ngbr);
-                            visited.insert(ngbr);
-                        }
-                    }
-                }
-            }
-        }
-        return count/2;
+        return ans;
     }
 };
