@@ -1,45 +1,47 @@
 class Solution {
 public:
-    int ans = 0;
 
-    void solve(TreeNode* root, int distance, vector<int>& v) {
-        if (!root)
-            return;
-
-        if (!root->left && !root->right) {
-            v.push_back(0);
-            return;
+    vector<int> solve(TreeNode* root, int distance, int &goodLeafNodes) {
+        if(!root) {
+            return {0};
         }
 
-        vector<int> left, right;
+        if(root->left == NULL && root->right == NULL) {
+            return {1};
+        }
 
-        solve(root->left, distance, left);
-        solve(root->right, distance, right);
+        auto left_d  = solve(root->left, distance, goodLeafNodes);
+        auto right_d = solve(root->right, distance, goodLeafNodes);
 
-        for (int x : left) {
-            for (int y : right) {
-                if (x + y + 2 <= distance)
-                    ans++;
+        for(int &l : left_d) {
+            for(int &r : right_d) {
+                if((l != 0 && r != 0) && l + r <= distance) {
+                    goodLeafNodes++;
+                }
             }
         }
 
-        for (int x : left) {
-            if (x + 1 < distance)
-                v.push_back(x + 1);
+        vector<int> curr_d;
+        for(int &ld : left_d) {
+            if(ld != 0 && ld + 1 <= distance) {
+                curr_d.push_back(ld+1);
+            }
         }
 
-        for (int y : right) {
-            if (y + 1 < distance)
-                v.push_back(y + 1);
+        for(int &rd : right_d) {
+            if(rd != 0 && rd+1 <= distance) {
+                curr_d.push_back(rd+1);
+            }
         }
+
+        return curr_d;
+        
     }
 
     int countPairs(TreeNode* root, int distance) {
-        ans = 0;
+        int goodLeafNodes = 0;
+        solve(root, distance, goodLeafNodes);
 
-        vector<int> v;
-        solve(root, distance, v);
-
-        return ans;
+        return goodLeafNodes;
     }
 };
