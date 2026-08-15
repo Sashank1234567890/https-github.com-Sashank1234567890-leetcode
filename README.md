@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1695-maximum-erasure-value](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1695-maximum-erasure-value) |
+| [1733-minimum-number-of-people-to-teach](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1733-minimum-number-of-people-to-teach) |
 | [1743-restore-the-array-from-adjacent-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1743-restore-the-array-from-adjacent-pairs) |
 | [1857-largest-color-value-in-a-directed-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1857-largest-color-value-in-a-directed-graph) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1930-unique-length-3-palindromic-subsequences) |
@@ -484,6 +485,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1706-where-will-the-ball-fall](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1706-where-will-the-ball-fall) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1727-largest-submatrix-with-rearrangements) |
+| [1733-minimum-number-of-people-to-teach](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1733-minimum-number-of-people-to-teach) |
 | [1743-restore-the-array-from-adjacent-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1743-restore-the-array-from-adjacent-pairs) |
 | [1755-closest-subsequence-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1755-closest-subsequence-sum) |
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1760-minimum-limit-of-balls-in-a-bag) |
@@ -1612,6 +1614,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1727-largest-submatrix-with-rearrangements) |
+| [1733-minimum-number-of-people-to-teach](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1733-minimum-number-of-people-to-teach) |
 | [1792-maximum-average-pass-ratio](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1792-maximum-average-pass-ratio) |
 | [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1838-frequency-of-the-most-frequent-element) |
