@@ -238,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 | [2458-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2458-height-of-binary-tree-after-subtree-removal-queries) |
+| [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2493-divide-nodes-into-the-maximum-number-of-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2493-divide-nodes-into-the-maximum-number-of-groups) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
@@ -1500,6 +1501,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 | [2440-create-components-with-same-value](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2440-create-components-with-same-value) |
 | [2458-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2458-height-of-binary-tree-after-subtree-removal-queries) |
+| [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2641-cousins-in-binary-tree-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2641-cousins-in-binary-tree-ii) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3068-find-the-maximum-sum-of-node-values](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3068-find-the-maximum-sum-of-node-values) |
@@ -1547,6 +1549,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 | [2458-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2458-height-of-binary-tree-after-subtree-removal-queries) |
+| [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2641-cousins-in-binary-tree-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2641-cousins-in-binary-tree-ii) |
 ## Design
 |  |
