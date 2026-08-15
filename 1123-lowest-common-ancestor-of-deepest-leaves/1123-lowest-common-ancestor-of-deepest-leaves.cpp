@@ -11,55 +11,38 @@
  */
 class Solution {
 public:
+    unordered_map<int, int> mp;
+    int maxD = 0;
 
-    vector<TreeNode*> v;
-
-    TreeNode* lca(TreeNode* root, TreeNode* a, TreeNode* b) {
-        if(!root || root == a || root == b)
+    TreeNode* LCA(TreeNode* root) {
+        if(root == NULL || mp[root->val] == maxD) {
             return root;
+        }
 
-        TreeNode* left = lca(root->left, a, b);
-        TreeNode* right = lca(root->right, a, b);
+        TreeNode* l = LCA(root->left);
+        TreeNode* r = LCA(root->right);
 
-        if(left && right)
+        if(l && r) {
             return root;
+        }
 
-        return left ? left : right;
+        return l != NULL ? l : r;
     }
 
+    void depth(TreeNode* root, int d) {
+        if(!root) {
+            return;
+        }
+
+        maxD = max(maxD, d);
+        mp[root->val] = d;
+        depth(root->left, d+1);
+        depth(root->right, d+1);
+    }
+   
     TreeNode* lcaDeepestLeaves(TreeNode* root) {
-        if(!root)
-            return NULL;
+        depth(root, 0);
 
-        queue<TreeNode*> q;
-        q.push(root);
-
-        while(!q.empty()) {
-            int n = q.size();
-
-            v.clear();
-
-            for(int i = 0; i < n; i++) {
-                TreeNode* node = q.front();
-                q.pop();
-
-                if(!node->left && !node->right)
-                    v.push_back(node);
-
-                if(node->left)
-                    q.push(node->left);
-
-                if(node->right)
-                    q.push(node->right);
-            }
-        }
-
-        TreeNode* ans = v[0];
-
-        for(int i = 1; i < v.size(); i++) {
-            ans = lca(root, ans, v[i]);
-        }
-
-        return ans;
+        return LCA(root);
     }
 };
