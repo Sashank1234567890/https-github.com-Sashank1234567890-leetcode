@@ -1,66 +1,57 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
 class Solution {
 public:
-    int solve(vector<int>& v) {
-        int cnt = 0;
+    int countMinSwapsToSort(vector<int>& vec) {
+        int swaps = 0;
+        vector<int> sortedVec(begin(vec), end(vec));
+        
+        sort(begin(sortedVec), end(sortedVec));
 
-        for(int i = 0; i < v.size(); i++) {
-            int mini = i;
-
-            for(int j = i + 1; j < v.size(); j++) {
-                if(v[j] < v[mini])
-                    mini = j;
-            }
-
-            if(mini != i) {
-                swap(v[i], v[mini]);
-                cnt++;
-            }
+        unordered_map<int, int> mp; 
+        for(int i = 0; i < vec.size(); i++) {
+            mp[vec[i]] = i;
         }
 
-        return cnt;
+        for(int i = 0; i < vec.size(); i++) {
+            if(vec[i] == sortedVec[i])
+                continue; 
+            
+            int currIdx = mp[sortedVec[i]];
+            mp[vec[i]] = currIdx;
+            mp[vec[currIdx]] = i;
+            swap(vec[currIdx], vec[i]);
+            swaps++;
+        }
+
+        return swaps;
     }
 
     int minimumOperations(TreeNode* root) {
-        if(!root)
-            return 0;
+        queue<TreeNode*> que;
+        que.push(root);
 
-        int ans = 0;
+        int result = 0;
 
-        queue<TreeNode*> q;
-        q.push(root);
+        while(!que.empty()) {
+            int n = que.size();
+            vector<int> vec;
 
-        while(!q.empty()) {
+            while(n--) {
+                TreeNode* temp = que.front();
+                que.pop();
+                vec.push_back(temp->val);
 
-            int n = q.size();
-            vector<int> v;
+                if(temp->left) {
+                    que.push(temp->left);
+                }
 
-            for(int i = 0; i < n; i++) {
-                TreeNode* node = q.front();
-                q.pop();
-
-                v.push_back(node->val);
-
-                if(node->left)
-                    q.push(node->left);
-
-                if(node->right)
-                    q.push(node->right);
+                if(temp->right) {
+                    que.push(temp->right);
+                }
             }
 
-            ans += solve(v);
+            result += countMinSwapsToSort(vec);
         }
 
-        return ans;
+        return result;
     }
 };
