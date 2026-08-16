@@ -3,7 +3,7 @@ class Solution:
         n=len(nums)
         mp={}
         for i in range(n):
-            if(mp.get(target-nums[i]) is not None):
+            if target-nums[i] in mp:
                return [mp[target-nums[i]],i]
             mp[nums[i]]=i
         return [-1,-1]    
