@@ -432,6 +432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1233-remove-sub-folders-from-the-filesystem](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1233-remove-sub-folders-from-the-filesystem) |
 | [1254-number-of-closed-islands](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1260-shift-2d-grid) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1266-minimum-time-visiting-all-points](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1266-minimum-time-visiting-all-points) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1287-element-appearing-more-than-25-in-sorted-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1287-element-appearing-more-than-25-in-sorted-array) |
@@ -782,6 +783,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1031-maximum-sum-of-two-non-overlapping-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1031-maximum-sum-of-two-non-overlapping-subarrays) |
 | [1140-stone-game-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1140-stone-game-ii) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1301-number-of-paths-with-max-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1340-jump-game-v](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1340-jump-game-v) |
@@ -974,6 +976,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0905-sort-array-by-parity](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0905-sort-array-by-parity) |
 | [0945-minimum-increment-to-make-array-unique](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0945-minimum-increment-to-make-array-unique) |
 | [0976-largest-perimeter-triangle](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0976-largest-perimeter-triangle) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1288-remove-covered-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1288-remove-covered-intervals) |
 | [1329-sort-the-matrix-diagonally](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1329-sort-the-matrix-diagonally) |
 | [1331-rank-transform-of-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1331-rank-transform-of-an-array) |
@@ -1609,6 +1612,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0991-broken-calculator](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0991-broken-calculator) |
 | [1007-minimum-domino-rotations-for-equal-row](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1007-minimum-domino-rotations-for-equal-row) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1323-maximum-69-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1323-maximum-69-number) |
 | [1328-break-a-palindrome](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1328-break-a-palindrome) |
