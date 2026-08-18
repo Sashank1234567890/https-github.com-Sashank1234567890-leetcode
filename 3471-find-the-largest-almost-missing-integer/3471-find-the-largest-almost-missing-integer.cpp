@@ -6,13 +6,12 @@ public:
 
         int n = nums.size();
 
-        for(int i = 0; i < k; i++) {
-            freq[nums[i]]++;
-        }
-
-        for(auto it : freq) {
-            subcnt[it.first]++;
-        }
+       for(int i = 0; i < k; i++) {
+    if(freq[nums[i]] == 0) {
+        subcnt[nums[i]]++;
+    }
+    freq[nums[i]]++;
+  }
 
         for(int i = k; i < n; i++) {
             freq[nums[i-k]]--;
