@@ -1,38 +1,38 @@
 class Solution {
 public:
     int largestInteger(vector<int>& nums, int k) {
-        unordered_map<int,int> freq;
-        unordered_map<int,int> subcnt;
-
         int n = nums.size();
 
-       for(int i = 0; i < k; i++) {
-    if(freq[nums[i]] == 0) {
-        subcnt[nums[i]]++;
-    }
-    freq[nums[i]]++;
-  }
+        unordered_map<int,int> cnt;
 
-        for(int i = k; i < n; i++) {
-            freq[nums[i-k]]--;
+        for(int i = 0; i < n; i++) {
+            cnt[nums[i]]++;
+        }
 
-            if(freq[nums[i-k]] == 0) {
-                freq.erase(nums[i-k]);
+        if(k == n) {
+            return ranges::max(nums);
+        }
+
+        if(k == 1) {
+            int ans = -1;
+
+            for(auto it : cnt) {
+                if(it.second == 1) {
+                    ans = max(ans, it.first);
+                }
             }
 
-            freq[nums[i]]++;
-
-            for(auto it : freq) {
-                subcnt[it.first]++;
-            }
+            return ans;
         }
 
         int ans = -1;
 
-        for(auto it : subcnt) {
-            if(it.second == 1) {
-                ans = max(ans, it.first);
-            }
+        if(cnt[nums[0]] == 1) {
+            ans = max(ans, nums[0]);
+        }
+
+        if(cnt[nums[n-1]] == 1) {
+            ans = max(ans, nums[n-1]);
         }
 
         return ans;
