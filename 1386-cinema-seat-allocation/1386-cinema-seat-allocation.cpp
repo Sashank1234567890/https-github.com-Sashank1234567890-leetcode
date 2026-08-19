@@ -1,26 +1,25 @@
 class Solution {
 public:
     int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats) {
-        unordered_map<int, unordered_set<int>> mp; 
+        unordered_map<int, int> mp;
 
-        for(auto& reservedSeat : reservedSeats) {
+        for(auto& reservedSeat : reservedSeats) { 
             int row  = reservedSeat[0];
             int seat = reservedSeat[1];
 
-            mp[row].insert(seat);
+            mp[row] |= (1 << seat); 
         }
 
         int result = (n - mp.size()) * 2;
 
-        for(auto& [row, bookedSeats] : mp) {
+        int maskA = (1 << 2) | (1 << 3) | (1 << 4) | (1 << 5); 
+        int maskB = (1 << 4) | (1 << 5) | (1 << 6) | (1 << 7); 
+        int maskC = (1 << 6) | (1 << 7) | (1 << 8) | (1 << 9); 
 
-            auto isAvailable = [&](int seat) {
-                return bookedSeats.find(seat) == bookedSeats.end();
-            };
-
-            bool graupA = isAvailable(2) && isAvailable(3) && isAvailable(4) & isAvailable(5);
-            bool graupB = isAvailable(4) && isAvailable(5) && isAvailable(6) & isAvailable(7);
-            bool graupC = isAvailable(6) && isAvailable(7) && isAvailable(8) & isAvailable(9);
+        for(auto& [row, bookedSeatsMask] : mp) { 
+            bool graupA = (bookedSeatsMask & maskA) == 0;
+            bool graupB = (bookedSeatsMask & maskB) == 0;
+            bool graupC = (bookedSeatsMask & maskC) == 0;
 
             if(graupA && graupC)
                 result += 2;
