@@ -1,31 +1,34 @@
 class Solution {
 public:
-    int maxNumberOfFamilies(int n, vector<vector<int>>& rs) {
-        unordered_map<int,unordered_set<int>> mp;
+    int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats) {
+        unordered_map<int, unordered_set<int>> mp; 
 
-        for(auto v:rs){
-            int i=v[0];
-            int j=v[1];
+        for(auto& reservedSeat : reservedSeats) {
+            int row  = reservedSeat[0];
+            int seat = reservedSeat[1];
 
-            if(j>=2 && j<=5 && !mp[i].count(1))
-                mp[i].insert(1);
-
-            if(j>=4 && j<=7 && !mp[i].count(2))
-                mp[i].insert(2);
-
-            if(j>=6 && j<=9 && !mp[i].count(3))
-                mp[i].insert(3);
+            mp[row].insert(seat);
         }
 
-        int ans=(n-mp.size())*2;
+        int result = (n - mp.size()) * 2;
 
-        for(auto [i,st]:mp){
-            if(!st.count(1) && !st.count(3))
-                ans+=2;
-            else if(!st.count(1) || !st.count(2) || !st.count(3))
-                ans++;
+        for(auto& [row, bookedSeats] : mp) {
+
+            auto isAvailable = [&](int seat) {
+                return bookedSeats.find(seat) == bookedSeats.end();
+            };
+
+            bool graupA = isAvailable(2) && isAvailable(3) && isAvailable(4) & isAvailable(5);
+            bool graupB = isAvailable(4) && isAvailable(5) && isAvailable(6) & isAvailable(7);
+            bool graupC = isAvailable(6) && isAvailable(7) && isAvailable(8) & isAvailable(9);
+
+            if(graupA && graupC)
+                result += 2;
+            else if(graupA || graupB || graupC)
+                result += 1;
+
         }
 
-        return ans;
+        return result;
     }
 };
