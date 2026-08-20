@@ -1,58 +1,31 @@
 class Solution {
 public:
-    string ans;
-    vector<bool> used;
-
-    void solve(string &pattern,string &s,int j,int prepat){
-        if(j==pattern.size()+1){
-            if(ans=="" || s<ans)
-                ans=s;
-            return;
-        }
-
-        if(prepat==0){
-            for(int i=s.back()-'0'+1;i<=9;i++){
-                if(!used[i]){
-                    used[i]=true;
-                    s.push_back(i+'0');
-
-                    solve(pattern,s,j+1,pattern[j]=='D');
-
-                    s.pop_back();
-                    used[i]=false;
-                }
+    bool matchesPattern(string &num, string &pattern) {
+        for(int i = 0; i < pattern.length(); i++) {
+            if((pattern[i] == 'I' && num[i] > num[i+1]) ||
+                (pattern[i] == 'D' && num[i] < num[i+1])) {
+                return false;
             }
         }
-        else{
-            for(int i=s.back()-'0'-1;i>=1;i--){
-                if(!used[i]){
-                    used[i]=true;
-                    s.push_back(i+'0');
 
-                    solve(pattern,s,j+1,pattern[j]=='D');
-
-                    s.pop_back();
-                    used[i]=false;
-                }
-            }
-        }
+        return true;
     }
 
     string smallestNumber(string pattern) {
-        string s="";
-        ans="";
-        used=vector<bool>(10,false);
-
-        for(int i=1;i<=9;i++){
-            used[i]=true;
-            s.push_back(i+'0');
-
-            solve(pattern,s,1,pattern[0]=='D');
-
-            s.pop_back();
-            used[i]=false;
+        int n = pattern.length(); 
+        string num = "";
+        
+        for(int i = 1; i <= n+1; i++) {
+            num.push_back(i + '0'); 
         }
 
-        return ans;
+       
+
+        while(!matchesPattern(num, pattern)) {
+            next_permutation(begin(num), end(num));
+        }
+
+        return num;
+
     }
 };
