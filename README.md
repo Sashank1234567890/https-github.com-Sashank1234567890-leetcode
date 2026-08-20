@@ -616,6 +616,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3048-earliest-second-to-mark-indices-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3048-earliest-second-to-mark-indices-i) |
 | [3068-find-the-maximum-sum-of-node-values](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3068-find-the-maximum-sum-of-node-values) |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3076-shortest-uncommon-substring-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3076-shortest-uncommon-substring-in-an-array) |
 | [3108-minimum-cost-walk-in-weighted-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3108-minimum-cost-walk-in-weighted-graph) |
@@ -1892,6 +1893,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2257-count-unguarded-cells-in-the-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2257-count-unguarded-cells-in-the-grid) |
 | [2326-spiral-matrix-iv](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2326-spiral-matrix-iv) |
 | [2482-difference-between-ones-and-zeros-in-row-and-column](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2482-difference-between-ones-and-zeros-in-row-and-column) |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Number Theory
 |  |
