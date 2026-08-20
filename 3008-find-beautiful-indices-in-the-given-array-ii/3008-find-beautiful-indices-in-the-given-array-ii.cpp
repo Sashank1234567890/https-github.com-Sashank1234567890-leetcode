@@ -23,13 +23,12 @@ public:
         }
     }
 
-    vector <int> KMP_codestorywithMIK(string pat, string txt) {
+    vector <int> KMP(string pat, string txt) {
         int N = txt.length();
         int M = pat.length();
         vector<int> result;
 
 
-        //lps[i] = the longest proper prefix of pat[0..i] which is also a suffix of pat[0..i]. 
         vector<int> lps(M, 0);
         computeLPS(pat, lps);
 
@@ -60,8 +59,8 @@ public:
     vector<int> beautifulIndices(string s, string a, string b, int k) {
         int n = s.length();
         
-        vector<int> i_indices = KMP_codestorywithMIK(a, s);
-        vector<int> j_indices = KMP_codestorywithMIK(b, s);
+        vector<int> i_indices = KMP(a, s);
+        vector<int> j_indices = KMP(b, s);
       
     
         vector<int> result;
