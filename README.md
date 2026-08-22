@@ -368,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0228-summary-ranges) |
 | [0229-majority-element-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0229-majority-element-ii) |
+| [0238-product-of-array-except-self](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0330-patching-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0330-patching-array) |
@@ -1777,6 +1778,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0238-product-of-array-except-self) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
 | [0523-continuous-subarray-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0713-subarray-product-less-than-k) |
