@@ -1,28 +1,15 @@
 class Solution {
 public:
     int maximumBeauty(vector<int>& nums, int k) {
-        vector<pair<int, int>> ranges;
-        for (int num : nums) {
-            ranges.push_back({num - k, num + k});
-        }
-
-        sort(ranges.begin(), ranges.end());
-
+        sort(begin(nums), end(nums));
         int maxBeauty = 0;
-        deque<int> deq; 
+    
+        for (int i = 0; i < nums.size(); i++) {
+            auto upperBound = upper_bound(nums.begin(), nums.end(), nums[i] + 2 * k); 
 
-        
-        for (const auto& range : ranges) {
-            while (!deq.empty() && deq.front() < range.first) {
-                deq.pop_front();
-            }
-
-            deq.push_back(range.second);
-
-            maxBeauty = max(maxBeauty, (int)deq.size());
+            maxBeauty = max(maxBeauty, int(upperBound - nums.begin()) - i);
         }
 
         return maxBeauty;
     }
 };
-
