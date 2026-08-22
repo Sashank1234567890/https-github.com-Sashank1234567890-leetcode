@@ -1,39 +1,40 @@
-class Solution
-{
-    public:
-        vector<int> productExceptSelf(vector<int> &nums)
-        {
-            long long p = 1, q = 1;
-            int cnt= 0;
-            for (int x: nums)
-            {
-                if (x == 0)
-                {
-                    cnt++;
-                }
-                if (x)
-                {
-                    q *= x;
-                }
-                p *= x;
-            }
-            for (int &x: nums)
-            {
-                if (x == 0)
-                {
-                    if (cnt == 1)
-                        x = q;
-                    else
-                    {
-                        x = 0;
-                    }
-                }
-                else {
-                    x = p / x;
-                }
+class Solution {
+public:
+    vector<int> productExceptSelf(vector<int>& nums) {
 
-                
-            }
-            return nums;
+        int n = nums.size();
+
+        vector<int> prefix(n);
+        vector<int> suffix(n);
+
+        prefix[0] = nums[0];
+
+        for(int i = 1; i < n; i++) {
+            prefix[i] = prefix[i - 1] * nums[i];
         }
+
+        suffix[n - 1] = nums[n - 1];
+
+        for(int i = n - 2; i >= 0; i--) {
+            suffix[i] = suffix[i + 1] * nums[i];
+        }
+
+        vector<int> ans(n);
+
+        for(int i = 0; i < n; i++) {
+
+            int left = 1;
+            int right = 1;
+
+            if(i > 0)
+                left = prefix[i - 1];
+
+            if(i < n - 1)
+                right = suffix[i + 1];
+
+            ans[i] = left * right;
+        }
+
+        return ans;
+    }
 };
