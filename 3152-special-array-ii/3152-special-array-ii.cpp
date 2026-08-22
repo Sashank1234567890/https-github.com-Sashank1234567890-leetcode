@@ -1,40 +1,52 @@
 class Solution {
 public:
-    vector<bool> isArraySpecial(vector<int>& nums, vector<vector<int>>& queries) {
-        int n = nums.size();
-        int m = queries.size();
+    bool bSearch(vector<int>& vi, int sp, int ep) {
+        int l = 0;
+        int r = vi.size()-1;
 
-        vector<int> validRightMostIdx(n);
-        //validRightMostIdx[i] = j; right most index starting from i which is a special subarray [i..j]
+        while(l <= r) {
+            int mid = l + (r-l)/2;
 
-        int i = 0;
-        int j = 0;
-
-        while(i < n) {
-            if(j < i) {
-                j = i;
+            if(vi[mid] < sp) {
+                l = mid+1;
+            } else if(vi[mid] > ep) {
+                r = mid-1;
+            } else {
+            
+                return true;
             }
-
-            while(j+1 < n && nums[j]%2 != nums[j+1]%2) {
-                j++;
-            }
-
-            validRightMostIdx[i] = j;
-            i++;
         }
 
+        return false;
+
+    }
+
+    vector<bool> isArraySpecial(vector<int>& nums, vector<vector<int>>& queries) {
+        int m = queries.size();
+        int n = nums.size();
+
+        vector<int> vi; 
+
+        for(int i = 1; i < n; i++) { 
+            if(nums[i]%2 == nums[i-1]%2) {
+                vi.push_back(i); 
+            }
+        }
 
         vector<bool> result(m, false);
 
-        for(int i = 0; i < m; i++) {
+        for(int i = 0; i < m; i++) { 
             int start = queries[i][0];
             int end = queries[i][1];
 
-            if(end <= validRightMostIdx[start]) {
+            bool hasViolatingIndexInRange = bSearch(vi, start+1, end); 
+
+            if(hasViolatingIndexInRange == false) {
                 result[i] = true;
             }
         }
 
         return result;
+
     }
 };
