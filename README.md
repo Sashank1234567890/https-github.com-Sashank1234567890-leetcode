@@ -629,6 +629,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3076-shortest-uncommon-substring-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3076-shortest-uncommon-substring-in-an-array) |
 | [3108-minimum-cost-walk-in-weighted-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3108-minimum-cost-walk-in-weighted-graph) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
+| [3152-special-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3152-special-array-ii) |
 | [3171-find-subarray-with-bitwise-or-closest-to-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3171-find-subarray-with-bitwise-or-closest-to-k) |
 | [3208-alternating-groups-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3208-alternating-groups-ii) |
 | [3218-minimum-cost-for-cutting-cake-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3218-minimum-cost-for-cutting-cake-i) |
@@ -1467,6 +1468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 | [3048-earliest-second-to-mark-indices-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3048-earliest-second-to-mark-indices-i) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
+| [3152-special-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3152-special-array-ii) |
 | [3171-find-subarray-with-bitwise-or-closest-to-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3171-find-subarray-with-bitwise-or-closest-to-k) |
 | [3261-count-substrings-that-satisfy-k-constraint-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3261-count-substrings-that-satisfy-k-constraint-ii) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
@@ -1807,6 +1809,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3015-count-the-number-of-houses-at-a-certain-distance-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3015-count-the-number-of-houses-at-a-certain-distance-i) |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3129-find-all-possible-stable-binary-arrays-i) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
+| [3152-special-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3152-special-array-ii) |
 | [3224-minimum-array-changes-to-make-differences-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3224-minimum-array-changes-to-make-differences-equal) |
 | [3225-maximum-score-from-grid-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3225-maximum-score-from-grid-operations) |
 | [3261-count-substrings-that-satisfy-k-constraint-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3261-count-substrings-that-satisfy-k-constraint-ii) |
