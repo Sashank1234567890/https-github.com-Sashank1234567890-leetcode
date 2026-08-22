@@ -4,31 +4,37 @@ public:
         int n = nums.size();
         int m = queries.size();
 
-        vector<int> cumSum(n, 0);
-        //cumSum[i] = total count of violating indices till index i
-        cumSum[0] = 0;
+        vector<int> validRightMostIdx(n);
+        //validRightMostIdx[i] = j; right most index starting from i which is a special subarray [i..j]
 
-        for(int i = 1; i < n; i++) {
-            if(nums[i]%2 == nums[i-1]%2) {  
-                cumSum[i] = cumSum[i-1]+1;
-            } else {
-                cumSum[i] = cumSum[i-1];
+        int i = 0;
+        int j = 0;
+
+        while(i < n) {
+            if(j < i) {
+                j = i;
             }
+
+            while(j+1 < n && nums[j]%2 != nums[j+1]%2) {
+                j++;
+            }
+
+            validRightMostIdx[i] = j;
+            i++;
         }
 
-        vector<bool> result(m, false);
-        int i = 0;
-        for(vector<int>& query : queries) {
-            int start = query[0];
-            int end = query[1];
 
-            if(cumSum[end] - cumSum[start] == 0) {
+        vector<bool> result(m, false);
+
+        for(int i = 0; i < m; i++) {
+            int start = queries[i][0];
+            int end = queries[i][1];
+
+            if(end <= validRightMostIdx[start]) {
                 result[i] = true;
             }
-            i++;
         }
 
         return result;
     }
 };
-
