@@ -533,6 +533,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 | [2050-parallel-courses-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2050-parallel-courses-iii) |
+| [2054-two-best-non-overlapping-events](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 | [2070-most-beautiful-item-for-each-query](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2070-most-beautiful-item-for-each-query) |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2071-maximum-number-of-tasks-you-can-assign) |
@@ -841,6 +842,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2050-parallel-courses-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2050-parallel-courses-iii) |
+| [2054-two-best-non-overlapping-events](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2311-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2311-longest-binary-subsequence-less-than-or-equal-to-k) |
@@ -1051,6 +1053,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2007-find-original-array-from-doubled-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2007-find-original-array-from-doubled-array) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [2054-two-best-non-overlapping-events](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2070-most-beautiful-item-for-each-query](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2070-most-beautiful-item-for-each-query) |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2071-maximum-number-of-tasks-you-can-assign) |
 | [2092-find-all-people-with-secret](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2092-find-all-people-with-secret) |
@@ -1252,6 +1255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1642-furthest-building-you-can-reach](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1642-furthest-building-you-can-reach) |
 | [1792-maximum-average-pass-ratio](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1792-maximum-average-pass-ratio) |
 | [1942-the-number-of-the-smallest-unoccupied-chair](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1942-the-number-of-the-smallest-unoccupied-chair) |
+| [2054-two-best-non-overlapping-events](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2182-construct-string-with-repeat-limit](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2182-construct-string-with-repeat-limit) |
 | [2285-maximum-total-importance-of-roads](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2285-maximum-total-importance-of-roads) |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
@@ -1434,6 +1438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2009-minimum-number-of-operations-to-make-array-continuous) |
 | [2024-maximize-the-confusion-of-an-exam](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2024-maximize-the-confusion-of-an-exam) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [2054-two-best-non-overlapping-events](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 | [2070-most-beautiful-item-for-each-query](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2070-most-beautiful-item-for-each-query) |
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2071-maximum-number-of-tasks-you-can-assign) |
