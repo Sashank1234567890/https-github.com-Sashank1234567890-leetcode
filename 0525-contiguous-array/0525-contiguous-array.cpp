@@ -1,39 +1,23 @@
-class Solution
-{
-    public:
-        int findMaxLength(vector<int> &nums)
-        {
-            int pre = 0;
-            int n = nums.size();
-            for (int i = 0; i < n; i++)
-            {
-                if (nums[i] == 0)
-                {
-                    nums[i] = pre - 1;
-                    pre = nums[i];
-                }
-                else
-                {
-                    nums[i] = pre + 1;
-                    pre = nums[i];
-                }
-            }
-            unordered_map<int, int> mp;
-            mp[0] = -1;
-            int ans = 0;
-
-            for (int i = 0; i < n; i++)
-            {
-               	// cout<<nums[i];
-                if (mp.count(nums[i]))
-                {
-                    ans = max(ans, i - mp[nums[i]]);
-                }
-                else
-                {
-                    mp[nums[i]] = i;
-                }
-            }
-            return ans;
+class Solution {
+public:
+    int findMaxLength(vector<int>& nums) {
+        int n = nums.size();
+        if(n == 1) return 0;
+        
+        unordered_map<int, int> mp;
+        int currSum = 0;
+        int maxL = 0;
+        mp[0] = -1;
+        for(int i = 0; i<n; i++) {
+           
+            currSum += (nums[i] == 1) ? 1 : -1;
+            
+            if(mp.find(currSum) != mp.end()) {
+                maxL = max(maxL, i-mp[currSum]);
+            } else
+                mp[currSum] = i;
         }
+        
+        return maxL;
+    }
 };
