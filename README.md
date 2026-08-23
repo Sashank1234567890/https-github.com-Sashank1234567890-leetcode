@@ -796,6 +796,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3223-minimum-length-of-string-after-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3223-minimum-length-of-string-after-operations) |
 | [3227-vowels-game-in-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3227-vowels-game-in-a-string) |
 | [3228-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3228-maximum-number-of-operations-to-move-ones-to-the-end) |
+| [3234-count-the-number-of-substrings-with-dominant-ones](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3234-count-the-number-of-substrings-with-dominant-ones) |
 | [3258-count-substrings-that-satisfy-k-constraint-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3258-count-substrings-that-satisfy-k-constraint-i) |
 | [3261-count-substrings-that-satisfy-k-constraint-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3261-count-substrings-that-satisfy-k-constraint-ii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
@@ -1881,6 +1882,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2929-distribute-candies-among-children-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2929-distribute-candies-among-children-ii) |
 | [2947-count-beautiful-substrings-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2947-count-beautiful-substrings-i) |
 | [2959-number-of-possible-sets-of-closing-branches](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2959-number-of-possible-sets-of-closing-branches) |
+| [3234-count-the-number-of-substrings-with-dominant-ones](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3234-count-the-number-of-substrings-with-dominant-ones) |
 | [3272-find-the-count-of-good-integers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3272-find-the-count-of-good-integers) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3403-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3403-find-the-lexicographically-largest-string-from-the-box-i) |
