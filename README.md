@@ -598,6 +598,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2537-count-the-number-of-good-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2537-count-the-number-of-good-subarrays) |
 | [2551-put-marbles-in-bags](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2551-put-marbles-in-bags) |
 | [2554-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2554-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [2559-count-vowel-strings-in-ranges](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2559-count-vowel-strings-in-ranges) |
 | [2561-rearranging-fruits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2561-rearranging-fruits) |
 | [2563-count-the-number-of-fair-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2563-count-the-number-of-fair-pairs) |
 | [2573-find-the-string-with-lcp](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2573-find-the-string-with-lcp) |
@@ -772,6 +773,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2483-minimum-penalty-for-a-shop](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2486-append-characters-to-string-to-make-subsequence) |
 | [2516-take-k-of-each-character-from-left-and-right](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2516-take-k-of-each-character-from-left-and-right) |
+| [2559-count-vowel-strings-in-ranges](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2559-count-vowel-strings-in-ranges) |
 | [2573-find-the-string-with-lcp](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2573-find-the-string-with-lcp) |
 | [2785-sort-vowels-in-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2785-sort-vowels-in-a-string) |
 | [2825-make-string-a-subsequence-using-cyclic-increments](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2825-make-string-a-subsequence-using-cyclic-increments) |
@@ -1832,6 +1834,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2485-find-the-pivot-integer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2485-find-the-pivot-integer) |
 | [2528-maximize-the-minimum-powered-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2528-maximize-the-minimum-powered-city) |
 | [2536-increment-submatrices-by-one](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2536-increment-submatrices-by-one) |
+| [2559-count-vowel-strings-in-ranges](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2559-count-vowel-strings-in-ranges) |
 | [2947-count-beautiful-substrings-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2947-count-beautiful-substrings-i) |
 | [2949-count-beautiful-substrings-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2949-count-beautiful-substrings-ii) |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2968-apply-operations-to-maximize-frequency-score) |
