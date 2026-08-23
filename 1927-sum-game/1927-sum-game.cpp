@@ -1,33 +1,41 @@
 class Solution {
 public:
     bool sumGame(string num) {
+        int n = num.length();
+        int leftKnownSum = 0;
+        int rightKnownSum = 0;
 
-        int n = num.size();
+        int leftQnMarkCount = 0;
+        int rightQnmarkCount = 0;
 
-        int diff = 0;
-        int q1 = 0, q2 = 0;
-
-        for(int i = 0; i < n / 2; i++) {
-            if(num[i] == '?')
-                q1++;
-            else
-                diff += num[i] - '0';
+        for(int i = 0; i < n; i++) {
+            if(num[i] == '?') {
+                if(i < n/2) {
+                    leftQnMarkCount++;
+                } else {
+                    rightQnmarkCount++;
+                }
+            } else {
+                if(i < n/2) {
+                    leftKnownSum += num[i] - '0';
+                } else {
+                    rightKnownSum += num[i] - '0';
+                }
+            }
         }
 
-        for(int i = n / 2; i < n; i++) {
-            if(num[i] == '?')
-                q2++;
-            else
-                diff -= num[i] - '0';
-        }
-
-        int qdiff = q1 - q2;
-
-        if(qdiff % 2 != 0)
+        int totalQnMarks = leftQnMarkCount + rightQnmarkCount;
+        if(totalQnMarks % 2 == 1) { 
             return true;
+        }
 
-        diff += qdiff * 9 / 2;
+        int LEFT = 2 * leftKnownSum + 9*leftQnMarkCount;
 
-        return diff != 0;
+        int RIGHT = 2 * rightKnownSum + 9*rightQnmarkCount;
+
+        if(LEFT == RIGHT)
+            return false;
+
+        return true;
     }
 };
