@@ -1,40 +1,33 @@
 class Solution {
 public:
-
-    bool vowel(char c) {
-        return c == 'a' || c == 'e' ||c == 'i' || c == 'o' ||c == 'u';
+    bool isVowel(char &ch) {
+        if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+            return true;
+        return false;
     }
-
     vector<int> vowelStrings(vector<string>& words, vector<vector<int>>& queries) {
+        int Q = queries.size();
+        int N = words.size();
+    
+        vector<int> result(Q);
 
-        vector<int> v;
-
-   
-        for(int i = 0; i < words.size(); i++) {
-
-            int n = words[i].size();
-
-            if(vowel(words[i][0]) && vowel(words[i][n-1])) {
-
-                v.push_back(i);
+        vector<int> cumSum(N);
+        int sum = 0;
+        for(int i = 0; i < N; i++) { 
+            if(isVowel(words[i][0]) && isVowel(words[i].back())) {
+                sum++;
             }
+
+            cumSum[i] = sum;
         }
 
-        vector<int> ans;
+        for(int i = 0; i < Q; i++) { 
+            int l = queries[i][0];
+            int r = queries[i][1];
 
-        for(auto q : queries) {
-
-            int l = q[0];
-            int r = q[1];
-
-            int left = lower_bound(v.begin(), v.end(), l) - v.begin();
-
-        
-            int right = upper_bound(v.begin(), v.end(), r) - v.begin();
-
-            ans.push_back(right - left);
+            result[i] = cumSum[r] - ((l > 0) ? cumSum[l-1] : 0);
         }
 
-        return ans;
+        return result;
     }
 };
