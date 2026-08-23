@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2402-meeting-rooms-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2402-meeting-rooms-iii) |
 | [2405-optimal-partition-of-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2405-optimal-partition-of-string) |
+| [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2434-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 | [2501-longest-square-streak-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2501-longest-square-streak-in-an-array) |
@@ -763,6 +764,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2375-construct-smallest-number-from-di-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2375-construct-smallest-number-from-di-string) |
 | [2391-minimum-amount-of-time-to-collect-garbage](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2391-minimum-amount-of-time-to-collect-garbage) |
 | [2405-optimal-partition-of-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2405-optimal-partition-of-string) |
+| [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2434-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2446-determine-if-two-events-have-conflict](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2446-determine-if-two-events-have-conflict) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2486-append-characters-to-string-to-make-subsequence) |
@@ -1747,6 +1749,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2389-longest-subsequence-with-limited-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2389-longest-subsequence-with-limited-sum) |
 | [2405-optimal-partition-of-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2405-optimal-partition-of-string) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
+| [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2434-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2439-minimize-maximum-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2439-minimize-maximum-of-array) |
 | [2448-minimum-cost-to-make-array-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2448-minimum-cost-to-make-array-equal) |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2486-append-characters-to-string-to-make-subsequence) |
@@ -2004,6 +2007,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1574-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1574-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1793-maximum-score-of-a-good-subarray](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1793-maximum-score-of-a-good-subarray) |
 | [2375-construct-smallest-number-from-di-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2375-construct-smallest-number-from-di-string) |
+| [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2434-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [3229-minimum-operations-to-make-array-equal-to-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3229-minimum-operations-to-make-array-equal-to-target) |
 ## Monotonic Stack
