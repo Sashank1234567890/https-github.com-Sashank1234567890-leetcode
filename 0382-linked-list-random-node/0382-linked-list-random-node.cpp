@@ -11,35 +11,25 @@
 class Solution {
 public:
     ListNode* temp;
-    int cnt;
-
     Solution(ListNode* head) {
         temp = head;
-
-        cnt = 0;
-
-        ListNode* curr = head;
-
-        while(curr) {
-            cnt++;
-            curr = curr->next;
-        }
     }
     
+   
     int getRandom() {
-
-        int k = rand() % cnt;
-
+        int res;
         ListNode* curr = temp;
-
-        while(k--) {
+        int size = 1;
+        while(curr) {
+            //choosing probability is 1/size (reservior sampling)
+            if(rand()%size == 0)
+                res = curr->val;
             curr = curr->next;
+            size++;
         }
-
-        return curr->val;
+        return res;
     }
 };
-
 /**
  * Your Solution object will be instantiated and called as such:
  * Solution* obj = new Solution(head);
