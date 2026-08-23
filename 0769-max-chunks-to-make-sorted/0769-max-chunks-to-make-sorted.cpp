@@ -1,29 +1,20 @@
 class Solution {
 public:
     int maxChunksToSorted(vector<int>& arr) {
-
         int n = arr.size();
+        int cumSum    = 0;
+        int normalSum = 0;
 
-        vector<int> suffixMin(n);
-
-        suffixMin[n-1] = arr[n-1];
-
-        for(int i = n-2; i >= 0; i--) {
-            suffixMin[i] = min(arr[i], suffixMin[i+1]);
-        }
-
-        int ans = 0;
-        int mx = INT_MIN;
-
+        int chunksCount = 0;
         for(int i = 0; i < n; i++) {
+            cumSum += arr[i];
+            normalSum += i;
 
-            mx = max(mx, arr[i]);
-
-            if(i == n-1 || mx < suffixMin[i+1]) {
-                ans++;
+            if(cumSum == normalSum) {
+                chunksCount++;
             }
         }
 
-        return ans;
+        return chunksCount;
     }
 };
