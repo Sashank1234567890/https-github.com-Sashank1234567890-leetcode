@@ -405,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0752-open-the-lock](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0752-open-the-lock) |
 | [0757-set-intersection-size-at-least-two](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0757-set-intersection-size-at-least-two) |
 | [0766-toeplitz-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0766-toeplitz-matrix) |
+| [0769-max-chunks-to-make-sorted](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0773-sliding-puzzle](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0773-sliding-puzzle) |
 | [0778-swim-in-rising-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0778-swim-in-rising-water) |
 | [0798-smallest-rotation-with-highest-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0798-smallest-rotation-with-highest-score) |
@@ -1034,6 +1035,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0757-set-intersection-size-at-least-two](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0757-set-intersection-size-at-least-two) |
+| [0769-max-chunks-to-make-sorted](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0791-custom-sort-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0791-custom-sort-string) |
 | [0826-most-profit-assigning-work](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0826-most-profit-assigning-work) |
 | [0881-boats-to-save-people](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0881-boats-to-save-people) |
@@ -1701,6 +1703,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0649-dota2-senate](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0649-dota2-senate) |
 | [0670-maximum-swap](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0670-maximum-swap) |
 | [0757-set-intersection-size-at-least-two](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0757-set-intersection-size-at-least-two) |
+| [0769-max-chunks-to-make-sorted](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0826-most-profit-assigning-work](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0826-most-profit-assigning-work) |
 | [0881-boats-to-save-people](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0881-boats-to-save-people) |
 | [0945-minimum-increment-to-make-array-unique](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0945-minimum-increment-to-make-array-unique) |
@@ -2005,6 +2008,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0042-trapping-rain-water) |
+| [0769-max-chunks-to-make-sorted](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0844-backspace-string-compare](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0844-backspace-string-compare) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1544-make-the-string-great](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1544-make-the-string-great) |
@@ -2018,6 +2022,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0042-trapping-rain-water) |
+| [0769-max-chunks-to-make-sorted](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1574-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1574-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1793-maximum-score-of-a-good-subarray](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1793-maximum-score-of-a-good-subarray) |
