@@ -1159,6 +1159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0263-ugly-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0263-ugly-number) |
 | [0319-bulb-switcher](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0319-bulb-switcher) |
 | [0342-power-of-four](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0342-power-of-four) |
+| [0382-linked-list-random-node](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0382-linked-list-random-node) |
 | [0458-poor-pigs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0458-poor-pigs) |
 | [0486-predict-the-winner](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0486-predict-the-winner) |
 | [0523-continuous-subarray-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0523-continuous-subarray-sum) |
@@ -2149,6 +2150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0328-odd-even-linked-list) |
+| [0382-linked-list-random-node](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0382-linked-list-random-node) |
 | [1367-linked-list-in-binary-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1367-linked-list-in-binary-tree) |
 | [2326-spiral-matrix-iv](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2326-spiral-matrix-iv) |
 ## Nim Game
@@ -2225,4 +2227,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0142-linked-list-cycle-ii) |
+## Reservoir Sampling
+|  |
+| ------- |
+| [0382-linked-list-random-node](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0382-linked-list-random-node) |
+## Randomized
+|  |
+| ------- |
+| [0382-linked-list-random-node](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0382-linked-list-random-node) |
 <!---LeetCode Topics End-->
