@@ -1,26 +1,25 @@
 class Solution {
 public:
+    const int M = 1e9+7;
+
     int numSub(string s) {
-       long long int ans=0;
-       int MOD=1e9+7;
-        int i=0,j=0;
-        while(s[i]=='0'){
-            i++;
-        }
-        int n=s.size();
-        if(i==n)
-        return 0;
-        j=i;
-        
-        while(j<n){
-            if(s[j]=='0'){
-                while(j<n&&s[j]=='0')
-                j++;
-                i=j;
+        long long result = 0;
+        long long count1 = 0;
+
+        for(char ch : s) {
+            if (ch == '1') {
+                count1++;
+            } else {
+                result = (result + count1 * (count1 + 1) / 2) % M;
+                count1 = 0;
             }
-            if(j!=n)
-            ans=(ans+(j-i)+1)%MOD;
-            j++;
         }
-    return ans;}
+
+      
+        result = (result + count1 * (count1 + 1) / 2) % M;
+
+        return (int)result;
+    }
 };
+
+
