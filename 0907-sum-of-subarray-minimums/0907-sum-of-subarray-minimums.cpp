@@ -4,10 +4,12 @@ public:
 
         int n = arr.size();
 
+        vector<int> left(n, -1);
         vector<int> right(n, n);
+
         stack<int> st;
 
-        // next smaller
+     
         for(int i = n - 1; i >= 0; i--) {
 
             while(!st.empty() && arr[st.top()] > arr[i]) {
@@ -20,25 +22,31 @@ public:
             st.push(i);
         }
 
-        vector<long long> dp(n, 0);
+        while(!st.empty())
+            st.pop();
+
+       
+        for(int i = 0; i < n; i++) {
+
+            while(!st.empty() && arr[st.top()] >= arr[i]) {
+                st.pop();
+            }
+
+            if(!st.empty())
+                left[i] = st.top();
+
+            st.push(i);
+        }
 
         long long ans = 0;
         int mod = 1e9 + 7;
 
-        for(int i = n - 1; i >= 0; i--) {
+        for(int i = 0; i < n; i++) {
 
-            int j = right[i];
+            long long l = i - left[i];
+            long long r = right[i] - i;
 
-           
-            dp[i] = 1LL * (j - i) * arr[i];
-
-            
-            if(j < n)
-                dp[i] += dp[j];
-
-            dp[i] %= mod;
-
-            ans = (ans + dp[i]) % mod;
+            ans = (ans + l * r % mod * arr[i]) % mod;
         }
 
         return ans;
