@@ -1705,6 +1705,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0352-data-stream-as-disjoint-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0352-data-stream-as-disjoint-intervals) |
 | [0729-my-calendar-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0731-my-calendar-ii) |
@@ -1881,6 +1882,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0239-sliding-window-maximum) |
 | [0649-dota2-senate](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0649-dota2-senate) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
@@ -2036,6 +2038,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0042-trapping-rain-water) |
+| [0232-implement-queue-using-stacks](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0769-max-chunks-to-make-sorted](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0844-backspace-string-compare](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0844-backspace-string-compare) |
 | [0901-online-stock-span](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0901-online-stock-span) |
