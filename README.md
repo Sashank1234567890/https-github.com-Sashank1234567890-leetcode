@@ -406,6 +406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0724-find-pivot-index) |
 | [0729-my-calendar-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0731-my-calendar-ii) |
+| [0739-daily-temperatures](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0739-daily-temperatures) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0752-open-the-lock](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0752-open-the-lock) |
 | [0757-set-intersection-size-at-least-two](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0757-set-intersection-size-at-least-two) |
@@ -2047,6 +2048,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0042-trapping-rain-water) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0232-implement-queue-using-stacks](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0739-daily-temperatures](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0739-daily-temperatures) |
 | [0769-max-chunks-to-make-sorted](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0844-backspace-string-compare](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0844-backspace-string-compare) |
 | [0901-online-stock-span](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0901-online-stock-span) |
@@ -2065,6 +2067,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0042-trapping-rain-water) |
+| [0739-daily-temperatures](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0739-daily-temperatures) |
 | [0769-max-chunks-to-make-sorted](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0901-online-stock-span](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0907-sum-of-subarray-minimums) |
