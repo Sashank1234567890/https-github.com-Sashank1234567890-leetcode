@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1233-remove-sub-folders-from-the-filesystem](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1233-remove-sub-folders-from-the-filesystem) |
 | [1254-number-of-closed-islands](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1254-number-of-closed-islands) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
+| [1267-count-servers-that-communicate](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1361-validate-binary-tree-nodes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1361-validate-binary-tree-nodes) |
 | [1367-linked-list-in-binary-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1367-linked-list-in-binary-tree) |
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1254-number-of-closed-islands](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1254-number-of-closed-islands) |
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
+| [1267-count-servers-that-communicate](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1298-maximum-candies-you-can-get-from-boxes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1298-maximum-candies-you-can-get-from-boxes) |
 | [1361-validate-binary-tree-nodes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1361-validate-binary-tree-nodes) |
@@ -465,6 +467,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1260-shift-2d-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1260-shift-2d-grid) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1266-minimum-time-visiting-all-points](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1266-minimum-time-visiting-all-points) |
+| [1267-count-servers-that-communicate](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1287-element-appearing-more-than-25-in-sorted-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1287-element-appearing-more-than-25-in-sorted-array) |
 | [1288-remove-covered-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1288-remove-covered-intervals) |
@@ -946,6 +949,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0621-task-scheduler) |
 | [0945-minimum-increment-to-make-array-unique](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0945-minimum-increment-to-make-array-unique) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0992-subarrays-with-k-different-integers) |
+| [1267-count-servers-that-communicate](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1400-construct-k-palindrome-strings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1400-construct-k-palindrome-strings) |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1704-determine-if-string-halves-are-alike](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1704-determine-if-string-halves-are-alike) |
@@ -980,6 +984,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0959-regions-cut-by-slashes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0959-regions-cut-by-slashes) |
 | [1020-number-of-enclaves](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1020-number-of-enclaves) |
 | [1254-number-of-closed-islands](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1254-number-of-closed-islands) |
+| [1267-count-servers-that-communicate](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1361-validate-binary-tree-nodes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1361-validate-binary-tree-nodes) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
@@ -1573,6 +1578,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1074-number-of-submatrices-that-sum-to-target) |
 | [1254-number-of-closed-islands](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1260-shift-2d-grid) |
+| [1267-count-servers-that-communicate](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1267-count-servers-that-communicate) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1301-number-of-paths-with-max-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [1329-sort-the-matrix-diagonally](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1329-sort-the-matrix-diagonally) |
