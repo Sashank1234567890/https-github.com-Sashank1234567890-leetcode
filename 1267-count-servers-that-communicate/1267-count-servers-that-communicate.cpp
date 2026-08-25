@@ -1,41 +1,38 @@
 class Solution {
 public:
-    struct Hash {
-        int operator()(const pair<int,int>& p) const {
-            return p.first * 100000 + p.second;
-        }
-    };
-
     int countServers(vector<vector<int>>& grid) {
 
         int m = grid.size();
         int n = grid[0].size();
 
-        vector<pair<int,int>> v;
+        vector<int> row(m, 0);
+        vector<int> col(n, 0);
 
         for(int i = 0; i < m; i++) {
+
             for(int j = 0; j < n; j++) {
 
-                if(grid[i][j] == 1)
-                    v.push_back({i,j});
-            }
-        }
-
-        unordered_set<pair<int,int>, Hash> st;
-
-        for(int i = 0; i < v.size(); i++) {
-
-            for(int j = i + 1; j < v.size(); j++) {
-
-                if(v[i].first == v[j].first ||
-                   v[i].second == v[j].second) {
-
-                    st.insert(v[i]);
-                    st.insert(v[j]);
+                if(grid[i][j] == 1) {
+                    row[i]++;
+                    col[j]++;
                 }
             }
         }
 
-        return st.size();
+        int ans = 0;
+
+        for(int i = 0; i < m; i++) {
+
+            for(int j = 0; j < n; j++) {
+
+                if(grid[i][j] == 1 &&
+                   (row[i] > 1 || col[j] > 1)) {
+
+                    ans++;
+                }
+            }
+        }
+
+        return ans;
     }
 };
