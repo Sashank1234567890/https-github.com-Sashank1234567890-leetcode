@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1695-maximum-erasure-value](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1695-maximum-erasure-value) |
+| [1726-tuple-with-same-product](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1726-tuple-with-same-product) |
 | [1733-minimum-number-of-people-to-teach](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1733-minimum-number-of-people-to-teach) |
 | [1743-restore-the-array-from-adjacent-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1743-restore-the-array-from-adjacent-pairs) |
 | [1857-largest-color-value-in-a-directed-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1857-largest-color-value-in-a-directed-graph) |
@@ -524,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1701-average-waiting-time](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1701-average-waiting-time) |
 | [1706-where-will-the-ball-fall](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1706-where-will-the-ball-fall) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
+| [1726-tuple-with-same-product](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1726-tuple-with-same-product) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1733-minimum-number-of-people-to-teach](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1733-minimum-number-of-people-to-teach) |
 | [1743-restore-the-array-from-adjacent-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1743-restore-the-array-from-adjacent-pairs) |
@@ -953,6 +955,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1400-construct-k-palindrome-strings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1400-construct-k-palindrome-strings) |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1704-determine-if-string-halves-are-alike](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1704-determine-if-string-halves-are-alike) |
+| [1726-tuple-with-same-product](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1726-tuple-with-same-product) |
 | [1857-largest-color-value-in-a-directed-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1857-largest-color-value-in-a-directed-graph) |
 | [2029-stone-game-ix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2029-stone-game-ix) |
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2131-longest-palindrome-by-concatenating-two-letter-words) |
