@@ -3,7 +3,7 @@ class Solution
     public:
         int numOfSubarrays(vector<int> &arr)
         {
-            unordered_map<bool, int> mp;
+            vector<int>mp(2,0);
             mp[0] = 1;
             int mod=1e9+7;
             int ans = 0;
