@@ -714,6 +714,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0058-length-of-last-word) |
 | [0068-text-justification](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0068-text-justification) |
+| [0071-simplify-path](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0076-minimum-window-substring) |
 | [0165-compare-version-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0165-compare-version-numbers) |
 | [0166-fraction-to-recurring-decimal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0166-fraction-to-recurring-decimal) |
@@ -2048,6 +2049,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0042-trapping-rain-water) |
+| [0071-simplify-path](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0071-simplify-path) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0232-implement-queue-using-stacks](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0739-daily-temperatures](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0739-daily-temperatures) |
