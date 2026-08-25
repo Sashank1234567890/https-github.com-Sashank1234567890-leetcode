@@ -440,6 +440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0930-binary-subarrays-with-sum) |
 | [0934-shortest-bridge](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0934-shortest-bridge) |
 | [0945-minimum-increment-to-make-array-unique](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0945-minimum-increment-to-make-array-unique) |
+| [0946-validate-stack-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0946-validate-stack-sequences) |
 | [0959-regions-cut-by-slashes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0959-regions-cut-by-slashes) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [0976-largest-perimeter-triangle](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0976-largest-perimeter-triangle) |
@@ -1985,6 +1986,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0844-backspace-string-compare](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0844-backspace-string-compare) |
 | [0874-walking-robot-simulation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0874-walking-robot-simulation) |
 | [0885-spiral-matrix-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0885-spiral-matrix-iii) |
+| [0946-validate-stack-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0946-validate-stack-sequences) |
 | [0985-sum-of-even-numbers-after-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0985-sum-of-even-numbers-after-queries) |
 | [1260-shift-2d-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1260-shift-2d-grid) |
 | [1503-last-moment-before-all-ants-fall-out-of-a-plank](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1503-last-moment-before-all-ants-fall-out-of-a-plank) |
@@ -2057,6 +2059,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0844-backspace-string-compare](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0844-backspace-string-compare) |
 | [0901-online-stock-span](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0907-sum-of-subarray-minimums) |
+| [0946-validate-stack-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0946-validate-stack-sequences) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
