@@ -669,6 +669,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3108-minimum-cost-walk-in-weighted-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3108-minimum-cost-walk-in-weighted-graph) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3152-special-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3152-special-array-ii) |
+| [3169-count-days-without-meetings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3169-count-days-without-meetings) |
 | [3171-find-subarray-with-bitwise-or-closest-to-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3171-find-subarray-with-bitwise-or-closest-to-k) |
 | [3208-alternating-groups-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3208-alternating-groups-ii) |
 | [3218-minimum-cost-for-cutting-cake-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3218-minimum-cost-for-cutting-cake-i) |
@@ -1157,6 +1158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3068-find-the-maximum-sum-of-node-values](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3068-find-the-maximum-sum-of-node-values) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3085-minimum-deletions-to-make-string-k-special](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3085-minimum-deletions-to-make-string-k-special) |
+| [3169-count-days-without-meetings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3169-count-days-without-meetings) |
 | [3218-minimum-cost-for-cutting-cake-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3218-minimum-cost-for-cutting-cake-i) |
 | [3219-minimum-cost-for-cutting-cake-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3219-minimum-cost-for-cutting-cake-ii) |
 | [3346-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3346-maximum-frequency-of-an-element-after-performing-operations-i) |
