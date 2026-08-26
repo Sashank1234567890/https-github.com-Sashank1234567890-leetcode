@@ -1,41 +1,50 @@
 class Solution
 {
-public:
+    public:
 
-    int numSubmat(vector<vector<int>>& mat)
-    {
-        int m = mat.size();
-        int n = mat[0].size();
-
-        vector<int> height(n, 0);
-        int result = 0;
-
-        for (int row = 0; row < m; row++)
+        int numSubmat(vector<vector < int>> &mat)
         {
-            for (int col = 0; col < n; col++)
-            {
-                if (mat[row][col] == 1)
-                    height[col]++;
-                else
-                    height[col] = 0;
-            }
+            int m = mat.size();
+            int n = mat[0].size();
 
-            for (int col = 0; col < n; col++)
-            {
-                int mini = INT_MAX;
+            vector<int> height(n, 0);
+            int result = 0;
 
-                for (int j = col; j >= 0; j--)
+            for (int row = 0; row < m; row++)
+            {
+                for (int col = 0; col < n; col++)
                 {
-                    mini = min(mini, height[j]);
+                    if (mat[row][col] == 1)
+                        height[col]++;
+                    else
+                        height[col] = 0;
+                }
 
-                    if (mini == 0)
-                        break;
+                stack<int> st;
+                vector<int> sum(n, 0);
 
-                    result += mini;
+                for (int col = 0; col < n; col++)
+                {
+                    while (!st.empty() && height[st.top()] >= height[col])
+                        st.pop();
+
+                    if (!st.empty())
+                    {
+                        int prev = st.top();
+
+                        sum[col] = sum[prev] + height[col] *(col - prev);
+                    }
+                    else
+                    {
+                        sum[col] = height[col] *(col + 1);
+                    }
+
+                    result += sum[col];
+
+                    st.push(col);
                 }
             }
-        }
 
-        return result;
-    }
+            return result;
+        }
 };
