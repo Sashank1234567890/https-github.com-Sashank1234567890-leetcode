@@ -1,24 +1,26 @@
 class Solution {
 public:
-    int countDays(int days, vector<vector<int>>& meet) {
-        meet.push_back({days+1,days+1});
-        sort(begin(meet),end(meet));
+    int countDays(int days, vector<vector<int>>& meetings) {
+        int n = meetings.size();
 
-        
-       
-        int cnt=0;
-        int end=1;
-        for(auto v:meet){
-            int x=v[0];
-            int y=v[1];
-            if(x>end){
-                cnt+=x-end;
-                end=y+1;
+        sort(begin(meetings), end(meetings));
+
+        int result = 0;
+        int start = 0;
+        int end = 0;
+
+        for(auto &meet : meetings) {
+            if(meet[0] > end) {
+                result += meet[0] - end - 1;
             }
-            else {
-                end=max(y+1,end);
-            }
+
+            end = max(end, meet[1]);
         }
-        return cnt;
+
+        if(days > end) {
+            result += days-end;
+        }
+
+        return result;
     }
 };
