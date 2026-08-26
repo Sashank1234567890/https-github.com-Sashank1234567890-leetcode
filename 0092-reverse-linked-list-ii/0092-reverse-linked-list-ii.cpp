@@ -25,20 +25,15 @@ public:
         }
         
         ListNode* curr = prev->next;
-        ListNode*first=prev;
         
-        for(int i = 1; i<=right-left+1; i++) {
+        for(int i = 1; i<=right-left; i++) {
             
-            ListNode* next = curr->next; 
-            curr->next = prev; 
-            prev=curr;
-            curr=next;
+            ListNode* temp = prev->next; 
+            prev->next = curr->next; 
+            curr->next = curr->next->next; 
+            prev->next->next = temp; 
             
         }
-        
-        first->next->next=curr;
-        first->next=prev;
-
     
         return dummy->next;
     }
