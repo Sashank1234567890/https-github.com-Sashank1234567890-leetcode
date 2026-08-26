@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0133-clone-graph) |
+| [0138-copy-list-with-random-pointer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0149-max-points-on-a-line](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0149-max-points-on-a-line) |
 | [0166-fraction-to-recurring-decimal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0166-fraction-to-recurring-decimal) |
@@ -2249,6 +2250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0024-swap-nodes-in-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0024-swap-nodes-in-pairs) |
 | [0086-partition-list](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0086-partition-list) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0138-copy-list-with-random-pointer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0328-odd-even-linked-list) |
