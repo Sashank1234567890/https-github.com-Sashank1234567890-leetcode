@@ -1,11 +1,11 @@
 class Solution
 {
-    public:
-        vector<vector < int>> directions = {
-		{ 0,1 }, { 0,-1 }, { 1,0 }, { -1, 0 }
-        };
+public:
+    vector<vector<int>> directions = {
+        {0,1}, {0,-1}, {1,0}, {-1,0}
+    };
 
-    vector<int> maxPoints(vector<vector < int>> &grid, vector< int > &queries)
+    vector<int> maxPoints(vector<vector<int>>& grid, vector<int>& queries)
     {
         int m = grid.size();
         int n = grid[0].size();
@@ -13,42 +13,60 @@ class Solution
         int Q = queries.size();
         vector<int> result(Q, 0);
 
-        vector<pair<int, int>> sortedQ;
-        for (int i = 0; i < Q; i++)
-        {
-            sortedQ.push_back({ queries[i],i });
-        }
+        vector<pair<int,int>> sortedQ;
 
-        sort(begin(sortedQ), end(sortedQ));
+        for(int i = 0; i < Q; i++)
+            sortedQ.push_back({queries[i], i});
 
-        priority_queue<vector < int>, vector< vector< int >>, greater < >> pq;
-        vector<vector < bool>> visited(m, vector<bool> (n, false));
-        int points = 0;
-        pq.push({ grid[0][0],0,0 });
+        sort(sortedQ.begin(), sortedQ.end());
+
+        auto lambda = [&](pair<int,int>& a, pair<int,int>& b) {
+            return grid[a.first][a.second] > grid[b.first][b.second];
+        };
+
+        priority_queue<
+            pair<int,int>,
+            vector<pair<int,int>>,
+            decltype(lambda)
+        > pq(lambda);
+
+        vector<vector<bool>> visited(m, vector<bool>(n, false));
+
+        pq.push({0, 0});
         visited[0][0] = true;
 
-        for (int i = 0; i < Q; i++)
+        int points = 0;
+
+        for(auto q : sortedQ)
         {
-            int queryValue = sortedQ[i].first;
-            int idx = sortedQ[i].second;
-            while (!pq.empty() && pq.top()[0] < queryValue)
+            int queryValue = q.first;
+            int idx = q.second;
+
+            while(!pq.empty() &&
+                  grid[pq.top().first][pq.top().second] < queryValue)
             {
-                int i = pq.top()[1];
-                int j = pq.top()[2];
+                int i = pq.top().first;
+                int j = pq.top().second;
+
                 pq.pop();
+
                 points++;
 
-                for (auto &dir: directions)
+                for(auto dir : directions)
                 {
-                    int i_ = i + dir[0];
-                    int j_ = j + dir[1];
-                    if (i_ >= 0 && i_ < m && j_ >= 0 && j_ < n && !visited[i_][j_])
+                    int ni = i + dir[0];
+                    int nj = j + dir[1];
+
+                    if(ni >= 0 && ni < m &&
+                       nj >= 0 && nj < n &&
+                       !visited[ni][nj])
                     {
-                        pq.push({ grid[i_][j_],i_,j_ });
-                        visited[i_][j_] = true;
+                        pq.push({ni, nj});
+                        visited[ni][nj] = true;
                     }
                 }
             }
+
             result[idx] = points;
         }
 
