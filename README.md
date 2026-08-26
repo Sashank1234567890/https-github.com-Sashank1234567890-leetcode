@@ -581,6 +581,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2136-earliest-possible-day-of-full-bloom](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2136-earliest-possible-day-of-full-bloom) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2145-count-the-hidden-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2145-count-the-hidden-sequences) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2187-minimum-time-to-complete-trips](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2187-minimum-time-to-complete-trips) |
 | [2191-sort-the-jumbled-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2191-sort-the-jumbled-numbers) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2213-longest-substring-of-one-repeating-character) |
@@ -1053,6 +1054,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2071-maximum-number-of-tasks-you-can-assign](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2071-maximum-number-of-tasks-you-can-assign) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2108-find-first-palindromic-string-in-the-array) |
 | [2109-adding-spaces-to-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2109-adding-spaces-to-a-string) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2486-append-characters-to-string-to-make-subsequence) |
@@ -2037,6 +2039,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1823-find-the-winner-of-the-circular-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1823-find-the-winner-of-the-circular-game) |
 | [1894-find-the-student-that-will-replace-the-chalk](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1894-find-the-student-that-will-replace-the-chalk) |
 | [2109-adding-spaces-to-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2109-adding-spaces-to-a-string) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2257-count-unguarded-cells-in-the-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2257-count-unguarded-cells-in-the-grid) |
 | [2326-spiral-matrix-iv](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2326-spiral-matrix-iv) |
 | [2390-removing-stars-from-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2390-removing-stars-from-a-string) |
