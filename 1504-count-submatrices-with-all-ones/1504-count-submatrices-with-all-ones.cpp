@@ -1,49 +1,38 @@
 class Solution
 {
-    public:
+public:
 
-        int OnedArrayCount(vector<int> &vec)
-        {
-            int cons = 0;
-            int subCount = 0;
-
-            for (int &val: vec)
-            {
-                if (val == 0)
-                {
-                    cons = 0;
-                }
-                else
-                {
-                    cons++;
-                }
-
-                subCount += cons;
-            }
-
-            return subCount;
-        }
-
-    int numSubmat(vector<vector < int>> &mat)
+    int numSubmat(vector<vector<int>>& mat)
     {
         int m = mat.size();
         int n = mat[0].size();
 
+        vector<int> height(n, 0);
         int result = 0;
 
-        for (int startRow = 0; startRow < m; startRow++)
+        for (int row = 0; row < m; row++)
         {
-
-            vector<int> vec(n, 1);
-            for (int endRow = startRow; endRow < m; endRow++)
+            for (int col = 0; col < n; col++)
             {
+                if (mat[row][col] == 1)
+                    height[col]++;
+                else
+                    height[col] = 0;
+            }
 
-                for (int col = 0; col < n; col++)
+            for (int col = 0; col < n; col++)
+            {
+                int mini = INT_MAX;
+
+                for (int j = col; j >= 0; j--)
                 {
-                    vec[col] = vec[col] &mat[endRow][col];
-                }
+                    mini = min(mini, height[j]);
 
-                result += OnedArrayCount(vec);
+                    if (mini == 0)
+                        break;
+
+                    result += mini;
+                }
             }
         }
 
