@@ -1,47 +1,30 @@
 class Solution {
 public:
     string minRemoveToMakeValid(string s) {
+        int open = 0;
+        string temp = "";
+        
+        for(char c:s) {
+            if(c == '(') {
+                open++;
+            } else if(c == ')') {
+                if(open == 0)
+                    continue;
+                open--;
+            }
+            
+            temp.push_back(c);
+        }
+        
+        int n = temp.length();
         string result = "";
-        int n = s.length();
-        
-        
-        int lastOpen = 0;
-        for(int i = 0; i<n; i++) {
-            char c = s[i];
-            if((c >= 'a' && c <= 'z'))
-                result.push_back(c);
-            else if(c == '(') {
-                result.push_back(c);
-                lastOpen++;
-            } else if(lastOpen > 0) {
-                lastOpen--;
-                result.push_back(c);
-            }
-        }
-        
-        if(result == "")
-            return "";
-        
-        
-        s = result;
-        result = "";
-        int lastClose = 0;
-        n = s.length();
-    
         for(int i = n-1; i>=0; i--) {
-            char c = s[i];
-            if((c >= 'a' && c <= 'z'))
-                result.push_back(c);
-            else if(c == ')') {
-                result.push_back(c);
-                lastClose++;
-            } else if(lastClose > 0) {
-                lastClose--;
-                result.push_back(c);
-            }
+            if(temp[i] == '(' && open-- > 0)
+                continue;
+            result.push_back(temp[i]);
         }
+        
         reverse(result.begin(), result.end());
         return result;
     }
 };
-
