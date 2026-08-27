@@ -1,36 +1,51 @@
 /**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
+ *Definition for singly-linked list.
+ *struct ListNode {
+ *    int val;
+ *    ListNode * next;
+ *    ListNode() : val(0), next(nullptr) {}
+ *    ListNode(int x) : val(x), next(nullptr) {}
+ *    ListNode(int x, ListNode *next) : val(x), next(next) {}
+ *};
  */
-class Solution {
-public:
-    void reorderList(ListNode* head) {
-        stack<ListNode*> st;
-        
-        ListNode* curr = head;
-        while(curr) {
-            st.push(curr);
-            curr = curr->next;
+class Solution
+{
+    public:
+        ListNode* reverseLL(ListNode *node)
+        {
+            if (node == NULL || node->next == NULL)
+                return node;
+            ListNode *last = reverseLL(node->next);
+            node->next->next = node;
+            node->next = NULL;
+            return last;
         }
-        
-        int k = st.size()/2;
-        curr = head;
-        while(k--) {
-            ListNode* topNode = st.top();
-            st.pop();
-            
-            ListNode* temp = curr->next;
-            curr->next = topNode;
-            topNode->next = temp;
-            curr = temp;
+
+    void reorderList(ListNode *head)
+    {
+        if (!head || !head->next || !head->next->next)
+            return;
+
+        ListNode *slow = head;
+        ListNode *fast = head;
+        while (fast && fast->next)
+        {
+            slow = slow->next;
+            fast = fast->next->next;
         }
-        
-        curr->next = NULL;
+        ListNode *revHalf = reverseLL(slow);
+
+        ListNode *curr = head;
+        while (revHalf->next)
+        {
+            ListNode *tempFront = curr->next;
+            curr->next = revHalf;
+
+            ListNode *tempBack = revHalf->next;
+            revHalf->next = tempFront;
+
+            revHalf = tempBack;
+            curr = tempFront;
+        }
     }
 };
