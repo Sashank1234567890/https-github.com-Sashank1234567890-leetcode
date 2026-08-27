@@ -680,6 +680,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3152-special-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3152-special-array-ii) |
 | [3169-count-days-without-meetings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3169-count-days-without-meetings) |
 | [3171-find-subarray-with-bitwise-or-closest-to-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3171-find-subarray-with-bitwise-or-closest-to-k) |
+| [3195-find-the-minimum-area-to-cover-all-ones-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3195-find-the-minimum-area-to-cover-all-ones-i) |
 | [3208-alternating-groups-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3208-alternating-groups-ii) |
 | [3218-minimum-cost-for-cutting-cake-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3218-minimum-cost-for-cutting-cake-i) |
 | [3219-minimum-cost-for-cutting-cake-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3219-minimum-cost-for-cutting-cake-ii) |
@@ -1666,6 +1667,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2661-first-completely-painted-row-or-column](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2661-first-completely-painted-row-or-column) |
 | [2684-maximum-number-of-moves-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2684-maximum-number-of-moves-in-a-grid) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3195-find-the-minimum-area-to-cover-all-ones-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3195-find-the-minimum-area-to-cover-all-ones-i) |
 | [3225-maximum-score-from-grid-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3225-maximum-score-from-grid-operations) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3341-find-minimum-time-to-reach-last-room-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3341-find-minimum-time-to-reach-last-room-i) |
