@@ -370,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
+| [0085-maximal-rectangle](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0085-maximal-rectangle) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0128-longest-consecutive-sequence) |
@@ -864,6 +865,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0042-trapping-rain-water) |
+| [0085-maximal-rectangle](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0085-maximal-rectangle) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0392-is-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0392-is-subsequence) |
@@ -1599,6 +1601,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0059-spiral-matrix-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0059-spiral-matrix-ii) |
 | [0073-set-matrix-zeroes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0085-maximal-rectangle](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0085-maximal-rectangle) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
 | [0498-diagonal-traverse](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0498-diagonal-traverse) |
 | [0542-01-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0542-01-matrix) |
@@ -2121,6 +2124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0071-simplify-path) |
+| [0085-maximal-rectangle](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0085-maximal-rectangle) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0232-implement-queue-using-stacks](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0402-remove-k-digits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0402-remove-k-digits) |
@@ -2151,6 +2155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0042-trapping-rain-water) |
+| [0085-maximal-rectangle](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0085-maximal-rectangle) |
 | [0402-remove-k-digits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0402-remove-k-digits) |
 | [0456-132-pattern](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0456-132-pattern) |
 | [0739-daily-temperatures](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0739-daily-temperatures) |
