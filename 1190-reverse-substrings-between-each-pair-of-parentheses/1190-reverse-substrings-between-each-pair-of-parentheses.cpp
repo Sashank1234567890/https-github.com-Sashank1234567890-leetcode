@@ -1,56 +1,27 @@
 class Solution
 {
-public:
-
-    void reverse(string &s)
-    {
-        int i = 0, j = s.length() - 1;
-
-        while(i < j)
+    public:
+        string reverseParentheses(string s)
         {
-            swap(s[i++], s[j--]);
-        }
-    }
-
-    string reverseParentheses(string s)
-    {
-        stack<string> st;
-        string t = "";
-
-        for(char x : s)
-        {
-            if(x == '(')
+            stack<int> openeBracket;
+            string result;
+            for (char currentChar: s)
             {
-                st.push(t);
-                t.clear();
-            }
-
-            else if(x == ')')
-            {
-                string r = t;
-                t.clear();
-
-                reverse(r);
-
-                if(!st.empty())
+                if (currentChar == '(')
                 {
-                    string u = st.top();
-                    st.pop();
-
-                    t = u + r;
+                    openeBracket.push(result.length());
+                }
+                else if (currentChar == ')')
+                {
+                    int start = openeBracket.top();
+                    openeBracket.pop();
+                    reverse(result.begin() + start, result.end());
                 }
                 else
                 {
-                    t = r;
+                    result += currentChar;
                 }
             }
-
-            else
-            {
-                t.push_back(x);
-            }
+            return result;
         }
-
-        return t;
-    }
 };
