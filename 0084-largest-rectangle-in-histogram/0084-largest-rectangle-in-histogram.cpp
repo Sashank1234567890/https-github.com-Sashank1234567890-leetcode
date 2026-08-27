@@ -6,28 +6,46 @@ class Solution
             int n = arr.size();
             stack<int> st;
             int ans = 0;
-            int idx;
+
             for (int i = 0; i < n; i++)
             {
                 while (!st.empty() && arr[st.top()] > arr[i])
                 {
-                    idx = st.top();
+                    int index = st.top();
                     st.pop();
+
+                    int right = i;
+                    int left;
+
                     if (!st.empty())
-                        ans = max(ans, arr[idx] *( i - st.top() - 1));
+                        left = st.top();
                     else
-                        ans = max(ans, arr[idx] * i);
+                        left = -1;
+
+                    int width = right - left - 1;
+
+                    ans = max(ans, arr[index] * width);
                 }
+
                 st.push(i);
             }
+
             while (!st.empty())
             {
-                idx = st.top();
+                int index = st.top();
                 st.pop();
+
+                int right = n;
+                int left;
+
                 if (!st.empty())
-                    ans = max(ans, arr[idx] *(n - st.top() - 1));
+                    left = st.top();
                 else
-                    ans = max(ans, arr[idx] *n);
+                    left = -1;
+
+                int width = right - left - 1;
+
+                ans = max(ans, arr[index] *width);
             }
 
             return ans;
