@@ -1,48 +1,55 @@
 class Solution
 {
-    public:
-        int numberOfPairs(vector<vector < int>> &points)
+public:
+    int numberOfPairs(vector<vector<int>>& points)
+    {
+        int n = points.size();
+
+        auto lambda = [](vector<int>& point1, vector<int>& point2)
         {
-            int n = points.size();
+            if(point1[0] == point2[0])
+                return point1[1] > point2[1];
 
-           auto lambda =[](vector<int> &point1, vector<int> &point2)
+            return point1[0] < point2[0];
+        };
+
+        sort(points.begin(), points.end(), lambda);
+
+        int result = 0;
+
+        for(int i = 0; i < n; i++)
+        {
+            int x1 = points[i][0];
+            int y1 = points[i][1];
+
+            for(int j = i + 1; j < n; j++)
             {
-                if (point1[0] == point2[0])
+                int x2 = points[j][0];
+                int y2 = points[j][1];
+
+                if(y2 > y1)
+                    continue;
+
+                bool hasPointInside = false;
+
+                for(int k = i + 1; k < j; k++)
                 {
-                    return point1[1] > point2[1];
-                }
-                return point1[0] < point2[0];
-            };
+                    int x3 = points[k][0];
+                    int y3 = points[k][1];
 
-            sort(points.begin(), points.end(), lambda);
-
-            int result = 0;
-
-            for (int i = 0; i < n; i++)
-            {
-                int x1 = points[i][0];
-                int y1 = points[i][1];
-
-                int bestY = INT_MIN;
-
-                for (int j = i + 1; j < n; j++)
-                {
-                    int x2 = points[j][0];
-                    int y2 = points[j][1];
-
-                    if (y2 > y1)
+                    if(y3 <= y1 && y3 >= y2 &&
+                       x3 >= x1 && x3 <= x2)
                     {
-                        continue;
-                    }
-
-                    if (y2 > bestY)
-                    {
-                        result++;
-                        bestY = y2;
+                        hasPointInside = true;
+                        break;
                     }
                 }
+
+                if(!hasPointInside)
+                    result++;
             }
-
-            return result;
         }
+
+        return result;
+    }
 };
