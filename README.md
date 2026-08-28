@@ -1316,6 +1316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2579-count-total-number-of-colored-cells](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2579-count-total-number-of-colored-cells) |
 | [2601-prime-subtraction-operation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2601-prime-subtraction-operation) |
 | [2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
+| [2816-double-a-number-represented-as-a-linked-list](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2816-double-a-number-represented-as-a-linked-list) |
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2849-determine-if-a-cell-is-reachable-at-a-given-time](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2849-determine-if-a-cell-is-reachable-at-a-given-time) |
 | [2929-distribute-candies-among-children-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2929-distribute-candies-among-children-ii) |
@@ -2216,6 +2217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2434-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2487-remove-nodes-from-linked-list](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2487-remove-nodes-from-linked-list) |
 | [2751-robot-collisions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2751-robot-collisions) |
+| [2816-double-a-number-represented-as-a-linked-list](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2816-double-a-number-represented-as-a-linked-list) |
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [3229-minimum-operations-to-make-array-equal-to-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3229-minimum-operations-to-make-array-equal-to-target) |
 ## Monotonic Stack
@@ -2372,6 +2374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1721-swapping-nodes-in-a-linked-list](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1721-swapping-nodes-in-a-linked-list) |
 | [2326-spiral-matrix-iv](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2326-spiral-matrix-iv) |
 | [2487-remove-nodes-from-linked-list](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2487-remove-nodes-from-linked-list) |
+| [2816-double-a-number-represented-as-a-linked-list](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2816-double-a-number-represented-as-a-linked-list) |
 ## Nim Game
 |  |
 | ------- |
