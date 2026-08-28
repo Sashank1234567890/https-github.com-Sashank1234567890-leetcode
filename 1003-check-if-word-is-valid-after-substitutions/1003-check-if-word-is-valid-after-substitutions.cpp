@@ -7,7 +7,7 @@ public:
             if(i>=3&&s[i-1]=='c'&&s[i-2]=='b'&&s[i-3]=='a')
             i-=3;
         }
-        s.erase(begin(s)+i,end(s));
+        s.resize(i);
         return s=="";
     }
 };
