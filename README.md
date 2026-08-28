@@ -1325,6 +1325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3027-find-the-number-of-ways-to-place-people-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3027-find-the-number-of-ways-to-place-people-ii) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3084-count-substrings-starting-and-ending-with-given-character](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3084-count-substrings-starting-and-ending-with-given-character) |
+| [3100-water-bottles-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3100-water-bottles-ii) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3227-vowels-game-in-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3227-vowels-game-in-a-string) |
 | [3272-find-the-count-of-good-integers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3272-find-the-count-of-good-integers) |
@@ -2122,6 +2123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2751-robot-collisions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2751-robot-collisions) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3072-distribute-elements-into-two-arrays-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3072-distribute-elements-into-two-arrays-ii) |
+| [3100-water-bottles-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3100-water-bottles-ii) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Number Theory
 |  |
