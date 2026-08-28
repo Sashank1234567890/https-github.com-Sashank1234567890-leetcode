@@ -10,40 +10,35 @@ class Solution
             string minStr = (maxStr == "ab") ? "ba" : "ab";
 
             string temp_first = removeSubstring(s, maxStr);
-            int removedPairsCount = (n - temp_first.length()) / 2;
+            int L = temp_first.length();
+            int removedPairsCount = (n - L) / 2;
             score += removedPairsCount* max(x, y);
 
             string temp_second = removeSubstring(temp_first, minStr);
-            removedPairsCount = (temp_first.length() - temp_second.length()) / 2;
+            removedPairsCount = (L - temp_second.length()) / 2;
             score += removedPairsCount* min(x, y);
 
             return score;
         }
 
-    private:
-        string removeSubstring(string &s, string &matchStr)
+    string removeSubstring(string &inputString, string &matchStr)
+    {
+        int j = 0;
+
+        for (int i = 0; i < inputString.size(); i++)
         {
-            stack<char> st;
+            inputString[j++] = inputString[i];
 
-            for (char &ch: s)
+            if (j > 1 &&
+                inputString[j - 2] == matchStr[0] &&
+                inputString[j - 1] == matchStr[1])
             {
-                if (ch == matchStr[1] && !st.empty() && st.top() == matchStr[0])
-                {
-                    st.pop();
-                }
-                else
-                {
-                    st.push(ch);
-                }
+                j -= 2;
             }
-
-            string remainStr;
-            while (!st.empty())
-            {
-                remainStr.push_back(st.top());
-                st.pop();
-            }
-            reverse(remainStr.begin(), remainStr.end());
-            return remainStr;
         }
+
+        inputString.erase(inputString.begin() + j, inputString.end());
+
+        return inputString;
+    }
 };
