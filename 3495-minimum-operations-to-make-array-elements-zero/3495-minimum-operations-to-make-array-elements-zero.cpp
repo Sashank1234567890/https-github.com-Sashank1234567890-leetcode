@@ -1,83 +1,43 @@
-class Solution
-{
+class Solution {
 public:
-    long long minOperations(vector<vector<int>>& queries)
-    {
-        int mx = -1;
 
-        for(auto &q : queries)
-            mx = max(mx, q[1]);
+    long long solve(int l, int r) {
+        //L, R
+        //1 to 3 : 1 steps
+        //4 to 15 : 2 steps
+        long long L = 1; //R = 4*L-1
+        long long S = 1;
+        long long steps = 0;
 
-        int cnt = 0;
-        int t = mx;
+        while(L <= r) {
+            long long R = 4*L - 1;
 
-        while(t)
-        {
-            cnt++;
-            t /= 4;
+            long long start = max(L, (long long)l);
+            long long end   = min(R, (long long)r);
+
+            if(start <= end) {
+                steps += (end-start+1)*S;
+            }
+
+            S += 1;
+            L = L*4;
         }
 
-        vector<long long> op(cnt);
+        return steps;
+    }
 
-        op[0] = 3;
+    long long minOperations(vector<vector<int>>& queries) {
+        long long result = 0;
 
-        for(int i = 1; i < cnt; i++)
-        {
-            long long size = 3LL * (1LL << (2 * i));
-            op[i] = size * (i + 1);
+        for(auto &query : queries) {
+            int l = query[0];
+            int r = query[1];
+
+            long long steps = solve(l, r);
+
+            result += (steps+1)/2;
         }
 
-        long long total = 0;
-
-        for(auto &q : queries)
-        {
-            int l = q[0];
-            int r = q[1];
-
-            int l_b = 0;
-            int t = l;
-
-            while(t >= 4)
-            {
-                l_b++;
-                t /= 4;
-            }
-
-            int r_b = 0;
-            t = r;
-
-            while(t >= 4)
-            {
-                r_b++;
-                t /= 4;
-            }
-
-            long long ans = 0;
-
-            if(l_b == r_b)
-            {
-                ans += 1LL * (r - l + 1) * (l_b + 1);
-            }
-            else
-            {
-          
-                int l_j = (1LL << (2 * (l_b + 1))) - 1;
-
-                ans += 1LL * (l_j - l + 1) * (l_b + 1);
-
-            
-                for(int i = l_b + 1; i < r_b; i++)
-                    ans += op[i];
-
-            
-                int r_i = (1LL << (2 * r_b));
-
-                ans += 1LL * (r - r_i + 1) * (r_b + 1);
-            }
-
-            total += (ans + 1) / 2;
-        }
-
-        return total;
+        return result;
     }
 };
