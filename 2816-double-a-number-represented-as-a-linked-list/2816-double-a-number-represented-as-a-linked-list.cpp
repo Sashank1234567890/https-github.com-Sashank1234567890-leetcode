@@ -10,32 +10,33 @@
  */
 class Solution {
 public:
-    int carry;
-    void doubleval(ListNode* head){
-        if(!head){
-            return ;
-        }
-        if(head->next==NULL){
-            int value=head->val*2;
-            head->val=value%10;
-            carry=value/10;
-            return;
-        }
-        doubleval(head->next);
-        int value=head->val*2+carry;
-            head->val=value%10;
-            carry=value/10;
-        
-    return ;
-    }
     ListNode* doubleIt(ListNode* head) {
-        carry=0;
-        doubleval(head);
-        if(carry){
-          ListNode* newnode= new ListNode(carry);
-          newnode->next=head;
-          head=newnode;  
+        ListNode* curr = head;
+        ListNode* prev = NULL;
+        
+        while(curr != NULL) {
+            
+            int newVal = curr->val * 2;
+            
+            if(newVal < 10) {
+                curr->val = newVal;
+            } else if(prev != NULL) {
+                curr->val = newVal%10;
+                
+                prev->val += 1;
+            } else {
+                ListNode* newHead = new ListNode(1);
+                newHead->next = curr;
+                curr->val = newVal%10;
+                head = newHead;
+            }
+            
+            prev = curr;
+            curr = curr->next;
+            
         }
+        
+        
         return head;
     }
 };
