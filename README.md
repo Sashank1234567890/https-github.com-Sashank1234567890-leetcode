@@ -711,6 +711,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3342-find-minimum-time-to-reach-last-room-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3342-find-minimum-time-to-reach-last-room-ii) |
 | [3346-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3346-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3347-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3347-maximum-frequency-of-an-element-after-performing-operations-ii) |
+| [3349-adjacent-increasing-subarrays-detection-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3349-adjacent-increasing-subarrays-detection-i) |
 | [3350-adjacent-increasing-subarrays-detection-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3350-adjacent-increasing-subarrays-detection-ii) |
 | [3357-minimize-the-maximum-adjacent-element-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3357-minimize-the-maximum-adjacent-element-difference) |
 | [3394-check-if-grid-can-be-cut-into-sections](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3394-check-if-grid-can-be-cut-into-sections) |
