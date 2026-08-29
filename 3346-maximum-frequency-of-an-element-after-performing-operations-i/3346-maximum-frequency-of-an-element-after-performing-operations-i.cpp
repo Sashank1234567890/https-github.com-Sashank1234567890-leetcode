@@ -9,7 +9,7 @@ public:
             freq[num]++;
         }
 
-        
+        // freq[num]=number of element less than num 
         for(int i = 1; i <= maxEl; i++) {
             freq[i] += freq[i-1];
         }
