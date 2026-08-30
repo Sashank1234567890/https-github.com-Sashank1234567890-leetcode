@@ -1382,6 +1382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [4022-k-th-digit-in-infinite-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4022-k-th-digit-in-infinite-string) |
 ## Geometry
 |  |
 | ------- |
@@ -1660,6 +1661,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 | [3620-network-recovery-pathways](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3620-network-recovery-pathways) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3661-maximum-walls-destroyed-by-robots) |
+| [4022-k-th-digit-in-infinite-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4022-k-th-digit-in-infinite-string) |
 ## Matrix
 |  |
 | ------- |
