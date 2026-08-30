@@ -760,6 +760,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3731-find-missing-elements](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3731-find-missing-elements) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [4013-count-subarrays-with-even-odd-ratio-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4013-count-subarrays-with-even-odd-ratio-ii) |
 ## String
 |  |
 | ------- |
@@ -2035,6 +2036,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3655-xor-after-range-multiplication-queries-ii) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
+| [4013-count-subarrays-with-even-odd-ratio-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4013-count-subarrays-with-even-odd-ratio-ii) |
 ## Queue
 |  |
 | ------- |
@@ -2100,6 +2102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0918-maximum-sum-circular-subarray](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0918-maximum-sum-circular-subarray) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3655-xor-after-range-multiplication-queries-ii) |
+| [4013-count-subarrays-with-even-odd-ratio-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4013-count-subarrays-with-even-odd-ratio-ii) |
 ## Trie
 |  |
 | ------- |
@@ -2310,6 +2313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3171-find-subarray-with-bitwise-or-closest-to-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3171-find-subarray-with-bitwise-or-closest-to-k) |
 | [3480-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3480-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
+| [4013-count-subarrays-with-even-odd-ratio-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4013-count-subarrays-with-even-odd-ratio-ii) |
 ## String Matching
 |  |
 | ------- |
@@ -2379,6 +2383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1395-count-number-of-teams](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1395-count-number-of-teams) |
 | [3072-distribute-elements-into-two-arrays-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3072-distribute-elements-into-two-arrays-ii) |
+| [4013-count-subarrays-with-even-odd-ratio-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4013-count-subarrays-with-even-odd-ratio-ii) |
 ## Planar Graph
 |  |
 | ------- |
@@ -2506,6 +2511,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0023-merge-k-sorted-lists) |
+| [4013-count-subarrays-with-even-odd-ratio-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4013-count-subarrays-with-even-odd-ratio-ii) |
 ## Tournament Sort
 |  |
 | ------- |
