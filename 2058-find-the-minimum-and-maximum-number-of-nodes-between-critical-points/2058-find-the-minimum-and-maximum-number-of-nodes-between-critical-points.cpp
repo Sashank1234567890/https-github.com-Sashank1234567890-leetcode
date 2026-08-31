@@ -13,51 +13,40 @@ class Solution
     public:
         vector<int> nodesBetweenCriticalPoints(ListNode *head)
         {
-            int minDistance = INT_MAX;
-
-            ListNode *prev = head;
-            ListNode *curr = head->next;
-            int currPosition = 1;
-            int previousCriticalIndex = 0;
-            int firstCriticalIndex = 0;
-
-            while (curr->next != NULL)
+            int first = -1;
+            int next = -1;
+            ListNode *temp = head->next;
+            int mn = INT_MAX;
+            int mx = INT_MIN;
+            int prev = head->val;
+            int cnt = 0;
+            while (temp && temp->next)
             {
-
-                if ((curr->val < prev->val &&
-                        curr->val < curr->next->val) ||
-                    (curr->val > prev->val &&
-                        curr->val > curr->next->val))
+                int nxt = temp->next->val;
+                int cur = temp->val;
+                if ((cur > nxt && cur > prev) || (cur < nxt && cur < prev))
                 {
-
-                    if (previousCriticalIndex == 0)
+                    if (first == -1)
                     {
-                        previousCriticalIndex = currPosition;
-                        firstCriticalIndex = currPosition;
+                        first = cnt;
+                        
                     }
                     else
                     {
-                        minDistance =
-                            min(minDistance, currPosition - previousCriticalIndex);
-                        previousCriticalIndex = currPosition;
+                        mn = min(mn, cnt - next );
+                        mx = cnt - first ;
                     }
+                    next = cnt;
                 }
-
-                currPosition++;
-                prev = curr;
-                curr = curr->next;
+                cnt++;
+                temp = temp->next;
+                prev=cur;
             }
 
-            if (minDistance == INT_MAX)
+            if (mn == INT_MAX)
             {
-                return { -1,
-                    -1 };
+                return { -1, -1 };
             }
-
-            int maxDistance = previousCriticalIndex - firstCriticalIndex;
-            return {
-                minDistance,
-                maxDistance
-            };
+            return {mn,mx};
         }
 };
