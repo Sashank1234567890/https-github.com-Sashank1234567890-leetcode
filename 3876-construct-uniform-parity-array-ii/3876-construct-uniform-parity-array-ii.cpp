@@ -1,18 +1,19 @@
 class Solution {
 public:
-    bool uniformArray(vector<int>& nums) {
-        ranges::sort(nums);
-        bool isEven=1;
-        bool isOdd=1;
-        for(int &x:nums){
-            if(x%2)
-            isEven=0;
-            else
-            isOdd=0;
-        }
-        if(isEven||isOdd)
-        return true;
+    bool uniformArray(vector<int>& nums1) {
+        int minEl = *min_element(begin(nums1), end(nums1));
 
-        return nums[0]%2;
+        if(minEl % 2 == 1) { 
+            return true; 
+        }
+
+       
+        for(int &num : nums1) {
+            if(num % 2 == 1) {
+                return false;
+            }
+        }
+
+        return true; 
     }
 };
