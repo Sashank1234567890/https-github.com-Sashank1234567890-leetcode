@@ -504,6 +504,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1287-element-appearing-more-than-25-in-sorted-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1287-element-appearing-more-than-25-in-sorted-array) |
 | [1288-remove-covered-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1288-remove-covered-intervals) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1298-maximum-candies-you-can-get-from-boxes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1298-maximum-candies-you-can-get-from-boxes) |
 | [1301-number-of-paths-with-max-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1301-number-of-paths-with-max-score) |
@@ -1626,6 +1627,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [1095-find-in-mountain-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1095-find-in-mountain-array) |
 | [1208-get-equal-substrings-within-budget](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1208-get-equal-substrings-within-budget) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
@@ -1730,6 +1732,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1254-number-of-closed-islands](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1254-number-of-closed-islands) |
 | [1260-shift-2d-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1260-shift-2d-grid) |
 | [1267-count-servers-that-communicate](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1267-count-servers-that-communicate) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1301-number-of-paths-with-max-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1301-number-of-paths-with-max-score) |
 | [1329-sort-the-matrix-diagonally](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1329-sort-the-matrix-diagonally) |
@@ -2022,6 +2025,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1140-stone-game-ii) |
 | [1208-get-equal-substrings-within-budget](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1208-get-equal-substrings-within-budget) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1248-count-number-of-nice-subarrays) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1352-product-of-the-last-k-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1352-product-of-the-last-k-numbers) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1590-make-sum-divisible-by-p](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1590-make-sum-divisible-by-p) |
