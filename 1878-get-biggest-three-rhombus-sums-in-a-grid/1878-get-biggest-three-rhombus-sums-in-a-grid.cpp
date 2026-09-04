@@ -19,7 +19,7 @@ class Solution
                 for (int c = 0; c < n; c++)
                 {
 
-                    addToSet(grid[r][c]);
+                    addToSet(grid[r][c]);//assuming r,c as centre expand 
 
                     for (int side = 1; r - side >= 0 && r + side < m && c - side >= 0 && c + side < n; side++)
                     {
