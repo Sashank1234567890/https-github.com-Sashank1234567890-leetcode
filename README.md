@@ -850,6 +850,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1578-minimum-time-to-make-rope-colorful](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1578-minimum-time-to-make-rope-colorful) |
 | [1625-lexicographically-smallest-string-after-applying-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1625-lexicographically-smallest-string-after-applying-operations) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1662-check-if-two-string-arrays-are-equivalent](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
 | [1704-determine-if-string-halves-are-alike](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1704-determine-if-string-halves-are-alike) |
 | [1717-maximum-score-from-removing-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1717-maximum-score-from-removing-substrings) |
@@ -973,6 +974,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1563-stone-game-v](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1563-stone-game-v) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1578-minimum-time-to-make-rope-colorful](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1578-minimum-time-to-make-rope-colorful) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1671-minimum-number-of-removals-to-make-mountain-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1671-minimum-number-of-removals-to-make-mountain-array) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1755-closest-subsequence-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1755-closest-subsequence-sum) |
@@ -2320,6 +2322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1504-count-submatrices-with-all-ones](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1504-count-submatrices-with-all-ones) |
 | [1544-make-the-string-great](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1544-make-the-string-great) |
 | [1574-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1574-shortest-subarray-to-be-removed-to-make-array-sorted) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1717-maximum-score-from-removing-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1717-maximum-score-from-removing-substrings) |
 | [1793-maximum-score-of-a-good-subarray](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1793-maximum-score-of-a-good-subarray) |
 | [2211-count-collisions-on-a-road](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2211-count-collisions-on-a-road) |
