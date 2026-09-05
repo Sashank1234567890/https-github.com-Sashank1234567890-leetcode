@@ -1,68 +1,39 @@
-class Solution
-{
-    public:
-        bool parseBoolExpr(string exp)
-        {
-            stack<char> st;
-            stack<char> sym;
-            for (char x: exp)
-            {
-                if (x == '!' || x == '&' || x == '|')
-                {
-                    sym.push(x);
-                }
-                else if (x == ')')
-                {
-                    char sy = sym.top();
-                    sym.pop();
+class Solution {
+public:
+    char solveOp(char op, vector<char>& values) {
+        if (op == '!') 
+            return values[0] == 't' ? 'f' : 't';
+    
+        if (op == '&') 
+            return any_of(values.begin(), values.end(), [](char ch) { return ch == 'f'; }) ? 'f' : 't';
+    
+        if (op == '|') 
+            return any_of(values.begin(), values.end(), [](char ch) { return ch == 't'; }) ? 't' : 'f';
+    
+        return 't'; // Unreachable
+    }
 
-                    bool ans = 0;
-                    if (sy == '&')
-                        ans = 1;
-                    while (st.top() != '(')
-                    {
-                        char y = st.top();
-                        st.pop();
-                        bool z;
-                        if (y == 'f')
-                        {
-                            z = 0;
-                        }
-                        else
-                        {
-                            z = 1;
-                        }
-                        if (sy == '!')
-                        {
-                            ans = !z;
-                        }
-                        else if (sy == '&')
-                        {
-                            ans &= z;
-                        }
-                        else
-                        {
-                            ans |= z;
-                        }
-                    }
+    bool parseBoolExpr(string s) {
+        int n = s.size();
+        stack<char> st;
+        for (int i = 0; i < n; i++) {
+            if (s[i] == ',') continue;
+
+            if (s[i] == ')') {
+                vector<char> values;
+                
+                while (st.top() != '(') {
+                    values.push_back(st.top());
                     st.pop();
-                    if (ans == 0)
-                    {
-                        st.push('f');
-                    }
-                    else
-                    {
-                        st.push('t');
-                    }
                 }
-                else if(x==','){
-                    continue;
-                }
-                else
-                {
-                    st.push(x);
-                }
+                st.pop();  
+                char op = st.top();
+                st.pop(); 
+                st.push(solveOp(op, values));
+            } else {
+                st.push(s[i]);
             }
-            return st.top() == 'f' ? false : true;
         }
+        return (st.top() == 't');
+    }
 };
