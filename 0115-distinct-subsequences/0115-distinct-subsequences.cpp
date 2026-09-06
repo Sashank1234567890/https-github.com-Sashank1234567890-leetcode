@@ -6,8 +6,8 @@ public:
         int n = s.size();
         int m = t.size();
 
-        vector<long long> prev(m + 1, 0);
-        vector<long long> next(m + 1, 0);
+        vector<unsigned long long> prev(m + 1, 0);
+        vector<unsigned long long> next(m + 1, 0);
 
         prev[0] = 1;
 
@@ -21,10 +21,7 @@ public:
 
                 if (s[i - 1] == t[j - 1])
                 {
-                    next[j] = min(
-                        (long long)INT_MAX,
-                        next[j] + prev[j - 1]
-                    );
+                    next[j]+=prev[j-1];
                 }
             }
 
