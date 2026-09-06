@@ -655,6 +655,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2401-longest-nice-subarray](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2401-longest-nice-subarray) |
 | [2402-meeting-rooms-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2402-meeting-rooms-iii) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
+| [2416-sum-of-prefix-scores-of-strings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2416-sum-of-prefix-scores-of-strings) |
 | [2419-longest-subarray-with-maximum-bitwise-and](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2419-longest-subarray-with-maximum-bitwise-and) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2438-range-product-queries-of-powers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2438-range-product-queries-of-powers) |
@@ -901,6 +902,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2390-removing-stars-from-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2390-removing-stars-from-a-string) |
 | [2391-minimum-amount-of-time-to-collect-garbage](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2391-minimum-amount-of-time-to-collect-garbage) |
 | [2405-optimal-partition-of-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2405-optimal-partition-of-string) |
+| [2416-sum-of-prefix-scores-of-strings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2416-sum-of-prefix-scores-of-strings) |
 | [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2434-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2446-determine-if-two-events-have-conflict](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2446-determine-if-two-events-have-conflict) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2483-minimum-penalty-for-a-shop) |
@@ -1079,6 +1081,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2131-longest-palindrome-by-concatenating-two-letter-words) |
 | [2182-construct-string-with-repeat-limit](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2182-construct-string-with-repeat-limit) |
 | [2244-minimum-rounds-to-complete-all-tasks](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2244-minimum-rounds-to-complete-all-tasks) |
+| [2416-sum-of-prefix-scores-of-strings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2416-sum-of-prefix-scores-of-strings) |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
 | [2870-minimum-number-of-operations-to-make-array-empty](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2870-minimum-number-of-operations-to-make-array-empty) |
 | [2981-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2981-find-longest-special-substring-that-occurs-thrice-i) |
@@ -2218,6 +2221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0472-concatenated-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0472-concatenated-words) |
 | [0648-replace-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0648-replace-words) |
 | [1233-remove-sub-folders-from-the-filesystem](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1233-remove-sub-folders-from-the-filesystem) |
+| [2416-sum-of-prefix-scores-of-strings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2416-sum-of-prefix-scores-of-strings) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3076-shortest-uncommon-substring-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3076-shortest-uncommon-substring-in-an-array) |
