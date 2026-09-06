@@ -1,30 +1,28 @@
-class Solution
-{
-    public:
-        vector<int> replaceNonCoprimes(vector<int> &nums)
-        {
-            vector<int> ans;
-            for (int &x: nums)
-            {
-                ans.push_back(x);
-                while (ans.size() >= 2)
-                {
-                    int b = ans.back();
-                    ans.pop_back();
-                    int gcd_ = gcd(b, ans.back());
-                    if (gcd_ != 1)
-                    {
-                        long long mul = 1LL*b *ans.back();
-                        int lcm_ = (mul / gcd_);
-                        ans.back() = lcm_;
-                    }
-                    else
-                    {
-                        ans.push_back(b);
-                        break;
-                    }
+class Solution {
+public:
+    vector<int> replaceNonCoprimes(vector<int>& nums) {
+        vector<int> result; //or you can use a stack
+
+        //Processing left to right
+        for(int num : nums) {
+
+            while(!result.empty()) {
+                int prev = result.back();
+                int curr = num;
+
+                int GCD = gcd(prev, curr);
+                if(GCD == 1) {
+                    break;
                 }
+
+                result.pop_back();
+                int LCM = prev / GCD * curr;
+
+                num = LCM; 
             }
-            return ans;
+            result.push_back(num); 
         }
+        return result;
+    }
 };
+
