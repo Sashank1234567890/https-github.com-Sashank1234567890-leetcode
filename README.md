@@ -691,6 +691,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2845-count-of-interesting-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2845-count-of-interesting-subarrays) |
 | [2870-minimum-number-of-operations-to-make-array-empty](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2870-minimum-number-of-operations-to-make-array-empty) |
+| [2906-construct-product-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2906-construct-product-matrix) |
 | [2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -1797,6 +1798,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2661-first-completely-painted-row-or-column](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2661-first-completely-painted-row-or-column) |
 | [2684-maximum-number-of-moves-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2684-maximum-number-of-moves-in-a-grid) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [2906-construct-product-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2906-construct-product-matrix) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3195-find-the-minimum-area-to-cover-all-ones-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3195-find-the-minimum-area-to-cover-all-ones-i) |
 | [3197-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3197-find-the-minimum-area-to-cover-all-ones-ii) |
@@ -2093,6 +2095,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2536-increment-submatrices-by-one](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2536-increment-submatrices-by-one) |
 | [2559-count-vowel-strings-in-ranges](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2559-count-vowel-strings-in-ranges) |
 | [2845-count-of-interesting-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2845-count-of-interesting-subarrays) |
+| [2906-construct-product-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2906-construct-product-matrix) |
 | [2947-count-beautiful-substrings-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2947-count-beautiful-substrings-i) |
 | [2949-count-beautiful-substrings-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2949-count-beautiful-substrings-ii) |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2968-apply-operations-to-maximize-frequency-score) |
