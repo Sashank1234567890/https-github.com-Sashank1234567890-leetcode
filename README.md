@@ -769,6 +769,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3539-find-sum-of-array-product-of-magical-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3539-find-sum-of-array-product-of-magical-sequences) |
 | [3542-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3542-minimum-operations-to-convert-all-elements-to-zero) |
+| [3546-equal-sum-grid-partition-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
@@ -1809,6 +1810,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3342-find-minimum-time-to-reach-last-room-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3342-find-minimum-time-to-reach-last-room-ii) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3446-sort-matrix-by-diagonals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3446-sort-matrix-by-diagonals) |
+| [3546-equal-sum-grid-partition-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3651-minimum-cost-path-with-teleportations) |
@@ -2116,6 +2118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3445-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3445-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3480-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3480-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3494-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3494-find-the-minimum-amount-of-time-to-brew-potions) |
+| [3546-equal-sum-grid-partition-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3655-xor-after-range-multiplication-queries-ii) |
@@ -2173,6 +2176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3480-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3480-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3514-number-of-unique-xor-triplets-ii) |
+| [3546-equal-sum-grid-partition-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
 ## Divide and Conquer
