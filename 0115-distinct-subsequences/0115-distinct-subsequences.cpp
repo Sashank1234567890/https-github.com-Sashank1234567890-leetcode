@@ -1,23 +1,38 @@
-class Solution {
+class Solution
+{
 public:
-    int cnt(string &s, string &t,int i,int j,vector<vector<int>>&dp){
-        if(j<0)
-        return 1;
-        if(i<0)
-        return 0;
-        if(dp[i][j]!=-1)
-        return dp[i][j];
-        int ans=0;
-        if(s[i]==t[j]){
-              ans+=cnt(s,t,i-1,j-1,dp);
+    int numDistinct(string s, string t)
+    {
+        int n = s.size();
+        int m = t.size();
+
+        vector<long long> prev(m + 1, 0);
+        vector<long long> next(m + 1, 0);
+
+        prev[0] = 1;
+
+        for (int i = 1; i <= n; i++)
+        {
+            next[0] = 1;
+
+            for (int j = 1; j <= m; j++)
+            {
+                next[j] = prev[j];
+
+                if (s[i - 1] == t[j - 1])
+                {
+                    next[j] = min(
+                        (long long)INT_MAX,
+                        next[j] + prev[j - 1]
+                    );
+                }
+            }
+
+            swap(prev, next);
+
+            fill(next.begin(), next.end(), 0);
         }
-        ans+=cnt(s,t,i-1,j,dp);
-        return dp[i][j]=ans;
-    }
-    int numDistinct(string s, string t) {
-       int n=s.size();
-       int m=t.size();
-       vector<vector<int>>dp(n,vector<int>(m,-1));
-       return cnt(s,t,n-1,m-1,dp); 
+
+        return prev[m];
     }
 };
