@@ -801,6 +801,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0068-text-justification](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0076-minimum-window-substring) |
+| [0115-distinct-subsequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0115-distinct-subsequences) |
 | [0165-compare-version-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0165-compare-version-numbers) |
 | [0166-fraction-to-recurring-decimal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0168-excel-sheet-column-title](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0168-excel-sheet-column-title) |
@@ -939,6 +940,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0085-maximal-rectangle) |
+| [0115-distinct-subsequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0115-distinct-subsequences) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0392-is-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0392-is-subsequence) |
