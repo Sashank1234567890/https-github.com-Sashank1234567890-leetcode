@@ -1,26 +1,8 @@
-
 class Solution {
 public:
     int M = 1e9+7;
     int dp[2001];
     vector<int> prev; //prev[n] = last time when we saw this nth character (1-based indexing)
-
-    int solve(int n) {
-        if(n == 0)
-            return 1;
-
-        if(dp[n] != -1)
-            return dp[n];
-        
-        int total = (2*solve(n-1)) % M;
-
-        if(prev[n] != 0) {
-            int duplicates = solve(prev[n] - 1);
-            total = (total - duplicates + M) % M;
-        }
-
-        return dp[n] = total;
-    }
 
     int distinctSubseqII(string s) {
         int n = s.length();
@@ -36,8 +18,20 @@ public:
             lastSeen[idx] = i;
         }
 
-        return (solve(n) - 1 + M) % M;
+        dp[0] = 1; 
+
+        for(int i = 1; i <= n; i++) {
+            int total = (2 * dp[i-1]) % M;
+
+            if(prev[i] != 0) {
+                int duplicates = dp[prev[i] - 1];
+                total = (total - duplicates + M) % M;
+            }
+
+            dp[i] = total;
+        }
+
+        return (dp[n] - 1 + M) % M;
 
     }
 };
-
