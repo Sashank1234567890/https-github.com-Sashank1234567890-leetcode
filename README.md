@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1857-largest-color-value-in-a-directed-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1857-largest-color-value-in-a-directed-graph) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [1942-the-number-of-the-smallest-unoccupied-chair](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1942-the-number-of-the-smallest-unoccupied-chair) |
+| [1948-delete-duplicate-folders-in-system](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1948-delete-duplicate-folders-in-system) |
 | [1980-find-unique-binary-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1980-find-unique-binary-string) |
 | [2007-find-original-array-from-doubled-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2007-find-original-array-from-doubled-array) |
 | [2009-minimum-number-of-operations-to-make-array-continuous](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2009-minimum-number-of-operations-to-make-array-continuous) |
@@ -202,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1743-restore-the-array-from-adjacent-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1743-restore-the-array-from-adjacent-pairs) |
 | [1905-count-sub-islands](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1905-count-sub-islands) |
+| [1948-delete-duplicate-folders-in-system](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1948-delete-duplicate-folders-in-system) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1992-find-all-groups-of-farmland](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1992-find-all-groups-of-farmland) |
 | [2092-find-all-people-with-secret](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2092-find-all-people-with-secret) |
@@ -594,6 +596,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1905-count-sub-islands](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1905-count-sub-islands) |
 | [1921-eliminate-maximum-number-of-monsters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1921-eliminate-maximum-number-of-monsters) |
 | [1942-the-number-of-the-smallest-unoccupied-chair](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1942-the-number-of-the-smallest-unoccupied-chair) |
+| [1948-delete-duplicate-folders-in-system](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1948-delete-duplicate-folders-in-system) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1975-maximum-matrix-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1975-maximum-matrix-sum) |
@@ -882,6 +885,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
 | [1927-sum-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1927-sum-game) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1930-unique-length-3-palindromic-subsequences) |
+| [1948-delete-duplicate-folders-in-system](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1948-delete-duplicate-folders-in-system) |
 | [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1980-find-unique-binary-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1980-find-unique-binary-string) |
@@ -1248,6 +1252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [1887-reduction-operations-to-make-the-array-elements-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1887-reduction-operations-to-make-the-array-elements-equal) |
 | [1921-eliminate-maximum-number-of-monsters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1921-eliminate-maximum-number-of-monsters) |
+| [1948-delete-duplicate-folders-in-system](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1948-delete-duplicate-folders-in-system) |
 | [2007-find-original-array-from-doubled-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2007-find-original-array-from-doubled-array) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -2225,6 +2230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0472-concatenated-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0472-concatenated-words) |
 | [0648-replace-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0648-replace-words) |
 | [1233-remove-sub-folders-from-the-filesystem](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1233-remove-sub-folders-from-the-filesystem) |
+| [1948-delete-duplicate-folders-in-system](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1948-delete-duplicate-folders-in-system) |
 | [2416-sum-of-prefix-scores-of-strings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2416-sum-of-prefix-scores-of-strings) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3042-count-prefix-and-suffix-pairs-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3042-count-prefix-and-suffix-pairs-i) |
@@ -2490,6 +2496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Function
 |  |
 | ------- |
+| [1948-delete-duplicate-folders-in-system](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1948-delete-duplicate-folders-in-system) |
 | [3006-find-beautiful-indices-in-the-given-array-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3006-find-beautiful-indices-in-the-given-array-i) |
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 | [3029-minimum-time-to-revert-word-to-initial-state-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3029-minimum-time-to-revert-word-to-initial-state-i) |
