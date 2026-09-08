@@ -7,12 +7,8 @@ class Solution
             for (auto &match: matches)
             {
                 int w = match[0], l = match[1];
-                if(!mp.contains(l))
-                mp[l]=0;
-                mp[l]+=1;
-
-                if(!mp.contains(w))
-                mp[w]=0;
+                mp[w];
+                mp[l]++;
             }
             vector<vector<int>> ans(2);
             for (auto &[p, val]: mp)
