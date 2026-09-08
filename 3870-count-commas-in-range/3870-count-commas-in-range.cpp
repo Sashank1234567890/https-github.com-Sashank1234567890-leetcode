@@ -12,7 +12,7 @@ public:
         int ans=0;
         while(n>999){
             int limit=pow(1000,k);
-            ans+=(n-limit+1)*k;
+            ans+=(n-limit+1);
             n/=1000;k--;
         }
     return ans;}
