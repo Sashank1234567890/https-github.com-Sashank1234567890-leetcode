@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0202-happy-number) |
 | [0219-contains-duplicate-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0229-majority-element-ii) |
+| [0290-word-pattern](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0290-word-pattern) |
 | [0352-data-stream-as-disjoint-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0352-data-stream-as-disjoint-intervals) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -830,6 +831,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0166-fraction-to-recurring-decimal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0168-excel-sheet-column-title](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0168-excel-sheet-column-title) |
 | [0212-word-search-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0212-word-search-ii) |
+| [0290-word-pattern](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0290-word-pattern) |
 | [0332-reconstruct-itinerary](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0392-is-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0392-is-subsequence) |
 | [0399-evaluate-division](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0399-evaluate-division) |
