@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0791-custom-sort-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0791-custom-sort-string) |
 | [0805-split-array-with-same-average](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0805-split-array-with-same-average) |
 | [0815-bus-routes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0815-bus-routes) |
+| [0823-binary-trees-with-factors](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0823-binary-trees-with-factors) |
 | [0839-similar-string-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0839-similar-string-groups) |
 | [0840-magic-squares-in-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0840-magic-squares-in-grid) |
 | [0859-buddy-strings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0859-buddy-strings) |
@@ -469,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0798-smallest-rotation-with-highest-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0798-smallest-rotation-with-highest-score) |
 | [0805-split-array-with-same-average](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0805-split-array-with-same-average) |
 | [0815-bus-routes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0815-bus-routes) |
+| [0823-binary-trees-with-factors](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0823-binary-trees-with-factors) |
 | [0826-most-profit-assigning-work](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0826-most-profit-assigning-work) |
 | [0827-making-a-large-island](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0827-making-a-large-island) |
 | [0835-image-overlap](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0835-image-overlap) |
@@ -993,6 +995,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0773-sliding-puzzle](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0773-sliding-puzzle) |
 | [0788-rotated-digits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0788-rotated-digits) |
 | [0805-split-array-with-same-average](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0805-split-array-with-same-average) |
+| [0823-binary-trees-with-factors](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0823-binary-trees-with-factors) |
 | [0837-new-21-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0837-new-21-game) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [0877-stone-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0877-stone-game) |
@@ -1236,6 +1239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0757-set-intersection-size-at-least-two](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0757-set-intersection-size-at-least-two) |
 | [0769-max-chunks-to-make-sorted](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0791-custom-sort-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0791-custom-sort-string) |
+| [0823-binary-trees-with-factors](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0823-binary-trees-with-factors) |
 | [0826-most-profit-assigning-work](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0826-most-profit-assigning-work) |
 | [0881-boats-to-save-people](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0881-boats-to-save-people) |
 | [0899-orderly-queue](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0899-orderly-queue) |
