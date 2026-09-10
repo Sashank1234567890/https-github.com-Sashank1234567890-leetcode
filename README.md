@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2225-find-players-with-zero-or-one-losses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2225-find-players-with-zero-or-one-losses) |
 | [2244-minimum-rounds-to-complete-all-tasks](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2244-minimum-rounds-to-complete-all-tasks) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2251-number-of-flowers-in-full-bloom) |
+| [2336-smallest-number-in-infinite-set](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2336-smallest-number-in-infinite-set) |
 | [2342-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2342-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2402-meeting-rooms-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2402-meeting-rooms-iii) |
@@ -1516,6 +1517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2182-construct-string-with-repeat-limit](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2182-construct-string-with-repeat-limit) |
 | [2285-maximum-total-importance-of-roads](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2285-maximum-total-importance-of-roads) |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
+| [2336-smallest-number-in-infinite-set](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2336-smallest-number-in-infinite-set) |
 | [2342-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2342-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2402-meeting-rooms-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2402-meeting-rooms-iii) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
@@ -1969,6 +1971,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1261-find-elements-in-a-contaminated-binary-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1261-find-elements-in-a-contaminated-binary-tree) |
 | [1352-product-of-the-last-k-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1352-product-of-the-last-k-numbers) |
 | [1622-fancy-sequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1622-fancy-sequence) |
+| [2336-smallest-number-in-infinite-set](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2336-smallest-number-in-infinite-set) |
 | [2642-design-graph-with-shortest-path-calculator](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2642-design-graph-with-shortest-path-calculator) |
 ## Greedy
 |  |
@@ -2260,6 +2263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2251-number-of-flowers-in-full-bloom) |
+| [2336-smallest-number-in-infinite-set](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2336-smallest-number-in-infinite-set) |
 | [2762-continuous-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2762-continuous-subarrays) |
 | [3607-power-grid-maintenance](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3607-power-grid-maintenance) |
 | [3666-minimum-operations-to-equalize-binary-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3666-minimum-operations-to-equalize-binary-string) |
