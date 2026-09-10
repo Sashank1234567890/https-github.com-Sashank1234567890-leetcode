@@ -1,9 +1,8 @@
 class SmallestInfiniteSet {
 public:
+    set<int> st;
     
     int currSmallest;
-    unordered_set<int> st;
-    priority_queue<int, vector<int>, greater<int>> pq;
     
     SmallestInfiniteSet() {
         currSmallest = 1;
@@ -12,10 +11,9 @@ public:
     int popSmallest() {
         int result;
         
-        if(!pq.empty()) {
-            result = pq.top();
-            pq.pop();
-            st.erase(result);
+        if(!st.empty()) {
+            result = *st.begin();
+            st.erase(st.begin()); 
         } else {
             result = currSmallest;
             currSmallest += 1;
@@ -29,10 +27,8 @@ public:
             return;
         
         st.insert(num);
-        pq.push(num);
     }
 };
-
 /**
  * Your SmallestInfiniteSet object will be instantiated and called as such:
  * SmallestInfiniteSet* obj = new SmallestInfiniteSet();
