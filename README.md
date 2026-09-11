@@ -1440,6 +1440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1622-fancy-sequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1622-fancy-sequence) |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
+| [1688-count-of-matches-in-tournament](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1688-count-of-matches-in-tournament) |
 | [1716-calculate-money-in-leetcode-bank](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1716-calculate-money-in-leetcode-bank) |
 | [1759-count-number-of-homogenous-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1759-count-number-of-homogenous-substrings) |
 | [1780-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1780-check-if-number-is-a-sum-of-powers-of-three) |
@@ -2337,6 +2338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1441-build-an-array-with-stack-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1441-build-an-array-with-stack-operations) |
 | [1503-last-moment-before-all-ants-fall-out-of-a-plank](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1503-last-moment-before-all-ants-fall-out-of-a-plank) |
 | [1535-find-the-winner-of-an-array-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1535-find-the-winner-of-an-array-game) |
+| [1688-count-of-matches-in-tournament](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1688-count-of-matches-in-tournament) |
 | [1701-average-waiting-time](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1701-average-waiting-time) |
 | [1706-where-will-the-ball-fall](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1706-where-will-the-ball-fall) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1823-find-the-winner-of-the-circular-game) |
