@@ -1,26 +1,32 @@
-class Solution
-{
-    public:
-        vector<int> queryResults(int limit, vector<vector < int>> &qr)
-        {
-            unordered_map<int, unordered_set < int>> mp;
-            unordered_map<int, int> map;
-            vector<int> ans;
-            for (auto &q: qr)
-            {
-                int u = q[0];
-                int v = q[1];
-                if (map[u])
-                {
-                    mp[map[u]].erase(u);
-                    if (mp[map[u]].size() == 0)
-                    {
-                        mp.erase(map[u]);
-                    }
-                }
-                mp[v].insert(u);
-                map[u] = v;
-                ans.push_back(mp.size());
+class Solution {
+public:
+    vector<int> queryResults(int limit, vector<vector<int>>& qr) {
+        unordered_map<int, int> ballColor;
+        unordered_map<int, int> colorCount;
+
+        vector<int> ans;
+
+        for (auto &q : qr) {
+            int ball = q[0];
+            int color = q[1];
+
+          
+            if (ballColor.find(ball) != ballColor.end()) {
+                int oldColor = ballColor[ball];
+
+                colorCount[oldColor]--;
+
+                if (colorCount[oldColor] == 0)
+                    colorCount.erase(oldColor);
             }
-        return ans;}
+
+            
+            ballColor[ball] = color;
+            colorCount[color]++;
+
+            ans.push_back(colorCount.size());
+        }
+
+        return ans;
+    }
 };
