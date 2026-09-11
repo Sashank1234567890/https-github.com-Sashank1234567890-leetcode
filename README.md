@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3443-maximum-manhattan-distance-after-k-changes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3443-maximum-manhattan-distance-after-k-changes) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
+| [3483-unique-3-digit-even-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3542-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3542-minimum-operations-to-convert-all-elements-to-zero) |
@@ -787,6 +788,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3480-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3480-maximize-subarrays-after-removing-one-conflicting-pair) |
+| [3483-unique-3-digit-even-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3494-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3494-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3495-minimum-operations-to-make-array-elements-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3495-minimum-operations-to-make-array-elements-zero) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
@@ -2232,6 +2234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3440-reschedule-meetings-for-maximum-free-time-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3440-reschedule-meetings-for-maximum-free-time-ii) |
 | [3445-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3445-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3480-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3480-maximize-subarrays-after-removing-one-conflicting-pair) |
+| [3483-unique-3-digit-even-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3546-equal-sum-grid-partition-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3546-equal-sum-grid-partition-i) |
@@ -2380,6 +2383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1106-parsing-a-boolean-expression](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1106-parsing-a-boolean-expression) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1823-find-the-winner-of-the-circular-game) |
 | [2487-remove-nodes-from-linked-list](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2487-remove-nodes-from-linked-list) |
+| [3483-unique-3-digit-even-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 ## Stack
 |  |
 | ------- |
