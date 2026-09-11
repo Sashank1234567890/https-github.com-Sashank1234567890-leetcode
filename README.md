@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0648-replace-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0648-replace-words) |
 | [0726-number-of-atoms](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0726-number-of-atoms) |
 | [0752-open-the-lock](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0752-open-the-lock) |
+| [0781-rabbits-in-forest](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0781-rabbits-in-forest) |
 | [0791-custom-sort-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0791-custom-sort-string) |
 | [0805-split-array-with-same-average](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0805-split-array-with-same-average) |
 | [0815-bus-routes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0815-bus-routes) |
@@ -474,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0769-max-chunks-to-make-sorted](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0773-sliding-puzzle](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0773-sliding-puzzle) |
 | [0778-swim-in-rising-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0778-swim-in-rising-water) |
+| [0781-rabbits-in-forest](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0781-rabbits-in-forest) |
 | [0798-smallest-rotation-with-highest-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0798-smallest-rotation-with-highest-score) |
 | [0805-split-array-with-same-average](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0805-split-array-with-same-average) |
 | [0815-bus-routes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0815-bus-routes) |
@@ -1402,6 +1404,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0592-fraction-addition-and-subtraction](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0670-maximum-swap](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0670-maximum-swap) |
+| [0781-rabbits-in-forest](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0781-rabbits-in-forest) |
 | [0788-rotated-digits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0788-rotated-digits) |
 | [0805-split-array-with-same-average](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0805-split-array-with-same-average) |
 | [0837-new-21-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0837-new-21-game) |
@@ -2024,6 +2027,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0757-set-intersection-size-at-least-two](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0757-set-intersection-size-at-least-two) |
 | [0769-max-chunks-to-make-sorted](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0769-max-chunks-to-make-sorted) |
+| [0781-rabbits-in-forest](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0781-rabbits-in-forest) |
 | [0826-most-profit-assigning-work](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0826-most-profit-assigning-work) |
 | [0846-hand-of-straights](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0846-hand-of-straights) |
 | [0881-boats-to-save-people](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0881-boats-to-save-people) |
