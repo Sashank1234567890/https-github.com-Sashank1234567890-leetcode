@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2615-sum-of-distances](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2615-sum-of-distances) |
 | [2641-cousins-in-binary-tree-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2641-cousins-in-binary-tree-ii) |
 | [2661-first-completely-painted-row-or-column](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2661-first-completely-painted-row-or-column) |
+| [2780-minimum-index-of-a-valid-split](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2780-minimum-index-of-a-valid-split) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [2845-count-of-interesting-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2845-count-of-interesting-subarrays) |
 | [2870-minimum-number-of-operations-to-make-array-empty](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2870-minimum-number-of-operations-to-make-array-empty) |
@@ -720,6 +721,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2762-continuous-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2762-continuous-subarrays) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
 | [2779-maximum-beauty-of-an-array-after-applying-operation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2779-maximum-beauty-of-an-array-after-applying-operation) |
+| [2780-minimum-index-of-a-valid-split](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2780-minimum-index-of-a-valid-split) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
@@ -1319,6 +1321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2740-find-the-value-of-the-partition](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2740-find-the-value-of-the-partition) |
 | [2751-robot-collisions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2751-robot-collisions) |
 | [2779-maximum-beauty-of-an-array-after-applying-operation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2779-maximum-beauty-of-an-array-after-applying-operation) |
+| [2780-minimum-index-of-a-valid-split](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2780-minimum-index-of-a-valid-split) |
 | [2785-sort-vowels-in-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2785-sort-vowels-in-a-string) |
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
