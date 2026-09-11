@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3076-shortest-uncommon-substring-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3076-shortest-uncommon-substring-in-an-array) |
 | [3085-minimum-deletions-to-make-string-k-special](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3085-minimum-deletions-to-make-string-k-special) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
+| [3160-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3160-find-the-number-of-distinct-colors-among-the-balls) |
 | [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
 | [3223-minimum-length-of-string-after-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3223-minimum-length-of-string-after-operations) |
 | [3224-minimum-array-changes-to-make-differences-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3224-minimum-array-changes-to-make-differences-equal) |
@@ -753,6 +754,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3108-minimum-cost-walk-in-weighted-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3108-minimum-cost-walk-in-weighted-graph) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3152-special-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3152-special-array-ii) |
+| [3160-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3160-find-the-number-of-distinct-colors-among-the-balls) |
 | [3169-count-days-without-meetings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3169-count-days-without-meetings) |
 | [3171-find-subarray-with-bitwise-or-closest-to-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3171-find-subarray-with-bitwise-or-closest-to-k) |
 | [3195-find-the-minimum-area-to-cover-all-ones-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3195-find-the-minimum-area-to-cover-all-ones-i) |
@@ -2336,6 +2338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3072-distribute-elements-into-two-arrays-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3072-distribute-elements-into-two-arrays-ii) |
 | [3100-water-bottles-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3100-water-bottles-ii) |
+| [3160-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3160-find-the-number-of-distinct-colors-among-the-balls) |
 | [3494-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3494-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Number Theory
