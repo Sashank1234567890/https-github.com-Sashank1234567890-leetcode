@@ -2,6 +2,8 @@ class Solution {
 public:
     bool canArrange(vector<int>& arr, int k) {
         int cnt=arr.size();
+        if(cnt%2)
+        return 0;
         unordered_map<int,int>mp;
         for(int&x : arr){
             int ele=(x%k+k)%k;
