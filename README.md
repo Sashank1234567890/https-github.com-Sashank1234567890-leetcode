@@ -725,6 +725,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2658-maximum-number-of-fish-in-a-grid) |
 | [2661-first-completely-painted-row-or-column](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2661-first-completely-painted-row-or-column) |
 | [2684-maximum-number-of-moves-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2684-maximum-number-of-moves-in-a-grid) |
+| [2706-buy-two-chocolates](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2706-buy-two-chocolates) |
 | [2740-find-the-value-of-the-partition](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2740-find-the-value-of-the-partition) |
 | [2751-robot-collisions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2751-robot-collisions) |
 | [2762-continuous-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2762-continuous-subarrays) |
@@ -1336,6 +1337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2561-rearranging-fruits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2561-rearranging-fruits) |
 | [2563-count-the-number-of-fair-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2563-count-the-number-of-fair-pairs) |
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
+| [2706-buy-two-chocolates](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2706-buy-two-chocolates) |
 | [2740-find-the-value-of-the-partition](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2740-find-the-value-of-the-partition) |
 | [2751-robot-collisions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2751-robot-collisions) |
 | [2779-maximum-beauty-of-an-array-after-applying-operation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2779-maximum-beauty-of-an-array-after-applying-operation) |
@@ -2119,6 +2121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2573-find-the-string-with-lcp](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2573-find-the-string-with-lcp) |
 | [2601-prime-subtraction-operation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2601-prime-subtraction-operation) |
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
+| [2706-buy-two-chocolates](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2706-buy-two-chocolates) |
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2870-minimum-number-of-operations-to-make-array-empty](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2870-minimum-number-of-operations-to-make-array-empty) |
 | [2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
