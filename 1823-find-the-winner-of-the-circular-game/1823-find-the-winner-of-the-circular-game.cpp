@@ -1,23 +1,23 @@
 class Solution {
 public:
+
+    int findWinnerIdx(int n, int k) {
+        if(n == 1) {
+            return 0; //index
+        }
+
+        int idx = findWinnerIdx(n-1, k);
+        idx = (idx + k) % n; //to find the original index in the original array
+
+        return idx;
+    }
+
     int findTheWinner(int n, int k) {
-        queue<int> que;
-        for(int i = 1; i <= n; i++) {
-            que.push(i);
-        }
+        
+        int result_idx = findWinnerIdx(n, k);
 
-        while(que.size() > 1) {
 
-            for(int count = 1; count <= k-1; count++) {
-                que.push(que.front());
-                que.pop();
-            }
+        return result_idx + 1;// 1-based
 
-            que.pop();
-
-        }
-
-        return que.front();
     }
 };
-
