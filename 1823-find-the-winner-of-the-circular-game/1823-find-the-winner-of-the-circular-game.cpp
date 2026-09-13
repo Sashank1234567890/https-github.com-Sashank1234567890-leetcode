@@ -1,23 +1,13 @@
 class Solution {
 public:
+    int findTheWinner(int n, int k) {
 
-    int findWinnerIdx(int n, int k) {
-        if(n == 1) {
-            return 0; //index
+        int ans = 0;
+
+        for (int i = 2; i <= n; i++) {
+            ans = (ans + k) % i;
         }
 
-        int idx = findWinnerIdx(n-1, k);
-        idx = (idx + k) % n; //to find the original index in the original array
-
-        return idx;
-    }
-
-    int findTheWinner(int n, int k) {
-        
-        int result_idx = findWinnerIdx(n, k);
-
-
-        return result_idx + 1;// 1-based
-
+        return ans + 1;
     }
 };
