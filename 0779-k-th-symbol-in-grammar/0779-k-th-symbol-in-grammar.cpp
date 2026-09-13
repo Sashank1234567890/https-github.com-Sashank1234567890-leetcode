@@ -2,18 +2,22 @@ class Solution {
 public:
     int kthGrammar(int n, int k) {
 
-        if (n == 1)
+        if(n == 1 && k == 1){
             return 0;
+        }
 
-        int oldk = k;
+        if(n == 2){
+            return k % 2 == 0;
+        }
 
-        k = (k + 1) / 2;
+        int val = 1 << (n - 1);
 
-        int ans = kthGrammar(n - 1, k);
-
-        if (oldk % 2 == 0)
-            return !ans;
-
-        return ans;
+        if(k > val / 2){
+            k = k - (val / 2);
+            return !kthGrammar(n - 1, k);
+        }
+        else{
+            return kthGrammar(n - 1, k);
+        }
     }
 };
