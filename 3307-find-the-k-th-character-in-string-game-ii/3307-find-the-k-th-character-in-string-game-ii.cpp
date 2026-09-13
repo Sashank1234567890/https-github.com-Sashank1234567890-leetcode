@@ -1,43 +1,24 @@
-class Solution
-{
-    public:
-        char kthCharacter(long long k, vector<int> &operations)
-        {
-           
-            if (k == 1)
-            {
-                return 'a';
-            }
+class Solution {
+public:
+    char solve(long long k, vector<int>& operations, int i) {
 
-            int n = operations.size();	
-            int opType;	
-            long long len = 1;	
-            long long newK;	
+        if (k == 1)
+            return 'a';
 
-           
-            for (int i = 0; i < n; i++)
-            {
-                len *= 2;	
-                if (len >= k)
-                {
-                	
-                    opType = operations[i];	
-                    newK = k - len / 2;	
-                    break;	
-                }
-            }
+        long long len = 1LL << (min(i,60));
 
-           	
-            char res = kthCharacter(newK, operations);
+        if (k <= len / 2)
+            return solve(k, operations, i - 1);
 
-           	// If operation type is 0, return the character as is
-            if (opType == 0)
-                return res;
+        char res = solve(k - len / 2, operations, i - 1);
 
-          
-            if (res == 'z')
-                return 'a';	// Handle wrap-around from 'z' to 'a'
+        if (operations[i - 1] == 1)
+            res = (res == 'z') ? 'a' : res + 1;
 
-            return res + 1;	
-        }
+        return res;
+    }
+
+    char kthCharacter(long long k, vector<int>& operations) {
+        return solve(k, operations, operations.size());
+    }
 };
