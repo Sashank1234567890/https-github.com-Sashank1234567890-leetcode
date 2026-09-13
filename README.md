@@ -867,6 +867,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0166-fraction-to-recurring-decimal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0168-excel-sheet-column-title](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0168-excel-sheet-column-title) |
 | [0212-word-search-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0212-word-search-ii) |
+| [0241-different-ways-to-add-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0273-integer-to-english-words) |
 | [0290-word-pattern](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0290-word-pattern) |
 | [0332-reconstruct-itinerary](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0332-reconstruct-itinerary) |
@@ -1018,6 +1019,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0115-distinct-subsequences) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0241-different-ways-to-add-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0392-is-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0392-is-subsequence) |
 | [0396-rotate-function](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0396-rotate-function) |
 | [0435-non-overlapping-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0435-non-overlapping-intervals) |
@@ -1121,6 +1123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0773-sliding-puzzle](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0773-sliding-puzzle) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1857-largest-color-value-in-a-directed-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1857-largest-color-value-in-a-directed-graph) |
@@ -1413,6 +1416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0168-excel-sheet-column-title](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0168-excel-sheet-column-title) |
 | [0189-rotate-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0202-happy-number) |
+| [0241-different-ways-to-add-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0258-add-digits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0258-add-digits) |
 | [0263-ugly-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0263-ugly-number) |
 | [0273-integer-to-english-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0273-integer-to-english-words) |
@@ -2437,6 +2441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0024-swap-nodes-in-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0024-swap-nodes-in-pairs) |
 | [0143-reorder-list](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0234-palindrome-linked-list) |
+| [0241-different-ways-to-add-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0273-integer-to-english-words) |
 | [0342-power-of-four](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0342-power-of-four) |
 | [0486-predict-the-winner](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0486-predict-the-winner) |
@@ -2763,6 +2768,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bracket Sequences
 |  |
 | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2116-check-if-a-parentheses-string-can-be-valid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2116-check-if-a-parentheses-string-can-be-valid) |
