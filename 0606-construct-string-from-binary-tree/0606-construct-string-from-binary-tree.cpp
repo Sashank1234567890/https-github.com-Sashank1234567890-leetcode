@@ -11,33 +11,34 @@
  */
 class Solution {
 public:
-    string str(TreeNode* root){
-    if(!root){
-        return "";
-    }
-    string left=str(root->left);
-    string right=str(root->right);
-    string ans='('+to_string(root->val);
-    if(left.size()>0){
-          cout<<left<<endl;
-          ans+=left;
-    }
-    if(right.size()>0){
-           cout<<right<<endl;
-           if(left.size()==0){
+
+    void str(TreeNode* root, string &ans) {
+
+        if (!root){
             ans+="()";
-           }
-          ans+=right;
+            return ;
+        }
+
+        ans += "(";
+        ans += to_string(root->val);
+
+        if (root->left || root->right) {
+            str(root->left, ans);
+        }
+
+        if (root->right) {
+            str(root->right, ans);
+        }
+
+        ans += ")";
     }
-    ans+=')';
-    return ans;
-    }
+
     string tree2str(TreeNode* root) {
-    if(!root){
-        return "";
-    }
-    string s=str(root);
-    s.pop_back();
-    return s.substr(1);
+
+        string ans;
+
+        str(root, ans);
+
+        return ans.substr(1, ans.size() - 2);
     }
 };
