@@ -1427,6 +1427,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0592-fraction-addition-and-subtraction](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0670-maximum-swap](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0670-maximum-swap) |
+| [0779-k-th-symbol-in-grammar](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0779-k-th-symbol-in-grammar) |
 | [0781-rabbits-in-forest](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0781-rabbits-in-forest) |
 | [0788-rotated-digits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0788-rotated-digits) |
 | [0805-split-array-with-same-average](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0805-split-array-with-same-average) |
@@ -1666,6 +1667,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0342-power-of-four) |
 | [0389-find-the-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0389-find-the-difference) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [0779-k-th-symbol-in-grammar](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0779-k-th-symbol-in-grammar) |
 | [0805-split-array-with-same-average](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0805-split-array-with-same-average) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [0864-shortest-path-to-get-all-keys](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0864-shortest-path-to-get-all-keys) |
@@ -2431,6 +2433,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0234-palindrome-linked-list) |
 | [0342-power-of-four](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0342-power-of-four) |
 | [0486-predict-the-winner](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0486-predict-the-winner) |
+| [0779-k-th-symbol-in-grammar](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0779-k-th-symbol-in-grammar) |
 | [1106-parsing-a-boolean-expression](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1106-parsing-a-boolean-expression) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1823-find-the-winner-of-the-circular-game) |
 | [2487-remove-nodes-from-linked-list](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2487-remove-nodes-from-linked-list) |
