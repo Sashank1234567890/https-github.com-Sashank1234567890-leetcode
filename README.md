@@ -2322,6 +2322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0212-word-search-ii) |
 | [0386-lexicographical-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0386-lexicographical-numbers) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [0440-k-th-smallest-in-lexicographical-order](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [0472-concatenated-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0472-concatenated-words) |
 | [0648-replace-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0648-replace-words) |
 | [1233-remove-sub-folders-from-the-filesystem](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1233-remove-sub-folders-from-the-filesystem) |
