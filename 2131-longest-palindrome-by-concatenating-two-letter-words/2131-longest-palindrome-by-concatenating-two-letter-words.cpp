@@ -1,40 +1,39 @@
 class Solution {
 public:
     int longestPalindrome(vector<string>& words) {
-        unordered_map<string, int> mp;
-        
-        
-        for(string &word : words) {
-            mp[word]++;
+        unordered_map<string,int>mp;
+        bool pali=0;
+        int n=words.size();
+
+        for(int i=0;i<n;i++){
+            string s=words[i];
+            mp[s]++;
         }
-        
-        bool centerUsed = false; 
-        
-        int result = 0;
-        
-        
-        for(string &word : words) {
-            string rev = word;
-            reverse(begin(rev), end(rev));
-            
-            if(rev != word) { 
-                if(mp[word] > 0 && mp[rev] > 0) {
-                    mp[word]--;
-                    mp[rev]--;
-                    result += 4;
-                }
-            } else { 
-                if(mp[word] >= 2) {
-                    mp[word] -= 2;
-                    result += 4;
-                } else if(mp[word] == 1 && centerUsed == false) {
-                    mp[word]--;
-                    result += 2;
-                    centerUsed = true; 
-                }
+
+        int cnt=0;
+
+        for(auto &[s,freq]:mp){
+
+            if(freq==0)
+                continue;
+
+            string r;
+            r+=s[1];
+            r+=s[0];
+
+            if(r==s){
+                cnt+=mp[s]/2;
+
+                if(mp[s]%2)
+                    pali=1;
             }
+            else{
+                if(mp.find(r)!=mp.end())
+                cnt+=min(mp[r],mp[s]);
+            }
+            mp[s]=0;
         }
-        
-        return result;
+
+        return (cnt*4+pali*2);
     }
 };
