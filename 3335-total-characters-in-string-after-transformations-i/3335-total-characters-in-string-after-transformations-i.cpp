@@ -19,7 +19,7 @@ class Solution
             }
             temp[1] = (temp[1] + freq[25]) % mod;
             temp[0] = (freq[25])%mod;
-            freq = temp;
+            freq = move(temp);
         }
         int cnt = 0;
         for (int i = 0; i < 26; i++)
