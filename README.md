@@ -966,6 +966,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2416-sum-of-prefix-scores-of-strings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2416-sum-of-prefix-scores-of-strings) |
 | [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2434-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2446-determine-if-two-events-have-conflict](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2446-determine-if-two-events-have-conflict) |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2486-append-characters-to-string-to-make-subsequence) |
 | [2516-take-k-of-each-character-from-left-and-right](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2516-take-k-of-each-character-from-left-and-right) |
@@ -1086,6 +1087,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2338-count-the-number-of-ideal-arrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2338-count-the-number-of-ideal-arrays) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2439-minimize-maximum-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2439-minimize-maximum-of-array) |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [2501-longest-square-streak-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2501-longest-square-streak-in-an-array) |
 | [2573-find-the-string-with-lcp](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2573-find-the-string-with-lcp) |
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
@@ -1261,6 +1263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2161-partition-array-according-to-given-pivot](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2486-append-characters-to-string-to-make-subsequence) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 | [2503-maximum-number-of-points-from-grid-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2503-maximum-number-of-points-from-grid-queries) |
@@ -2153,6 +2156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2434-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2439-minimize-maximum-of-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2439-minimize-maximum-of-array) |
 | [2448-minimum-cost-to-make-array-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2448-minimum-cost-to-make-array-equal) |
+| [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2486-append-characters-to-string-to-make-subsequence) |
 | [2528-maximize-the-minimum-powered-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2528-maximize-the-minimum-powered-city) |
 | [2551-put-marbles-in-bags](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2551-put-marbles-in-bags) |
