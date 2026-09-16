@@ -1,40 +1,53 @@
-class Solution
-{
-    public:
-        bool isPalindrome(const string &s, int i, int j)
-        {
-            while (i < j)
-            {
-                if (s[i++] != s[j--]) return false;
-            }
-            return true;
+class Solution {
+public:
+    vector<vector<bool>> isPalindrome;
+
+    int solve(const string& s, int k, int i, int j, vector<vector<int>>& t) {
+        int n = s.size();
+        if (i >= n || j >= n) 
+            return 0;
+            
+        if (t[i][j] != -1) 
+            return t[i][j];
+
+        if (isPalindrome[i][j]) { 
+            int growWindow  = solve(s, k, i, j + 1, t);
+            int takeIt      = 1 + solve(s, k, j + 1, j + k, t);
+            int slideWindow = solve(s, k, i + 1, j + 1, t);
+
+            return t[i][j] = max({growWindow, takeIt, slideWindow});
         }
 
-    int maxPalindromes(string s, int k)
-    {
+        int slideWindow = solve(s, k, i + 1, j + 1, t);
+        int growWindow  = solve(s, k, i, j + 1, t);
+
+        return t[i][j] = max(slideWindow, growWindow);
+    }
+
+    int maxPalindromes(string s, int k) {
         int n = s.size();
         if (k == 1)
-            return n;	
+            return n; 
 
-        vector<vector < int>> t(n + 1, vector<int> (n + 1, 0));
+        isPalindrome.assign(n+1, vector<bool>(n+1));
+   
+        for(int L = 1; L <= n; L++) {
+            for(int i = 0; i+L <= n; i++) {
+                int j = i + L - 1;
 
-        for (int i = n - 1; i >= 0; --i)
-        {
-            for (int j = n - 1; j >= i; --j)
-            {
-
-                if (isPalindrome(s, i, j))
-                {
-                    int takeIt = 1 + (j + k <= n ? t[j + 1][j + k] : 0);
-
-                    t[i][j] = max(takeIt,t[i][j]);
+                if(i == j) {
+                    isPalindrome[i][i] = true; 
+                } else if(i+1 == j) {
+                    isPalindrome[i][j] = (s[i] == s[j]);
+                } else {
+                    isPalindrome[i][j] = ((s[i] == s[j]) && isPalindrome[i+1][j-1] == true);
                 }
-
-                int slideWindow = t[i + 1][j + 1];
-                int growWindow = t[i][j + 1];
-                t[i][j] = max({ t[i][j],slideWindow,growWindow });}
+            }
         }
 
-        return t[0][k - 1];
+        vector<vector<int>> t(n, vector<int>(n, -1));
+
+        return solve(s, k, 0, k - 1, t);
     }
 };
+
