@@ -1,34 +1,45 @@
+#define ll long long
 class Solution {
 public:
-    int M = 1e9 + 7;
-    int dp[1001][1001];
+    vector<ll> fact;
+    vector<ll> invFact;
+    const int MOD = 1e9+7;
 
-    int numberOfSets(int n, int K) {
+  
+    ll findPower(ll a, ll b) {
+        if(b == 0)
+            return 1;
+        
+        ll half = findPower(a, b/2);
+        ll result = (half * half) % MOD;
 
-        for (int i = 0; i <= n; i++) {
-            dp[0][i] = (i < n) ? 1 : 0;
+        if(b%2 == 1) {
+            result = (result * a) % MOD;
         }
 
-        for (int k = 1; k <= K; k++) {
+        return result;
+    }
 
-            vector<int> prevRowSum(n + 1, 0);
 
-            //prevRowSum[x] = dp[k-1][x] + dp[k-1][x+1] + ... + dp[k-1][n-1]
-            for (int x = n - 1; x >= 0; x--) {
-                prevRowSum[x] = (prevRowSum[x + 1] + dp[k - 1][x]) % M;
-            }
+    ll nCr(int n, int r) {
+      
+        return (((fact[n] * invFact[r]) % MOD) * invFact[n-r]) % MOD;
+    }
 
-            for (int i = n - 1; i >= 0; i--) {
-                
-                int skip = dp[k][i + 1];
+    int numberOfSets(int n, int k) {
+      
+        fact.assign(n+k, 1);
+        invFact.assign(n+k, 1);
 
-                int take = prevRowSum[i+1];
-                //dp[k-1][i+1] + dp[k-1][i+2] ...... + dp[k-1][n-1]
-
-                dp[k][i] = (take + skip) % M;
-            }
+        for(int i = 2; i < n+k; i++) {
+            fact[i] = (fact[i-1] * i) % MOD;
         }
 
-        return dp[K][0];
+        for(int i = 0; i < n+k; i++) {
+            invFact[i] = findPower(fact[i], MOD-2);
+        }
+
+        return nCr(n+k-1, 2*k);
     }
 };
+
