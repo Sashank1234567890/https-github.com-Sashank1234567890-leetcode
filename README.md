@@ -637,6 +637,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1921-eliminate-maximum-number-of-monsters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1921-eliminate-maximum-number-of-monsters) |
 | [1942-the-number-of-the-smallest-unoccupied-chair](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1942-the-number-of-the-smallest-unoccupied-chair) |
 | [1948-delete-duplicate-folders-in-system](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1948-delete-duplicate-folders-in-system) |
+| [1962-remove-stones-to-minimize-the-total](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1975-maximum-matrix-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1975-maximum-matrix-sum) |
@@ -1615,6 +1616,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1792-maximum-average-pass-ratio](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1792-maximum-average-pass-ratio) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [1942-the-number-of-the-smallest-unoccupied-chair](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1942-the-number-of-the-smallest-unoccupied-chair) |
+| [1962-remove-stones-to-minimize-the-total](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [2054-two-best-non-overlapping-events](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2182-construct-string-with-repeat-limit](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2182-construct-string-with-repeat-limit) |
 | [2285-maximum-total-importance-of-roads](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2285-maximum-total-importance-of-roads) |
@@ -2143,6 +2145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1921-eliminate-maximum-number-of-monsters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1921-eliminate-maximum-number-of-monsters) |
 | [1927-sum-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1927-sum-game) |
+| [1962-remove-stones-to-minimize-the-total](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [1975-maximum-matrix-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2007-find-original-array-from-doubled-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2007-find-original-array-from-doubled-array) |
