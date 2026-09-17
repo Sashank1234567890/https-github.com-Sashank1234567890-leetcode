@@ -715,6 +715,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2448-minimum-cost-to-make-array-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2448-minimum-cost-to-make-array-equal) |
 | [2458-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2458-height-of-binary-tree-after-subtree-removal-queries) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2462-total-cost-to-hire-k-workers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2462-total-cost-to-hire-k-workers) |
 | [2482-difference-between-ones-and-zeros-in-row-and-column](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2482-difference-between-ones-and-zeros-in-row-and-column) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 | [2501-longest-square-streak-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2501-longest-square-streak-in-an-array) |
@@ -1275,6 +1276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2161-partition-array-according-to-given-pivot](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
+| [2462-total-cost-to-hire-k-workers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2462-total-cost-to-hire-k-workers) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2486-append-characters-to-string-to-make-subsequence) |
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2491-divide-players-into-teams-of-equal-skill) |
@@ -1633,6 +1635,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2342-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2342-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2402-meeting-rooms-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2402-meeting-rooms-iii) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
+| [2462-total-cost-to-hire-k-workers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2462-total-cost-to-hire-k-workers) |
 | [2503-maximum-number-of-points-from-grid-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2503-maximum-number-of-points-from-grid-queries) |
 | [2542-maximum-subsequence-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2542-maximum-subsequence-score) |
 | [2551-put-marbles-in-bags](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2551-put-marbles-in-bags) |
@@ -2448,6 +2451,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2352-equal-row-and-column-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2352-equal-row-and-column-pairs) |
 | [2390-removing-stars-from-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2390-removing-stars-from-a-string) |
 | [2402-meeting-rooms-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2402-meeting-rooms-iii) |
+| [2462-total-cost-to-hire-k-workers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2462-total-cost-to-hire-k-workers) |
 | [2482-difference-between-ones-and-zeros-in-row-and-column](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2482-difference-between-ones-and-zeros-in-row-and-column) |
 | [2751-robot-collisions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2751-robot-collisions) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3069-distribute-elements-into-two-arrays-i) |
