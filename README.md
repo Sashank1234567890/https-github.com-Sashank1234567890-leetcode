@@ -723,6 +723,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
 | [2536-increment-submatrices-by-one](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2536-increment-submatrices-by-one) |
 | [2537-count-the-number-of-good-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2537-count-the-number-of-good-subarrays) |
+| [2542-maximum-subsequence-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2542-maximum-subsequence-score) |
 | [2551-put-marbles-in-bags](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2551-put-marbles-in-bags) |
 | [2554-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2554-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2559-count-vowel-strings-in-ranges](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2559-count-vowel-strings-in-ranges) |
@@ -1373,6 +1374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2491-divide-players-into-teams-of-equal-skill](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2491-divide-players-into-teams-of-equal-skill) |
 | [2501-longest-square-streak-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2501-longest-square-streak-in-an-array) |
 | [2503-maximum-number-of-points-from-grid-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2503-maximum-number-of-points-from-grid-queries) |
+| [2542-maximum-subsequence-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2542-maximum-subsequence-score) |
 | [2551-put-marbles-in-bags](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2551-put-marbles-in-bags) |
 | [2554-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2554-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2561-rearranging-fruits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2561-rearranging-fruits) |
@@ -1632,6 +1634,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2402-meeting-rooms-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2402-meeting-rooms-iii) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2503-maximum-number-of-points-from-grid-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2503-maximum-number-of-points-from-grid-queries) |
+| [2542-maximum-subsequence-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2542-maximum-subsequence-score) |
 | [2551-put-marbles-in-bags](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2551-put-marbles-in-bags) |
 | [2577-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2577-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2642-design-graph-with-shortest-path-calculator](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2642-design-graph-with-shortest-path-calculator) |
@@ -2184,6 +2187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [2486-append-characters-to-string-to-make-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2486-append-characters-to-string-to-make-subsequence) |
 | [2528-maximize-the-minimum-powered-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2528-maximize-the-minimum-powered-city) |
+| [2542-maximum-subsequence-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2542-maximum-subsequence-score) |
 | [2551-put-marbles-in-bags](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2551-put-marbles-in-bags) |
 | [2554-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2554-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2561-rearranging-fruits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2561-rearranging-fruits) |
