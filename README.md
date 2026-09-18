@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1488-avoid-flood-in-the-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1488-avoid-flood-in-the-city) |
 | [1497-check-if-array-pairs-are-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1497-check-if-array-pairs-are-divisible-by-k) |
 | [1512-number-of-good-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1512-number-of-good-pairs) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1590-make-sum-divisible-by-p](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1590-make-sum-divisible-by-p) |
 | [1630-arithmetic-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1630-arithmetic-subarrays) |
 | [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
@@ -932,6 +933,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1436-destination-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1436-destination-city) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1513-number-of-substrings-with-only-1s](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1513-number-of-substrings-with-only-1s) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1544-make-the-string-great](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1544-make-the-string-great) |
 | [1578-minimum-time-to-make-rope-colorful](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1578-minimum-time-to-make-rope-colorful) |
 | [1625-lexicographically-smallest-string-after-applying-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1625-lexicographically-smallest-string-after-applying-operations) |
@@ -1338,6 +1340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1502-can-make-arithmetic-progression-from-sequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1502-can-make-arithmetic-progression-from-sequence) |
 | [1509-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1509-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1561-maximum-number-of-coins-you-can-get) |
 | [1608-special-array-with-x-elements-greater-than-or-equal-x](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1608-special-array-with-x-elements-greater-than-or-equal-x) |
 | [1630-arithmetic-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1630-arithmetic-subarrays) |
@@ -2144,6 +2147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1488-avoid-flood-in-the-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1488-avoid-flood-in-the-city) |
 | [1509-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1509-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1561-maximum-number-of-coins-you-can-get](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1561-maximum-number-of-coins-you-can-get) |
 | [1578-minimum-time-to-make-rope-colorful](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1578-minimum-time-to-make-rope-colorful) |
