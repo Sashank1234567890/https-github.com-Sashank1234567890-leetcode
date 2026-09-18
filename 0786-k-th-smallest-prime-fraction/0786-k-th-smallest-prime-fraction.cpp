@@ -18,7 +18,7 @@ public:
             int i = vec[1];
             int j = vec[2]-1;
 
-            
+            if(j>i)
             pq.push({1.0*arr[i]/arr[j], (double)(i), (double)(j)});
             smallest++;
         }
