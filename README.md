@@ -504,6 +504,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0840-magic-squares-in-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0840-magic-squares-in-grid) |
 | [0846-hand-of-straights](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0846-hand-of-straights) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
+| [0857-minimum-cost-to-hire-k-workers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0857-minimum-cost-to-hire-k-workers) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0864-shortest-path-to-get-all-keys](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0864-shortest-path-to-get-all-keys) |
 | [0874-walking-robot-simulation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0874-walking-robot-simulation) |
@@ -1330,6 +1331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0823-binary-trees-with-factors](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0823-binary-trees-with-factors) |
 | [0826-most-profit-assigning-work](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0826-most-profit-assigning-work) |
 | [0846-hand-of-straights](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0846-hand-of-straights) |
+| [0857-minimum-cost-to-hire-k-workers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0857-minimum-cost-to-hire-k-workers) |
 | [0881-boats-to-save-people](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0881-boats-to-save-people) |
 | [0899-orderly-queue](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0899-orderly-queue) |
 | [0905-sort-array-by-parity](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0905-sort-array-by-parity) |
@@ -1626,6 +1628,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0767-reorganize-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0767-reorganize-string) |
 | [0778-swim-in-rising-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0778-swim-in-rising-water) |
 | [0786-k-th-smallest-prime-fraction](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0786-k-th-smallest-prime-fraction) |
+| [0857-minimum-cost-to-hire-k-workers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0857-minimum-cost-to-hire-k-workers) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -2141,6 +2144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0781-rabbits-in-forest](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0781-rabbits-in-forest) |
 | [0826-most-profit-assigning-work](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0826-most-profit-assigning-work) |
 | [0846-hand-of-straights](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0846-hand-of-straights) |
+| [0857-minimum-cost-to-hire-k-workers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0857-minimum-cost-to-hire-k-workers) |
 | [0881-boats-to-save-people](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0881-boats-to-save-people) |
 | [0945-minimum-increment-to-make-array-unique](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0945-minimum-increment-to-make-array-unique) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0955-delete-columns-to-make-sorted-ii) |
