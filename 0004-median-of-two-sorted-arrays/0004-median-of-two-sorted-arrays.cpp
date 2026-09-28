@@ -1,64 +1,59 @@
 class Solution {
 public:
-    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-        int m = nums1.size();
-        int n = nums2.size();
-        int size = m+n;
-        
-        int idx1 = (size/2)-1;
-        int element1 = -1;
-        int idx2 = size/2;
-        int element2 = -1;
-        
-        int i = 0, j = 0, k = 0;
-        
-        while(i < m && j < n) {
-            if(nums1[i] < nums2[j]) {
-                if(k == idx1) {
-                    element1 = nums1[i];
-                }
-                if(k == idx2) {
-                    element2 = nums1[i];
-                }
-                i++;
-            } else {
-                if(k == idx1) {
-                    element1 = nums2[j];
-                }
-                if(k == idx2) {
-                    element2 = nums2[j];
-                }
-                j++;
+
+    double bs(vector<int>& a, vector<int>& b, int l, int h) {
+        int n = a.size();
+        int m = b.size();
+
+        int total = n + m;
+        int left = (total + 1) / 2;
+
+        while(l <= h) {
+
+            int cntA = l + (h - l) / 2;
+            int cntB = left - cntA;
+
+            if(cntB < 0) {
+                h = cntA - 1;
+                continue;
             }
-            k++;
-        }
-        
-        while(i < m) {
-            if(k == idx1) {
-                element1 = nums1[i];
+
+            if(cntB > m) {
+                l = cntA + 1;
+                continue;
             }
-            if(k == idx2) {
-                element2 = nums1[i];
+
+            int x1 = (cntA == 0) ? INT_MIN : a[cntA - 1];
+            int x3 = (cntA == n) ? INT_MAX : a[cntA];
+
+            int x2 = (cntB == 0) ? INT_MIN : b[cntB - 1];
+            int x4 = (cntB == m) ? INT_MAX : b[cntB];
+
+            if(x1 <= x4 && x2 <= x3) {
+
+                if(total % 2 == 0)
+                    return (max(x1, x2) + min(x3, x4)) / 2.0;
+
+                return max(x1, x2);
             }
-            i++;
-            k++;
-        }
-        
-        while(j < n) {
-            if(k == idx1) {
-                element1 = nums2[j];
+
+            else if(x1 > x4) {
+                h = cntA - 1;
             }
-            if(k == idx2) {
-                element2 = nums2[j];
+
+            else {
+                l = cntA + 1;
             }
-            j++;
-            k++;
         }
 
-        if(size%2 == 1)
-            return element2;
-        
-        return (element1 + element2)/2.0;
-        
+        return -1;
+    }
+
+    double findMedianSortedArrays(vector<int>& a, vector<int>& b) {
+
+        if(a.size() > b.size())
+            swap(a, b);
+
+        return bs(a, b, 0, a.size());
     }
 };
