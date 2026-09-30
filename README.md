@@ -933,6 +933,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1106-parsing-a-boolean-expression](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1106-parsing-a-boolean-expression) |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1208-get-equal-substrings-within-budget](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1208-get-equal-substrings-within-budget) |
@@ -2580,6 +2581,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1106-parsing-a-boolean-expression](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1106-parsing-a-boolean-expression) |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1249-minimum-remove-to-make-valid-parentheses) |
@@ -2878,6 +2880,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0241-different-ways-to-add-parentheses) |
+| [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2116-check-if-a-parentheses-string-can-be-valid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2116-check-if-a-parentheses-string-can-be-valid) |
