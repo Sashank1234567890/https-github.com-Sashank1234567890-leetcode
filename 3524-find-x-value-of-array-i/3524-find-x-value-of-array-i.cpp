@@ -1,4 +1,3 @@
-
 class Solution {
 public:
     vector<long long> resultArray(vector<int>& nums, int k) {
@@ -9,7 +8,7 @@ public:
 
         for(int i = 0; i < n; i++) {
 
-            
+            //ending at i
             vector<long long> currCount(k, 0);
 
             int currElementRemainder = nums[i]%k;
@@ -31,3 +30,4 @@ public:
         return result;
     }
 };
+
