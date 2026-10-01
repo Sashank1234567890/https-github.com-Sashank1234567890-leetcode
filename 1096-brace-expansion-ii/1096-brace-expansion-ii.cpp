@@ -25,7 +25,7 @@ public:
             set<string> temp = getUnit();
 
             set<string> concatResult;
-            for(const string& left : result) {
+            for(const string& left : result) {//without const order set can give error
                 for(const string& right : temp) {
                     concatResult.insert(left+right);
                 }
