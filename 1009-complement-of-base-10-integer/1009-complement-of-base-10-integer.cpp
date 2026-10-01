@@ -1,16 +1,13 @@
 class Solution {
 public:
     int bitwiseComplement(int n) {
-        if(!n)
-        return 1;
-        int ans=0;
-        int i=0;
-        while(n){
-            bool bit=!(n&1);
-            n>>=1;
-            ans|=(bit)<<i;
-            i++;
-        }
-        return ans;
+        if (n == 0)
+            return 1;
+
+        int bits = floor(log2(n)) + 1; 
+        int mask = (1 << bits) - 1;     
+
+        return n ^ mask;
     }
 };
+
