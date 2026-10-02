@@ -698,6 +698,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2251-number-of-flowers-in-full-bloom](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2251-number-of-flowers-in-full-bloom) |
 | [2256-minimum-average-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2256-minimum-average-difference) |
 | [2257-count-unguarded-cells-in-the-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2257-count-unguarded-cells-in-the-grid) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2270-number-of-ways-to-split-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2270-number-of-ways-to-split-array) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
@@ -1119,6 +1120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2127-maximum-employees-to-be-invited-to-a-meeting](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2127-maximum-employees-to-be-invited-to-a-meeting) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2311-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2311-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2338-count-the-number-of-ideal-arrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2338-count-the-number-of-ideal-arrays) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
@@ -1994,6 +1996,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2125-number-of-laser-beams-in-a-bank](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2125-number-of-laser-beams-in-a-bank) |
 | [2257-count-unguarded-cells-in-the-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2257-count-unguarded-cells-in-the-grid) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2290-minimum-obstacle-removal-to-reach-corner) |
 | [2326-spiral-matrix-iv](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2326-spiral-matrix-iv) |
 | [2352-equal-row-and-column-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2352-equal-row-and-column-pairs) |
@@ -2904,6 +2907,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1963-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1963-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2116-check-if-a-parentheses-string-can-be-valid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2116-check-if-a-parentheses-string-can-be-valid) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 ## Least Common Multiple
 |  |
 | ------- |
