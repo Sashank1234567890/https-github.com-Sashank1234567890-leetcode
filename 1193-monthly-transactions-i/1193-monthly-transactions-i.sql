@@ -15,4 +15,4 @@ sum((Case
  end)
 ) as approved_total_amount
 from Transactions
-group by date_format(trans_date,'%Y-%m'),country;
+group by month ,country;
