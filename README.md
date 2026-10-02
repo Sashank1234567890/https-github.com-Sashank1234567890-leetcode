@@ -2842,6 +2842,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0177-nth-highest-salary](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0177-nth-highest-salary) |
+| [1193-monthly-transactions-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1193-monthly-transactions-i) |
 ## Z Algorithm
 |  |
 | ------- |
