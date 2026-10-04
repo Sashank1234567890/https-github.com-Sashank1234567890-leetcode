@@ -1,31 +1,22 @@
 class Solution {
 public:
-    vector<int> dp;
+    int minDays(int n){
+        vector<int> dp(n + 1, 1e9);
+        dp[0] = 0;
 
-    int score(int n){
-        if(n == 0){
-            return 0;
-        }
-        if(dp[n] != -1){
-            return dp[n];
-        }
-        int ans = 1e9;
-        for(int streak = 1; streak * (streak + 1) / 2 <= n; streak++){
-            int points = streak * (streak + 1) / 2;
-            int next = score(n - points);
-            if(next != 1e9){
+        for(int score = 1; score <= n; score++){
+            for(int streak = 1; streak * (streak + 1) / 2 <= score; streak++){
+                int points = streak * (streak + 1) / 2;
                 int days = streak;
-                if(n - points > 0){
+
+                if(score - points > 0){
                     days++;
                 }
-                ans = min(ans, next + days);
+
+                dp[score] = min(dp[score], dp[score - points] + days);
             }
         }
-        return dp[n] = ans;
-    }
 
-    int minDays(int n){
-        dp.assign(n + 1, -1);
-        return score(n);
+        return dp[n];
     }
 };
