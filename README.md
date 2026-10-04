@@ -882,6 +882,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3903-smallest-stable-index-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3904-smallest-stable-index-ii) |
 | [4013-count-subarrays-with-even-odd-ratio-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4013-count-subarrays-with-even-odd-ratio-ii) |
+| [4051-count-subarrays-with-distant-sums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4051-count-subarrays-with-distant-sums) |
 ## String
 |  |
 | ------- |
@@ -1939,6 +1940,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3620-network-recovery-pathways](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3620-network-recovery-pathways) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [4022-k-th-digit-in-infinite-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4022-k-th-digit-in-infinite-string) |
+| [4051-count-subarrays-with-distant-sums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4051-count-subarrays-with-distant-sums) |
 ## Matrix
 |  |
 | ------- |
@@ -2364,6 +2366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3903-smallest-stable-index-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3904-smallest-stable-index-ii) |
 | [4013-count-subarrays-with-even-odd-ratio-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4013-count-subarrays-with-even-odd-ratio-ii) |
+| [4051-count-subarrays-with-distant-sums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4051-count-subarrays-with-distant-sums) |
 ## Queue
 |  |
 | ------- |
@@ -2684,6 +2687,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3501-maximize-active-section-with-trade-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3525-find-x-value-of-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3525-find-x-value-of-array-ii) |
 | [4013-count-subarrays-with-even-odd-ratio-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4013-count-subarrays-with-even-odd-ratio-ii) |
+| [4051-count-subarrays-with-distant-sums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4051-count-subarrays-with-distant-sums) |
 ## String Matching
 |  |
 | ------- |
@@ -2766,6 +2770,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1395-count-number-of-teams](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1395-count-number-of-teams) |
 | [3072-distribute-elements-into-two-arrays-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3072-distribute-elements-into-two-arrays-ii) |
 | [4013-count-subarrays-with-even-odd-ratio-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4013-count-subarrays-with-even-odd-ratio-ii) |
+| [4051-count-subarrays-with-distant-sums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4051-count-subarrays-with-distant-sums) |
 ## Planar Graph
 |  |
 | ------- |
