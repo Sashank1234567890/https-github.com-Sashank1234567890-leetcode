@@ -883,6 +883,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3904-smallest-stable-index-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3904-smallest-stable-index-ii) |
 | [4013-count-subarrays-with-even-odd-ratio-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4013-count-subarrays-with-even-odd-ratio-ii) |
 | [4051-count-subarrays-with-distant-sums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4051-count-subarrays-with-distant-sums) |
+| [4052-cyclically-shift-rows-and-columns](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4052-cyclically-shift-rows-and-columns) |
 ## String
 |  |
 | ------- |
@@ -2036,6 +2037,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3742-maximum-path-score-in-a-grid) |
+| [4052-cyclically-shift-rows-and-columns](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4052-cyclically-shift-rows-and-columns) |
 ## Eulerian Circuit
 |  |
 | ------- |
@@ -2520,6 +2522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3160-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3160-find-the-number-of-distinct-colors-among-the-balls) |
 | [3494-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3494-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [4052-cyclically-shift-rows-and-columns](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4052-cyclically-shift-rows-and-columns) |
 ## Number Theory
 |  |
 | ------- |
