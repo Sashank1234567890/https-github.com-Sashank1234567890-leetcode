@@ -884,6 +884,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4013-count-subarrays-with-even-odd-ratio-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4013-count-subarrays-with-even-odd-ratio-ii) |
 | [4051-count-subarrays-with-distant-sums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4051-count-subarrays-with-distant-sums) |
 | [4052-cyclically-shift-rows-and-columns](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4052-cyclically-shift-rows-and-columns) |
+| [4053-minimum-operations-to-make-every-element-palindromic](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4053-minimum-operations-to-make-every-element-palindromic) |
 ## String
 |  |
 | ------- |
@@ -1942,6 +1943,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [4022-k-th-digit-in-infinite-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4022-k-th-digit-in-infinite-string) |
 | [4051-count-subarrays-with-distant-sums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4051-count-subarrays-with-distant-sums) |
+| [4053-minimum-operations-to-make-every-element-palindromic](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4053-minimum-operations-to-make-every-element-palindromic) |
 ## Matrix
 |  |
 | ------- |
