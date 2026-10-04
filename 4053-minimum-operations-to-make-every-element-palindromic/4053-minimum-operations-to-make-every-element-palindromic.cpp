@@ -29,7 +29,7 @@ public:
 
     long long minOperations(vector<int>& nums) {
 
-        static vector<long long> pal=generate(2000000000LL);
+        static vector<long long> pal=generate(2000000000LL);//generate once use everytime static mean
 
         static vector<long long> even,odd;
 
