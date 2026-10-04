@@ -1161,6 +1161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3660-jump-game-ix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3660-jump-game-ix) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3742-maximum-path-score-in-a-grid) |
+| [4050-minimum-days-to-score-exactly-n-points](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4050-minimum-days-to-score-exactly-n-points) |
 ## Topological Sort
 |  |
 | ------- |
@@ -1629,6 +1630,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3875-construct-uniform-parity-array-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3876-construct-uniform-parity-array-ii) |
 | [4022-k-th-digit-in-infinite-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4022-k-th-digit-in-infinite-string) |
+| [4050-minimum-days-to-score-exactly-n-points](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4050-minimum-days-to-score-exactly-n-points) |
 ## Geometry
 |  |
 | ------- |
