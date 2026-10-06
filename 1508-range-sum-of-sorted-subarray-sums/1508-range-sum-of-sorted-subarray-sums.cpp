@@ -1,30 +1,25 @@
 class Solution {
 public:
-    int M=1e9+7;
-
     typedef pair<int,int> P;
 
     long long getSum(vector<int>& nums,int n,int k) {
 
-        priority_queue<int> pq;
+        priority_queue<P,vector<P>,greater<P>> pq;
+
+        for(int i=0;i<n;i++)
+            pq.push({nums[i],i});//think as n sorted sequence
+
         long long sum=0;
 
-        for(int i=0;i<n;i++) {
+        for(int cnt=0;cnt<k;cnt++) {
 
-            int cur=0;
+            auto [val,i]=pq.top();
+            pq.pop();
 
-            for(int j=i;j<n;j++) {
+            sum+=val;
 
-                cur+=nums[j];
-
-                pq.push(cur);
-                sum+=cur;
-
-                if(pq.size()>k) {
-                    sum-=pq.top();
-                    pq.pop();
-                }
-            }
+            if(i+1<n)
+                pq.push({val+nums[i+1],i+1});
         }
 
         return sum;
@@ -35,6 +30,6 @@ public:
         long long r=getSum(nums,n,right);
         long long l=getSum(nums,n,left-1);
 
-        return (r-l+M)%M;
+        return (r-l)%1000000007;
     }
 };
