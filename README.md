@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0525-contiguous-array) |
 | [0567-permutation-in-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0621-task-scheduler) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0648-replace-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0648-replace-words) |
 | [0726-number-of-atoms](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0726-number-of-atoms) |
 | [0752-open-the-lock](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0752-open-the-lock) |
@@ -483,6 +484,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0624-maximum-distance-in-arrays) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0648-replace-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0648-replace-words) |
 | [0661-image-smoother](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0661-image-smoother) |
 | [0713-subarray-product-less-than-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0713-subarray-product-less-than-k) |
@@ -1360,6 +1362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0611-valid-triangle-number) |
 | [0621-task-scheduler](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0621-task-scheduler) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0726-number-of-atoms](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0726-number-of-atoms) |
 | [0757-set-intersection-size-at-least-two](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0757-set-intersection-size-at-least-two) |
@@ -1672,6 +1675,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0480-sliding-window-median](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0480-sliding-window-median) |
 | [0502-ipo](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0621-task-scheduler) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0767-reorganize-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0767-reorganize-string) |
 | [0778-swim-in-rising-water](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0778-swim-in-rising-water) |
@@ -1727,6 +1731,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0480-sliding-window-median](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0480-sliding-window-median) |
 | [0567-permutation-in-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0567-permutation-in-string) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0713-subarray-product-less-than-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0837-new-21-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0837-new-21-game) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
@@ -2191,6 +2196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0611-valid-triangle-number) |
 | [0621-task-scheduler](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0621-task-scheduler) |
 | [0624-maximum-distance-in-arrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0624-maximum-distance-in-arrays) |
+| [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0649-dota2-senate](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0649-dota2-senate) |
 | [0670-maximum-swap](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0670-maximum-swap) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
