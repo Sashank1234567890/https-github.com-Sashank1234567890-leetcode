@@ -1,24 +1,40 @@
 class Solution {
 public:
-    int M = 1e9+7;
-    int rangeSum(vector<int>& nums, int n, int left, int right) {
-        
-        vector<int> temp;
-        for (int i = 0; i < n; i++) {
-            int sum = 0;
-            for (int j = i; j < n; j++) {
-                sum += nums[j];
-                temp.push_back(sum);
+    int M=1e9+7;
+
+    typedef pair<int,int> P;
+
+    long long getSum(vector<int>& nums,int n,int k) {
+
+        priority_queue<int> pq;
+        long long sum=0;
+
+        for(int i=0;i<n;i++) {
+
+            int cur=0;
+
+            for(int j=i;j<n;j++) {
+
+                cur+=nums[j];
+
+                pq.push(cur);
+                sum+=cur;
+
+                if(pq.size()>k) {
+                    sum-=pq.top();
+                    pq.pop();
+                }
             }
         }
-        
-        sort(begin(temp), end(temp));
 
-        
-        int result = 0;
-        for (int i = left - 1; i <= right - 1; i++) {
-            result = (result + temp[i]) % M;
-        }
-        return result;
+        return sum;
+    }
+
+    int rangeSum(vector<int>& nums,int n,int left,int right) {
+
+        long long r=getSum(nums,n,right);
+        long long l=getSum(nums,n,left-1);
+
+        return (r-l+M)%M;
     }
 };
