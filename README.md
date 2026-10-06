@@ -938,6 +938,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0859-buddy-strings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0859-buddy-strings) |
 | [0899-orderly-queue](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0899-orderly-queue) |
 | [0916-word-subsets](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0916-word-subsets) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0940-distinct-subsequences-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0940-distinct-subsequences-ii) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0960-delete-columns-to-make-sorted-iii) |
@@ -2190,6 +2191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0846-hand-of-straights](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0846-hand-of-straights) |
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0857-minimum-cost-to-hire-k-workers) |
 | [0881-boats-to-save-people](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0881-boats-to-save-people) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0945-minimum-increment-to-make-array-unique](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0945-minimum-increment-to-make-array-unique) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0976-largest-perimeter-triangle](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0976-largest-perimeter-triangle) |
@@ -2609,6 +2611,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0856-score-of-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0856-score-of-parentheses) |
 | [0901-online-stock-span](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0907-sum-of-subarray-minimums) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0946-validate-stack-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0946-validate-stack-sequences) |
 | [1003-check-if-word-is-valid-after-substitutions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1003-check-if-word-is-valid-after-substitutions) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
@@ -2926,6 +2929,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0856-score-of-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0856-score-of-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
