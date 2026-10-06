@@ -1,35 +1,68 @@
 class Solution {
 public:
-    typedef pair<int,int> P;
+    typedef long long ll;
+    ll M=1e9+7;
 
-    long long getSum(vector<int>& nums,int n,int k) {
+    pair<ll,ll> countSum(vector<int>& nums,int n,ll x) {
 
-        priority_queue<P,vector<P>,greater<P>> pq;
+        vector<ll> pre(n+1,0), pp(n+2,0);
 
         for(int i=0;i<n;i++)
-            pq.push({nums[i],i});//think as n sorted sequence
+            pre[i+1]=pre[i]+nums[i];
 
-        long long sum=0;
+        for(int i=0;i<=n;i++)
+            pp[i+1]=pp[i]+pre[i];
 
-        for(int cnt=0;cnt<k;cnt++) {
+        ll cnt=0,sum=0;
+        int l=0;
 
-            auto [val,i]=pq.top();
-            pq.pop();
+        for(int r=0;r<n;r++) {
 
-            sum+=val;
+            while(pre[r+1]-pre[l]>x)
+                l++;
 
-            if(i+1<n)
-                pq.push({val+nums[i+1],i+1});
+            ll len=r-l+1;
+
+            cnt+=len;
+
+            sum+=len*pre[r+1]-(pp[r+1]-pp[l]);
         }
 
-        return sum;
+        return {cnt,sum};
+    }
+
+    ll kthSum(vector<int>& nums,int n,ll k) {
+
+        if(k==0)
+            return 0;
+
+        ll lo=1,hi=0;
+
+        for(int x:nums)
+            hi+=x;
+
+        while(lo<hi) {
+
+            ll mid=(lo+hi)/2;
+
+            auto [cnt,sum]=countSum(nums,n,mid);
+
+            if(cnt>=k)
+                hi=mid;
+            else
+                lo=mid+1;
+        }
+
+        auto [cnt,sum]=countSum(nums,n,lo);
+
+        return sum-(cnt-k)*lo;
     }
 
     int rangeSum(vector<int>& nums,int n,int left,int right) {
 
-        long long r=getSum(nums,n,right);
-        long long l=getSum(nums,n,left-1);
+        ll r=kthSum(nums,n,right);
+        ll l=kthSum(nums,n,left-1);
 
-        return (r-l)%1000000007;
+        return (r-l)%M;
     }
 };
