@@ -276,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0200-number-of-islands) |
+| [0301-remove-invalid-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0301-remove-invalid-parentheses) |
 | [0310-minimum-height-trees](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0310-minimum-height-trees) |
 | [0399-evaluate-division](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -912,6 +913,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0273-integer-to-english-words) |
 | [0290-word-pattern](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0290-word-pattern) |
+| [0301-remove-invalid-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0301-remove-invalid-parentheses) |
 | [0332-reconstruct-itinerary](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0389-find-the-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0389-find-the-difference) |
 | [0392-is-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0392-is-subsequence) |
@@ -2752,6 +2754,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0051-n-queens) |
 | [0113-path-sum-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0113-path-sum-ii) |
 | [0212-word-search-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0212-word-search-ii) |
+| [0301-remove-invalid-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0301-remove-invalid-parentheses) |
 | [0494-target-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0494-target-sum) |
 | [0773-sliding-puzzle](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0773-sliding-puzzle) |
 | [0988-smallest-string-starting-from-leaf](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0988-smallest-string-starting-from-leaf) |
