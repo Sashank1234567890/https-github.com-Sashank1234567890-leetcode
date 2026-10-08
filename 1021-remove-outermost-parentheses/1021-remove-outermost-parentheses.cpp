@@ -20,7 +20,7 @@ class Solution
                     dq.pop_front();
                     while (!dq.empty())
                     {
-                        cout << dq.front();
+                        // cout << dq.front();
                         ans.push_back(dq.front());
                         dq.pop_front();
                     }
