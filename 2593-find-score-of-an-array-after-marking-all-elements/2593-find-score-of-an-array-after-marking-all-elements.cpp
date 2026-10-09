@@ -1,32 +1,34 @@
 class Solution {
 public:
-    
     long long findScore(vector<int>& nums) {
-        unordered_map<int,bool>mp;
-        int n=nums.size();
-        auto comp=[&](int i,int j){
-            if(nums[i]==nums[j])
-            return i>j;
-            return nums[i]>nums[j];
-        };
-        priority_queue<int,vector<int>,decltype(comp)>pq(comp);
-        for(int i=0;i<n;i++){
-            pq.push(i);
-        }
-        long long int ans=0;
-        while(!pq.empty()){
-            int i=pq.top();
-            pq.pop();
-            if(!mp[i]){
-                if(i>0)
-                mp[i-1]=1;
-                if(i<n-1)
-                mp[i+1]=1;
+        int n = nums.size();
+        vector<pair<int, int>> vec(n);
 
-                mp[i]=1;
-                ans+=nums[i];
+        for(int i = 0; i < n; i++) {
+            vec[i] = {nums[i], i};
+        }
+
+        sort(begin(vec), end(vec)); 
+
+        long long score = 0;
+        vector<bool> visited(n, false);
+
+        for(int i = 0; i < n; i++) { 
+            int element = vec[i].first;
+            int idx     = vec[i].second;
+            if(visited[idx] == false) {
+                visited[idx] = true;
+                score += element;
+
+                if(idx-1 >= 0 && visited[idx-1] == false) {
+                    visited[idx-1] = true;
+                }
+                if(idx+1 < n && visited[idx+1] == false) {
+                    visited[idx+1] = true;
+                }
             }
         }
-        return ans;
+
+        return score;
     }
 };
