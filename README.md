@@ -969,6 +969,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1328-break-a-palindrome](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1328-break-a-palindrome) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1400-construct-k-palindrome-strings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1400-construct-k-palindrome-strings) |
+| [1405-longest-happy-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1405-longest-happy-string) |
 | [1436-destination-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1436-destination-city) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1513-number-of-substrings-with-only-1s](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1513-number-of-substrings-with-only-1s) |
@@ -1693,6 +1694,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1405-longest-happy-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1405-longest-happy-string) |
 | [1424-diagonal-traverse-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1424-diagonal-traverse-ii) |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -2233,6 +2235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1328-break-a-palindrome](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1328-break-a-palindrome) |
 | [1386-cinema-seat-allocation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1386-cinema-seat-allocation) |
 | [1400-construct-k-palindrome-strings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1400-construct-k-palindrome-strings) |
+| [1405-longest-happy-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1405-longest-happy-string) |
 | [1432-max-difference-you-can-get-from-changing-an-integer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1432-max-difference-you-can-get-from-changing-an-integer) |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
 | [1488-avoid-flood-in-the-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1488-avoid-flood-in-the-city) |
