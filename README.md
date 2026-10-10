@@ -853,6 +853,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3453-separate-squares-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3453-separate-squares-i) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
+| [3478-choose-k-elements-with-maximum-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3478-choose-k-elements-with-maximum-sum) |
 | [3480-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3480-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3494-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3494-find-the-minimum-amount-of-time-to-brew-potions) |
@@ -1485,6 +1486,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3446-sort-matrix-by-diagonals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3446-sort-matrix-by-diagonals) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
+| [3478-choose-k-elements-with-maximum-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3478-choose-k-elements-with-maximum-sum) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3531-count-covered-buildings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3531-count-covered-buildings) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -1743,6 +1745,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3321-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3321-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3341-find-minimum-time-to-reach-last-room-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3341-find-minimum-time-to-reach-last-room-i) |
 | [3342-find-minimum-time-to-reach-last-room-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3342-find-minimum-time-to-reach-last-room-ii) |
+| [3478-choose-k-elements-with-maximum-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3478-choose-k-elements-with-maximum-sum) |
 | [3607-power-grid-maintenance](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3607-power-grid-maintenance) |
 | [3620-network-recovery-pathways](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3620-network-recovery-pathways) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3650-minimum-cost-path-with-edge-reversals) |
