@@ -524,6 +524,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0857-minimum-cost-to-hire-k-workers) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0864-shortest-path-to-get-all-keys](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0864-shortest-path-to-get-all-keys) |
+| [0871-minimum-number-of-refueling-stops](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0874-walking-robot-simulation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0874-walking-robot-simulation) |
 | [0877-stone-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0877-stone-game) |
 | [0881-boats-to-save-people](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0881-boats-to-save-people) |
@@ -1112,6 +1113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0823-binary-trees-with-factors](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0823-binary-trees-with-factors) |
 | [0837-new-21-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0837-new-21-game) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0847-shortest-path-visiting-all-nodes) |
+| [0871-minimum-number-of-refueling-stops](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0877-stone-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0877-stone-game) |
 | [0898-bitwise-ors-of-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0898-bitwise-ors-of-subarrays) |
 | [0907-sum-of-subarray-minimums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0907-sum-of-subarray-minimums) |
@@ -1704,6 +1706,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0786-k-th-smallest-prime-fraction](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0786-k-th-smallest-prime-fraction) |
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0857-minimum-cost-to-hire-k-workers) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
+| [0871-minimum-number-of-refueling-stops](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1405-longest-happy-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1405-longest-happy-string) |
@@ -2239,6 +2242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0826-most-profit-assigning-work](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0826-most-profit-assigning-work) |
 | [0846-hand-of-straights](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0846-hand-of-straights) |
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0857-minimum-cost-to-hire-k-workers) |
+| [0871-minimum-number-of-refueling-stops](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0881-boats-to-save-people](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0881-boats-to-save-people) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0945-minimum-increment-to-make-array-unique](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0945-minimum-increment-to-make-array-unique) |
