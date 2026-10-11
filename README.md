@@ -843,6 +843,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3349-adjacent-increasing-subarrays-detection-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3349-adjacent-increasing-subarrays-detection-i) |
 | [3350-adjacent-increasing-subarrays-detection-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3350-adjacent-increasing-subarrays-detection-ii) |
 | [3357-minimize-the-maximum-adjacent-element-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3357-minimize-the-maximum-adjacent-element-difference) |
+| [3362-zero-array-transformation-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3362-zero-array-transformation-iii) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3394-check-if-grid-can-be-cut-into-sections](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3394-check-if-grid-can-be-cut-into-sections) |
 | [3397-maximum-number-of-distinct-elements-after-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3397-maximum-number-of-distinct-elements-after-operations) |
@@ -1356,6 +1357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3008-find-beautiful-indices-in-the-given-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3008-find-beautiful-indices-in-the-given-array-ii) |
 | [3218-minimum-cost-for-cutting-cake-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3218-minimum-cost-for-cutting-cake-i) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
+| [3362-zero-array-transformation-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3362-zero-array-transformation-iii) |
 | [3403-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3403-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
@@ -1484,6 +1486,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3219-minimum-cost-for-cutting-cake-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3219-minimum-cost-for-cutting-cake-ii) |
 | [3346-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3346-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3347-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3347-maximum-frequency-of-an-element-after-performing-operations-ii) |
+| [3362-zero-array-transformation-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3362-zero-array-transformation-iii) |
 | [3394-check-if-grid-can-be-cut-into-sections](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3394-check-if-grid-can-be-cut-into-sections) |
 | [3397-maximum-number-of-distinct-elements-after-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3397-maximum-number-of-distinct-elements-after-operations) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
@@ -1749,6 +1752,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3321-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3321-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3341-find-minimum-time-to-reach-last-room-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3341-find-minimum-time-to-reach-last-room-i) |
 | [3342-find-minimum-time-to-reach-last-room-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3342-find-minimum-time-to-reach-last-room-ii) |
+| [3362-zero-array-transformation-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3362-zero-array-transformation-iii) |
 | [3478-choose-k-elements-with-maximum-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3478-choose-k-elements-with-maximum-sum) |
 | [3607-power-grid-maintenance](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3607-power-grid-maintenance) |
 | [3620-network-recovery-pathways](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3620-network-recovery-pathways) |
@@ -2340,6 +2344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3357-minimize-the-maximum-adjacent-element-difference](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3357-minimize-the-maximum-adjacent-element-difference) |
+| [3362-zero-array-transformation-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3362-zero-array-transformation-iii) |
 | [3397-maximum-number-of-distinct-elements-after-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3397-maximum-number-of-distinct-elements-after-operations) |
 | [3439-reschedule-meetings-for-maximum-free-time-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3439-reschedule-meetings-for-maximum-free-time-i) |
 | [3440-reschedule-meetings-for-maximum-free-time-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3440-reschedule-meetings-for-maximum-free-time-ii) |
@@ -2419,6 +2424,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3312-sorted-gcd-pair-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3346-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3346-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3347-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3347-maximum-frequency-of-an-element-after-performing-operations-ii) |
+| [3362-zero-array-transformation-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3362-zero-array-transformation-iii) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3445-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3445-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3480-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3480-maximize-subarrays-after-removing-one-conflicting-pair) |
