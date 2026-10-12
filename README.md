@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0648-replace-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0648-replace-words) |
 | [0726-number-of-atoms](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0726-number-of-atoms) |
 | [0752-open-the-lock](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0752-open-the-lock) |
+| [0763-partition-labels](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0767-reorganize-string) |
 | [0781-rabbits-in-forest](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0781-rabbits-in-forest) |
 | [0791-custom-sort-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0791-custom-sort-string) |
@@ -959,6 +960,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0649-dota2-senate](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0649-dota2-senate) |
 | [0726-number-of-atoms](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0726-number-of-atoms) |
 | [0752-open-the-lock](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0752-open-the-lock) |
+| [0763-partition-labels](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0767-reorganize-string) |
 | [0791-custom-sort-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0791-custom-sort-string) |
 | [0839-similar-string-groups](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0839-similar-string-groups) |
@@ -1336,6 +1338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0567-permutation-in-string) |
 | [0611-valid-triangle-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0611-valid-triangle-number) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0763-partition-labels](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0763-partition-labels) |
 | [0786-k-th-smallest-prime-fraction](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0786-k-th-smallest-prime-fraction) |
 | [0826-most-profit-assigning-work](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0826-most-profit-assigning-work) |
 | [0844-backspace-string-compare](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0844-backspace-string-compare) |
@@ -2261,6 +2264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0670-maximum-swap](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0670-maximum-swap) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0757-set-intersection-size-at-least-two](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0757-set-intersection-size-at-least-two) |
+| [0763-partition-labels](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0763-partition-labels) |
 | [0767-reorganize-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0767-reorganize-string) |
 | [0769-max-chunks-to-make-sorted](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0781-rabbits-in-forest](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0781-rabbits-in-forest) |
