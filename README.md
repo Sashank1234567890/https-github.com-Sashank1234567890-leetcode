@@ -132,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2799-count-complete-subarrays-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2799-count-complete-subarrays-in-an-array) |
 | [2845-count-of-interesting-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2845-count-of-interesting-subarrays) |
 | [2870-minimum-number-of-operations-to-make-array-empty](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2870-minimum-number-of-operations-to-make-array-empty) |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2947-count-beautiful-substrings-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2947-count-beautiful-substrings-i) |
 | [2949-count-beautiful-substrings-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2949-count-beautiful-substrings-ii) |
 | [2953-count-complete-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2953-count-complete-substrings) |
@@ -784,6 +785,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2845-count-of-interesting-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2845-count-of-interesting-subarrays) |
 | [2870-minimum-number-of-operations-to-make-array-empty](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2870-minimum-number-of-operations-to-make-array-empty) |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2906-construct-product-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2906-construct-product-matrix) |
 | [2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
@@ -1856,6 +1858,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2419-longest-subarray-with-maximum-bitwise-and](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2419-longest-subarray-with-maximum-bitwise-and) |
 | [2438-range-product-queries-of-powers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2438-range-product-queries-of-powers) |
 | [2749-minimum-operations-to-make-the-integer-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2749-minimum-operations-to-make-the-integer-zero) |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2959-number-of-possible-sets-of-closing-branches](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2959-number-of-possible-sets-of-closing-branches) |
 | [3011-find-if-array-can-be-sorted](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3011-find-if-array-can-be-sorted) |
 | [3068-find-the-maximum-sum-of-node-values](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3068-find-the-maximum-sum-of-node-values) |
@@ -2337,6 +2340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2706-buy-two-chocolates](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2706-buy-two-chocolates) |
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2870-minimum-number-of-operations-to-make-array-empty](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2870-minimum-number-of-operations-to-make-array-empty) |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [2938-separate-black-and-white-balls](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2938-separate-black-and-white-balls) |
 | [2971-find-polygon-with-the-largest-perimeter](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2971-find-polygon-with-the-largest-perimeter) |
