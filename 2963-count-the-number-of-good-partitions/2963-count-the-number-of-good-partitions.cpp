@@ -1,36 +1,27 @@
-class Solution
-{
-    public:
-      int mod=1e9+7;
-      int cnt(vector<int> &nums,unordered_map<int, vector < int>> &mp,int &i){
-          int n = nums.size();
-                if(i==n)
-                return 1;
-                int mx=mp[nums[i]][1];
-                while(i<=mx){
-                    mx=max(mx,mp[nums[i]][1]);
-                    i++;
-                }
-                if(i==n){
-                    return 1;
-                }
+class Solution {
+public:
+    int M = 1e9 + 7;
+    int numberOfGoodPartitions(vector<int>& nums) {
+        int n = nums.size();
+        unordered_map<int, int> last_index; //number, last index
 
-                return 2*(cnt(nums,mp,i))%mod;
-      }
-        int numberOfGoodPartitions(vector<int> &nums)
-        {
-            unordered_map<int, vector < int>> mp;
-            int n = nums.size();
-            for (int i = 0; i < n; i++) {
-                if(mp.find(nums[i])==mp.end()){
-                    mp[nums[i]]={-1,-1};
-                }
-                if(mp[nums[i]][0]==-1)
-                mp[nums[i]][0]=i;
-                mp[nums[i]][1]=i;
-
-            }
-            int i=0;
-            return cnt(nums,mp,i)%mod;
+        for (int i = 0; i < n; ++i) {
+            last_index[nums[i]] = i;
         }
+
+        int i = 0;
+        int j = max(0, last_index[nums[0]]);
+
+        int result = 1;
+        while(i < n) {
+            if(i > j) { 
+                result = (result*2)%M;
+            }
+
+            j = max(j, last_index[nums[i]]);
+            i++;
+        }
+
+        return result;
+    }
 };
