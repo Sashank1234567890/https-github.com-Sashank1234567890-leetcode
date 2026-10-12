@@ -548,6 +548,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0959-regions-cut-by-slashes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0959-regions-cut-by-slashes) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0960-delete-columns-to-make-sorted-iii) |
+| [0962-maximum-width-ramp](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0962-maximum-width-ramp) |
 | [0976-largest-perimeter-triangle](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0976-largest-perimeter-triangle) |
 | [0985-sum-of-even-numbers-after-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0985-sum-of-even-numbers-after-queries) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0992-subarrays-with-k-different-integers) |
@@ -1340,6 +1341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0844-backspace-string-compare](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0844-backspace-string-compare) |
 | [0881-boats-to-save-people](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0881-boats-to-save-people) |
 | [0905-sort-array-by-parity](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0905-sort-array-by-parity) |
+| [0962-maximum-width-ramp](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0962-maximum-width-ramp) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1508-range-sum-of-sorted-subarray-sums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1508-range-sum-of-sorted-subarray-sums) |
 | [1574-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1574-shortest-subarray-to-be-removed-to-make-array-sorted) |
@@ -2701,6 +2703,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-sum-of-subarray-minimums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0946-validate-stack-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0946-validate-stack-sequences) |
+| [0962-maximum-width-ramp](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0962-maximum-width-ramp) |
 | [1003-check-if-word-is-valid-after-substitutions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1003-check-if-word-is-valid-after-substitutions) |
 | [1021-remove-outermost-parentheses](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
@@ -2747,6 +2750,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0769-max-chunks-to-make-sorted](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0769-max-chunks-to-make-sorted) |
 | [0901-online-stock-span](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0907-sum-of-subarray-minimums) |
+| [0962-maximum-width-ramp](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0962-maximum-width-ramp) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1504-count-submatrices-with-all-ones](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1504-count-submatrices-with-all-ones) |
 | [1574-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1574-shortest-subarray-to-be-removed-to-make-array-sorted) |
