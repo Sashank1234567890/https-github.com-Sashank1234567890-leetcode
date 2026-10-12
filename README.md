@@ -138,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2953-count-complete-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2953-count-complete-substrings) |
 | [2956-find-common-elements-between-two-arrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2956-find-common-elements-between-two-arrays) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
+| [2963-count-the-number-of-good-partitions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2963-count-the-number-of-good-partitions) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [2981-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2981-find-longest-special-substring-that-occurs-thrice-i) |
 | [2982-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2982-find-longest-special-substring-that-occurs-thrice-ii) |
@@ -793,6 +794,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2956-find-common-elements-between-two-arrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2956-find-common-elements-between-two-arrays) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2962-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2962-count-subarrays-where-max-element-appears-at-least-k-times) |
+| [2963-count-the-number-of-good-partitions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2963-count-the-number-of-good-partitions) |
 | [2968-apply-operations-to-maximize-frequency-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2968-apply-operations-to-maximize-frequency-score) |
 | [2971-find-polygon-with-the-largest-perimeter](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2971-find-polygon-with-the-largest-perimeter) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
@@ -1636,6 +1638,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2929-distribute-candies-among-children-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2929-distribute-candies-among-children-ii) |
 | [2947-count-beautiful-substrings-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2947-count-beautiful-substrings-i) |
 | [2949-count-beautiful-substrings-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2949-count-beautiful-substrings-ii) |
+| [2963-count-the-number-of-good-partitions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2963-count-the-number-of-good-partitions) |
 | [2999-count-the-number-of-powerful-integers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2999-count-the-number-of-powerful-integers) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3021-alice-and-bob-playing-flower-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3021-alice-and-bob-playing-flower-game) |
@@ -1881,6 +1884,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2221-find-triangular-sum-of-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2221-find-triangular-sum-of-an-array) |
 | [2338-count-the-number-of-ideal-arrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2338-count-the-number-of-ideal-arrays) |
 | [2929-distribute-candies-among-children-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2929-distribute-candies-among-children-ii) |
+| [2963-count-the-number-of-good-partitions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2963-count-the-number-of-good-partitions) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3272-find-the-count-of-good-integers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3272-find-the-count-of-good-integers) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3312-sorted-gcd-pair-queries) |
