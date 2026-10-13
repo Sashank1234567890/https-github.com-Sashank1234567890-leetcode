@@ -901,6 +901,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3660-jump-game-ix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3660-jump-game-ix) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3718-smallest-missing-multiple-of-k) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3731-find-missing-elements](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3731-find-missing-elements) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -1522,6 +1523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3536-maximum-product-of-two-digits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3536-maximum-product-of-two-digits) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3661-maximum-walls-destroyed-by-robots) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3731-find-missing-elements](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3731-find-missing-elements) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Shortest Path
@@ -2382,6 +2384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3542-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3542-minimum-operations-to-convert-all-elements-to-zero) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Prefix Sum
 |  |
 | ------- |
