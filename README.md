@@ -1689,6 +1689,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3666-minimum-operations-to-equalize-binary-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3666-minimum-operations-to-equalize-binary-string) |
+| [3723-maximize-sum-of-squares-of-digits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3723-maximize-sum-of-squares-of-digits) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -2384,6 +2385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3542-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3542-minimum-operations-to-convert-all-elements-to-zero) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
+| [3723-maximize-sum-of-squares-of-digits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3723-maximize-sum-of-squares-of-digits) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Prefix Sum
 |  |
