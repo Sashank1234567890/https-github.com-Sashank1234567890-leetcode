@@ -3,19 +3,20 @@ public:
     int findPairs(vector<int>& nums, int k) {
         if (k < 0) return 0;
 
-        unordered_map<int, int> mp;
-        int ans = 0;
+        sort(nums.begin(), nums.end());
+        int i = 0, j = 1, n = nums.size(), ans = 0;
 
-        for (int x : nums) {
-            if (k == 0) {
-                if (mp[x] == 1) ans++;
-                mp[x]++;
+        while (j < n) {
+            if (i == j || nums[j] - nums[i] < k) {
+                j++;
+            } else if (nums[j] - nums[i] > k) {
+                i++;
             } else {
-                if (mp[x] == 0) {
-                    if (mp[x - k] > 0) ans++;
-                    if (mp[x + k] > 0) ans++;
-                }
-                mp[x]++;
+                ans++;
+                int a = nums[i], b = nums[j];
+
+                while (i < n && nums[i] == a) i++;
+                while (j < n && nums[j] == b) j++;
             }
         }
 
