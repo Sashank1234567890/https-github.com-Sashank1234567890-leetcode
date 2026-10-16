@@ -19,7 +19,7 @@ public:
         if(lazyTree[i] != 0) {
             lazyAddition(i, l, r, lazyTree[i]);
 
-            if(l != r) {
+            if(l != r) {//leaf nhi hai
                 lazyTree[2*i+1] += lazyTree[i];
                 lazyTree[2*i+2] += lazyTree[i];
             }
