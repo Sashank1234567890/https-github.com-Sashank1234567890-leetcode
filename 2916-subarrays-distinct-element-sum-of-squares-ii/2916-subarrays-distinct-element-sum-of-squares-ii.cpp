@@ -27,7 +27,7 @@ public:
         }
 
      
-        if(l > end || r < start || l > r) {
+        if(l > end || r < start) {
             return;
         }
 
