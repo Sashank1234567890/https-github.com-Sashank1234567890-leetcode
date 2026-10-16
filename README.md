@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2870-minimum-number-of-operations-to-make-array-empty](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2870-minimum-number-of-operations-to-make-array-empty) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
+| [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
 | [2947-count-beautiful-substrings-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2947-count-beautiful-substrings-i) |
 | [2949-count-beautiful-substrings-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2949-count-beautiful-substrings-ii) |
 | [2953-count-complete-substrings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2953-count-complete-substrings) |
@@ -797,6 +798,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2906-construct-product-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2906-construct-product-matrix) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
+| [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
 | [2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -2815,6 +2817,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1622-fancy-sequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1622-fancy-sequence) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
+| [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
 | [3072-distribute-elements-into-two-arrays-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3072-distribute-elements-into-two-arrays-ii) |
 | [3171-find-subarray-with-bitwise-or-closest-to-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3171-find-subarray-with-bitwise-or-closest-to-k) |
 | [3480-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3480-maximize-subarrays-after-removing-one-conflicting-pair) |
@@ -2904,6 +2907,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1395-count-number-of-teams](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1395-count-number-of-teams) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
+| [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
 | [3072-distribute-elements-into-two-arrays-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3072-distribute-elements-into-two-arrays-ii) |
 | [4013-count-subarrays-with-even-odd-ratio-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4013-count-subarrays-with-even-odd-ratio-ii) |
 | [4051-count-subarrays-with-distant-sums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4051-count-subarrays-with-distant-sums) |
