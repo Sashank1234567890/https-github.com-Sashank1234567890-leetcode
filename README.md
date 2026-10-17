@@ -172,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3542-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3542-minimum-operations-to-convert-all-elements-to-zero) |
 | [3548-equal-sum-grid-partition-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3548-equal-sum-grid-partition-ii) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3583-count-special-triplets](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3583-count-special-triplets) |
 | [3607-power-grid-maintenance](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3607-power-grid-maintenance) |
@@ -890,6 +891,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3542-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3542-minimum-operations-to-convert-all-elements-to-zero) |
 | [3546-equal-sum-grid-partition-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3548-equal-sum-grid-partition-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3548-equal-sum-grid-partition-ii) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
@@ -1534,6 +1536,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3531-count-covered-buildings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3531-count-covered-buildings) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3536-maximum-product-of-two-digits](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3536-maximum-product-of-two-digits) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3727-maximum-alternating-sum-of-squares) |
