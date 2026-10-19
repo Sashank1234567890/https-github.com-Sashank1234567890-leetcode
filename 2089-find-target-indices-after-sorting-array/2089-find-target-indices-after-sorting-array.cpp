@@ -1,63 +1,19 @@
-class Solution
-{
-    public:
-        int upper_bound(vector<int> &nums, int &tar)
-        {
-            int l = 0, h = nums.size() - 1;
-            int ans = nums.size();
-
-            while (l <= h)
-            {
-                int mid = l + (h - l) / 2;
-
-                if (nums[mid] <= tar)
-                    l = mid + 1;
-                else
-                {
-                    ans = mid;
-                    h = mid - 1;
-                }
-            }
-
-            return ans;
+class Solution {
+public:
+    vector<int> targetIndices(vector<int>& nums, int target) {
+        int count = 0; 
+        for (int &num : nums) {
+            if (num < target) 
+                count++;
         }
 
-    int lower_bound(vector<int> &nums, int &tar)
-    {
-        int l = 0, h = nums.size() - 1;
-        int ans = nums.size();
-
-        while (l <= h)
-        {
-            int mid = l + (h - l) / 2;
-
-            if (nums[mid] < tar)
-                l = mid + 1;
-            else
-            {
-                ans = mid;
-                h = mid - 1;
+        vector<int> result;
+        for (int& num : nums) {
+            if (num == target) {
+                result.push_back(count);
+                count++;
             }
         }
-
-        return ans;
-    }
-    vector<int> targetIndices(vector<int> &nums, int target)
-    {
-        ranges::sort(nums);
-        vector<int> ans;
-        int r = upper_bound(nums, target);
-        int l = lower_bound(nums, target);
-        cout << l << " " << r;
-        if (l == nums.size())
-        {
-            return {};
-        }
-
-        for (int i = l; i < r; i++)
-        {
-            ans.push_back(i);
-        }
-        return ans;
+        return result;
     }
 };
