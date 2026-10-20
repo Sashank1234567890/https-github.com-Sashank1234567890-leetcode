@@ -1,12 +1,11 @@
 class Solution {
 public:
-
     void computeLPS(vector<int>& pattern, vector<int>& lps) {
         int M = pattern.size();
         int len = 0;
         lps[0] = 0;
-
         int i = 1;
+
         while (i < M) {
             if (pattern[i] == pattern[len]) {
                 len++;
@@ -30,8 +29,7 @@ public:
         vector<int> lps(M, 0);
         computeLPS(pat, lps);
 
-        int i = 0; 
-        int j = 0;
+        int i = 0, j = 0;
 
         while (i < N) {
             if (pat[j] == txt[i]) {
@@ -51,13 +49,26 @@ public:
         }
         return false;
     }
-  
 
-    // Is vec1 a cyclic rotation of vec2 ,  then, vec1 occurs in vec2+vec2
     bool isRotation(vector<int>& vec1, vector<int>& vec2) {
         vector<int> txt = vec2;
-        txt.insert(end(txt), begin(vec2), end(vec2)); 
+        txt.insert(end(txt), begin(vec2), end(vec2));
         return search(vec1, txt);
+    }
+
+    bool check(vector<int>& nums, vector<int>& sorted, int k) {
+        int n = nums.size();
+
+        for (int start = 0; start < n; start += k) {
+            vector<int> vec1(begin(nums) + start, begin(nums) + start + k);
+            vector<int> vec2(begin(sorted) + start, begin(sorted) + start + k);
+
+            if (!isRotation(vec1, vec2)) {
+                return false;
+            }
+        }
+
+        return true;
     }
 
     int sortableIntegers(vector<int>& nums) {
@@ -67,22 +78,20 @@ public:
 
         int result = 0;
 
-        for (int k = 1; k <= n; k++) {
+        for (int k = 1; k * k <= n; k++) {
             if (n % k != 0) continue;
 
-            bool valid = true;
-            for (int start = 0; start < n; start += k) {
-                vector<int> vec1(begin(nums) + start, begin(nums) + start + k);
-                vector<int> vec2(begin(sorted) + start, begin(sorted) + start + k);
-
-                if (!isRotation(vec1, vec2)) {
-                    valid = false;
-                    break;
-                }
-            }
-            if (valid)
+            if (check(nums, sorted, k)) {
                 result += k;
+            }
+
+            int other = n / k;
+
+            if (other != k && check(nums, sorted, other)) {
+                result += other;
+            }
         }
+
         return result;
     }
 };
