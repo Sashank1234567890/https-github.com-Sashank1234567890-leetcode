@@ -1,67 +1,88 @@
 class Solution {
 public:
-    bool isRotation(vector<int>& vec1, vector<int>& vec2) {
-        int n = vec1.size();
-        int count = 0;
 
-        for (int i = 0; i < n; i++) {
-            if (vec1[i] > vec1[(i + 1) % n]) {
-                count++;
-                if (count > 1) return false;
+    void computeLPS(vector<int>& pattern, vector<int>& lps) {
+        int M = pattern.size();
+        int len = 0;
+        lps[0] = 0;
+
+        int i = 1;
+        while (i < M) {
+            if (pattern[i] == pattern[len]) {
+                len++;
+                lps[i] = len;
+                i++;
+            } else {
+                if (len != 0) {
+                    len = lps[len - 1];
+                } else {
+                    lps[i] = 0;
+                    i++;
+                }
             }
         }
+    }
 
-        vector<int> temp = vec1;
-        sort(temp.begin(), temp.end());
+    bool search(vector<int>& pat, vector<int>& txt) {
+        int N = txt.size();
+        int M = pat.size();
 
-        return temp == vec2;
+        vector<int> lps(M, 0);
+        computeLPS(pat, lps);
+
+        int i = 0; 
+        int j = 0;
+
+        while (i < N) {
+            if (pat[j] == txt[i]) {
+                i++;
+                j++;
+            }
+
+            if (j == M) {
+                return true;
+            } else if (i < N && pat[j] != txt[i]) {
+                if (j != 0) {
+                    j = lps[j - 1];
+                } else {
+                    i++;
+                }
+            }
+        }
+        return false;
+    }
+  
+
+    // Is vec1 a cyclic rotation of vec2 ,  then, vec1 occurs in vec2+vec2
+    bool isRotation(vector<int>& vec1, vector<int>& vec2) {
+        vector<int> txt = vec2;
+        txt.insert(end(txt), begin(vec2), end(vec2)); 
+        return search(vec1, txt);
     }
 
     int sortableIntegers(vector<int>& nums) {
         int n = nums.size();
-        vector<int> div;
-
-        for (int i = 1; i * i <= n; i++) {
-            if (n % i == 0) {
-                div.push_back(i);
-                if (i != n / i) div.push_back(n / i);
-            }
-        }
-
         vector<int> sorted = nums;
-        sort(sorted.begin(), sorted.end());
+        sort(begin(sorted), end(sorted));
 
-        int ans = 0;
+        int result = 0;
 
-        for (int i = 0; i < div.size(); i++) {
-            int k = div[i];
-            bool valid = 1;
+        for (int k = 1; k <= n; k++) {
+            if (n % k != 0) continue;
 
-            for (int j = 0; j < n; j += k) {
-                int mn = INT_MAX, mx = INT_MIN;
-
-                for (int l = j; l < j + k; l++) {
-                    mn = min(mn, nums[l]);
-                    mx = max(mx, nums[l]);
-                }
-
-                if (mn != sorted[j] || mx != sorted[j + k - 1]) {
-                    valid = 0;
-                    break;
-                }
-
-                vector<int> vec1(nums.begin() + j, nums.begin() + j + k);
-                vector<int> vec2(sorted.begin() + j, sorted.begin() + j + k);
+            bool valid = true;
+            for (int start = 0; start < n; start += k) {
+                vector<int> vec1(begin(nums) + start, begin(nums) + start + k);
+                vector<int> vec2(begin(sorted) + start, begin(sorted) + start + k);
 
                 if (!isRotation(vec1, vec2)) {
-                    valid = 0;
+                    valid = false;
                     break;
                 }
             }
-
-            if (valid) ans += k;
+            if (valid)
+                result += k;
         }
-
-        return ans;
+        return result;
     }
 };
