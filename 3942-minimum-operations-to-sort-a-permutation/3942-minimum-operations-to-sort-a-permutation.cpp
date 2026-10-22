@@ -14,6 +14,9 @@ public:
         if(asc_count == n-1 && nums[0] == 0) { //0, 1, 2, .... n-1
             return 0;
         }
+          if(dsc_count == n-1 && nums[n-1] == 0) { //0, 1, 2, .... n-1
+            return 1;
+        }
 
         if(asc_count == n-1) {
             int leftRot  = n - nums[0];
@@ -26,7 +29,7 @@ public:
             int leftRot = n-nums.back() + 1;
 
             //x Left Rot + 1 Reverse
-            int rightRot = (nums[0]+1)%n + 1;
+            int rightRot = (nums[0]+1) + 1;
 
             return min(leftRot, rightRot);
         }
