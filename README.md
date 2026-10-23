@@ -874,6 +874,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3397-maximum-number-of-distinct-elements-after-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3397-maximum-number-of-distinct-elements-after-operations) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
+| [3433-count-mentions-per-user](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3433-count-mentions-per-user) |
 | [3439-reschedule-meetings-for-maximum-free-time-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3439-reschedule-meetings-for-maximum-free-time-i) |
 | [3440-reschedule-meetings-for-maximum-free-time-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3440-reschedule-meetings-for-maximum-free-time-ii) |
 | [3446-sort-matrix-by-diagonals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3446-sort-matrix-by-diagonals) |
@@ -1548,6 +1549,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3394-check-if-grid-can-be-cut-into-sections](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3394-check-if-grid-can-be-cut-into-sections) |
 | [3397-maximum-number-of-distinct-elements-after-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3397-maximum-number-of-distinct-elements-after-operations) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
+| [3433-count-mentions-per-user](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3433-count-mentions-per-user) |
 | [3446-sort-matrix-by-diagonals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3446-sort-matrix-by-diagonals) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3478-choose-k-elements-with-maximum-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3478-choose-k-elements-with-maximum-sum) |
@@ -1709,6 +1711,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3345-smallest-divisible-digit-product-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3405-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3405-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
+| [3433-count-mentions-per-user](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3433-count-mentions-per-user) |
 | [3443-maximum-manhattan-distance-after-k-changes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3443-maximum-manhattan-distance-after-k-changes) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3495-minimum-operations-to-make-array-elements-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3495-minimum-operations-to-make-array-elements-zero) |
@@ -2679,6 +2682,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3072-distribute-elements-into-two-arrays-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3072-distribute-elements-into-two-arrays-ii) |
 | [3100-water-bottles-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3100-water-bottles-ii) |
 | [3160-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3160-find-the-number-of-distinct-colors-among-the-balls) |
+| [3433-count-mentions-per-user](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3433-count-mentions-per-user) |
 | [3494-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3494-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 | [4052-cyclically-shift-rows-and-columns](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4052-cyclically-shift-rows-and-columns) |
