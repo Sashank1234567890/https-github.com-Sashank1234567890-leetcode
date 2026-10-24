@@ -1063,6 +1063,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2390-removing-stars-from-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2390-removing-stars-from-a-string) |
 | [2391-minimum-amount-of-time-to-collect-garbage](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2391-minimum-amount-of-time-to-collect-garbage) |
 | [2405-optimal-partition-of-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2405-optimal-partition-of-string) |
+| [2409-count-days-spent-together](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2409-count-days-spent-together) |
 | [2416-sum-of-prefix-scores-of-strings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2416-sum-of-prefix-scores-of-strings) |
 | [2434-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2434-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2446-determine-if-two-events-have-conflict](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2446-determine-if-two-events-have-conflict) |
@@ -1675,6 +1676,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2348-number-of-zero-filled-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2348-number-of-zero-filled-subarrays) |
 | [2364-count-number-of-bad-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2364-count-number-of-bad-pairs) |
 | [2366-minimum-replacements-to-sort-the-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2366-minimum-replacements-to-sort-the-array) |
+| [2409-count-days-spent-together](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2409-count-days-spent-together) |
 | [2440-create-components-with-same-value](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2440-create-components-with-same-value) |
 | [2485-find-the-pivot-integer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2485-find-the-pivot-integer) |
 | [2523-closest-prime-numbers-in-range](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2523-closest-prime-numbers-in-range) |
