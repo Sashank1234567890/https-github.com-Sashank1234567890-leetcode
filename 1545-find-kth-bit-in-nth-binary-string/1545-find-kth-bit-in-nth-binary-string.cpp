@@ -10,6 +10,6 @@ public:
              return '1';
         }
 
-        return findKthBit(n,len-k+1)=='1'?'0':'1';
+        return findKthBit(n-1,len-k+1)=='1'?'0':'1';
     }
 };
