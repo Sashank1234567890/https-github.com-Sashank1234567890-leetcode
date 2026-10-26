@@ -8,7 +8,7 @@ public:
             return {1, 1};
         }
 
-        if(left > n - right + 1) {
+        if(left > n - right + 1) {//p2 se fight wlaa ki val  p1 se phale agyi
             int temp = n - left + 1;
             left = n - right + 1;
             right = temp;
