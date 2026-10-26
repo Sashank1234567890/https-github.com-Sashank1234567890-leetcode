@@ -1699,6 +1699,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2579-count-total-number-of-colored-cells](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2579-count-total-number-of-colored-cells) |
 | [2601-prime-subtraction-operation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2601-prime-subtraction-operation) |
 | [2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
+| [2698-find-the-punishment-number-of-an-integer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2698-find-the-punishment-number-of-an-integer) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
 | [2816-double-a-number-represented-as-a-linked-list](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2816-double-a-number-represented-as-a-linked-list) |
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
@@ -2937,6 +2938,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2044-count-number-of-maximum-bitwise-or-subsets](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2044-count-number-of-maximum-bitwise-or-subsets) |
 | [2048-next-greater-numerically-balanced-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2048-next-greater-numerically-balanced-number) |
 | [2375-construct-smallest-number-from-di-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2375-construct-smallest-number-from-di-string) |
+| [2698-find-the-punishment-number-of-an-integer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2698-find-the-punishment-number-of-an-integer) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Rolling Hash
 |  |
