@@ -1025,6 +1025,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1400-construct-k-palindrome-strings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1400-construct-k-palindrome-strings) |
 | [1405-longest-happy-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1405-longest-happy-string) |
+| [1422-maximum-score-after-splitting-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1422-maximum-score-after-splitting-a-string) |
 | [1436-destination-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1436-destination-city) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1513-number-of-substrings-with-only-1s](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1513-number-of-substrings-with-only-1s) |
@@ -2485,6 +2486,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1352-product-of-the-last-k-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1352-product-of-the-last-k-numbers) |
+| [1422-maximum-score-after-splitting-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1422-maximum-score-after-splitting-a-string) |
 | [1508-range-sum-of-sorted-subarray-sums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1508-range-sum-of-sorted-subarray-sums) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1590-make-sum-divisible-by-p](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1590-make-sum-divisible-by-p) |
