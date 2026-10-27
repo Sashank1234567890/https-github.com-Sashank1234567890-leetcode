@@ -1,19 +1,27 @@
 class Solution {
 public:
     int maxScore(string s) {
-        int cones=count(begin(s),end(s),'1');
-        int ans=0;
-        int czero=0;
-        int n=s.size();
-        for(int i=0;i<n-1;i++){
-           char x=s[i];
-            if(x=='0'){
-                czero++;
-            }else{
-                cones--;
+        int n = s.length();
+        int result = INT_MIN;
+
+        
+        int zeros = 0;
+        int ones  = 0;
+        
+        for(int i = 0; i < n-1; i++) {
+            if(s[i] == '1') {
+                ones++;
+            } else {
+                zeros++;
             }
-             ans=max(ans,czero+cones);
+            
+            result = max(result, zeros - ones);
         }
-        return ans;
+        
+        if(s[n-1] == '1') {
+            ones++;
+        }
+        
+        return result+ones;
     }
 };
