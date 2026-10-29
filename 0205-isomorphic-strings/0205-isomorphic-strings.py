@@ -1,15 +1,16 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        mp1 = {}
-        mp2 = {}
+        mp = {}
+        used = set()
 
         for x, y in zip(s, t):
-            if x in mp1 and mp1[x] != y:
-                return False
-            if y in mp2 and mp2[y] != x:
-                return False
-
-            mp1[x] = y
-            mp2[y] = x
+            if x in mp:
+                if mp[x] != y:
+                    return False
+            else:
+                if y in used:
+                    return False
+                mp[x] = y
+                used.add(y)
 
         return True
