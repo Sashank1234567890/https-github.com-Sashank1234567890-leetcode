@@ -1,57 +1,70 @@
-class Solution {
-public:
-    typedef tuple<int, int, int>  T ;   // {dist, node, len}
+class Solution
+{
+    public:
+        typedef tuple<int, int, int> T;	// {dist, node, len}
 
-    int shortestPath(int n, vector<vector<int>>& edges, string labels, int k) {
+    int shortestPath(int n, vector<vector < int>> &edges, string labels, int k)
+    {
 
-        unordered_map<int, vector<vector<int>>> adj;
-        for (auto &edge : edges) {
-            int u  = edge[0];
-            int v  = edge[1];
+        unordered_map<int, vector<vector< int>>> adj;
+        for (auto &edge: edges)
+        {
+            int u = edge[0];
+            int v = edge[1];
             int wt = edge[2];
 
-            adj[u].push_back({v, wt});
+            adj[u].push_back({ v,
+                wt });
         }
 
-        // result[node][count] = min cost to reach node with 'len' consecutive identical chars
-        vector<vector<int>> result(n, vector<int>(k + 1, INT_MAX));
-          auto comp=[&](T a,T b){
-                auto [ca,_,la]=a;
-                auto[cb,_,lb]=b;
-                if(ca==cb){
-                    return la>lb;
-                }
-                return ca>cb;
+       	// result[node][count] = min cost to reach node with 'len' consecutive identical chars
+        vector<vector < int>> result(n, vector<int> (k + 1, INT_MAX));
+        auto comp =[& ](T a, T b)
+        {
+            auto[ca, _, la] = a;
+            auto[cb, _, lb] = b;
+            if (ca == cb)
+            {
+                return la > lb;
+            }
+            return ca > cb;
         };
 
-        priority_queue<T, vector<T>, decltype(comp)> pq(comp);
+        priority_queue<T, vector < T>, decltype(comp) > pq(comp);
 
         result[0][1] = 0;
-        pq.push({0, 0, 1});
+        pq.push({ 0,
+            0,
+            1 });
 
-        while (!pq.empty()) {
-            auto [d, node, count] = pq.top();
+        while (!pq.empty())
+        {
+            auto[d, node, count] = pq.top();
             pq.pop();
 
-            if (d > result[node][count]) 
-                continue;
+            // if (d > result[node][count])
+            //     continue;
 
-            if (node == n - 1) 
+            if (node == n - 1)
                 return d;
 
-            for (auto &vec : adj[node]) {
+            for (auto &vec: adj[node])
+            {
                 int adjNode = vec[0];
-                int wt      = vec[1];
+                int wt = vec[1];
 
                 int newCount = (labels[adjNode] == labels[node]) ? count + 1 : 1;
-                
-                if (newCount > k) 
+
+                if (newCount > k)
                     continue;
 
                 int newDist = d + wt;
-                if (newDist < result[adjNode][newCount]) {
+                if (newDist < result[adjNode][newCount])
+                {
                     result[adjNode][newCount] = newDist;
-                    pq.push({newDist, adjNode, newCount});
+                    pq.push({ newDist,
+                        adjNode,
+                        newCount });
                 }
             }
         }
@@ -59,4 +72,3 @@ public:
         return -1;
     }
 };
-
