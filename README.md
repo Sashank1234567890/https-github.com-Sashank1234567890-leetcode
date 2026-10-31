@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1814-count-nice-pairs-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1814-count-nice-pairs-in-an-array) |
 | [1857-largest-color-value-in-a-directed-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1857-largest-color-value-in-a-directed-graph) |
+| [1897-redistribute-characters-to-make-all-strings-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1897-redistribute-characters-to-make-all-strings-equal) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [1942-the-number-of-the-smallest-unoccupied-chair](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1942-the-number-of-the-smallest-unoccupied-chair) |
 | [1948-delete-duplicate-folders-in-system](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1948-delete-duplicate-folders-in-system) |
@@ -1061,6 +1062,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1857-largest-color-value-in-a-directed-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1857-largest-color-value-in-a-directed-graph) |
 | [1871-jump-game-vii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1871-jump-game-vii) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
+| [1897-redistribute-characters-to-make-all-strings-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1897-redistribute-characters-to-make-all-strings-equal) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1910-remove-all-occurrences-of-a-substring) |
 | [1927-sum-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1927-sum-game) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1930-unique-length-3-palindromic-subsequences) |
@@ -1311,6 +1313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1726-tuple-with-same-product](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1726-tuple-with-same-product) |
 | [1814-count-nice-pairs-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1814-count-nice-pairs-in-an-array) |
 | [1857-largest-color-value-in-a-directed-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1857-largest-color-value-in-a-directed-graph) |
+| [1897-redistribute-characters-to-make-all-strings-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1897-redistribute-characters-to-make-all-strings-equal) |
 | [2029-stone-game-ix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2029-stone-game-ix) |
 | [2048-next-greater-numerically-balanced-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2048-next-greater-numerically-balanced-number) |
 | [2131-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2131-longest-palindrome-by-concatenating-two-letter-words) |
