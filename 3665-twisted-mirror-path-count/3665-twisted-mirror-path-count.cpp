@@ -1,56 +1,34 @@
 class Solution {
 public:
     int mod=1e9+7;
-    int path(vector<vector<int>>& grid,int i,int j,bool dir,vector<vector<vector<int>>>&dp){
-        int m=grid.size();
-        int n=grid[0].size();
-        if(i>=m||j>=n)
-        return 0;
-        if(i==m-1&&j==n-1)
-        return 1;
-        if(dp[i][j][dir]!=-1)
-        return dp[i][j][dir];
-        int ans=0;
 
-        if(grid[i][j]==0){
-             if(i+1<m)
-                 ans=(ans+path(grid,i+1,j,1,dp))%mod;
-             if(j+1<n)
-                 ans=(ans+path(grid,i,j+1,0,dp))%mod;
-        }else{
-             if(dir==1){
-                ans=(ans+path(grid,i,j+1,0,dp))%mod;
-             }else{
-                ans=(ans+path(grid,i+1,j,1,dp))%mod;
-             }
-
-        }
-       
-       
-        return dp[i][j][dir]=ans%mod;
-    }
     int uniquePaths(vector<vector<int>>& grid) {
         int m=grid.size();
         int n=grid[0].size();
-        vector<vector<vector<int>>>dp(2,vector<vector<int>>(n+1,vector<int>(2,0)));
-        dp[0][n-1][0]=1;
-        dp[0][n-1][1]=1;
+
+        vector<array<int,2>>dp(n+1,{0,0});
+
         for(int i=m-1;i>=0;i--){
             for(int j=n-1;j>=0;j--){
-
-                // if(i==m-1&&j==n-1)
-                // continue;
-                for(int prev=1;prev>=0;prev--){
-                if(grid[i][j]==0){
-                    dp[1][j][prev]=(dp[1][j][prev]+dp[0][j][1]+dp[1][j+1][0])%mod;
-                }else{
-                dp[1][j][prev]=(dp[1][j][prev]+dp[(1+!prev)%2][j+prev][!prev])%mod;
-                    
+                if(i==m-1&&j==n-1){
+                    dp[j][0]=1;
+                    dp[j][1]=1;
+                    continue;
                 }
+
+                int down=dp[j][1];
+                int right=dp[j+1][0];
+
+                if(grid[i][j]==0){
+                    dp[j][0]=(down+right)%mod;
+                    dp[j][1]=(down+right)%mod;
+                }else{
+                    dp[j][0]=down;
+                    dp[j][1]=right;
                 }
             }
-            dp[0]=dp[1];
-            dp[1]=vector<vector<int>>(n+1,vector<int>(2,0));
         }
-   return dp[0][0][0]; }
+
+        return dp[0][0];
+    }
 };
