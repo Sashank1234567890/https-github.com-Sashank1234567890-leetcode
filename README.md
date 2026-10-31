@@ -2022,6 +2022,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0278-first-bad-version](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0278-first-bad-version) |
 | [0287-find-the-duplicate-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0352-data-stream-as-disjoint-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0352-data-stream-as-disjoint-intervals) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
@@ -2698,6 +2699,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Interactive
 |  |
 | ------- |
+| [0278-first-bad-version](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0278-first-bad-version) |
 | [1095-find-in-mountain-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1095-find-in-mountain-array) |
 ## Simulation
 |  |
