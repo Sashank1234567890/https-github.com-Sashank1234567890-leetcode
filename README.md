@@ -546,6 +546,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0846-hand-of-straights](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0846-hand-of-straights) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0857-minimum-cost-to-hire-k-workers) |
+| [0860-lemonade-change](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0860-lemonade-change) |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0862-shortest-subarray-with-sum-at-least-k) |
 | [0864-shortest-path-to-get-all-keys](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0864-shortest-path-to-get-all-keys) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
@@ -2380,6 +2381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0826-most-profit-assigning-work](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0826-most-profit-assigning-work) |
 | [0846-hand-of-straights](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0846-hand-of-straights) |
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0857-minimum-cost-to-hire-k-workers) |
+| [0860-lemonade-change](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0860-lemonade-change) |
 | [0871-minimum-number-of-refueling-stops](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0871-minimum-number-of-refueling-stops) |
 | [0881-boats-to-save-people](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0881-boats-to-save-people) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
