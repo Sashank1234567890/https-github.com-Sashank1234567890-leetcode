@@ -3,11 +3,16 @@ class Solution
     public:
         int minMoves(vector<int> &nums)
         {
-            int n = nums.size();//[1,2,3] =>[1,1,1] as n-1 krne  the so reverse krdo 1 element reduce 
-            //1-1+2-1+3-1=3
+            int n = nums.size();
 
-            int sum = accumulate(begin(nums), end(nums), 0);
-            int min_el = *min_element(begin(nums), end(nums));
+            int sum = 0;
+            int min_el = INT_MAX;
+
+            for (int i = 0; i < n; i++)
+            {
+                sum += nums[i];
+                min_el = min(min_el, nums[i]);
+            }
 
             return sum - n * min_el;
         }
