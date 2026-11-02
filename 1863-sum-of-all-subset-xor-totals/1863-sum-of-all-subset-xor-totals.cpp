@@ -6,7 +6,7 @@ public:
         int sum=0;
         for(int i=0;i<total;i++){
             int Xor=0;
-            for(int j=0;j<32;j++){
+            for(int j=0;j<n;j++){
                    if((1<<j)&i){
                     Xor^=nums[j];
                    }
