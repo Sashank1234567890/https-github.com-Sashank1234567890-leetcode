@@ -21,9 +21,9 @@ public:
         bool right=evaluateTree(root->right);
          
         if(root->val==2)
-        return left or right;
+        return left | right;
 
-        return left and right;
+        return left & right;
     }
 
 };
