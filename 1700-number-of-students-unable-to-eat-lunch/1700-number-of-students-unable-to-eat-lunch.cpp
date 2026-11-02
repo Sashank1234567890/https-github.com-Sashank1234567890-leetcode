@@ -4,6 +4,7 @@ public:
         int n=san.size();
         queue<int>q;
         int j=0;
+
         for(int i=0;i<n;i++){
             if(san[j]!=stu[i]){
                 q.push(i);
@@ -11,19 +12,24 @@ public:
             }
             j++;
         }
-        vector<int>vis(n,0);
-        while(j<n&&!q.empty()&&vis[q.front()]!=1){
+
+        int cnt=0;
+
+        while(j<n&&!q.empty()&&cnt<q.size()){
             int idx=q.front();
             q.pop();
+
             if(san[j]!=stu[idx]){
                 q.push(idx);
-                vis[idx]=1;
+                cnt++;
                 continue;
-
-            }else{
-                vis=vector<int>(n,0);
+            }
+            else{
+                cnt=0;
                 j++;
             }
         }
-   return q.size();}
+
+        return q.size();
+    }
 };
