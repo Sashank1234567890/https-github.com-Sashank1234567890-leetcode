@@ -1,35 +1,19 @@
 class Solution {
 public:
-    int countStudents(vector<int>& stu, vector<int>& san) {
-        int n=san.size();
-        queue<int>q;
-        int j=0;
-
-        for(int i=0;i<n;i++){
-            if(san[j]!=stu[i]){
-                q.push(i);
-                continue;
-            }
-            j++;
+    int countStudents(vector<int>& stud, vector<int>& sand) {
+        int n = stud.size();
+        int arr[2] = {0};
+        //arr[0] = count of student who like circular
+        //arr[1] = count of student who like square
+          
+        for(int &x : stud)
+            arr[x]++;
+        
+        for(int i = 0; i<n; i++) {
+            if(arr[sand[i]] == 0) return n-i;
+            arr[sand[i]]--;
         }
-
-        int cnt=0;
-
-        while(j<n&&!q.empty()&&cnt<q.size()){
-            int idx=q.front();
-            q.pop();
-
-            if(san[j]!=stu[idx]){
-                q.push(idx);
-                cnt++;
-                continue;
-            }
-            else{
-                cnt=0;
-                j++;
-            }
-        }
-
-        return q.size();
+        
+        return 0;
     }
 };
