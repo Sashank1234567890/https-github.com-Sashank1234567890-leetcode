@@ -279,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2641-cousins-in-binary-tree-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2641-cousins-in-binary-tree-ii) |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2658-maximum-number-of-fish-in-a-grid) |
 | [2685-count-the-number-of-complete-components](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2685-count-the-number-of-complete-components) |
+| [2867-count-valid-paths-in-a-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2867-count-valid-paths-in-a-tree) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3123-find-edges-in-shortest-paths](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3123-find-edges-in-shortest-paths) |
 | [3310-remove-methods-from-project](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3310-remove-methods-from-project) |
@@ -1262,6 +1263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2616-minimize-the-maximum-difference-of-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2616-minimize-the-maximum-difference-of-pairs) |
 | [2684-maximum-number-of-moves-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2684-maximum-number-of-moves-in-a-grid) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
+| [2867-count-valid-paths-in-a-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2867-count-valid-paths-in-a-tree) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [2999-count-the-number-of-powerful-integers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2999-count-the-number-of-powerful-integers) |
 | [3068-find-the-maximum-sum-of-node-values](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3068-find-the-maximum-sum-of-node-values) |
@@ -1771,6 +1773,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
 | [2849-determine-if-a-cell-is-reachable-at-a-given-time](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2849-determine-if-a-cell-is-reachable-at-a-given-time) |
 | [2864-maximum-odd-binary-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2864-maximum-odd-binary-number) |
+| [2867-count-valid-paths-in-a-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2867-count-valid-paths-in-a-tree) |
 | [2929-distribute-candies-among-children-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2929-distribute-candies-among-children-ii) |
 | [2947-count-beautiful-substrings-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2947-count-beautiful-substrings-i) |
 | [2949-count-beautiful-substrings-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2949-count-beautiful-substrings-ii) |
@@ -2335,6 +2338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2458-height-of-binary-tree-after-subtree-removal-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2458-height-of-binary-tree-after-subtree-removal-queries) |
 | [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2641-cousins-in-binary-tree-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2641-cousins-in-binary-tree-ii) |
+| [2867-count-valid-paths-in-a-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2867-count-valid-paths-in-a-tree) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3068-find-the-maximum-sum-of-node-values](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3068-find-the-maximum-sum-of-node-values) |
 | [3372-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3372-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
@@ -2827,6 +2831,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2807-insert-greatest-common-divisors-in-linked-list](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2807-insert-greatest-common-divisors-in-linked-list) |
 | [2818-apply-operations-to-maximize-score](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2818-apply-operations-to-maximize-score) |
+| [2867-count-valid-paths-in-a-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2867-count-valid-paths-in-a-tree) |
 | [2947-count-beautiful-substrings-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2947-count-beautiful-substrings-i) |
 | [2949-count-beautiful-substrings-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2949-count-beautiful-substrings-ii) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
@@ -3288,4 +3293,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0493-reverse-pairs) |
+## Primality Test
+|  |
+| ------- |
+| [2867-count-valid-paths-in-a-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2867-count-valid-paths-in-a-tree) |
+## Sieve Theory
+|  |
+| ------- |
+| [2867-count-valid-paths-in-a-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2867-count-valid-paths-in-a-tree) |
+## Prime Number Sieve
+|  |
+| ------- |
+| [2867-count-valid-paths-in-a-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2867-count-valid-paths-in-a-tree) |
 <!---LeetCode Topics End-->
