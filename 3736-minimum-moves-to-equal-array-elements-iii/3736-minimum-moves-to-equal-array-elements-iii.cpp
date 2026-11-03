@@ -2,16 +2,12 @@ class Solution {
 public:
     int minMoves(vector<int>& nums) {
        
-        int mx=nums[0];
-         int ans=0;
-        for(int i=1;i<nums.size();i++){
-             if(nums[i]>mx){
-                int diff=nums[i]-mx;
-                mx=nums[i];
-                ans+=i*diff;
-             }else{
-                ans+=mx-nums[i];
-             }
+        int mx=INT_MIN;
+         int sum=0;
+         int n=nums.size();
+        for(int i=0;i<n;i++){
+            sum+=nums[i];
+            mx=max(mx,nums[i]);
         }
-   return ans; }
+   return 1LL*n*mx-sum; }
 };
