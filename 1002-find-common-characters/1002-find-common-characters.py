@@ -1,20 +1,8 @@
 class Solution:
     def commonChars(self, words: list[str]) -> list[str]:
-        freq = [float('inf')] * 26
+        ans = Counter(words[0])
 
-        for word in words:
-            curr = [0] * 26
+        for word in words[1:]:
+            ans &= Counter(word)#minimum freq
 
-            for ch in word:
-                curr[ord(ch) - ord('a')] += 1
-
-            for i in range(26):
-                freq[i] = min(freq[i], curr[i])
-
-        ans = []
-
-        for i in range(26):
-            for j in range(freq[i]):
-                ans.append(chr(i + ord('a')))
-
-        return ans
+        return list(ans.elements())
