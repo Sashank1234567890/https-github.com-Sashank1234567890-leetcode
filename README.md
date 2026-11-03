@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1074-number-of-submatrices-that-sum-to-target) |
 | [1096-brace-expansion-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1096-brace-expansion-ii) |
 | [1110-delete-nodes-and-return-forest](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1110-delete-nodes-and-return-forest) |
+| [1122-relative-sort-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1122-relative-sort-array) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 | [1171-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1171-remove-zero-sum-consecutive-nodes-from-linked-list) |
@@ -601,6 +602,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1074-number-of-submatrices-that-sum-to-target) |
 | [1095-find-in-mountain-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1095-find-in-mountain-array) |
 | [1110-delete-nodes-and-return-forest](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1110-delete-nodes-and-return-forest) |
+| [1122-relative-sort-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1122-relative-sort-array) |
 | [1140-stone-game-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1140-stone-game-ii) |
 | [1160-find-words-that-can-be-formed-by-characters](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1160-find-words-that-can-be-formed-by-characters) |
 | [1207-unique-number-of-occurrences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1207-unique-number-of-occurrences) |
@@ -1533,6 +1535,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0976-largest-perimeter-triangle](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0976-largest-perimeter-triangle) |
 | [0977-squares-of-a-sorted-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [1096-brace-expansion-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1096-brace-expansion-ii) |
+| [1122-relative-sort-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1122-relative-sort-array) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1288-remove-covered-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1288-remove-covered-intervals) |
 | [1329-sort-the-matrix-diagonally](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1329-sort-the-matrix-diagonally) |
@@ -3026,6 +3029,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0561-array-partition](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0561-array-partition) |
+| [1122-relative-sort-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1122-relative-sort-array) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3517-smallest-palindromic-rearrangement-i) |
 ## Quickselect
 |  |
@@ -3262,6 +3266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Quicksort
 |  |
 | ------- |
+| [1122-relative-sort-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1122-relative-sort-array) |
 | [1913-maximum-product-difference-between-two-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1913-maximum-product-difference-between-two-pairs) |
 ## Doubly-Linked List
 |  |
@@ -3308,4 +3313,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2867-count-valid-paths-in-a-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2867-count-valid-paths-in-a-tree) |
+## Bubble Sort
+|  |
+| ------- |
+| [1122-relative-sort-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1122-relative-sort-array) |
 <!---LeetCode Topics End-->
