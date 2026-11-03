@@ -6,9 +6,7 @@ public:
         vector<vector<long long>> left(n, vector<long long>(27, 0));
         vector<vector<long long>> right(n, vector<long long>(27, 0));
 
-        // Calculate number of substrings ending at i
-        // having at most d distinct characters
-
+        // Left side: at most d distinct characters
         for (int d = 1; d <= 26; d++) {
             vector<int> freq(26, 0);
 
@@ -35,50 +33,40 @@ public:
             }
         }
 
-        // Calculate number of substrings starting at i
-        // having at most d distinct characters
-
+        // Right side: at most d distinct characters
         for (int d = 1; d <= 26; d++) {
             vector<int> freq(26, 0);
 
-            int r = -1;
+            int r = n - 1;
             int cnt = 0;
 
-            for (int l = 0; l < n; l++) {
+            for (int l = n - 1; l >= 0; l--) {
+                int x = s[l] - 'a';
 
-                while (r + 1 < n) {
-                    int x = s[r + 1] - 'a';
+                if (freq[x] == 0) cnt++;
+                freq[x]++;
 
-                    if (freq[x] == 0 && cnt == d) break;
+                while (cnt > d) {
+                    int y = s[r] - 'a';
 
-                    r++;
+                    freq[y]--;
 
-                    if (freq[x] == 0) cnt++;
-                    freq[x]++;
+                    if (freq[y] == 0) cnt--;
+
+                    r--;
                 }
 
                 right[l][d] = r - l + 1;
-
-                int x = s[l] - 'a';
-
-                freq[x]--;
-
-                if (freq[x] == 0) cnt--;
             }
         }
 
+        // Count substrings having exactly d distinct characters
         long long ans = 0;
 
-        // Count magical pairs for every split
         for (int j = 0; j < n - 1; j++) {
-
             for (int d = 1; d <= 26; d++) {
-
-                long long leftExact =
-                    left[j][d] - left[j][d - 1];
-
-                long long rightExact =
-                    right[j + 1][d] - right[j + 1][d - 1];
+                long long leftExact = left[j][d] - left[j][d - 1];
+                long long rightExact = right[j + 1][d] - right[j + 1][d - 1];
 
                 ans += leftExact * rightExact;
             }
