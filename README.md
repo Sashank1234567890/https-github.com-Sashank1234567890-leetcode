@@ -178,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3443-maximum-manhattan-distance-after-k-changes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3443-maximum-manhattan-distance-after-k-changes) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3483-unique-3-digit-even-numbers) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3531-count-covered-buildings](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3531-count-covered-buildings) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
@@ -925,6 +926,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3494-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3494-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3495-minimum-operations-to-make-array-elements-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3495-minimum-operations-to-make-array-elements-zero) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3501-maximize-active-section-with-trade-ii) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3524-find-x-value-of-array-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3524-find-x-value-of-array-i) |
@@ -1284,6 +1286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3337-total-characters-in-string-after-transformations-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3337-total-characters-in-string-after-transformations-ii) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3524-find-x-value-of-array-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3524-find-x-value-of-array-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3539-find-sum-of-array-product-of-magical-sequences](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3539-find-sum-of-array-product-of-magical-sequences) |
@@ -1811,6 +1814,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3443-maximum-manhattan-distance-after-k-changes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3443-maximum-manhattan-distance-after-k-changes) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3495-minimum-operations-to-make-array-elements-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3495-minimum-operations-to-make-array-elements-zero) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3518-smallest-palindromic-rearrangement-ii) |
@@ -1921,6 +1925,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3342-find-minimum-time-to-reach-last-room-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3342-find-minimum-time-to-reach-last-room-ii) |
 | [3362-zero-array-transformation-iii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3362-zero-array-transformation-iii) |
 | [3478-choose-k-elements-with-maximum-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3478-choose-k-elements-with-maximum-sum) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3607-power-grid-maintenance](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3607-power-grid-maintenance) |
 | [3620-network-recovery-pathways](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3620-network-recovery-pathways) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3650-minimum-cost-path-with-edge-reversals) |
@@ -1989,6 +1994,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3347-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3347-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3439-reschedule-meetings-for-maximum-free-time-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3439-reschedule-meetings-for-maximum-free-time-i) |
 | [3445-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3445-maximum-difference-between-even-and-odd-frequency-ii) |
+| [3505-minimum-operations-to-make-elements-within-k-subarrays-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3505-minimum-operations-to-make-elements-within-k-subarrays-equal) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3634-minimum-removals-to-balance-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3634-minimum-removals-to-balance-array) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
