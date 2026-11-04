@@ -67,26 +67,17 @@ public:
                 }
             }
 
-            if (mn.empty()) {
-                if (mx.empty() || mx.begin()->first >= nums[i]) {
-                    mn.insert({nums[i], i});
-                    sumMn += nums[i];
-                }
-                else {
-                    mx.insert({nums[i], i});
-                    sumMx += nums[i];
-                }
-            }
-            else if (mn.rbegin()->first >= nums[i]) {
-                mn.insert({nums[i], i});
-                sumMn += nums[i];
-            }
-            else {
-                mx.insert({nums[i], i});
-                sumMx += nums[i];
-            }
+            // Balance after deletion
+            if (mn.size() > mx.size() + 1) {
+                auto p = *mn.rbegin();
 
-            if (mx.size() > mn.size()) {
+                mx.insert(p);
+                sumMx += p.first;
+
+                mn.erase(prev(mn.end()));
+                sumMn -= p.first;
+            }
+            else if (mx.size() > mn.size()) {
                 auto p = *mx.begin();
 
                 mn.insert(p);
@@ -95,14 +86,35 @@ public:
                 mx.erase(mx.begin());
                 sumMx -= p.first;
             }
-            else if (mn.size() > mx.size() + 1) {
+
+            // Insert new element
+            if (mn.empty() || mn.rbegin()->first >= nums[i]) {
+                mn.insert({nums[i], i});
+                sumMn += nums[i];
+            }
+            else {
+                mx.insert({nums[i], i});
+                sumMx += nums[i];
+            }
+
+            // Balance after insertion
+            if (mn.size() > mx.size() + 1) {
                 auto p = *mn.rbegin();
 
                 mx.insert(p);
                 sumMx += p.first;
 
-                mn.erase(prev(mn.end())); //no method to delete last so use prev
+                mn.erase(prev(mn.end()));
                 sumMn -= p.first;
+            }
+            else if (mx.size() > mn.size()) {
+                auto p = *mx.begin();
+
+                mn.insert(p);
+                sumMn += p.first;
+
+                mx.erase(mx.begin());
+                sumMx -= p.first;
             }
 
             if (i >= x - 1) {
