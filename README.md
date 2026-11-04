@@ -489,6 +489,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0330-patching-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0330-patching-array) |
 | [0332-reconstruct-itinerary](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0334-increasing-triplet-subsequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0334-increasing-triplet-subsequence) |
@@ -2093,6 +2094,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0268-missing-number) |
 | [0278-first-bad-version](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0278-first-bad-version) |
 | [0287-find-the-duplicate-number](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0349-intersection-of-two-arrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0352-data-stream-as-disjoint-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0352-data-stream-as-disjoint-intervals) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
@@ -2735,6 +2737,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0347-top-k-frequent-elements](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0493-reverse-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0493-reverse-pairs) |
 | [0761-special-binary-string](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0761-special-binary-string) |
@@ -2764,6 +2767,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0352-data-stream-as-disjoint-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0352-data-stream-as-disjoint-intervals) |
 | [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0363-max-sum-of-rectangle-no-larger-than-k) |
 | [0456-132-pattern](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0456-132-pattern) |
@@ -3002,6 +3006,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Segment Tree
 |  |
 | ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0493-reverse-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0493-reverse-pairs) |
 | [0729-my-calendar-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0731-my-calendar-ii) |
@@ -3106,6 +3111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Indexed Tree
 |  |
 | ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0493-reverse-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0493-reverse-pairs) |
 | [1395-count-number-of-teams](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1395-count-number-of-teams) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
@@ -3248,6 +3254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0023-merge-k-sorted-lists) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0493-reverse-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0493-reverse-pairs) |
 | [4013-count-subarrays-with-even-odd-ratio-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/4013-count-subarrays-with-even-odd-ratio-ii) |
 ## Tournament Sort
@@ -3316,6 +3323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Treap
 |  |
 | ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0493-reverse-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0493-reverse-pairs) |
 ## Primality Test
 |  |
