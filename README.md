@@ -631,6 +631,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1352-product-of-the-last-k-numbers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1352-product-of-the-last-k-numbers) |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1368-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1386-cinema-seat-allocation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1386-cinema-seat-allocation) |
 | [1390-four-divisors](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1390-four-divisors) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
@@ -1456,6 +1457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0905-sort-array-by-parity](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0905-sort-array-by-parity) |
 | [0962-maximum-width-ramp](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0962-maximum-width-ramp) |
 | [0977-squares-of-a-sorted-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/0977-squares-of-a-sorted-array) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1508-range-sum-of-sorted-subarray-sums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1508-range-sum-of-sorted-subarray-sums) |
 | [1574-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1574-shortest-subarray-to-be-removed-to-make-array-sorted) |
@@ -1550,6 +1552,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
 | [1340-jump-game-v](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1340-jump-game-v) |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1424-diagonal-traverse-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1424-diagonal-traverse-ii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1481-least-number-of-unique-integers-after-k-removals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1481-least-number-of-unique-integers-after-k-removals) |
@@ -2121,6 +2124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1488-avoid-flood-in-the-city](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1488-avoid-flood-in-the-city) |
