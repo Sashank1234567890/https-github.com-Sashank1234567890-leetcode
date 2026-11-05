@@ -1,44 +1,53 @@
 class Solution {
 public:
-    int n;
-    vector<int> bit;
+    void count(vector<pair<int,int>>& arr, int l, int r,
+               vector<int>& ans, vector<pair<int,int>>& temp) {
+        if (l >= r)
+            return;
 
-    void update(int val, int id) {
-        while (id <= n) {
-            bit[id] += val;
-            id += id & -id;
+        int mid = l + (r - l) / 2;
+
+        count(arr, l, mid, ans, temp);
+        count(arr, mid + 1, r, ans, temp);
+
+        int i = l, k = l, j = mid + 1;
+
+        while (i <= mid && j <= r) {
+            if (arr[i].first <= arr[j].first) {
+              
+                temp[k++] = arr[j++];
+            }
+            else {
+                ans[arr[i].second] +=  r - j + 1;
+                temp[k++] = arr[i++];
+            }
         }
-    }
 
-    int query(int id) {
-        int ans = 0;
-
-        while (id > 0) {
-            ans += bit[id];
-            id -= id & -id;
+        while (i <= mid) {
+            temp[k++] = arr[i++];
         }
 
-        return ans;
+        while (j <= r) {
+            temp[k++] = arr[j++];
+        }
+
+        for (int p = l; p <= r; p++) {
+            arr[p] = temp[p];
+        }
     }
 
     vector<int> countSmaller(vector<int>& nums) {
-        n = nums.size();
-        bit = vector<int>(n + 1, 0);
-
-        vector<pair<int,int>> v;
+        vector<pair<int,int>> arr;
+        int n = nums.size();
 
         for (int i = 0; i < n; i++) {
-            v.push_back({nums[i], i});
+            arr.push_back({nums[i], i});
         }
 
-        sort(v.begin(), v.end());
+        vector<int> ans(n);
+        vector<pair<int,int>> temp(n);
 
-        vector<int> ans(n, 0);
-
-        for (auto& [el, id] : v) {
-            update(1, id + 1);
-            ans[id] = query(n) - query(id + 1);
-        }
+        count(arr, 0, n - 1, ans, temp);
 
         return ans;
     }
