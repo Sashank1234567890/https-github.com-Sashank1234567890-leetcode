@@ -1,137 +1,99 @@
 class Solution {
 public:
-    vector<int> med;
-    vector<long long> cost;
-    vector<vector<long long>> dp;
+    int n, x, k;
 
-    long long solve(int i, vector<int>& nums, int& x, int k) {
-        int n = nums.size();
+    long long minOpsSubarray[100001];
+    //minOpsSubarray[i] = min operations reauired to make all elements of subarray[i...i+x-1] as equal
 
-        if (k == 0)
+    long long memo[16][100001];
+
+    long long solve(int count, int i) {
+        if(count == k)
             return 0;
+        
+        int subArraysNeeded = k-count;
+        int elementsNeeded  = subArraysNeeded*x;
+        int lastIndex       = i + elementsNeeded - 1;
 
-        if (i > n - x)
-            return LLONG_MAX;
-
-        if (dp[i][k] != -1)
-            return dp[i][k];
-
-        long long cnt = LLONG_MAX;
-
-        cnt = min(cnt, solve(i + 1, nums, x, k));
-
-        long long op = cost[i];
-
-        long long next = solve(i + x, nums, x, k - 1);
-
-        if (next != LLONG_MAX) {
-            cnt = min(cnt, op + next);
+        if(lastIndex >= n) {
+            return 1e16; //10^16
         }
 
-        return dp[i][k] = cnt;
+        if(memo[count][i] != -1) {
+            return memo[count][i];
+        }
+
+        //Took ith index as start of a subarray
+        long long result = minOpsSubarray[i] + solve(count+1, i+x);
+
+
+        //Skip index i
+        result = min(result, solve(count, i+1));
+
+        return memo[count][i] = result;
+
     }
 
     long long minOperations(vector<int>& nums, int x, int k) {
-        auto comp = [](pair<int, int> a, pair<int, int> b) {
-            return a < b;
-        };
+        this->n = nums.size();
+        this->x = x;
+        this->k = k;
 
-        set<pair<int, int>, decltype(comp)> mn(comp);
-        set<pair<int, int>, decltype(comp)> mx(comp);
+        memset(memo, -1, sizeof(memo));
 
-        med.clear();
-        cost.clear();
+        multiset<int> left, right;
+        long long leftSum = 0, rightSum = 0;
 
-        int n = nums.size();
+        int i = 0;
+        int j = 0;
 
-        long long sumMn = 0, sumMx = 0;
+        while(j < n) {
+            if(left.size() <= right.size()) {
+                left.insert(nums[j]);
+                leftSum += nums[j];
+            } else {
+                right.insert(nums[j]);
+                rightSum += nums[j];
+            }
 
-        for (int i = 0; i < n; i++) {
+            //Balancing
+            if(!left.empty() && !right.empty()) {
+                int maxLeft  = *left.rbegin();
+                int minRight = *right.begin();
 
-            if (i >= x) {
-                pair<int, int> p = {nums[i - x], i - x};
+                if(maxLeft > minRight) {
+                    left.erase(left.find(maxLeft));
+                    right.erase(right.find(minRight));
 
-                auto it = mn.find(p);
+                    left.insert(minRight);
+                    right.insert(maxLeft);
 
-                if (it != mn.end()) {
-                    sumMn -= it->first;
-                    mn.erase(it);
+                    leftSum += minRight - maxLeft;
+                    rightSum += maxLeft - minRight;
                 }
-                else {
-                    it = mx.find(p);
+            }
 
-                    if (it != mx.end()) {
-                        sumMx -= it->first;
-                        mx.erase(it);
-                    }
+            //If we have found the subarray of size x
+            if(j-i+1 == x) {
+                long long median = *left.rbegin();
+                long long leftSize = left.size();
+                long long rightSize = right.size();
+
+                minOpsSubarray[i] = (leftSize * median - leftSum) + (rightSum - rightSize*median);
+
+                if(left.find(nums[i]) != left.end()) {
+                    left.erase(left.find(nums[i]));
+                    leftSum -= nums[i];
+                } else {
+                    right.erase(right.find(nums[i]));
+                    rightSum -= nums[i];
                 }
+                i++;
             }
 
-            // Balance after deletion
-            if (mn.size() > mx.size() + 1) {
-                auto p = *mn.rbegin();
-
-                mx.insert(p);
-                sumMx += p.first;
-
-                mn.erase(prev(mn.end()));
-                sumMn -= p.first;
-            }
-            else if (mx.size() > mn.size()) {
-                auto p = *mx.begin();
-
-                mn.insert(p);
-                sumMn += p.first;
-
-                mx.erase(mx.begin());
-                sumMx -= p.first;
-            }
-
-            // Insert new element
-            if (mn.empty() || mn.rbegin()->first >= nums[i]) {
-                mn.insert({nums[i], i});
-                sumMn += nums[i];
-            }
-            else {
-                mx.insert({nums[i], i});
-                sumMx += nums[i];
-            }
-
-            // Balance after insertion
-            if (mn.size() > mx.size() + 1) {
-                auto p = *mn.rbegin();
-
-                mx.insert(p);
-                sumMx += p.first;
-
-                mn.erase(prev(mn.end()));
-                sumMn -= p.first;
-            }
-            else if (mx.size() > mn.size()) {
-                auto p = *mx.begin();
-
-                mn.insert(p);
-                sumMn += p.first;
-
-                mx.erase(mx.begin());
-                sumMx -= p.first;
-            }
-
-            if (i >= x - 1) {
-                long long md = mn.rbegin()->first;
-
-                med.push_back(md);
-
-                // Calculate total operations using lower and upper sums
-                long long op = 1LL * md * mn.size() - sumMn
-                             + sumMx - 1LL * md * mx.size();
-
-                cost.push_back(op);
-            }
+            j++;
         }
 
-        dp.assign(n + 1, vector<long long>(k + 1, -1));
-
-        return solve(0, nums, x, k);
+        return solve(0, 0); //recursion
     }
 };
