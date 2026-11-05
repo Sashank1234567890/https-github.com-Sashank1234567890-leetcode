@@ -1,113 +1,76 @@
-class SegmentTree {
-public : 
-    int m;
-    vector<int> segTree;
-
-    SegmentTree(int size) {
-        m = size;
-        segTree.assign(4*m, 0); 
-    }
-
-    void segTreeUpdate(int i, int l, int r, int cv) {
-        if(l == r) { 
-            segTree[i]++; 
-            return;
-        }
-
-        int mid = l + (r-l)/2;
-        if(cv <= mid) {
-            segTreeUpdate(2*i+1, l, mid, cv);
-        } else {
-            segTreeUpdate(2*i+2, mid+1, r, cv);
-        }
-
-        segTree[i] = segTree[2*i+1] + segTree[2*i+2];
-    }
-
-    void update(int cv) {
-        segTreeUpdate(0, 0, m-1, cv);
-    }
-
-    int segTreeQueryRangeSum(int start, int end, int i, int l, int r) {
-        if(l > end || r < start) { 
-            return 0; 
-        }
-
-        if(l >= start && r <= end) { 
-            return segTree[i]; 
-        }
-
-        int mid = l + (r-l)/2;
-
-        return segTreeQueryRangeSum(start, end, 2*i+1, l, mid) + 
-               segTreeQueryRangeSum(start, end, 2*i+2, mid+1, r);
-
-    }
-
-    int query(int start, int end) {
-        return segTreeQueryRangeSum(start, end, 0, 0, m-1);
-    }
-};
-
 class Solution {
 public:
+    void update(vector<int>& bit, int i, int n) {
+        while (i <= n) {
+            bit[i]++;
+            i += i & -i;
+        }
+    }
+
+    int query(vector<int>& bit, int i) {
+        int ans = 0;
+
+        while (i > 0) {
+            ans += bit[i];
+            i -= i & -i;
+        }
+
+        return ans;
+    }
+
     vector<int> resultArray(vector<int>& nums) {
         int n = nums.size();
 
-        vector<int> sortedNums(begin(nums), end(nums));
-        sort(begin(sortedNums), end(sortedNums));
+        vector<int> temp = nums;
+        sort(temp.begin(), temp.end());
 
-        unordered_map<int, int> mp; 
-        int compressedValue = 0;
+        unordered_map<int,int> mp;
 
-        for(int &num : sortedNums) { 
-            if(!mp.count(num)) {
-                mp[num] = compressedValue;
-                compressedValue++;
+        int idx = 1;
+        for (int x : temp) {
+            if (!mp.count(x)) {
+                mp[x] = idx++;
             }
         }
 
-        int m = mp.size(); 
+        int sz = mp.size();
 
-        vector<int> arr1;
-        vector<int> arr2;
+        vector<int> bit1(sz + 1), bit2(sz + 1);
+        vector<int> a, b;
 
-        SegmentTree segTree1(m);
-        SegmentTree segTree2(m);
+        a.push_back(nums[0]);
+        b.push_back(nums[1]);
 
-       
-        arr1.push_back(nums[0]);
-        segTree1.update(mp[nums[0]]);
+        update(bit1, mp[nums[0]], sz);
+        update(bit2, mp[nums[1]], sz);
 
-        arr2.push_back(nums[1]);
-        segTree2.update(mp[nums[1]]);
+        for (int i = 2; i < n; i++) {
+            int id = mp[nums[i]];
 
-        for(int i = 2; i < n; i++) {
-            int cv = mp[nums[i]];
-            int c1 = segTree1.query(cv+1, m-1); 
-            int c2 = segTree2.query(cv+1, m-1); 
+            int g1 = a.size() - query(bit1, id);
+            int g2 = b.size() - query(bit2, id);
 
-            bool addToArr1 = false;
-            if(c1 > c2) {
-                addToArr1 = true;
-            } else if(c2 > c1) {
-                addToArr1 = false;
-            } else { 
-                addToArr1 = (arr1.size() <= arr2.size());
+            if (g1 > g2) {
+                a.push_back(nums[i]);
+                update(bit1, id, sz);
             }
-
-            if(addToArr1) {
-                arr1.push_back(nums[i]);
-                segTree1.update(cv);
-            } else {
-                arr2.push_back(nums[i]);
-                segTree2.update(cv);
+            else if (g2 > g1) {
+                b.push_back(nums[i]);
+                update(bit2, id, sz);
+            }
+            else {
+                if (a.size() <= b.size()) {
+                    a.push_back(nums[i]);
+                    update(bit1, id, sz);
+                }
+                else {
+                    b.push_back(nums[i]);
+                    update(bit2, id, sz);
+                }
             }
         }
 
-        arr1.insert(end(arr1), begin(arr2), end(arr2));
-
-        return arr1;
-
+        a.insert(a.end(), b.begin(), b.end());
+        return a;
     }
 };
