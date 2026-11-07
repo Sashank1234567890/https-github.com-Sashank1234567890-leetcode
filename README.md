@@ -709,6 +709,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1872-stone-game-viii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1872-stone-game-viii) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
+| [1882-process-tasks-using-servers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1882-process-tasks-using-servers) |
 | [1887-reduction-operations-to-make-the-array-elements-equal](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1887-reduction-operations-to-make-the-array-elements-equal) |
 | [1894-find-the-student-that-will-replace-the-chalk](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1894-find-the-student-that-will-replace-the-chalk) |
 | [1895-largest-magic-square](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1895-largest-magic-square) |
@@ -1900,6 +1901,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1642-furthest-building-you-can-reach](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1642-furthest-building-you-can-reach) |
 | [1792-maximum-average-pass-ratio](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1792-maximum-average-pass-ratio) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
+| [1882-process-tasks-using-servers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1882-process-tasks-using-servers) |
 | [1942-the-number-of-the-smallest-unoccupied-chair](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1942-the-number-of-the-smallest-unoccupied-chair) |
 | [1962-remove-stones-to-minimize-the-total](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/1962-remove-stones-to-minimize-the-total) |
 | [2054-two-best-non-overlapping-events](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2054-two-best-non-overlapping-events) |
