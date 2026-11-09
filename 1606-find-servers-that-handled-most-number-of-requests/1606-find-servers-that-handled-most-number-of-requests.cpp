@@ -23,9 +23,13 @@ public:
 
     int kth(int k,int n){
         int idx=0;
+        int p=1;
 
-        for(int i=17;i>=0;i--){
-            int next=idx+(1<<i);
+        while(p*2<=n)
+            p*=2;
+
+        for(;p>0;p/=2){
+            int next=idx+p;
 
             if(next<=n && bit[next]<k){
                 idx=next;
@@ -38,15 +42,12 @@ public:
 
     vector<int> busiestServers(int k, vector<int>& arrival, vector<int>& load) {
         int n=arrival.size();
+        bit.resize(k+1,0);
 
-        bit.resize(k+1);
-
-        for(int i=1;i<=k;i++){
+        for(int i=1;i<=k;i++)
             update(i,1,k);
-        }
 
         priority_queue<P,vector<P>,greater<P>> pq;
-
         vector<int> freq(k,0);
 
         for(int i=0;i<n;i++){
@@ -55,7 +56,6 @@ public:
             while(!pq.empty() && pq.top().first<=t){
                 int j=pq.top().second;
                 pq.pop();
-
                 update(j+1,1,k);
             }
 
@@ -63,8 +63,7 @@ public:
             int cnt=query(k)-query(idx);
 
             if(cnt==0){
-                cnt=query(k);
-                if(cnt==0)
+                if(query(k)==0)
                     continue;
 
                 int j=kth(1,k)-1;
