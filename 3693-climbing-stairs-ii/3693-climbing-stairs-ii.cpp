@@ -1,7 +1,7 @@
 class Solution {
 public:
     int climbStairs(int n, vector<int>& cost) {
-        vector<vector<int>>dp(n+1,vector<int>(4,INT_MAX));
+        vector<vector<int>>dp(n+1,vector<int>(4,1e5+1));
         dp[0][0]=dp[0][1]=dp[0][2]=dp[0][3]=0;
         for(int i=1;i<=n;i++){
             for(int j=max(i-3,0);j<i;j++){
