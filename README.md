@@ -173,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3272-find-the-count-of-good-integers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3272-find-the-count-of-good-integers) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3321-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3321-find-x-sum-of-all-k-long-subarrays-ii) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3335-total-characters-in-string-after-transformations-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3335-total-characters-in-string-after-transformations-i) |
 | [3337-total-characters-in-string-after-transformations-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3337-total-characters-in-string-after-transformations-ii) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
@@ -287,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2872-maximum-number-of-k-divisible-components](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3123-find-edges-in-shortest-paths](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3123-find-edges-in-shortest-paths) |
 | [3310-remove-methods-from-project](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3310-remove-methods-from-project) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3372-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3372-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3373-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3373-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 | [3419-minimize-the-maximum-edge-weight-of-graph](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3419-minimize-the-maximum-edge-weight-of-graph) |
@@ -908,6 +910,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3312-sorted-gcd-pair-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3321-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3321-find-x-sum-of-all-k-long-subarrays-ii) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3341-find-minimum-time-to-reach-last-room-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3341-find-minimum-time-to-reach-last-room-i) |
 | [3342-find-minimum-time-to-reach-last-room-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3342-find-minimum-time-to-reach-last-room-ii) |
@@ -1179,6 +1182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3258-count-substrings-that-satisfy-k-constraint-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3258-count-substrings-that-satisfy-k-constraint-i) |
 | [3261-count-substrings-that-satisfy-k-constraint-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3261-count-substrings-that-satisfy-k-constraint-ii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3335-total-characters-in-string-after-transformations-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3335-total-characters-in-string-after-transformations-i) |
 | [3337-total-characters-in-string-after-transformations-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3337-total-characters-in-string-after-transformations-ii) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
@@ -2391,6 +2395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2867-count-valid-paths-in-a-tree](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2867-count-valid-paths-in-a-tree) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3068-find-the-maximum-sum-of-node-values](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3068-find-the-maximum-sum-of-node-values) |
+| [3331-find-subtree-sizes-after-changes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3331-find-subtree-sizes-after-changes) |
 | [3372-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3372-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3373-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3373-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
