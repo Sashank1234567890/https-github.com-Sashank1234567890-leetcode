@@ -924,6 +924,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3394-check-if-grid-can-be-cut-into-sections](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3394-check-if-grid-can-be-cut-into-sections) |
 | [3397-maximum-number-of-distinct-elements-after-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3397-maximum-number-of-distinct-elements-after-operations) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
@@ -1840,6 +1841,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3345-smallest-divisible-digit-product-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3405-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3405-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3433-count-mentions-per-user](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3433-count-mentions-per-user) |
 | [3443-maximum-manhattan-distance-after-k-changes](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3443-maximum-manhattan-distance-after-k-changes) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
@@ -2028,6 +2030,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3346-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3346-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3347-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3347-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3364-minimum-positive-sum-subarray](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3364-minimum-positive-sum-subarray) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3420-count-non-decreasing-subarrays-after-k-operations](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3420-count-non-decreasing-subarrays-after-k-operations) |
 | [3439-reschedule-meetings-for-maximum-free-time-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3439-reschedule-meetings-for-maximum-free-time-i) |
 | [3445-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3445-maximum-difference-between-even-and-odd-frequency-ii) |
@@ -2759,6 +2762,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3272-find-the-count-of-good-integers](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3272-find-the-count-of-good-integers) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3403-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3403-find-the-lexicographically-largest-string-from-the-box-i) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3440-reschedule-meetings-for-maximum-free-time-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3440-reschedule-meetings-for-maximum-free-time-ii) |
 | [3445-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3445-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3480-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3480-maximize-subarrays-after-removing-one-conflicting-pair) |
@@ -2905,6 +2909,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3312-sorted-gcd-pair-queries](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
+| [3411-maximum-subarray-with-equal-products](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
