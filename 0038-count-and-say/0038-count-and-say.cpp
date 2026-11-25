@@ -1,31 +1,26 @@
 class Solution {
 public:
     string countAndSay(int n) {
-        if(n == 1)
-            return "1";
-        
-        
-        string say = countAndSay(n-1);
-        
-        string result = "";
-        
-        
-        for(int i = 0; i<say.length(); i++) {
-            
-            int count = 1;
-            char ch = say[i];
-            
-            while(i < say.length()-1 && say[i] == say[i+1]) {
-                count++;
+        if(n==1)
+           return "1";
+        string ans="";
+        string s=countAndSay(n-1);
+        int l=s.length();
+        int i=0;
+        while(i<l){
+            char x=s[i];
+            i++;
+            int cnt=1;
+     
+            while(i<l&&s[i]==x){
+                cnt++;
                 i++;
             }
-            
-            result += to_string(count) + string(1, say[i]);
-            
-        }
-        
-        return result;
-        
+            string scnt=to_string(cnt);
+            ans+=scnt;
+            ans.push_back(x);
+        }   
+
+        return ans;
     }
 };
-
