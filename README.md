@@ -1840,6 +1840,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3337-total-characters-in-string-after-transformations-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3337-total-characters-in-string-after-transformations-ii) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3348-smallest-divisible-digit-product-ii) |
+| [3360-stone-removal-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3360-stone-removal-game) |
 | [3405-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3405-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 | [3411-maximum-subarray-with-equal-products](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3411-maximum-subarray-with-equal-products) |
 | [3433-count-mentions-per-user](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3433-count-mentions-per-user) |
@@ -2884,6 +2885,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3072-distribute-elements-into-two-arrays-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3072-distribute-elements-into-two-arrays-ii) |
 | [3100-water-bottles-ii](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3100-water-bottles-ii) |
 | [3160-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3160-find-the-number-of-distinct-colors-among-the-balls) |
+| [3360-stone-removal-game](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3360-stone-removal-game) |
 | [3433-count-mentions-per-user](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3433-count-mentions-per-user) |
 | [3494-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3494-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Sashank1234567890/https-github.com-Sashank1234567890-leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
